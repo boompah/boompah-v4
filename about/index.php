@@ -1,4 +1,8 @@
-<?php include("../header.php"); ?>
+<?php 
+   $path = $_SERVER['DOCUMENT_ROOT'];
+   $path .= "/common/header.php";
+   include_once($path);
+?>
 
 <h1 class="home-greeting">About me</h1>
 
@@ -7,4 +11,8 @@ Boompah is my portfolio, brand, and online playground.<br />
 I love working with passionate people that know how to husssle.</h5>
 <hr />
 
-<?php include("../footer.php"); ?>
+<?php 
+   $path = $_SERVER['DOCUMENT_ROOT'];
+   $path .= "/common/footer.php";
+   include_once($path);
+?>

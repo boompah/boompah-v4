@@ -1,4 +1,8 @@
-<?php include("../header.php"); ?>
+<?php 
+   $path = $_SERVER['DOCUMENT_ROOT'];
+   $path .= "/common/header.php";
+   include_once($path);
+?>
 
 <h1>Services</h1>
 
@@ -25,4 +29,8 @@
 	<li>Deploy to the production server and celebrate an awesome project!</li>
 </ol>
 
-<?php include("../footer.php"); ?>
+<?php 
+   $path = $_SERVER['DOCUMENT_ROOT'];
+   $path .= "/common/footer.php";
+   include_once($path);
+?>

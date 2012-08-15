@@ -1,4 +1,8 @@
-<?php include("../../header.php"); ?>
+<?php 
+   $path = $_SERVER['DOCUMENT_ROOT'];
+   $path .= "/common/header.php";
+   include_once($path);
+?>
 
 <h1>Skullcandy</h1>
 
@@ -44,4 +48,8 @@
 
 <p><strong>Please note:</strong> All copyrighted material present in these screenshots are property of their respective owners.</p>
 
-<?php include("../../footer.php"); ?>
+<?php 
+   $path = $_SERVER['DOCUMENT_ROOT'];
+   $path .= "/common/footer.php";
+   include_once($path);
+?>

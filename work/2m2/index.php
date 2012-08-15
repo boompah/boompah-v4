@@ -4,7 +4,7 @@
    include_once($path);
 ?>
 
-<h1>Diamond</h1>
+<h1>2m2</h1>
 
 <?php 
    $path = $_SERVER['DOCUMENT_ROOT'];

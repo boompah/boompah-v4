@@ -1,4 +1,8 @@
-<?php include("../../header.php"); ?>
+<?php 
+   $path = $_SERVER['DOCUMENT_ROOT'];
+   $path .= "/common/header.php";
+   include_once($path);
+?>
 
 <h1>Astro Gaming</h1>
 
@@ -25,4 +29,8 @@
 
 <p>I recently got a set of the <a title="Astro Gaming - A40" href="http://www.astrogaming.com/a40-audio-system-astro-edition" target="_blank">A40</a>'s and it's the best headset I've ever used. The Mix Amp is so handy for controlling the volume of your voice and it's important to hear yourself in a good headset. I found I was forced to use my previous headphones like a DJ because they were noise cancelling. Beyond gaming, I also use my A40's as my everyday music headphones.</p>
 
-<?php include("../../footer.php"); ?>
+<?php 
+   $path = $_SERVER['DOCUMENT_ROOT'];
+   $path .= "/common/footer.php";
+   include_once($path);
+?>
