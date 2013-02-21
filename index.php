@@ -4,11 +4,12 @@
    include_once($path);
 ?>
 
-<h1 class="home-greeting">Hi, I'm Ryan</h1>
+<h1>Hello, my name is Ryan Bollenbach, I’m a Canadian UX Designer and Front-end developer. I love designing and building websites for passionate brands.</h1>
 
-<h5 class="home-sub-text">I’m a Winnipeg based web designer with a passion for conversion, clean code and rich graphics.<br />
-Boompah is my portfolio, brand, and online playground.<br />
-I love working with passionate people that know how to husssle.</h5>
+<h3>I enjoy working on web applications, e-commerce websites, social media strategies and creating compelling content. I love creating and constantly strive to improve how I do things. </h3>
+
+<h3>Boompah is my brand and online playground. You can check out my portfolio, resumes, philosophies and even learn a thing or two.</h3>
+
 <hr />
 
 <?php 

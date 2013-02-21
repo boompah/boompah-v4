@@ -6,9 +6,7 @@
 
 <h1 class="home-greeting">About me</h1>
 
-<h5 class="home-sub-text">I’m a Winnipeg based web designer with a passion for conversion, clean code and rich graphics.<br />
-Boompah is my portfolio, brand, and online playground.<br />
-I love working with passionate people that know how to husssle.</h5>
+<h5 class="home-sub-text">My name is Ryan, I love designing cool stuff, content, cocktails, golf and spending time with great friends.</h5>
 <hr />
 
 <?php 
