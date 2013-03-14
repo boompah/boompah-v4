@@ -4,7 +4,7 @@
    include_once($path);
 ?>
 
-<h1>Hello, my name is Ryan Bollenbach, I’m a Canadian UX Designer and Front-end developer. I love designing and building websites for passionate brands.</h1>
+<h1>Boompah is a User Interface &amp; Development Boutiquefounded by Ryan Bollenbach and based in Winnipeg, Canada.</h1>
 
 <h3>I enjoy working on web applications, e-commerce websites, social media strategies and creating compelling content. I love creating and constantly strive to improve how I do things. </h3>
 
