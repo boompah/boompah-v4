@@ -1,18 +1,35 @@
 <?php 
    $path = $_SERVER['DOCUMENT_ROOT'];
-   $path .= "/common/header.php";
+   $path .= "/shared/header.php";
    include_once($path);
 ?>
 
-<h1 class="home-greeting">Hi, I'm Ryan</h1>
+ <article>
+      <header>
+          <h1>article header h1</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec.</p>
+      </header>
+      <section>
+          <h2>article section h2</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
+      </section>
+      <section>
+          <h2>article section h2</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
+      </section>
+      <footer>
+          <h3>article footer h3</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor.</p>
+      </footer>
+  </article>
 
-<h5 class="home-sub-text">I’m a Winnipeg based web designer with a passion for conversion, clean code and rich graphics.<br />
-Boompah is my portfolio, brand, and online playground.<br />
-I love working with passionate people that know how to husssle.</h5>
-<hr />
+  <aside>
+      <h3>aside</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices.</p>
+  </aside>
 
 <?php 
    $path = $_SERVER['DOCUMENT_ROOT'];
-   $path .= "/common/footer.php";
+   $path .= "/shared/footer.php";
    include_once($path);
 ?>
