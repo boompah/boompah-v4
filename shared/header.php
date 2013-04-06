@@ -28,19 +28,4 @@
   <!--[if lt IE 7]>
       <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
   <![endif]-->
-	<div class="header-container">
-    <header class="wrapper clearfix">
-      <h1 class="title">h1.title</h1>
-        <nav>
-            <ul>
-              <li><a href="/" title="home">Home</a></li>
-          		<li><a href="/work" title="home">Work</a></li>
-          		<li><a href="/services" title="home">Services</a></li>
-          		<!-- <li><a href="/about" title="home">About</a></li> -->
-          		<!-- <li><a href="/contact" title="home">Contact</a></li> -->
-            </ul>
-        </nav>
-    </header>
-  </div>
-	<div class="main-container">
-    <div class="main wrapper clearfix">
+	<div class="container">
