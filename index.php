@@ -10,17 +10,17 @@
      include_once($path);
   ?>
   <header id="header">
-    <div id="nav" class="container">
+    <nav class="primary container">
       <a href="/" class="boompah">
         <span class="screen-reader-text">Boompah</span></a>
       <ul>
-        <li><a href="/work" title="work">Work</a></li>
+        <li><a href="/work" title="work" class="selected">Work</a></li>
       	<li><a href="/about" title="About">About</a></li>
       	<li><a href="/services" title="Services">Services</a></li>
       	<li><a href="/about" title="Tumblr">Tumblr</a></li>
       	<li><a href="/contact" title="home">Contact</a></li>
       </ul>
-    </div>
+    </nav>
   </header>
   <div id="masthead-wrapper">
     <div class="container">
