@@ -16,6 +16,7 @@
   <?php // CSS ?>
   <link rel="stylesheet" href="/assets/css/normalize.min.css">
   <link rel="stylesheet" href="/assets/css/main.css">
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   
   <?php // LESS ?>
   <link rel="stylesheet/less" type="text/css" href="/assets/less/base.less" />

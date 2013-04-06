@@ -14,7 +14,14 @@
   
   <script src="/assets/javascripts/jquery/jquery.fittext.js"></script>
 	<script type="text/javascript">
-		$("#fittext1").fitText(1.1, { minFontSize: 30, maxFontSize: '75px' });
+		$(".lead-title").fitText(1.1, { minFontSize: '20px', maxFontSize: '50px' });
+		
+		// Make mobile safari address bar disappear
+		window.addEventListener("load",function() {
+        setTimeout(function() {
+            document.body.scrollTop || window.scrollTo(0, 1);
+        }, 0);
+    });
 	</script>
 
   </body>
