@@ -16,7 +16,7 @@
       <h3>We collaborate with businesses to design elegant, fresh interfaces for web applications,
       boutique websites and e-commerce stores. We strive to create timeless designs that perform 
       beautifully across mobile, tablet and desktop devices.
-      We believe in evidence driven design.</h3>
+      We believe in evidence driven design. <i class="icon-twitter"></i></h3>
     </div>
     
   </div><?php // container ?>
