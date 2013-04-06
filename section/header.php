@@ -5,8 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 
 <head>
-  <!-- Basic Page Needs
-  ================================================== -->
+  <?php // Basic Page Needs ?>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>Boompah - Winnipeg Web Design, UX, HTML, CSS, Wordpress</title>
@@ -14,19 +13,22 @@
   <meta name="description" content="Boompah is a User Interface &amp; Development Boutique founded by Ryan Bollenbach and based in Winnipeg, Canada.">
   <meta name="viewport" content="width=device-width">
   
-  <!-- CSS
-  ================================================== -->
-  <link rel="stylesheet" href="/css/normalize.min.css">
-  <link rel="stylesheet" href="/css/main.css">
+  <?php // CSS ?>
+  <link rel="stylesheet" href="/assets/css/normalize.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
   
-  <!-- Javascripts
-  ================================================== -->
+  <?php // LESS ?>
+  <link rel="stylesheet/less" type="text/css" href="/assets/less/base.less" />
   
-    <!-- Modernizr -->
-    <script src="/javascripts/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  <?php // Javascripts ?>
   
-  <!-- HTML5 shiv
-  ================================================== --> 
+    <?php // Modernizr ?>
+    <script src="/assets/javascripts/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    
+    <?php // LESS ?>
+    <script src="/assets/javascripts/less.js" type="text/javascript"></script>
+  
+  <?php // HTML5 shiv ?>
   <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 

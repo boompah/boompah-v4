@@ -1,6 +1,6 @@
 <?php 
    $path = $_SERVER['DOCUMENT_ROOT'];
-   $path .= "/shared/header.php";
+   $path .= "/section/header.php";
    include_once($path);
 ?>
 
@@ -8,7 +8,7 @@
   <div class="container">
     
     <div id="logo-circle">
-      <object data="/objects/logo-circle.svg" type="image/svg+xml"></object>
+      <object data="/assets/images/logo-circle.svg" type="image/svg+xml"></object>
     </div>
 
     <section class="main-content">
@@ -24,6 +24,6 @@
 
 <?php 
    $path = $_SERVER['DOCUMENT_ROOT'];
-   $path .= "/shared/footer.php";
+   $path .= "/section/footer.php";
    include_once($path);
 ?>
