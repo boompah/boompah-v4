@@ -11,7 +11,7 @@
   <title>Boompah - Winnipeg Web Design, UX, HTML, CSS, Wordpress</title>
   <meta name="author" content="Ryan Bollenbach">
   <meta name="description" content="Boompah is a User Interface &amp; Development Boutique founded by Ryan Bollenbach and based in Winnipeg, Canada.">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
   <?php // CSS ?>
   <link rel="stylesheet" href="/assets/css/normalize.min.css">
