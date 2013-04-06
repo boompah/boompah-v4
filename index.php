@@ -9,13 +9,24 @@
      $path .= "/section/chrome-frame.php";
      include_once($path);
   ?>
+  <header id="header">
+    <div id="nav" class="container">
+      <a href="/" class="boompah">
+        <span class="screen-reader-text">Boompah</span></a>
+      <ul>
+        <li><a href="/work" title="work">Work</a></li>
+      	<li><a href="/about" title="About">About</a></li>
+      	<li><a href="/services" title="Services">Services</a></li>
+      	<li><a href="/about" title="Tumblr">Tumblr</a></li>
+      	<li><a href="/contact" title="home">Contact</a></li>
+      </ul>
+    </div>
+  </header>
   <div id="masthead-wrapper">
     <div class="container">
-    
       <div id="logo-circle">
         <object data="/assets/images/logo-circle.svg" type="image/svg+xml"></object>
       </div>
-
       <section class="main-content">
         <h1 class="lead-title">Boompah is a User Interface &amp; Development Boutique created by Ryan Bollenbach and is based in Winnipeg, Canada.</h1>
         <h3>We collaborate with businesses to design elegant, fresh interfaces for web applications,
@@ -23,7 +34,6 @@
         beautifully across mobile, tablet and desktop devices.
         We believe in evidence driven design.</h3>
       </div>
-    
     </div><?php // container ?>
   </div><?php // masthead-wrapper home ?>
 
