@@ -79,29 +79,29 @@
   <div class="showcase dark-bg">
     <div class="container">
       <h2 class="secondary-title">Services</h2>
-      <div class="row points">
+      <div class="row services-points">
         <div class="panel one-third">
           <div class="image-placeholder"></div>
           <h3>Branding</h3>
           <ul>
-            <li>Logo Design</li>
-            <li>Web Design</li>
-            <li>Style Guides</li>
-            <li>Business Cards</li>
-            <li>iAB Advertisements</li>
-            <li>Media Kits</li>
+            <li><a href="" title="Logo Design">Logo Design</a></li>
+            <li><a href="" title="Web Design">Web Design</a></li>
+            <li><a href="" title="Style Guides">Style Guides</a></li>
+            <li><a href="" title="Business Cards">Business Cards</a></li>
+            <li><a href="" title="iAB Advertisements">iAB Advertisements</a></li>
+            <li><a href="" title="Media Kits">Media Kits</a></li>
           </ul>
         </div><?php // panel one-third ?>
         <div class="panel one-third">
           <div class="image-placeholder"></div>
           <h3>Interaction Design</h3>
           <ul>
-            <li>Wireframes &amp; Prototypes</li>
-            <li>Responsive Web Design</li>
-            <li>Boutique Websites</li>
-            <li>Web Applications</li>
-            <li>E-Commerce</li>
-            <li>E-mail Campaigns</li>
+            <li><a href="">Wireframes &amp; Prototypes</a></li>
+            <li><a href="">Responsive Web Design</a></li>
+            <li><a href="">Boutique Websites</a></li>
+            <li><a href="">Web Applications</a></li>
+            <li><a href="">E-Commerce</a></li>
+            <li><a href="">E-mail Campaigns</a></li>
           </ul>
         </div><?php // panel one-third ?>
         <div class="panel one-third last">

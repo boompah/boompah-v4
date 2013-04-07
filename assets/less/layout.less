@@ -9,7 +9,7 @@
 */
 
 /* Defaults */
-h1, h2, h3, h4, h5, h6, p, a {
+h1, h2, h3, h4, h5, h6, p, a, ul {
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -68,9 +68,37 @@ h1, h2, h3, h4, h5, h6, p, a {
 		display: inline-block;
 	}
 	
-	.points {
+	.services-points {
 		
-	}
+		h3, ul {
+			text-align: left;
+			color: white;
+		}
+		
+		h3 {
+			text-transform: uppercase;
+			font-size: 2em;
+			font-weight: normal;
+		}
+		
+		ul {
+			
+			li {
+				margin-bottom: 20px;
+				
+				a, a:link, a:visited {
+					color: #469fdb;
+					font-size: 1.2em;
+				}
+				
+				a:hover {
+					text-decoration: none;
+				}
+				
+			} // li
+		} // ul
+		
+	} // services-points
 	
 	.panel {
 		
