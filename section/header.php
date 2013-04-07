@@ -16,7 +16,10 @@
   <?php // CSS ?>
   <link rel="stylesheet" href="/assets/css/normalize.min.css">
   <link rel="stylesheet" href="/assets/css/base.css">
+  
+  <?php // Google Fonts ?>
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   
   <?php // Javascripts ?>
   

@@ -36,44 +36,88 @@
       </div>
     </div><?php // container ?>
   </div><?php // masthead-wrapper home ?>
-  <div class="showcase container">
-    <h2 class="secondary-title">Featured Work</h2>
-    <div class="row">
-      <div class="panel one-third">
-        <div class="image-placeholder"></div>
-        <p>Diamond education, sister site of <a href="http://ice.com" target="_blank" title="Online Jewelry Shop">ice.com.</a></p>
-        <p class="cta"><a href="http://diamond.com" target="_blank" title="Diamond.com - Jewelry Education">Live site</a> <span class="link-split">|</span> <a href="/views/work/diamond">Case Study</a></p>
-      </div>
-      <div class="panel one-third">
-        <div class="image-placeholder"></div>
-        <p>International audio equipment distributor</p>
-        <p class="cta"><a href="/views/work/skullycandy">Case Study</a></p>
-      </div>
-      <div class="panel one-third last">
-        <div class="image-placeholder"></div>
-        <p>Quebec based Hollywood gossip blog</p>
-        <p class="cta"><a href="http://hollywoodpq.com" target="_blank" title="Hollywood PQ">Live site</a> <span class="link-split">|</span> <a href="/views/work/diamond">Case Study</a></p>
-      </div>
-    </div><?php // row ?>
-    <div class="row">
-      <div class="panel one-third">
-        <div class="image-placeholder"></div>
-        <p>Montreal based Photographer</p>
-        <p class="cta"><a href="http://diamond.com" target="_blank" title="Diamond.com - Jewelry Education">Live site</a> <span class="link-split">|</span> <a href="/views/work/diamond">Case Study</a></p>
-      </div>
-      <div class="panel one-third">
-        <div class="image-placeholder"></div>
-        <p>Montreal Art Collective</p>
-        <p class="cta"><a href="http://diamond.com" target="_blank" title="Diamond.com - Jewelry Education">Live site</a> <span class="link-split">|</span> <a href="/views/work/diamond">Case Study</a></p>
-      </div>
-      <div class="panel one-third last">
-        <div class="image-placeholder"></div>
-        <p>Online Dating Site</p>
-        <p class="cta"><a href="http://diamond.com" target="_blank" title="Diamond.com - Jewelry Education">Live site</a> <span class="link-split">|</span> <a href="/views/work/diamond">Case Study</a></p>
-      </div>
-    </div><?php // row ?>
-    <a href="/work" class="button" title="View Portfolio">View Portfolio</a>
-  </div><?php // showcase container ?>
+  <div class="showcase">
+    <div class="container">
+      <h2 class="secondary-title">Featured Work</h2>
+      <div class="row">
+        <div class="panel one-third">
+          <div class="image-placeholder"></div>
+          <p>Diamond education, sister site of <a href="http://ice.com" target="_blank" title="Online Jewelry Shop">ice.com.</a></p>
+          <p class="cta"><a href="http://diamond.com" target="_blank" title="Diamond.com - Jewelry Education">Live site</a> <span class="link-split">|</span> <a href="/views/work/diamond">Case Study</a></p>
+        </div>
+        <div class="panel one-third">
+          <div class="image-placeholder"></div>
+          <p>International audio equipment distributor</p>
+          <p class="cta"><a href="/views/work/skullycandy">Case Study</a></p>
+        </div>
+        <div class="panel one-third last">
+          <div class="image-placeholder"></div>
+          <p>Quebec based Hollywood gossip blog</p>
+          <p class="cta"><a href="http://hollywoodpq.com" target="_blank" title="Hollywood PQ">Live site</a> <span class="link-split">|</span> <a href="/views/work/diamond">Case Study</a></p>
+        </div>
+      </div><?php // row ?>
+      <div class="row">
+        <div class="panel one-third">
+          <div class="image-placeholder"></div>
+          <p>Montreal based Photographer</p>
+          <p class="cta"><a href="http://diamond.com" target="_blank" title="Diamond.com - Jewelry Education">Live site</a> <span class="link-split">|</span> <a href="/views/work/diamond">Case Study</a></p>
+        </div>
+        <div class="panel one-third">
+          <div class="image-placeholder"></div>
+          <p>Montreal Art Collective</p>
+          <p class="cta"><a href="http://diamond.com" target="_blank" title="Diamond.com - Jewelry Education">Live site</a> <span class="link-split">|</span> <a href="/views/work/diamond">Case Study</a></p>
+        </div>
+        <div class="panel one-third last">
+          <div class="image-placeholder"></div>
+          <p>Online Dating Site</p>
+          <p class="cta"><a href="http://diamond.com" target="_blank" title="Diamond.com - Jewelry Education">Live site</a> <span class="link-split">|</span> <a href="/views/work/diamond">Case Study</a></p>
+        </div>
+      </div><?php // row ?>
+      <a href="/work" class="button" title="View Portfolio">View Portfolio</a>
+    </div><?php // container ?>
+  </div><?php // showcase ?>
+  <div class="showcase dark-bg">
+    <div class="container">
+      <h2 class="secondary-title">Services</h2>
+      <div class="row points">
+        <div class="panel one-third">
+          <div class="image-placeholder"></div>
+          <h3>Branding</h3>
+          <ul>
+            <li>Logo Design</li>
+            <li>Web Design</li>
+            <li>Style Guides</li>
+            <li>Business Cards</li>
+            <li>iAB Advertisements</li>
+            <li>Media Kits</li>
+          </ul>
+        </div><?php // panel one-third ?>
+        <div class="panel one-third">
+          <div class="image-placeholder"></div>
+          <h3>Interaction Design</h3>
+          <ul>
+            <li>Wireframes &amp; Prototypes</li>
+            <li>Responsive Web Design</li>
+            <li>Boutique Websites</li>
+            <li>Web Applications</li>
+            <li>E-Commerce</li>
+            <li>E-mail Campaigns</li>
+          </ul>
+        </div><?php // panel one-third ?>
+        <div class="panel one-third last">
+          <div class="image-placeholder"></div>
+          <h3>Development</h3>
+          <ul>
+            <li>HTML5 &amp; CSS3</li>
+            <li>HAML, ERB, SASS, SCSS, LESS</li>
+            <li>Javascript and jQuery</li>
+            <li>Wordpress and Various CMS'</li>
+            <li>E-commerce Stores</li>
+          </ul>
+        </div><?php // panel one-third ?>
+      </div><?php // row ?>
+    </div><?php // container ?>
+  </div><?php // showcase ?>
   <?php 
      $path = $_SERVER['DOCUMENT_ROOT'];
      $path .= "/section/footer.php";
