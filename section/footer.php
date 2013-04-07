@@ -16,7 +16,7 @@
 	<script type="text/javascript">
 	  // FixText Scripts
 		$(".lead-title").fitText(1.1, { minFontSize: '20px', maxFontSize: '50px' });
-		$(".secondary-title").fitText(1.1, { minFontSize: '20px', maxFontSize: '40px' });
+		$(".secondary-title").fitText(1.1, { minFontSize: '20px', maxFontSize: '45px' });
 		
 		// Make mobile safari address bar disappear
 		window.addEventListener("load",function() {

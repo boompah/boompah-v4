@@ -1,5 +1,5 @@
 /* Typography */
-h1, h2, h3, h4, h5, h6, nav.primary {
+h1, h2, h3, h4, h5, h6, p, a {
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -10,6 +10,9 @@ h1, h2, h3, h4, h5, h6, nav.primary {
 	
 	h2 {
 		text-align: center;
+		text-transform: uppercase;
+		font-weight: normal;
+		padding: .8em 0;
 	}
 	
 } // container
@@ -24,18 +27,80 @@ h1, h2, h3, h4, h5, h6, nav.primary {
 	
 } // masthead-wrapper
 
+.showcase {
+	text-align: center;
+	padding-bottom: 60px;
+	
+	.link-split {
+		color: #999999;
+		margin: 0 15px;
+	}
+	
+	.row {
+		margin-bottom: 30px;
+		display: inline-block;
+		width: 100%;
+		clear: both;
+	}
+	
+	.cta{
+		text-transform: uppercase;
+	}
+	
+	a.button{
+		margin: .5em 0;
+		display: inline-block;
+	}
+	
+	.panel {
+		
+		}
+
+} // showcase
+
+/* Links */
+
+a, a:link, a:visited {
+	text-decoration: none;
+	color: @link;
+	font-weight: normal;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a.button {
+	padding: 10px 60px;
+	font-size: 25px;
+	background-color: @link;
+	color: white;
+	.rounded-corners(25px);
+}
+
+a.button, a.button:link, a.button:visited, a.button:hover { text-decoration: none; }
+
+/* Miscellaneous Helpers */
 .screen-reader-text {
 	position: absolute;
 	top: -9999px;
 	left: -9999px;
 }
 
-/* Links */
-
-a, a:link, a:visited {
-	text-decoration: none;
+.image-placeholder {
+	background-color: #e4e7ee;
+	border: 1px solid #aab2bf;
+	height: 200px;
 }
 
-a:hover {
-	text-decoration: underline;
+/* Reusable Containers */
+
+.one-third {
+	width: 30%;
+	margin-right: 5%;
+	float: left;
+}
+
+.one-third.last {
+	margin-right: 0;
 }

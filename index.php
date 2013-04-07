@@ -36,9 +36,44 @@
       </div>
     </div><?php // container ?>
   </div><?php // masthead-wrapper home ?>
-  <div id="featured-work" class="container">
+  <div class="showcase container">
     <h2 class="secondary-title">Featured Work</h2>
-  </div>
+    <div class="row">
+      <div class="panel one-third">
+        <div class="image-placeholder"></div>
+        <p>Diamond education, sister site of <a href="http://ice.com" target="_blank" title="Online Jewelry Shop">ice.com.</a></p>
+        <p class="cta"><a href="http://diamond.com" target="_blank" title="Diamond.com - Jewelry Education">Live site</a> <span class="link-split">|</span> <a href="/views/work/diamond">Case Study</a></p>
+      </div>
+      <div class="panel one-third">
+        <div class="image-placeholder"></div>
+        <p>International audio equipment distributor</p>
+        <p class="cta"><a href="/views/work/skullycandy">Case Study</a></p>
+      </div>
+      <div class="panel one-third last">
+        <div class="image-placeholder"></div>
+        <p>Quebec based Hollywood gossip blog</p>
+        <p class="cta"><a href="http://hollywoodpq.com" target="_blank" title="Hollywood PQ">Live site</a> <span class="link-split">|</span> <a href="/views/work/diamond">Case Study</a></p>
+      </div>
+    </div><?php // row ?>
+    <div class="row">
+      <div class="panel one-third">
+        <div class="image-placeholder"></div>
+        <p>Montreal based Photographer</p>
+        <p class="cta"><a href="http://diamond.com" target="_blank" title="Diamond.com - Jewelry Education">Live site</a> <span class="link-split">|</span> <a href="/views/work/diamond">Case Study</a></p>
+      </div>
+      <div class="panel one-third">
+        <div class="image-placeholder"></div>
+        <p>Montreal Art Collective</p>
+        <p class="cta"><a href="http://diamond.com" target="_blank" title="Diamond.com - Jewelry Education">Live site</a> <span class="link-split">|</span> <a href="/views/work/diamond">Case Study</a></p>
+      </div>
+      <div class="panel one-third last">
+        <div class="image-placeholder"></div>
+        <p>Online Dating Site</p>
+        <p class="cta"><a href="http://diamond.com" target="_blank" title="Diamond.com - Jewelry Education">Live site</a> <span class="link-split">|</span> <a href="/views/work/diamond">Case Study</a></p>
+      </div>
+    </div><?php // row ?>
+    <a href="/work" class="button" title="View Portfolio">View Portfolio</a>
+  </div><?php // showcase container ?>
   <?php 
      $path = $_SERVER['DOCUMENT_ROOT'];
      $path .= "/section/footer.php";

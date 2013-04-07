@@ -18,9 +18,6 @@
   <link rel="stylesheet" href="/assets/css/base.css">
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   
-  <?php // LESS ?>
-  <link rel="stylesheet/less" type="text/css" href="/assets/less/base.less" />
-  
   <?php // Javascripts ?>
   
     <?php // Modernizr ?>
