@@ -38,7 +38,7 @@
   </div><?php // masthead-wrapper home ?>
   <div class="showcase">
     <div class="container">
-      <h2 class="secondary-title">Featured Work</h2>
+      <h2>Featured Work</h2>
       <div class="row">
         <div class="panel one-third">
           <div class="image-placeholder"></div>
@@ -78,7 +78,7 @@
   </div><?php // showcase ?>
   <div class="showcase dark-bg">
     <div class="container">
-      <h2 class="secondary-title">Services</h2>
+      <h2>Services</h2>
       <div class="row services-points">
         <div class="panel one-third">
           <div class="image-placeholder"></div>
