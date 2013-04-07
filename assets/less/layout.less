@@ -8,7 +8,6 @@
 
 */
 
-/* Defaults */
 h1, h2, h3, h4, h5, h6, p, a, ul {
 	font-family: 'Montserrat', sans-serif;
 }
@@ -38,6 +37,23 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 	}
 	
 } // masthead-wrapper
+
+/* ---------------------------------------------------------------------
+
+	Lists
+
+------------------------------------------------------------------------ */
+
+ul {
+	li {
+		margin-bottom: 20px;
+		
+		a, a:link, a:visited {
+			font-size: 1.2em;
+		}
+		
+	} // li
+} // ul
 
 
 /* ---------------------------------------------------------------------
@@ -84,15 +100,10 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 		}
 		
 		ul {
-			
-			li {
-				margin-bottom: 20px;
-				
+			li {				
 				a, a:link, a:visited {
 					color: #469fdb;
-					font-size: 1.2em;
 				}
-				
 				a:hover {
 					text-decoration: none;
 				}
@@ -149,12 +160,20 @@ a.button, a.button:link, a.button:visited, a.button:hover { text-decoration: non
 
 /* Reusable Containers */
 
-.one-third {
-	width: 30%;
+.one-third, .one-fourth {
 	margin-right: 5%;
 	float: left;
 }
 
-.one-third.last {
+.one-third {
+	width: 30%;
+}
+
+.one-third.last, one-fourth.last {
 	margin-right: 0;
+}
+
+.one-fourth {
+	width: 20%;
+	text-align: left;
 }
