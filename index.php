@@ -36,7 +36,9 @@
       </div>
     </div><?php // container ?>
   </div><?php // masthead-wrapper home ?>
-
+  <div id="featured-work" class="container">
+    <h2 class="secondary-title">Featured Work</h2>
+  </div>
   <?php 
      $path = $_SERVER['DOCUMENT_ROOT'];
      $path .= "/section/footer.php";
