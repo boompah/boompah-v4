@@ -127,7 +127,7 @@ ul {
 
 a, a:link, a:visited {
 	text-decoration: none;
-	color: @link;
+	color: #3b5998;
 	font-weight: normal;
 }
 
@@ -138,9 +138,8 @@ a:hover {
 a.button {
 	padding: 10px 60px;
 	font-size: 25px;
-	background-color: @link;
+	background-color: #3b5998;
 	color: white;
-	.rounded-corners(25px);
 }
 
 a.button, a.button:link, a.button:visited, a.button:hover { text-decoration: none; }
@@ -169,11 +168,11 @@ a.button, a.button:link, a.button:visited, a.button:hover { text-decoration: non
 	width: 30%;
 }
 
-.one-third.last, one-fourth.last {
+.one-third.last, .one-fourth.last {
 	margin-right: 0;
 }
 
 .one-fourth {
-	width: 20%;
+	width: 21%;
 	text-align: left;
 }

@@ -1,0 +1,18 @@
+// Base
+@import 'font-awesome.scss';
+@import 'layout.scss';
+@import 'mixins.scss';
+@import 'variables.scss';
+
+// Views
+@import 'views/base.scss';
+
+// Section
+@import 'section/base.scss';
+
+/* SASS Notes
+	
+	Compile SASS
+	sass --watch assets/sass/base.scss:public/css/styles.css
+
+*/

@@ -155,7 +155,7 @@
             <li><a href="http://www.aldoshoes.com/ca-eng" target="_blank">ALDO</a></li>
             <li><a href="http://www.cineflix.com/" target="_blank">Cineflix</a></li>
             <li><a href="http://www.liberte.ca/en/nutrition-health/" target="_blank">Liberte Nutrition</a></li>
-            <li><a href="http://www.osm.ca/en" target="_blank">Orchestre symphonique de Montréal</a></li>
+            <li><a href="http://www.osm.ca/en" target="_blank">OSM</a></li>
             <li><a href="http://www.milkshakemedia.com/" target="blank">Milkshake Media</a></li>
           </ul>
         </div><?php // one-fourth ?>

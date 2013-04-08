@@ -13,7 +13,7 @@
  *  - The Font Awesome pictograms are licensed under the CC BY 3.0 License - http://creativecommons.org/licenses/by/3.0/
  *  - Attribution is no longer required in Font Awesome 3.0, but much appreciated:
  *    "Font Awesome by Dave Gandy - http://fortawesome.github.com/Font-Awesome"
-
+ *
  *  Contact
  *  -------------------------------------------------------
  *  Email: dave@davegandy.com
@@ -21,21 +21,18 @@
  *  Work: Lead Product Designer @ http://kyruus.com
  */
 
-@FontAwesomePath:   "/assets/font/font-awesome";
-@borderColor:       #eee;
-@iconMuted:         #eee;
-.border-radius(@radius) { -webkit-border-radius: @radius; -moz-border-radius: @radius; border-radius: @radius; }
+$fontAwesomePath:   "../font" !default;
+$borderColor:       #eee;
+$iconMuted:         #eee;
+@mixin border-radius($radius) { -webkit-border-radius: $radius; -moz-border-radius: $radius; border-radius: $radius; }
+
 
 @font-face {
   font-family: 'FontAwesome';
-  src: url('@{FontAwesomePath}/fontawesome-webfont.eot?v=3.0.1');
-  src: url('@{FontAwesomePath}/fontawesome-webfont.eot?#iefix&v=3.0.1') format('embedded-opentype'),
-    url('@{FontAwesomePath}/fontawesome-webfont.woff?v=3.0.1') format('woff'),
-    url('@{FontAwesomePath}/fontawesome-webfont.ttf?v=3.0.1') format('truetype');
-//    url('@{FontAwesomePath}/fontawesome-webfont.svg#fontawesomeregular?v=3.0.1') format('svg');
-
-//  src: url('@{FontAwesomePath}/FontAwesome.otf') format('opentype');
-
+  src: url('#{$fontAwesomePath}/fontawesome-webfont.eot?v=3.0.1');
+  src: url('#{$fontAwesomePath}/fontawesome-webfont.eot?#iefix&v=3.0.1') format("embedded-opentype"),
+    url('#{$fontAwesomePath}/fontawesome-webfont.woff?v=3.0.1') format("woff"),
+    url('#{$fontAwesomePath}/fontawesome-webfont.ttf?v=3.0.1') format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -50,7 +47,7 @@
   text-decoration: inherit;
   -webkit-font-smoothing: antialiased;
 
-/* sprites.less reset */
+  /* sprites.less reset */
   display: inline;
   width: auto;
   height: auto;
@@ -97,7 +94,7 @@ a {
 /* makes the font 33% larger relative to the icon container */
 .icon-large:before {
   vertical-align: -10%;
-  font-size: 4/3em;
+  font-size: 1.3333333333333333em;
 }
 
 .btn, .nav {
@@ -113,7 +110,7 @@ a {
 .nav-tabs, .nav-pills {
   [class^="icon-"],
   [class*=" icon-"] {
-  /* keeps button heights with and without icons the same */
+    /* keeps button heights with and without icons the same */
     &, &.icon-large { line-height: .9em; }
   }
 }
@@ -126,7 +123,7 @@ li, .nav li {
     text-align: center;
     &.icon-large {
       /* increased font size for icon-large */
-      width: 1.25*1.25em;
+      width: 1.5625em;
     }
   }
 }
@@ -144,16 +141,16 @@ ul.icons {
 }
 
 .icon-muted {
-  color: @iconMuted;
+  color: $iconMuted;
 }
 
 // Icon Borders
 // -------------------------
 
 .icon-border {
-  border: solid 1px @borderColor;
+  border: solid 1px $borderColor;
   padding: .2em .25em .15em;
-  .border-radius(3px);
+  @include border-radius(3px);
 }
 
 // Icon Sizes
@@ -163,21 +160,21 @@ ul.icons {
   font-size: 2em;
   &.icon-border {
     border-width: 2px;
-    .border-radius(4px);
+    @include border-radius(4px);
   }
 }
 .icon-3x {
   font-size: 3em;
   &.icon-border {
     border-width: 3px;
-    .border-radius(5px);
+    @include border-radius(5px);
   }
 }
 .icon-4x {
   font-size: 4em;
   &.icon-border {
     border-width: 4px;
-    .border-radius(6px);
+    @include border-radius(6px);
   }
 }
 
