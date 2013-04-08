@@ -1,23 +1,28 @@
 // Bourbon
-@import 'bourbon/bourbon';
+@import "bourbon/bourbon";
+@import "neat/neat";
 
 // Font Awesome
-@import 'font-awesome.scss';
+@import "font-awesome.scss";
 
 // Base
-@import 'layout.scss';
-@import 'mixins.scss';
-@import 'variables.scss';
+@import "layout.scss";
+@import "mixins.scss";
+@import "variables.scss";
 
 // Views
-@import 'views/base.scss';
+@import "views/base.scss";
 
 // Section
-@import 'section/base.scss';
+@import "section/base.scss";
 
 /* SASS Notes
 	
 	Compile SASS
 	sass --watch assets/stylesheets/base.scss:public/stylesheets/styles.css
+	
+	Bourbon
+	$ bourbon help
+	$ bourbon update
 
 */

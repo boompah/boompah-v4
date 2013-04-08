@@ -1,3 +1,8 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 /*
  *  Font Awesome 3.0.2
  *  the iconic font designed for use with Twitter Bootstrap
@@ -1066,7 +1071,10 @@ ul li {
     text-transform: uppercase; }
   .showcase a.button {
     margin: .5em 0;
-    display: inline-block; }
+    display: inline-block;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px; }
   .showcase .services-points h3, .showcase .services-points ul {
     text-align: left;
     color: white; }
@@ -1180,11 +1188,18 @@ nav.primary ul {
     nav.primary ul li a:hover {
       text-decoration: none; }
     nav.primary ul li a.selected {
-      padding: 10px 25px; }
+      padding: 10px 25px;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      border-radius: 20px; }
 
 /* SASS Notes
 	
 	Compile SASS
 	sass --watch assets/stylesheets/base.scss:public/stylesheets/styles.css
+	
+	Bourbon
+	$ bourbon help
+	$ bourbon update
 
 */
