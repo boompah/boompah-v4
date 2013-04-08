@@ -15,7 +15,7 @@
   
   <?php // CSS ?>
   <link rel="stylesheet" href="/assets/css/normalize.min.css">
-  <link rel="stylesheet" href="/public/css/styles.css">
+  <link rel="stylesheet" href="/public/stylesheets/styles.css">
   
   <?php // Google Fonts ?>
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>

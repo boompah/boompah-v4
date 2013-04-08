@@ -1002,6 +1002,10 @@ ul.icons {
 .icon-folder-open-alt:before {
   content: "\f115"; }
 
+body {
+  margin: 0;
+  padding: 0; }
+
 /* 
 
 	Typography 
@@ -1181,6 +1185,6 @@ nav.primary ul {
 /* SASS Notes
 	
 	Compile SASS
-	sass --watch assets/sass/base.scss:public/css/styles.css
+	sass --watch assets/stylesheets/base.scss:public/stylesheets/styles.css
 
 */
