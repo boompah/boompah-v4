@@ -1,5 +1,10 @@
-// Base
+// Bourbon
+@import 'bourbon/bourbon';
+
+// Font Awesome
 @import 'font-awesome.scss';
+
+// Base
 @import 'layout.scss';
 @import 'mixins.scss';
 @import 'variables.scss';
