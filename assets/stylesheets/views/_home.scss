@@ -3,6 +3,22 @@ body.home {
 		background-color: #232333;
 	}
 	
+	.light-bg {
+		background-color: #e4e7ee;
+		border-top: 1px solid #aab2bf;
+		border-top: 1px solid #aab2bf;
+	}
+	
+	#masthead-wrapper {
+		h1 {	
+			color: #a5a5ce;
+		}
+
+		h3 {
+			color: #797999;
+		}
+	} // masthead-wrapper
+	
 	#header{
 		border-bottom: 2px solid #393951;
 		
@@ -14,29 +30,43 @@ body.home {
 				background-color: #38384f;
 			}
 		} // nav.primary
-		
 	} // #header
+	
+	.usability-research {
+		h3 { 
+			margin-top: 1.5em;
+		}
+		
+		p {
+			margin-bottom: 4em;
+		}
+		
+		p.last {
+			margin-bottom: 0;
+		}
+		
+		a, p.intro {
+			font-size: 1.5em;
+		}
+		
+		p.intro {
+			margin: 0;
+			line-height: 2em;
+		}
+		
+	} // usability-research
+	
 } // body.home
 
 #logo-circle {
 	margin: auto;
 	min-width: 300px;
-	max-width: 500px;
+	max-width: 400px;
 }
 
 #logo-circle object {
 	width: 100%;
-	min-height: 420px;
-}
-
-h1 {	
-	color: #a5a5ce;
-	display: block;
-	margin: 5% auto 5%;
-}
-
-h3 {
-	color: #797999;
+	min-height: 440px;
 }
 
 .showcase {

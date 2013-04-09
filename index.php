@@ -9,26 +9,18 @@
      $path .= "/section/chrome-frame.php";
      include_once($path);
   ?>
-  <header id="header">
-    <nav class="primary">
-      <a href="/" class="boompah">
-        <span class="screen-reader-text">Boompah</span></a>
-      <ul>
-        <li><a href="/work" title="work" class="selected">Work</a></li>
-      	<li><a href="/about" title="About">About</a></li>
-      	<li><a href="/services" title="Services">Services</a></li>
-      	<li><a href="/about" title="Tumblr">Tumblr</a></li>
-      	<li><a href="/contact" title="home">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <?php // Chrome Frame
+     $path = $_SERVER['DOCUMENT_ROOT'];
+     $path .= "/section/navigation.php";
+     include_once($path);
+  ?>
   <div id="masthead-wrapper">
     <div class="container">
       <div id="logo-circle">
         <object data="/assets/images/logo-circle.svg" type="image/svg+xml"></object>
       </div>
       <section class="main-content">
-        <h1 class="lead-title">Boompah is a User Interface &amp; Development Boutique created by Ryan Bollenbach and is based in Winnipeg, Canada.</h1>
+        <h1>Boompah is a User Interface &amp; Development Boutique created by Ryan Bollenbach and is based in Winnipeg, Canada.</h1>
         <h3>We collaborate with businesses to design elegant, fresh interfaces for web applications,
         boutique websites and e-commerce stores. We strive to create timeless designs that perform 
         beautifully across mobile, tablet and desktop devices.
@@ -82,7 +74,7 @@
       <div class="row services-points">
         <div class="panel">
           <div class="image-placeholder"></div>
-          <h3>Branding</h3>
+          <h3>Graphic Design</h3>
           <ul>
             <li><a href="" title="Logo Design">Logo Design</a></li>
             <li><a href="" title="Web Design">Web Design</a></li>
@@ -173,6 +165,55 @@
           </ul>
         </div><?php // one-fourth ?>
       </div><?php // row ?>
+    </div><?php // container ?>
+  </div><?php // showcase ?>
+  <div class="showcase light-bg usability-research">
+    <div class="container">
+      <h2>Usability Research</h2>
+      <p class="intro">It's one thing to design based on personal preference, assumptions, common mental models and trends. It’s a whole different ball game to use evidence at the base of your conceptual decisions while maintaining an open floor of innovation. We gather research to help reinforce our ideas.</p>
+      <h3>Recent findings</h3>
+      <a href="">How changing a single word increased click through rate by 161%</a>
+      <p>Veeam Case Study by Siddharth Deswal</p>
+
+      <a href="">When Instinct Trumps Reason - Jonah Lehrer</a>
+      <p>Jonah Lehrer, author of How We Choose, discusses the limitations of rational thought and explains that while the human prefrontal cortex is a "magnificent piece of machinery," it easily short circuits when given too much information.</p>
+
+      <a href="">Responsive Web Design by Electric Pulp for O’Neill Clothing increases mobile revenue by 692.67%</a>
+      <p>E-commerce case study by Electric Pulp</p>
+
+      <a href="">DIYThemes: 102.0% improvement on email newsletter sign-up page</a>
+      <p class="last">Newsletter module sign up conversion case study of removing social proof.</p>
+    </div><?php // container ?>
+  </div><?php // showcase ?>
+  <div class="showcase testimonials">
+    <div class="container">
+      <h2>Testimonials</h2>
+      <div class="half">
+        <p>"Ryan has infectious enthusiasm and energy. My role in working with Ryan was to provide background and technical information about our product he was redesigning. He made it easy to collaborate with him over a distance of a thousand miles..."</p>
+        <p class="role">
+          <strong>Top qualities:</strong> Personable, High Integrity, Creative<br />
+          <em>Dan collaborated with Ryan on various UX tasks</em>
+        </p>
+        <h4>Dan Nelson, FBS</h4>
+        <p class="role">
+
+        <p>"Ryan is a great collaborator. We had some very complex projects involving multiple team members and he was able to get up to speed on our business, engage all the people involved, and be central to the creative process. Ryan helped us achieve cleaner designs than we would have without his good communication and design skills."</p>
+        <p class="role">
+          <strong>Top qualities:</strong> Great Results, Personable, High Integrity<br />
+          <em>Mike Managed Ryan directly.</em>
+        </p>
+        <h4>Michael Wurzer, FBS</h4>
+      </div><?php // half ?>
+      <div class="half">
+        <p>"Not longer after working with Ryan, it became clear to me that he has a lot of passion for design and is committed to constantly developing his skills, both technical and creative. He also happens to be a pleasure to work with!"</p>
+        <p class="role">Mani managed Ryan indirectly at Tungle(Recently acquired by BlackBerry)</p>
+        <h4>Mani Ghasemlou, MBA</h4>
+
+        <p>Ryan is a recent addition to the Tungle team. Since joining he has had a big impact. He quickly integrated into our dev team and established a solid design and front end function from nothing (before him we outsourced this). He works quickly and can take high level concepts and translate them into well
+        executed wireframes and images. He is a valuable member of our team."</p>
+        <p class="role">Mark managed Ryan indirectly at Tungle(Recently acquired by BlackBerry)</p>
+        <h4>Mark MacLeod</h4>
+      </div><?php // half ?>
     </div><?php // container ?>
   </div><?php // showcase ?>
   <?php 

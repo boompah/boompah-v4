@@ -1,4 +1,5 @@
   <footer>
+    
   </footer>
 
   <!-- jQuery -->
@@ -11,19 +12,6 @@
   </script>
   
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-  
-  <script src="/assets/javascripts/jquery/jquery.fittext.js"></script>
-	<script type="text/javascript">
-	  // FixText Scripts
-		$(".lead-title").fitText(1.1, { minFontSize: '20px', maxFontSize: '50px' });
-				
-		// Make mobile safari address bar disappear
-		window.addEventListener("load",function() {
-        setTimeout(function() {
-            document.body.scrollTop || window.scrollTo(0, 1);
-        }, 0);
-    });
-	</script>
 
   </body>
 </html>

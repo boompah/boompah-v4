@@ -1023,6 +1023,12 @@ body {
 h1, h2, h3, h4, h5, h6, p, a, ul {
   font-family: 'Montserrat', sans-serif; }
 
+h1 {
+  font-size: 3em; }
+
+h3 {
+  font-size: 2em; }
+
 .container {
   *zoom: 1;
   max-width: 68em;
@@ -1037,15 +1043,18 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     text-align: center;
     text-transform: uppercase;
     font-weight: normal;
-    padding: .8em 0;
-    display: inline-block;
+    padding: .5em 0;
     font-size: 2.5em; }
 
 #masthead-wrapper {
   padding: 4% 0;
   text-align: center; }
+  #masthead-wrapper h1 {
+    display: block;
+    margin: 5% auto 5%; }
   #masthead-wrapper h3 {
-    font-weight: normal; }
+    font-weight: normal;
+    font-size: 1.5em; }
 
 /* ---------------------------------------------------------------------
 
@@ -1081,6 +1090,18 @@ ul li {
     display: inline-block;
     width: 100%;
     clear: both; }
+  .showcase .half {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    text-align: left; }
+    .showcase .half:last-child {
+      margin-right: 0; }
+    .showcase .half p {
+      font-family: 'Georgia', serif;
+      font-style: italic;
+      line-height: 1.75em; }
   .showcase .cta {
     text-transform: uppercase; }
   .showcase a.button {
@@ -1110,6 +1131,9 @@ ul li {
 
 .dark-bg h2 {
   color: white; }
+
+.light-bg h3 {
+  text-transform: uppercase; }
 
 /* Links */
 a, a:link, a:visited {
@@ -1154,29 +1178,40 @@ a.button, a.button:link, a.button:visited, a.button:hover {
 
 body.home #masthead-wrapper, body.home #header, body.home .dark-bg {
   background-color: #232333; }
+body.home .light-bg {
+  background-color: #e4e7ee;
+  border-top: 1px solid #aab2bf;
+  border-top: 1px solid #aab2bf; }
+body.home #masthead-wrapper h1 {
+  color: #a5a5ce; }
+body.home #masthead-wrapper h3 {
+  color: #797999; }
 body.home #header {
   border-bottom: 2px solid #393951; }
   body.home #header nav.primary a {
     color: #7070ba; }
   body.home #header nav.primary a.selected, body.home #header nav.primary a.selected:visited {
     background-color: #38384f; }
+body.home .usability-research h3 {
+  margin-top: 1.5em; }
+body.home .usability-research p {
+  margin-bottom: 4em; }
+body.home .usability-research p.last {
+  margin-bottom: 0; }
+body.home .usability-research a, body.home .usability-research p.intro {
+  font-size: 1.5em; }
+body.home .usability-research p.intro {
+  margin: 0;
+  line-height: 2em; }
 
 #logo-circle {
   margin: auto;
   min-width: 300px;
-  max-width: 500px; }
+  max-width: 400px; }
 
 #logo-circle object {
   width: 100%;
-  min-height: 420px; }
-
-h1 {
-  color: #a5a5ce;
-  display: block;
-  margin: 5% auto 5%; }
-
-h3 {
-  color: #797999; }
+  min-height: 440px; }
 
 .showcase ul {
   padding-left: 0;
