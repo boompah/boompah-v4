@@ -1,5 +1,5 @@
 nav.primary {
-	
+	@include outer-container;
 	a.boompah {
 		margin-top: 35px;
 		width: 160px;

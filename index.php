@@ -10,7 +10,7 @@
      include_once($path);
   ?>
   <header id="header">
-    <nav class="primary container">
+    <nav class="primary">
       <a href="/" class="boompah">
         <span class="screen-reader-text">Boompah</span></a>
       <ul>
@@ -40,34 +40,34 @@
     <div class="container">
       <h2>Featured Work</h2>
       <div class="row">
-        <div class="panel one-third">
+        <div class="panel">
           <div class="image-placeholder"></div>
           <p>Diamond education, sister site of <a href="http://ice.com" target="_blank" title="Online Jewelry Shop">ice.com.</a></p>
           <p class="cta"><a href="http://diamond.com" target="_blank" title="Diamond.com - Jewelry Education">Live site</a> <span class="link-split">|</span> <a href="/views/work/diamond">Case Study</a></p>
         </div>
-        <div class="panel one-third">
+        <div class="panel">
           <div class="image-placeholder"></div>
           <p>International audio equipment distributor</p>
           <p class="cta"><a href="/views/work/skullycandy">Case Study</a></p>
         </div>
-        <div class="panel one-third last">
+        <div class="panel last">
           <div class="image-placeholder"></div>
           <p>Quebec based Hollywood gossip blog</p>
           <p class="cta"><a href="http://hollywoodpq.com" target="_blank" title="Hollywood PQ">Live site</a> <span class="link-split">|</span> <a href="/views/work/diamond">Case Study</a></p>
         </div>
       </div><?php // row ?>
       <div class="row">
-        <div class="panel one-third">
+        <div class="panel">
           <div class="image-placeholder"></div>
           <p>Montreal based Photographer</p>
           <p class="cta"><a href="http://diamond.com" target="_blank" title="Diamond.com - Jewelry Education">Live site</a> <span class="link-split">|</span> <a href="/views/work/diamond">Case Study</a></p>
         </div>
-        <div class="panel one-third">
+        <div class="panel">
           <div class="image-placeholder"></div>
           <p>Montreal Art Collective</p>
           <p class="cta"><a href="http://diamond.com" target="_blank" title="Diamond.com - Jewelry Education">Live site</a> <span class="link-split">|</span> <a href="/views/work/diamond">Case Study</a></p>
         </div>
-        <div class="panel one-third last">
+        <div class="panel last">
           <div class="image-placeholder"></div>
           <p>Online Dating Site</p>
           <p class="cta"><a href="http://diamond.com" target="_blank" title="Diamond.com - Jewelry Education">Live site</a> <span class="link-split">|</span> <a href="/views/work/diamond">Case Study</a></p>
@@ -80,7 +80,7 @@
     <div class="container">
       <h2>Services</h2>
       <div class="row services-points">
-        <div class="panel one-third">
+        <div class="panel">
           <div class="image-placeholder"></div>
           <h3>Branding</h3>
           <ul>
@@ -92,7 +92,7 @@
             <li><a href="" title="Media Kits">Media Kits</a></li>
           </ul>
         </div><?php // panel one-third ?>
-        <div class="panel one-third">
+        <div class="panel">
           <div class="image-placeholder"></div>
           <h3>Interaction Design</h3>
           <ul>
@@ -104,7 +104,7 @@
             <li><a href="">E-mail Campaigns</a></li>
           </ul>
         </div><?php // panel one-third ?>
-        <div class="panel one-third last">
+        <div class="panel">
           <div class="image-placeholder"></div>
           <h3>Development</h3>
           <ul>
@@ -118,11 +118,11 @@
       </div><?php // row ?>
     </div><?php // container ?>
   </div><?php // showcase ?>
-  <div class="showcase clients">
+  <div class="showcase">
     <div class="container">
       <h2>We've worked with</h2>
       <div class="row">
-        <div class="one-fourth">
+        <div class="clients">
           <ul>
             <li><a href="http://becknercontracting.com/" target="_blank">Beckner Contracting</a></li>
             <li><a href="http://www.capitalrlh.com/index-en.php" target="_blank">Capital RLH</a></li>
@@ -135,7 +135,7 @@
             <li><a href="http://fellerath.com/" target="_blank">Kate Fellerath</a></li>
           </ul>
         </div><?php // one-fourth ?>
-        <div class="one-fourth">
+        <div class="clients">
           <ul>
             <li><a href="http://pentegroup.com/" target="_blank">Pente Group</a></li>
             <li><a href="http://www.rudsak.com/" target="_blank">Rudsack</a></li>
@@ -147,7 +147,7 @@
             <li><a href="http://www.diamond.com/" target="_blank">Diamond.com</a></li>
           </ul>
         </div><?php // one-fourth ?>
-        <div class="one-fourth">
+        <div class="clients">
           <ul>
             <li><a href="http://www.godynamo.com/" target="_blank">Dynamo</a></li>
             <li><a href="http://www.2m2.ca/" target="_blank">2M2</a></li>
@@ -159,7 +159,7 @@
             <li><a href="http://www.milkshakemedia.com/" target="blank">Milkshake Media</a></li>
           </ul>
         </div><?php // one-fourth ?>
-        <div class="one-fourth last">
+        <div class="clients">
           <ul>
             <li><a href="http://www.orangeleap.com/index.shtml" target="blank">Orange Leap</a></li>
             <li><a href="http://thebig-studio.com/" target="blank">The Big Studio</a></li>
