@@ -1,19 +1,7 @@
-<?php 
-   $path = $_SERVER['DOCUMENT_ROOT'];
-   $path .= "/section/header.php";
-   include_once($path);
-?>
+<?php include 'section/header.php'; ?>
 <body class="home">
-  <?php // Chrome Frame
-     $path = $_SERVER['DOCUMENT_ROOT'];
-     $path .= "/section/chrome-frame.php";
-     include_once($path);
-  ?>
-  <?php // Chrome Frame
-     $path = $_SERVER['DOCUMENT_ROOT'];
-     $path .= "/section/navigation.php";
-     include_once($path);
-  ?>
+  <?php include 'section/chrome-frame.php'; ?>
+  <?php include 'section/navigation.php' ?>
   <div id="masthead-wrapper">
     <div class="container">
       <div id="logo-circle">
@@ -222,8 +210,4 @@
       </div><?php // half ?>
     </div><?php // container ?>
   </div><?php // showcase ?>
-  <?php 
-     $path = $_SERVER['DOCUMENT_ROOT'];
-     $path .= "/section/footer.php";
-     include_once($path);
-  ?>
+  <?php include'section/footer.php'; ?>

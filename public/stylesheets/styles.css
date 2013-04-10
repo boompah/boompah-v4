@@ -1024,7 +1024,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   font-family: 'Montserrat', sans-serif; }
 
 h1 {
-  font-size: 3em; }
+  font-size: 2.5em; }
 
 h3 {
   font-size: 2em; }
@@ -1051,10 +1051,12 @@ h3 {
   text-align: center; }
   #masthead-wrapper h1 {
     display: block;
-    margin: 5% auto 5%; }
+    margin: 5% auto 5%;
+    line-height: 1.5em; }
   #masthead-wrapper h3 {
     font-weight: normal;
-    font-size: 1.5em; }
+    font-size: 1.25em;
+    line-height: 2em; }
 
 /* ---------------------------------------------------------------------
 
@@ -1181,7 +1183,7 @@ body.home #masthead-wrapper, body.home #header, body.home footer, body.home .dar
 body.home .light-bg {
   background-color: #e4e7ee;
   border-top: 1px solid #aab2bf;
-  border-top: 1px solid #aab2bf; }
+  border-bottom: 1px solid #aab2bf; }
 body.home #masthead-wrapper h1 {
   color: #a5a5ce; }
 body.home #masthead-wrapper h3 {
@@ -1210,10 +1212,12 @@ body.home footer a.boompah {
 body.home footer .copyright {
   border-top: 1px solid #41415b; }
   body.home footer .copyright p {
+    margin-top: 3em;
     color: #41415b;
     float: left; }
   body.home footer .copyright a {
-    color: #41415b; }
+    color: #41415b;
+    font-size: 1.2em; }
 
 #logo-circle {
   margin: auto;
@@ -1284,7 +1288,7 @@ nav.primary {
     width: 160px;
     height: 42px;
     display: block;
-    background: url(/assets/images/logo-nav.svg) no-repeat;
+    background: url(../../assets/images/logo-nav.svg) no-repeat;
     float: left; }
   nav.primary ul {
     margin-top: 45px;

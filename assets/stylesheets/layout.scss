@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 	font-family: 'Montserrat', sans-serif;
 }
 
-h1 { font-size: 3em; }
+h1 { font-size: 2.5em; }
 h3 { font-size: 2em; }
 
 .container {
@@ -40,11 +40,13 @@ h3 { font-size: 2em; }
 	h1 {
 		display: block;
 		margin: 5% auto 5%;
+		line-height: 1.5em;
 	}
 	
 	h3 {
 		font-weight: normal;
-		font-size: 1.5em;
+		font-size: 1.25em;
+		line-height: 2em;
 	}
 	
 } // masthead-wrapper

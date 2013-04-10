@@ -6,7 +6,7 @@ body.home {
 	.light-bg {
 		background-color: #e4e7ee;
 		border-top: 1px solid #aab2bf;
-		border-top: 1px solid #aab2bf;
+		border-bottom: 1px solid #aab2bf;
 	}
 	
 	#masthead-wrapper {
@@ -70,12 +70,14 @@ body.home {
 			border-top: 1px solid #41415b;
 			
 			p {
+				margin-top: 3em;
 				color: #41415b;
 				float: left;
 			}
 			
 			a {
 				color: #41415b;
+				font-size: 1.2em;
 			}
 			
 		} // copyright
