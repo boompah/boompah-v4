@@ -27,8 +27,8 @@
  */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("../font/fontawesome-webfont.eot?v=3.0.1");
-  src: url("../font/fontawesome-webfont.eot?#iefix&v=3.0.1") format("embedded-opentype"), url("../font/fontawesome-webfont.woff?v=3.0.1") format("woff"), url("../font/fontawesome-webfont.ttf?v=3.0.1") format("truetype");
+  src: url("/assets/font/font-awesome/fontawesome-webfont.eot?v=3.0.1");
+  src: url("/assets/font/font-awesome/fontawesome-webfont.eot?#iefix&v=3.0.1") format("embedded-opentype"), url("/assets/font/font-awesome/fontawesome-webfont.woff?v=3.0.1") format("woff"), url("/assets/font/font-awesome/fontawesome-webfont.ttf?v=3.0.1") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
@@ -1176,7 +1176,7 @@ a.button, a.button:link, a.button:visited, a.button:hover {
   width: 21%;
   text-align: left; }
 
-body.home #masthead-wrapper, body.home #header, body.home .dark-bg {
+body.home #masthead-wrapper, body.home #header, body.home footer, body.home .dark-bg {
   background-color: #232333; }
 body.home .light-bg {
   background-color: #e4e7ee;
@@ -1203,6 +1203,17 @@ body.home .usability-research a, body.home .usability-research p.intro {
 body.home .usability-research p.intro {
   margin: 0;
   line-height: 2em; }
+body.home footer .services a {
+  color: #595996; }
+body.home footer a.boompah {
+  background: url(/public/images/logo-circle-footer-home.svg); }
+body.home footer .copyright {
+  border-top: 1px solid #41415b; }
+  body.home footer .copyright p {
+    color: #41415b;
+    float: left; }
+  body.home footer .copyright a {
+    color: #41415b; }
 
 #logo-circle {
   margin: auto;
@@ -1213,13 +1224,50 @@ body.home .usability-research p.intro {
   width: 100%;
   min-height: 440px; }
 
-.showcase ul {
+.clients ul {
   padding-left: 0;
-  margin-left: 0;
   list-style: none; }
 
 #header {
   height: 110px; }
+
+footer {
+  padding: 5em 0; }
+  footer ul {
+    float: left;
+    padding-left: 0;
+    margin-left: 10%;
+    list-style: none;
+    text-transform: uppercase; }
+    footer ul li a, footer ul li a:link, footer ul li a:visited {
+      font-size: .9em; }
+  footer a, footer a:link, footer a:visited {
+    color: white; }
+  footer a:hover {
+    text-decoration: none; }
+  footer a.boompah {
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    display: block;
+    float: left; }
+  footer .copyright {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 100%;
+    margin-top: 3em; }
+    footer .copyright:last-child {
+      margin-right: 0; }
+    footer .copyright ul {
+      float: right; }
+      footer .copyright ul li {
+        float: right;
+        margin-left: 1em; }
+        footer .copyright ul li a, footer .copyright ul li a:link, footer .copyright ul li a:visited {
+          font-size: 2em; }
+    footer .copyright p, footer .copyright ul {
+      margin-top: 3em; }
 
 nav.primary {
   *zoom: 1;

@@ -1,5 +1,5 @@
 body.home {
-	#masthead-wrapper, #header, .dark-bg {
+	#masthead-wrapper, #header, footer, .dark-bg {
 		background-color: #232333;
 	}
 	
@@ -56,6 +56,30 @@ body.home {
 		
 	} // usability-research
 	
+	footer {
+		
+		.services a {
+			color: #595996;
+		}
+		
+		a.boompah {
+			background: url(/public/images/logo-circle-footer-home.svg);
+		}
+		
+		.copyright {
+			border-top: 1px solid #41415b;
+			
+			p {
+				color: #41415b;
+				float: left;
+			}
+			
+			a {
+				color: #41415b;
+			}
+			
+		} // copyright
+	} // footer
 } // body.home
 
 #logo-circle {
@@ -69,13 +93,9 @@ body.home {
 	min-height: 440px;
 }
 
-.showcase {
+.clients {
 	ul {
 		padding-left: 0;
-		margin-left: 0;
 		list-style: none;
-		li{
-			
-		}
-	} // ul
+	} 
 } // showcase.clients

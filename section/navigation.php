@@ -1,7 +1,8 @@
 <header id="header">
   <nav class="primary">
     <a href="/" class="boompah">
-      <span class="screen-reader-text">Boompah</span></a>
+      <span class="screen-reader-text">Boompah</span>
+    </a>
     <ul>
       <li><a href="/work" title="work" class="selected">Work</a></li>
     	<li><a href="/about" title="About">About</a></li>

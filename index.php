@@ -17,7 +17,7 @@
   <div id="masthead-wrapper">
     <div class="container">
       <div id="logo-circle">
-        <object data="/assets/images/logo-circle.svg" type="image/svg+xml"></object>
+        <object data="/public/images/logo-circle.svg" type="image/svg+xml"></object>
       </div>
       <section class="main-content">
         <h1>Boompah is a User Interface &amp; Development Boutique created by Ryan Bollenbach and is based in Winnipeg, Canada.</h1>
@@ -206,12 +206,18 @@
       </div><?php // half ?>
       <div class="half">
         <p>"Not longer after working with Ryan, it became clear to me that he has a lot of passion for design and is committed to constantly developing his skills, both technical and creative. He also happens to be a pleasure to work with!"</p>
-        <p class="role">Mani managed Ryan indirectly at Tungle(Recently acquired by BlackBerry)</p>
+        <p class="role">
+          Mani managed Ryan indirectly at Tungle<br />
+          Tungle was acquired by BlackBerry in April 2011
+        </p>
         <h4>Mani Ghasemlou, MBA</h4>
 
         <p>Ryan is a recent addition to the Tungle team. Since joining he has had a big impact. He quickly integrated into our dev team and established a solid design and front end function from nothing (before him we outsourced this). He works quickly and can take high level concepts and translate them into well
         executed wireframes and images. He is a valuable member of our team."</p>
-        <p class="role">Mark managed Ryan indirectly at Tungle(Recently acquired by BlackBerry)</p>
+        <p class="role">
+          Mark managed Ryan indirectly at Tungle<br />
+          Tungle was acquired by BlackBerry in April 2011
+        </p>
         <h4>Mark MacLeod</h4>
       </div><?php // half ?>
     </div><?php // container ?>
