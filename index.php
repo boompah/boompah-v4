@@ -158,7 +158,7 @@
   <div class="showcase light-bg usability-research">
     <div class="container">
       <h2>Usability Research</h2>
-      <p class="intro">It's one thing to design based on personal preference, assumptions, common mental models and trends. It’s a whole different ball game to use evidence at the base of your conceptual decisions while maintaining an open floor of innovation. We gather research to help reinforce our ideas.</p>
+      <p class="intro">It's one thing to design based on personal preference, assumptions, common mental models and trends. It’s a whole different ball game to use evidence at the base of your conceptual decisions while maintaining an open floor to innovation. We gather research to help reinforce our ideas.</p>
       <h3>Recent findings</h3>
       <a href="">How changing a single word increased click through rate by 161%</a>
       <p>Veeam Case Study by Siddharth Deswal</p>
