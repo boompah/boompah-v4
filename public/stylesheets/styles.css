@@ -1208,7 +1208,7 @@ body.home .usability-research p.intro {
 body.home footer .services a {
   color: #595996; }
 body.home footer a.boompah {
-  background: url(/public/images/logo-circle-footer-home.svg); }
+  background: url(/assets/images/logo-circle-footer-home.png); }
 body.home footer .copyright {
   border-top: 1px solid #41415b; }
   body.home footer .copyright p {
@@ -1288,7 +1288,7 @@ nav.primary {
     width: 160px;
     height: 42px;
     display: block;
-    background: url(../../assets/images/logo-nav.svg) no-repeat;
+    background: url(/assets/images/logo-nav.png) no-repeat;
     float: left; }
   nav.primary ul {
     margin-top: 45px;

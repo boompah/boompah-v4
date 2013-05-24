@@ -5,7 +5,7 @@
   <div id="masthead-wrapper">
     <div class="container">
       <div id="logo-circle">
-        <object data="/public/images/logo-circle.svg" type="image/svg+xml"></object>
+        <img src="/public/images/logo-circle.png" alt="Boompah" />
       </div>
       <section class="main-content">
         <h1>Boompah is a User Interface &amp; Development Boutique created by Ryan Bollenbach and is based in Winnipeg, Canada.</h1>
