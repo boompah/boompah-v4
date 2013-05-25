@@ -3,7 +3,7 @@
       <a href="/" class="boompah">
         <span class="screen-reader-text">Boompah</span>
       </a>
-      <ul class="services">
+      <ul class="services hidden-mobile">
         <li><a href="">Logo Design</a></li>
         <li><a href="">Web Design</a></li>
         <li><a href="">Style Guides</a></li>
@@ -11,7 +11,7 @@
         <li><a href="">iAB Advertisements</a></li>
         <li><a href="">Media Kits</a></li>
       </ul>
-      <ul class="services">
+      <ul class="services hidden-mobile">
         <li><a href="">Wireframes &amp; Prototypes</a></li>
         <li><a href="">Responsive Web Design</a></li>
         <li><a href="">Boutique Websites</a></li>
@@ -27,7 +27,7 @@
         <li><a href="">Contact</a></li>
       </ul>
       <div class="copyright">
-        <p>&copy; Boompah 2010 - <?php echo date("Y") ?>. All rights reserved.</p>
+        <p>&copy; Boompah 2006 - <?php echo date("Y") ?>. All rights reserved.</p>
         <ul>
           <li><a class="icon-twitter" href=""><span class="screen-reader-text">Boompah on Twitter</span></a></li>
           <li><a class="icon-facebook" href=""><span class="screen-reader-text">Boompah on Facebook</span></a></li>

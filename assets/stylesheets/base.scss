@@ -2,13 +2,10 @@
 @import "bourbon/bourbon";
 @import "neat/neat";
 
-// Font Awesome
-@import "font-awesome.scss";
-
 // Base
 @import "layout.scss";
-@import "mixins.scss";
 @import "variables.scss";
+@import "config/mixins.scss";
 
 // Views
 @import "views/base.scss";

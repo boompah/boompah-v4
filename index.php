@@ -98,7 +98,7 @@
       </div><?php // row ?>
     </div><?php // container ?>
   </div><?php // showcase ?>
-  <div class="showcase">
+  <div class="showcase hidden-mobile">
     <div class="container">
       <h2>We've worked with</h2>
       <div class="row">

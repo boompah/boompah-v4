@@ -1,3 +1,21 @@
+@mixin respond-to($media) { 
+  @if $media == handhelds {
+    @media only screen and (max-width: 479px) { @content; }
+    }
+  @else if $media == medium-screens {
+   @media only screen and (min-width: 480px) and (max-width: 767px) { @content; }
+    }
+  @else if $media == handhelds-and-medium-screens {
+    @media only screen and (max-width: 767px) { @content;}
+    }
+  @else if $media == large-screens {
+    @media only screen and (min-width: 768px) and (max-width: 959px) { @content; }
+    }
+  @else if $media == large-screens-and-under {
+    @media only screens and (max-width: 959px) { @content; }
+  }
+}
+
 body{
 	margin: 0;
 	padding: 0;
@@ -21,6 +39,8 @@ h1 { font-size: 2.5em; }
 h3 { font-size: 2em; }
 
 .container {
+	padding: 0 1.2em;
+	
 	@include outer-container;
 	
 	h2 {
@@ -98,6 +118,10 @@ ul {
 	.half {
 		@include span-columns(6);
 		text-align: left;
+		@include respond-to(handhelds-and-medium-screens) { 
+			width: 100%;
+			text-align: center;
+		}
 		
 		p {
 			font-family: 'Georgia', serif;
@@ -113,7 +137,7 @@ ul {
 	a.button{
 		margin: .5em 0;
 		display: inline-block;
-		@include border-radius(25px);
+		// @include border-radius(25px);
 	}
 	
 	.services-points {
@@ -145,6 +169,9 @@ ul {
 	
 	.panel {
 		@include span-columns(4);
+		@include respond-to(handhelds-and-medium-screens) { 
+			width: 100%;
+			}
 		}
 
 } // showcase
@@ -189,6 +216,15 @@ a.button, a.button:link, a.button:visited, a.button:hover { text-decoration: non
 	background-color: #e4e7ee;
 	border: 1px solid #aab2bf;
 	height: 200px;
+}
+
+@include respond-to(handhelds-and-medium-screens) { 
+	.hidden-mobile { display: none; }
+}
+
+.show-mobile {
+	display: none;
+	@include respond-to(handhelds-and-medium-screens) { display: inline; }
 }
 
 /* Reusable Containers */

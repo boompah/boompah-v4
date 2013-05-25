@@ -46,5 +46,13 @@ footer {
 			margin-top: 3em;
 		}
 		
+		p{
+			float: left;
+			@include respond-to(handhelds-and-medium-screens) { 
+				float: none;
+				text-align: center;
+				}
+		}
+		
 	} // copyright
 } // footer
