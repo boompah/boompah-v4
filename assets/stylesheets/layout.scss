@@ -57,19 +57,16 @@ p {
 // ---------------------------------------------------------------------
 
 ul, ol {
-	font-size: 1em;
-	@include respond-to(large-screens) { font-size: 1em; }
+	font-size: .9em;
+	@include respond-to(large-screens) { font-size: .9em; }
 	@include respond-to(handhelds-and-medium-screens) { font-size: .8em; }
 }
 
 ul {
 	li {
 		margin-bottom: 20px;
-
 		a, a:link, a:visited {
-			font-size: 1.2em;
 		}
-
 	} // li
 } // ul
 
@@ -110,7 +107,7 @@ ul {
 // ---------------------------------------------------------------------
 .showcase {
 	text-align: center;
-	padding-bottom: 60px;
+	padding-bottom: 40px;
 	
 	.clients {
 		@include span-columns(3);
@@ -159,12 +156,15 @@ ul {
 	
 	.services-points {
 		
-		h3, ul {
+		h4, ul {
 			text-align: left;
 			color: $white;
+			@include respond-to(handhelds-and-medium-screens) { 
+				text-align: center;
+			}
 		}
 		
-		h3 {
+		h4 {
 			text-transform: uppercase;
 			font-weight: normal;
 		}
@@ -204,7 +204,7 @@ ul {
 
 a, a:link, a:visited {
 	text-decoration: none;
-	color: #3b5998;
+	color: $link-blue;
 	font-weight: normal;
 }
 
@@ -216,7 +216,7 @@ a.button {
 	font-size: 1em;
 	@include respond-to(handhelds-and-medium-screens) { font-size: .9em; }
 	padding: 1em 3em;
-	background-color: #3b5998;
+	background-color: $link-blue;
 	color: $white;
 }
 
@@ -268,7 +268,7 @@ a.button, a.button:link, a.button:visited, a.button:hover { text-decoration: non
 
 .logo-boompah-circle-landing {
 	height: auto;
-	@include respond-to(handhelds-and-medium-screens) { margin: 1.25em 0; }
+	@include respond-to(handhelds-and-medium-screens) { margin: 1.25em 0 .5em 0; }
 	@include respond-to(medium-screens) { width: 200px; }
 	@include respond-to(handhelds) { width: 150px; }
 }

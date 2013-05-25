@@ -56,18 +56,16 @@ p {
       font-size: .8em; } }
 
 ul, ol {
-  font-size: 1em; }
+  font-size: .9em; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
     ul, ol {
-      font-size: 1em; } }
+      font-size: .9em; } }
   @media only screen and (max-width: 767px) {
     ul, ol {
       font-size: .8em; } }
 
 ul li {
   margin-bottom: 20px; }
-  ul li a, ul li a:link, ul li a:visited {
-    font-size: 1.2em; }
 
 .container {
   padding: 0 1.2em;
@@ -97,7 +95,7 @@ ul li {
 
 .showcase {
   text-align: center;
-  padding-bottom: 60px; }
+  padding-bottom: 40px; }
   .showcase .clients {
     display: block;
     float: left;
@@ -143,10 +141,13 @@ ul li {
     border-bottom-left-radius: 25px;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px; }
-  .showcase .services-points h3, .showcase .services-points ul {
+  .showcase .services-points h4, .showcase .services-points ul {
     text-align: left;
     color: white; }
-  .showcase .services-points h3 {
+    @media only screen and (max-width: 767px) {
+      .showcase .services-points h4, .showcase .services-points ul {
+        text-align: center; } }
+  .showcase .services-points h4 {
     text-transform: uppercase;
     font-weight: normal; }
   .showcase .services-points ul li a, .showcase .services-points ul li a:link, .showcase .services-points ul li a:visited {
@@ -227,7 +228,7 @@ a.button, a.button:link, a.button:visited, a.button:hover {
   height: auto; }
   @media only screen and (max-width: 767px) {
     .logo-boompah-circle-landing {
-      margin: 1.25em 0; } }
+      margin: 1.25em 0 .5em 0; } }
   @media only screen and (min-width: 480px) and (max-width: 767px) {
     .logo-boompah-circle-landing {
       width: 200px; } }
@@ -235,6 +236,14 @@ a.button, a.button:link, a.button:visited, a.button:hover {
     .logo-boompah-circle-landing {
       width: 150px; } }
 
+body.home ::selection {
+  background: #CC0000;
+  /* Safari */
+  color: white; }
+body.home ::-moz-selection {
+  background: #CC0000;
+  /* Firefox */
+  color: white; }
 body.home #masthead-wrapper, body.home #header, body.home footer, body.home .dark-bg {
   background-color: #232333; }
 body.home .light-bg {
@@ -261,6 +270,13 @@ body.home .usability-research p.last {
 body.home .usability-research p.intro {
   margin: 0;
   line-height: 2em; }
+@media only screen and (max-width: 767px) {
+  body.home .services-points h3, body.home .services-points ul {
+    list-style: none;
+    text-align: center; }
+  body.home .services-points ul {
+    list-style: none;
+    padding-left: 0; } }
 body.home footer .services a {
   color: #595996; }
 body.home footer a.boompah {
@@ -287,7 +303,10 @@ body.home footer .copyright {
   list-style: none; }
 
 #header {
-  padding-bottom: .5em; }
+  height: 6.75em; }
+  @media only screen and (max-width: 767px) {
+    #header {
+      height: 4em; } }
 
 .mobile-nav {
   float: right;
@@ -319,6 +338,25 @@ footer {
     footer ul li a, footer ul li a:link, footer ul li a:visited {
       font-size: .9em; }
   @media only screen and (max-width: 767px) {
+    footer ul.nav {
+      margin-left: 0;
+      width: 100%; }
+      footer ul.nav a {
+        width: 100%;
+        padding: 1em 0;
+        text-align: center;
+        display: block;
+        background-color: #e4e7ee;
+        color: #232333;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px; } }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
     footer ul.nav {
       margin-left: 0;
       width: 100%; }

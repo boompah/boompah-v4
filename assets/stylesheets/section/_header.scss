@@ -1,5 +1,8 @@
 #header {
-	padding-bottom: .5em;
+	height: 6.75em;
+	@include respond-to(handhelds-and-medium-screens) {
+		height: 4em;
+	}
 }
 
 .mobile-nav {

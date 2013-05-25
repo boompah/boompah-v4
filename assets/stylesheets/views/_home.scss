@@ -1,4 +1,13 @@
 body.home {
+	::selection {
+		background: #CC0000; /* Safari */
+		color: $white;
+		}
+	::-moz-selection {
+		background: #CC0000; /* Firefox */
+		color: $white;
+	}
+	
 	#masthead-wrapper, #header, footer, .dark-bg {
 		background-color: $dark-blue;
 	}
@@ -11,24 +20,24 @@ body.home {
 	
 	#masthead-wrapper {
 		h1 {	
-			color: #a5a5ce;
+			color: $light-purple;
 			font-weight: normal;
 		}
 
 		h3 {
-			color: #797999;
+			color: $secondary-purple;
 		}
 	} // masthead-wrapper
 	
 	#header{
-		border-bottom: 2px solid #393951;
+		border-bottom: 2px solid $medium-purple;
 		
 		nav.primary {
 			a {
-				color: #7070ba;
+				color: $soft-purple;
 				}
 			a.selected, a.selected:visited {
-				background-color: #38384f;
+				background-color: $gray-purple;
 			}
 		} // nav.primary
 	} // #header
@@ -52,6 +61,19 @@ body.home {
 		}
 		
 	} // usability-research
+	
+	.services-points {
+		@include respond-to(handhelds-and-medium-screens) {
+			h3, ul {
+				list-style: none;
+				text-align: center;
+			}
+			ul {
+				list-style: none;
+				padding-left: 0;
+			}
+		}
+	}
 	
 	footer {
 		

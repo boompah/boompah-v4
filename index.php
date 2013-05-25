@@ -11,7 +11,7 @@
       <img src="/public/images/logo-circle.png" alt="Boompah" class="logo-boompah-circle-landing" />
       <section class="main-content">
         <h1>Boompah is a User Interface &amp; Development Boutique created by Ryan Bollenbach and is based in Winnipeg, Canada.</h1>
-        <h3>We collaborate with businesses to design interfaces for web applications, boutique websites and e-commerce stores. We also enjoy social media science and evidence driven design.</h3>
+        <h3>We collaborate with businesses to design interfaces for web applications, boutique websites and e-commerce stores. We also enjoy the science of social media and evidence driven design.</h3>
       </div>
     </div><?php // container ?>
   </div><?php // masthead-wrapper home ?>
@@ -61,7 +61,7 @@
       <div class="row services-points">
         <div class="panel">
           <div class="image-placeholder"></div>
-          <h3>Graphic Design</h3>
+          <h4>Graphic Design</h4>
           <ul>
             <li><a href="" title="Logo Design">Logo Design</a></li>
             <li><a href="" title="Web Design">Web Design</a></li>
@@ -73,7 +73,7 @@
         </div><?php // panel one-third ?>
         <div class="panel">
           <div class="image-placeholder"></div>
-          <h3>Interaction Design</h3>
+          <h4>Interaction Design</h4>
           <ul>
             <li><a href="">Wireframes &amp; Prototypes</a></li>
             <li><a href="">Responsive Web Design</a></li>
@@ -85,7 +85,7 @@
         </div><?php // panel one-third ?>
         <div class="panel">
           <div class="image-placeholder"></div>
-          <h3>Development</h3>
+          <h4>Development</h4>
           <ul>
             <li>HTML5 &amp; CSS3</li>
             <li>HAML, ERB, SASS, SCSS, LESS</li>

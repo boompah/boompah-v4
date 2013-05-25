@@ -35,6 +35,22 @@ footer {
 				@include border-right-radius(5px);
 			}
 		}
+		@include respond-to(large-screens) { 
+			margin-left: 0;
+			width: 100%;
+			a {
+				width: 100%;
+				padding: 1em 0;
+				text-align: center;
+				display: block;
+				background-color: $light-blue;
+				color: $dark-blue;
+				@include border-top-radius(5px);
+				@include border-bottom-radius(5px);
+				@include border-left-radius(5px);
+				@include border-right-radius(5px);
+			}
+		}
 	}
 		
 	a, a:link, a:visited { color: white; }
