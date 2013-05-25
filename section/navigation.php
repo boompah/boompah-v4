@@ -4,12 +4,8 @@
       <span class="screen-reader-text">Boompah</span>
     </a>
     <ul class="hidden-mobile">
-      <li><a href="/work" title="work" class="selected">Work</a></li>
-    	<li><a href="/about" title="About">About</a></li>
-    	<li><a href="/services" title="Services">Services</a></li>
-    	<li><a href="/about" title="Tumblr">Tumblr</a></li>
-    	<li><a href="/contact" title="home">Contact</a></li>
+      <?php include 'menu-core.php'; ?>
     </ul>
-    <a href="footer-menu" class="show-mobile">menu</a>
+    <a href="#footer-menu" class="show-mobile"><span class="screen-reader-text"><i class="icon-list"></i> icon-listmain menu</span></a>
   </nav>
 </header>

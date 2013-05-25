@@ -20,11 +20,7 @@
         <li><a href="">E-mail Campaigns</a></li>
       </ul>
       <ul>
-        <li><a href="">Work</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Services</a></li>
-        <li><a href="">Tumblr</a></li>
-        <li><a href="">Contact</a></li>
+        <?php include 'menu-core.php'; ?>
       </ul>
       <div class="copyright">
         <p>&copy; Boompah 2006 - <?php echo date("Y") ?>. All rights reserved.</p>
