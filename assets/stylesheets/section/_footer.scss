@@ -1,5 +1,5 @@
 footer {
-	padding: 5em 0;
+	padding: 3em 0;
 	
 	ul {
 		float: left;		
@@ -16,6 +16,25 @@ footer {
 				font-size: .9em;
 			}
 		}
+	} // ul
+	
+	ul.nav {
+		@include respond-to(handhelds-and-medium-screens) { 
+			margin-left: 0;
+			width: 100%;
+			a {
+				width: 100%;
+				padding: 1em 0;
+				text-align: center;
+				display: block;
+				background-color: $light-blue;
+				color: $dark-blue;
+				@include border-top-radius(5px);
+				@include border-bottom-radius(5px);
+				@include border-left-radius(5px);
+				@include border-right-radius(5px);
+			}
+		}
 	}
 		
 	a, a:link, a:visited { color: white; }
@@ -25,14 +44,13 @@ footer {
 		background-repeat: no-repeat;
 		width: 150px;
 		height: 150px;
-		display: block;
 		float: left;
 	}
 	
 	.copyright {
 		@include span-columns(12);
 		
-		margin-top: 3em;
+		margin-top: 1em;
 		
 		ul.social-links {
 			float: right;

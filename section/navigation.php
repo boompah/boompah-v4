@@ -1,11 +1,12 @@
 <header id="header">
   <nav class="primary container">
-    <a href="/" class="boompah">
+    <a name="top" href="/" class="boompah">
+      <img src="/assets/images/logo-nav.png" alt="Boompah" />
       <span class="screen-reader-text">Boompah</span>
     </a>
-    <ul class="hidden-mobile">
+    <ul>
       <?php include 'menu-core.php'; ?>
     </ul>
-    <a href="#footer-menu" class="show-mobile mobile-nav"><i class="icon-list"></i><span class="screen-reader-text">menu</span></a>
+    <a href="#footer-menu" class="mobile-nav"><i class="icon-align-justify"></i><span class="screen-reader-text">menu</span></a>
   </nav>
 </header>

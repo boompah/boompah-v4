@@ -1,4 +1,3 @@
-<li><a href="/work" title="work" class="show-mobile"><i class="icon-arrow-up"></i> Top of page</a></li>
 <li><a href="/" title="work" class="show-mobile">Home</a></li>
 <li><a href="/work" title="work" class="selected">Work</a></li>
 <li><a href="/about" title="About">About</a></li>

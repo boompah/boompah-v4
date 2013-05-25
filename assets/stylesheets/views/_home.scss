@@ -1,12 +1,12 @@
 body.home {
 	#masthead-wrapper, #header, footer, .dark-bg {
-		background-color: #232333;
+		background-color: $dark-blue;
 	}
 	
 	.light-bg {
-		background-color: #e4e7ee;
-		border-top: 1px solid #aab2bf;
-		border-bottom: 1px solid #aab2bf;
+		background-color: $light-blue;
+		border-top: 1px solid $light-blue-border;
+		border-bottom: 1px solid $light-blue-border;
 	}
 	
 	#masthead-wrapper {
@@ -73,7 +73,6 @@ body.home {
 			
 			a {
 				color: #41415b;
-				font-size: 1.2em;
 			}
 			
 		} // copyright

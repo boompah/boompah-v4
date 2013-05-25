@@ -1,20 +1,25 @@
 nav.primary {
 	@include outer-container;
 	a.boompah {
-		margin-top: 35px;
-		width: 160px;
-		height: 42px;
 		display: block;
-		background: url(/assets/images/logo-nav.png) no-repeat;
 		float: left;
-	}
-	a.mobile-nav:hover {
-		text-decoration: none;
+		margin-top: 2.25em;
+		height: auto;
+		@include respond-to (handhelds-and-medium-screens) {
+			margin-top: 1.25em;
+		}
+		img {
+			@include respond-to (handhelds-and-medium-screens) {
+				width: 120px;
+			}
+		}
 	}
 	ul {
 		margin-top: 45px;
 		float: right;
 		list-style: none;
+		@include respond-to(handhelds-and-medium-screens) { display: none; }
+		@include respond-to(large-screens) { display: none; }
 		li {
 			float: left;
 			margin-left: 30px;

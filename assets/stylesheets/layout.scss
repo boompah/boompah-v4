@@ -46,8 +46,7 @@ h3 {
 	}
 
 p {
-	font-size: 1em;
-	@include respond-to(large-screens) { font-size: 1em; }
+	font-size: .9em;
 	@include respond-to(handhelds-and-medium-screens) { font-size: .8em; }
 	}
 
@@ -231,8 +230,8 @@ a.button, a.button:link, a.button:visited, a.button:hover { text-decoration: non
 }
 
 .image-placeholder {
-	background-color: #e4e7ee;
-	border: 1px solid #aab2bf;
+	background-color: $light-blue;
+	border: 1px solid $light-blue-border;
 	height: 200px;
 }
 

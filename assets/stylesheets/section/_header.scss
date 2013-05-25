@@ -1,9 +1,19 @@
 #header {
-	height: 110px;
+	padding-bottom: .5em;
 }
 
 .mobile-nav {
 	float: right;
 	font-size: 2em;
 	margin: 1em .5em 0 0;
+	display: none;
+	@include respond-to(handhelds-and-medium-screens) {
+		display: inline;
+		margin: .75em 0 0 0;
+		font-size: 1.5em;
+		}
+	@include respond-to(large-screens) { display: inline; }
+	&:hover{
+		text-decoration: none;
 	}
+}

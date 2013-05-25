@@ -124,6 +124,7 @@
             <li><a href="http://www.fieldturf.com/en/" target="_blank">Field Turf</a></li>
             <li><a href="http://www.dtelepathy.com/" target="_blank">Digital Telepathy</a></li>
             <li><a href="http://www.diamond.com/" target="_blank">Diamond.com</a></li>
+            <li><a href="http://www.edisonnation.com" target="_blank">Edison Nation</a></li>
           </ul>
         </div><?php // one-fourth ?>
         <div class="clients">

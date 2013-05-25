@@ -1,6 +1,6 @@
   <footer>
     <div class="container">
-      <a href="/" class="boompah">
+      <a href="/" class="boompah hidden-mobile">
         <span class="screen-reader-text">Boompah</span>
       </a>
       <ul class="services hidden-mobile">
@@ -19,7 +19,8 @@
         <li><a href="">E-Commerce</a></li>
         <li><a href="">E-mail Campaigns</a></li>
       </ul>
-      <ul>
+      <ul class="nav">
+        <li><a name="footer-menu" href="#top">Top of page <i class="icon-arrow-up"></i></a></li>
         <?php include 'menu-core.php'; ?>
       </ul>
       <div class="copyright">
@@ -42,6 +43,11 @@
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));
+  
+  if (/mobile/i.test(navigator.userAgent) && !window.location.hash) { window.onload = function () {
+    window.scrollTo(0, 1);
+  }; }
+  
   </script>
   
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
