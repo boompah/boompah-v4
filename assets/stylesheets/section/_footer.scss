@@ -5,6 +5,9 @@ footer {
 		float: left;		
 		padding-left: 0;
 		margin-left: 10%;
+		@include respond-to(large-screens) { 
+			margin-left: 6%;
+			}
 		list-style: none;
 		text-transform: uppercase;
 		

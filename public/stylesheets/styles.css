@@ -252,6 +252,9 @@ footer {
     margin-left: 10%;
     list-style: none;
     text-transform: uppercase; }
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+      footer ul {
+        margin-left: 6%; } }
     footer ul li a, footer ul li a:link, footer ul li a:visited {
       font-size: .9em; }
   footer a, footer a:link, footer a:visited {

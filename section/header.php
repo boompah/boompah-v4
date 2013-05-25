@@ -14,7 +14,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
   <?php // CSS ?>
-  <link rel="stylesheet" href="/assets/css/normalize.min.css">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
   <link rel="stylesheet" href="/public/stylesheets/styles.css">
   
   <?php // Google Fonts ?>
