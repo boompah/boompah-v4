@@ -32,8 +32,21 @@ h1 {
     h1 {
       font-size: 1.25em; } }
 
+h2 {
+  font-size: 2.25em;
+  line-height: 1.5em; }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    h2 {
+      font-size: 1.75em; } }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    h2 {
+      font-size: 1.5em; } }
+  @media only screen and (max-width: 479px) {
+    h2 {
+      font-size: 1.25em; } }
+
 h3 {
-  font-size: 2em;
+  font-size: 1.5em;
   line-height: 2em; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
     h3 {
@@ -44,6 +57,29 @@ h3 {
   @media only screen and (max-width: 479px) {
     h3 {
       font-size: 1em; } }
+
+p {
+  font-size: 1em; }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    p {
+      font-size: 1em; } }
+  @media only screen and (max-width: 767px) {
+    p {
+      font-size: .8em; } }
+
+ul, ol {
+  font-size: 1em; }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    ul, ol {
+      font-size: 1em; } }
+  @media only screen and (max-width: 767px) {
+    ul, ol {
+      font-size: .8em; } }
+
+ul li {
+  margin-bottom: 20px; }
+  ul li a, ul li a:link, ul li a:visited {
+    font-size: 1.2em; }
 
 .container {
   padding: 0 1.2em;
@@ -60,8 +96,7 @@ h3 {
     text-align: center;
     text-transform: uppercase;
     font-weight: normal;
-    padding: .5em 0;
-    font-size: 2.5em; }
+    padding: .5em 0; }
 
 #masthead-wrapper {
   padding: 4% 0;
@@ -71,16 +106,6 @@ h3 {
     margin: 5% auto 5%; }
   #masthead-wrapper h3 {
     font-weight: normal; }
-
-/* ---------------------------------------------------------------------
-
-	Lists
-
------------------------------------------------------------------------- */
-ul li {
-  margin-bottom: 20px; }
-  ul li a, ul li a:link, ul li a:visited {
-    font-size: 1.2em; }
 
 .showcase {
   text-align: center;
@@ -135,7 +160,6 @@ ul li {
     color: white; }
   .showcase .services-points h3 {
     text-transform: uppercase;
-    font-size: 1.5em;
     font-weight: normal; }
   .showcase .services-points ul li a, .showcase .services-points ul li a:link, .showcase .services-points ul li a:visited {
     color: #469fdb; }
@@ -227,7 +251,8 @@ body.home .light-bg {
   border-top: 1px solid #aab2bf;
   border-bottom: 1px solid #aab2bf; }
 body.home #masthead-wrapper h1 {
-  color: #a5a5ce; }
+  color: #a5a5ce;
+  font-weight: normal; }
 body.home #masthead-wrapper h3 {
   color: #797999; }
 body.home #header {
@@ -242,8 +267,6 @@ body.home .usability-research p {
   margin-bottom: 4em; }
 body.home .usability-research p.last {
   margin-bottom: 0; }
-body.home .usability-research a, body.home .usability-research p.intro {
-  font-size: 1.5em; }
 body.home .usability-research p.intro {
   margin: 0;
   line-height: 2em; }
@@ -319,6 +342,11 @@ footer {
         margin-left: 1em; }
         footer .copyright ul li a, footer .copyright ul li a:link, footer .copyright ul li a:visited {
           font-size: 2em; }
+    footer .copyright ul.social-links {
+      float: none;
+      margin-left: 3em;
+      width: 60%;
+      font-size: 1.25em; }
     footer .copyright p, footer .copyright ul {
       margin-top: 3em; }
     footer .copyright p {
@@ -345,6 +373,8 @@ nav.primary {
     display: block;
     background: url(/assets/images/logo-nav.png) no-repeat;
     float: left; }
+  nav.primary a.mobile-nav:hover {
+    text-decoration: none; }
   nav.primary ul {
     margin-top: 45px;
     float: right;

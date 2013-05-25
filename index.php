@@ -1,3 +1,7 @@
+<?php
+  $title = 'User Experience Design and Social Media Science - Boompah';
+  $description = 'Boompah is a User Interface &amp; Development Boutique founded by Ryan Bollenbach and based in Winnipeg, Canada.';
+?>
 <?php include 'section/header.php'; ?>
 <body class="home">
   <?php include 'section/chrome-frame.php'; ?>
@@ -7,10 +11,7 @@
       <img src="/public/images/logo-circle.png" alt="Boompah" class="logo-boompah-circle-landing" />
       <section class="main-content">
         <h1>Boompah is a User Interface &amp; Development Boutique created by Ryan Bollenbach and is based in Winnipeg, Canada.</h1>
-        <h3>We collaborate with businesses to design elegant, fresh interfaces for web applications,
-        boutique websites and e-commerce stores. We strive to create timeless designs that perform 
-        beautifully across mobile, tablet and desktop devices.
-        We believe in evidence driven design.</h3>
+        <h3>We collaborate with businesses to design interfaces for web applications, boutique websites and e-commerce stores. We also enjoy social media science and evidence driven design.</h3>
       </div>
     </div><?php // container ?>
   </div><?php // masthead-wrapper home ?>

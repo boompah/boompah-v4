@@ -24,7 +24,7 @@
       </ul>
       <div class="copyright">
         <p>&copy; Boompah 2006 - <?php echo date("Y") ?>. All rights reserved.</p>
-        <ul>
+        <ul class="social-links">
           <li><a class="icon-twitter" href=""><span class="screen-reader-text">Boompah on Twitter</span></a></li>
           <li><a class="icon-facebook" href=""><span class="screen-reader-text">Boompah on Facebook</span></a></li>
           <li><a href="" class="icon-linkedin"><span class="screen-reader-text">Boompah on LinkedIn</span></a></li>

@@ -8,7 +8,9 @@ nav.primary {
 		background: url(/assets/images/logo-nav.png) no-repeat;
 		float: left;
 	}
-	
+	a.mobile-nav:hover {
+		text-decoration: none;
+	}
 	ul {
 		margin-top: 45px;
 		float: right;

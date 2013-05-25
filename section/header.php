@@ -8,9 +8,9 @@
   <?php // Basic Page Needs ?>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Boompah - Winnipeg Web Design, UX, HTML, CSS, Wordpress</title>
-  <meta name="author" content="Ryan Bollenbach">
-  <meta name="description" content="Boompah is a User Interface &amp; Development Boutique founded by Ryan Bollenbach and based in Winnipeg, Canada.">
+  <title><?php echo $title; ?></title>
+	<meta name="description" content="<?php echo $description; ?>">
+	<meta name="author" content="Ryan Bollenbach">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
   <?php // CSS ?>
