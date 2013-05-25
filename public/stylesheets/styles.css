@@ -7,15 +7,6 @@ body {
   margin: 0;
   padding: 0; }
 
-/* 
-
-	Typography 
-	
-	Google Font Typefaces
-	font-family: 'Lora', serif;
-	font-family: 'Montserrat', sans-serif;
-
-*/
 h1, h2, h3, h4, h5, h6, p, a, ul {
   font-family: 'Montserrat', sans-serif; }
 
@@ -192,10 +183,13 @@ a:hover {
   text-decoration: underline; }
 
 a.button {
-  padding: 10px 60px;
-  font-size: 25px;
+  font-size: 1em;
+  padding: 1em 3em;
   background-color: #3b5998;
   color: white; }
+  @media only screen and (max-width: 767px) {
+    a.button {
+      font-size: .9em; } }
 
 a.button, a.button:link, a.button:visited, a.button:hover {
   text-decoration: none; }
@@ -335,18 +329,19 @@ footer {
     margin-top: 3em; }
     footer .copyright:last-child {
       margin-right: 0; }
-    footer .copyright ul {
+    footer .copyright ul.social-links {
       float: right; }
-      footer .copyright ul li {
+      footer .copyright ul.social-links li {
         float: right;
         margin-left: 1em; }
-        footer .copyright ul li a, footer .copyright ul li a:link, footer .copyright ul li a:visited {
+        footer .copyright ul.social-links li a, footer .copyright ul.social-links li a:link, footer .copyright ul.social-links li a:visited {
           font-size: 2em; }
-    footer .copyright ul.social-links {
-      float: none;
-      margin-left: 3em;
-      width: 60%;
-      font-size: 1.25em; }
+      @media only screen and (max-width: 767px) {
+        footer .copyright ul.social-links {
+          float: none;
+          margin-left: 3em;
+          width: 60%;
+          font-size: 1.25em; } }
     footer .copyright p, footer .copyright ul {
       margin-top: 3em; }
     footer .copyright p {

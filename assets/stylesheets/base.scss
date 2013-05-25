@@ -4,14 +4,16 @@
 @import 'config/mixins.scss';
 
 // Base
+@import "config/variables.scss";
 @import "layout.scss";
-@import "variables.scss";
 
 // Views
-@import "views/base.scss";
+@import "views/home.scss";
 
 // Section
-@import "section/base.scss";
+@import "section/header.scss";
+@import "section/footer.scss";
+@import "section/navigation.scss";
 
 /* SASS Notes
 	
