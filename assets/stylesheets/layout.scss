@@ -99,6 +99,35 @@ ul {
 	
 } // masthead-wrapper
 
+// ---------------------------------------------------------------------
+
+	// Links
+
+// ---------------------------------------------------------------------
+
+a, a:link, a:visited {
+	text-decoration: none;
+	color: $link-blue;
+	font-weight: normal;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a.button, a.button:link, a.button:visited, a.button:hover { text-decoration: none; }
+
+a.button, a.button:visited {
+	font-size: 1em;
+	@include respond-to(handhelds-and-medium-screens) { font-size: .9em; }
+	padding: 1em 3em;
+	background-color: $link-blue;
+	color: $white;
+	@include transition (all 0.35s ease-in-out);
+}
+
+a.button:hover { background-color: lighten($link-blue, 10%); }
+a.button:active { background-color: darken($link-blue, 10%); }
 
 // ---------------------------------------------------------------------
 
@@ -154,35 +183,6 @@ ul {
 		@include border-right-radius(25px);
 	}
 	
-	.services-points {
-		
-		h4, ul {
-			text-align: left;
-			color: $white;
-			@include respond-to(handhelds-and-medium-screens) { 
-				text-align: center;
-			}
-		}
-		
-		h4 {
-			text-transform: uppercase;
-			font-weight: normal;
-		}
-		
-		ul {
-			li {				
-				a, a:link, a:visited {
-					color: #469fdb;
-				}
-				a:hover {
-					text-decoration: none;
-				}
-				
-			} // li
-		} // ul
-		
-	} // services-points
-	
 	.panel {
 		@include span-columns(4);
 		@include respond-to(handhelds-and-medium-screens) { 
@@ -199,28 +199,6 @@ ul {
 .light-bg { 
 	h3 { text-transform: uppercase; }
 }
-
-/* Links */
-
-a, a:link, a:visited {
-	text-decoration: none;
-	color: $link-blue;
-	font-weight: normal;
-}
-
-a:hover {
-	text-decoration: underline;
-}
-
-a.button {
-	font-size: 1em;
-	@include respond-to(handhelds-and-medium-screens) { font-size: .9em; }
-	padding: 1em 3em;
-	background-color: $link-blue;
-	color: $white;
-}
-
-a.button, a.button:link, a.button:visited, a.button:hover { text-decoration: none; }
 
 /* Miscellaneous Helpers */
 .screen-reader-text {

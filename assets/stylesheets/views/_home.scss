@@ -31,16 +31,16 @@ body.home {
 	
 	#header{
 		border-bottom: 2px solid $medium-purple;
-		
-		nav.primary {
-			a {
-				color: $soft-purple;
-				}
-			a.selected, a.selected:visited {
-				background-color: $gray-purple;
-			}
-		} // nav.primary
 	} // #header
+	
+	nav.primary,  {
+		a { color: $soft-purple; }
+		a:hover { color: lighten($soft-purple, 10%); }
+		a:active { color: darken($soft-purple, 10%); }
+		a.selected, a.selected:visited { background-color: $gray-purple; }
+		a.selected:hover { background-color: lighten($gray-purple, 10%); }
+		a.selected:active { background-color: darken($gray-purple, 10%); }
+	} // nav.primary
 	
 	.usability-research {
 		h3 { 
@@ -63,40 +63,63 @@ body.home {
 	} // usability-research
 	
 	.services-points {
-		@include respond-to(handhelds-and-medium-screens) {
-			h3, ul {
-				list-style: none;
+		h4 {
+			text-transform: uppercase;
+			font-weight: normal;
+		}
+		
+		h4, ul {
+			text-align: left;
+			color: $white;
+			@include respond-to(handhelds-and-medium-screens) {
 				text-align: center;
 			}
-			ul {
+		}
+		
+		ul {
+			@include respond-to(handhelds-and-medium-screens) {
 				list-style: none;
 				padding-left: 0;
 			}
-		}
-	}
-	
+			li {				
+				a, a:link, a:visited {
+					color: $hot-blue;
+					@include transition (all 0.35s ease-in-out);
+				}
+				a:hover {
+					text-decoration: none;
+					color: darken($hot-blue, 20%);
+				}
+				a:active {
+					color: lighten($hot-blue, 10%);
+				}
+			} // li
+		} // ul
+	} // services-points
+
 	footer {
-		
-		.services a {
-			color: #595996;
-		}
+		a { @include transition (all 0.35s ease-in-out); }
+		.services a { color: $soft-purple; }
+		.services a:hover { color: lighten($soft-purple, 10%); }
+		.services a:active { color: darken($soft-purple, 10%); }
 		
 		a.boompah {
 			background: url(/assets/images/logo-circle-footer-home.png);
 		}
 		
 		.copyright {
-			border-top: 1px solid #41415b;
+			border-top: 1px solid $medium-purple;
 			
 			p {
 				margin-top: 3em;
-				color: #41415b;
+				color: $subtle-purple;
 			}
 			
 			a {
-				color: #41415b;
+				color: $secondary-purple;
 			}
-			
+			a:hover { color: lighten($secondary-purple, 10%); }
+			a:active { color: darken($secondary-purple, 10%); }
 		} // copyright
 	} // footer
 } // body.home

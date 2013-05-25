@@ -27,13 +27,15 @@ footer {
 				padding: 1em 0;
 				text-align: center;
 				display: block;
-				background-color: $light-blue;
+				background-color: $light-purple;
 				color: $dark-blue;
 				@include border-top-radius(5px);
 				@include border-bottom-radius(5px);
 				@include border-left-radius(5px);
 				@include border-right-radius(5px);
 			}
+			a:hover { background-color: darken($light-purple, 20%); }
+			a:active { background-color: darken($light-purple, 10%); }
 		}
 		@include respond-to(large-screens) { 
 			margin-left: 0;
@@ -43,7 +45,7 @@ footer {
 				padding: 1em 0;
 				text-align: center;
 				display: block;
-				background-color: $light-blue;
+				background-color: $light-purple;
 				color: $dark-blue;
 				@include border-top-radius(5px);
 				@include border-bottom-radius(5px);
@@ -53,8 +55,12 @@ footer {
 		}
 	}
 		
-	a, a:link, a:visited { color: white; }
-	a:hover { text-decoration: none; }
+	a, a:link, a:visited { color: $white; }
+	a:hover {
+		text-decoration: none;
+		color: darken($white, 40%);
+	}
+	a:active { color: darken($white, 20%); }
 	
 	a.boompah {
 		background-repeat: no-repeat;
