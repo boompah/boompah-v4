@@ -4,9 +4,7 @@
   <?php include 'section/navigation.php' ?>
   <div id="masthead-wrapper">
     <div class="container">
-      <div id="logo-circle">
-        <img src="/public/images/logo-circle.png" alt="Boompah" />
-      </div>
+      <img src="/public/images/logo-circle.png" alt="Boompah" class="logo-boompah-circle-landing" />
       <section class="main-content">
         <h1>Boompah is a User Interface &amp; Development Boutique created by Ryan Bollenbach and is based in Winnipeg, Canada.</h1>
         <h3>We collaborate with businesses to design elegant, fresh interfaces for web applications,

@@ -20,10 +20,30 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   font-family: 'Montserrat', sans-serif; }
 
 h1 {
-  font-size: 2.5em; }
+  font-size: 2.5em;
+  line-height: 1.5em; }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    h1 {
+      font-size: 1.75em; } }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    h1 {
+      font-size: 1.5em; } }
+  @media only screen and (max-width: 479px) {
+    h1 {
+      font-size: 1.25em; } }
 
 h3 {
-  font-size: 2em; }
+  font-size: 2em;
+  line-height: 2em; }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    h3 {
+      font-size: 1.5em; } }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    h3 {
+      font-size: 1.25em; } }
+  @media only screen and (max-width: 479px) {
+    h3 {
+      font-size: 1em; } }
 
 .container {
   padding: 0 1.2em;
@@ -48,12 +68,9 @@ h3 {
   text-align: center; }
   #masthead-wrapper h1 {
     display: block;
-    margin: 5% auto 5%;
-    line-height: 1.5em; }
+    margin: 5% auto 5%; }
   #masthead-wrapper h3 {
-    font-weight: normal;
-    font-size: 1.25em;
-    line-height: 2em; }
+    font-weight: normal; }
 
 /* ---------------------------------------------------------------------
 
@@ -65,11 +82,6 @@ ul li {
   ul li a, ul li a:link, ul li a:visited {
     font-size: 1.2em; }
 
-/* ---------------------------------------------------------------------
-
-	Showcase
-
------------------------------------------------------------------------- */
 .showcase {
   text-align: center;
   padding-bottom: 60px; }
@@ -109,7 +121,15 @@ ul li {
     text-transform: uppercase; }
   .showcase a.button {
     margin: .5em 0;
-    display: inline-block; }
+    display: inline-block;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px; }
   .showcase .services-points h3, .showcase .services-points ul {
     text-align: left;
     color: white; }
@@ -188,6 +208,18 @@ a.button, a.button:link, a.button:visited, a.button:hover {
   width: 21%;
   text-align: left; }
 
+.logo-boompah-circle-landing {
+  height: auto; }
+  @media only screen and (max-width: 767px) {
+    .logo-boompah-circle-landing {
+      margin: 1.25em 0; } }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .logo-boompah-circle-landing {
+      width: 200px; } }
+  @media only screen and (max-width: 479px) {
+    .logo-boompah-circle-landing {
+      width: 150px; } }
+
 body.home #masthead-wrapper, body.home #header, body.home footer, body.home .dark-bg {
   background-color: #232333; }
 body.home .light-bg {
@@ -243,6 +275,11 @@ body.home footer .copyright {
 
 #header {
   height: 110px; }
+
+.mobile-nav {
+  float: right;
+  font-size: 2em;
+  margin: 1em .5em 0 0; }
 
 footer {
   padding: 5em 0; }
@@ -321,7 +358,15 @@ nav.primary {
       nav.primary ul li a:hover {
         text-decoration: none; }
       nav.primary ul li a.selected {
-        padding: 10px 25px; }
+        padding: 10px 25px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px; }
 
 /* SASS Notes
 	

@@ -28,7 +28,10 @@ nav.primary {
 			
 			a.selected {
 				padding: 10px 25px;
-				// @include border-radius(20px);
+				@include border-top-radius(20px);
+				@include border-bottom-radius(20px);
+				@include border-left-radius(20px);
+				@include border-right-radius(20px);
 			}
 		} // li
 	} // ul
