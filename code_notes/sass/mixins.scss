@@ -117,3 +117,26 @@ $border-style: 1px solid red !default;
 	border-radius: 3px 3px 0 0;
 	border: 1px solid orange;
 }
+
+////////////////////
+// Mixin with expressions in Selectors and Property Name (interpolation)
+////////////////////
+
+// Define
+
+$class-name: over-qualified-selector;
+$css-attribute: border;
+
+@mixin test-mixin($name, $attribute) {
+	p.#{$name} {
+		#{$attribute}-color: blue;
+	}
+}
+
+@include test-mixin($class-name, $class-attribute);
+
+// Output
+
+p.over-qualified-selector {
+	border-color: blue;
+}
