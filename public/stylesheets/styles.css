@@ -266,15 +266,14 @@ body.home nav.primary a.selected:hover {
   background-color: #4d4d6d; }
 body.home nav.primary a.selected:active {
   background-color: #232331; }
+body.home .usability-research p {
+  margin-bottom: 3em; }
 body.home .usability-research h3 {
   margin-top: 1.5em; }
-body.home .usability-research p {
-  margin-bottom: 4em; }
+body.home .usability-research h4 {
+  font-weight: normal; }
 body.home .usability-research p.last {
   margin-bottom: 0; }
-body.home .usability-research p.intro {
-  margin: 0;
-  line-height: 2em; }
 body.home .services-points h4 {
   text-transform: uppercase;
   font-weight: normal; }

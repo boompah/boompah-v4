@@ -43,22 +43,10 @@ body.home {
 	} // nav.primary
 	
 	.usability-research {
-		h3 { 
-			margin-top: 1.5em;
-		}
-		
-		p {
-			margin-bottom: 4em;
-		}
-		
-		p.last {
-			margin-bottom: 0;
-		}
-		
-		p.intro {
-			margin: 0;
-			line-height: 2em;
-		}
+		p { margin-bottom: 3em; }
+		h3 { margin-top: 1.5em; }
+		h4 { font-weight: normal; }
+		p.last { margin-bottom: 0; }
 		
 	} // usability-research
 	

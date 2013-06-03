@@ -1,0 +1,35 @@
+// is a parent selector reference
+
+// Define
+
+button {
+	background: gray;
+	border: 1px solid black;
+	border-radus: 5px;
+	&.fail {
+		color: red;
+		border-color: red;
+		}
+	}
+
+// Output
+button.fail {
+	color: red;
+	border-color: red;
+}
+
+// Define
+
+.box {
+	width: 800px;
+	.no-boxsizing & {
+		width: 738px;
+	}
+}
+
+
+// Output
+
+.no-boxsizing .box {
+	width: 738px;
+}

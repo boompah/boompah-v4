@@ -10,7 +10,7 @@
     <div class="container">
       <img src="/public/images/logo-circle.png" alt="Boompah" class="logo-boompah-circle-landing" />
       <section class="main-content">
-        <h1>Boompah is a User Interface &amp; Development Boutique created by Ryan Bollenbach and is based in Winnipeg, Canada.</h1>
+        <h1>Boompah is a User Interface &amp; Development Boutique created by Ryan Bollenbach and is based in Winnipeg, Manitoba.</h1>
         <h3>We collaborate with businesses to design interfaces for web applications, boutique websites and e-commerce stores. We also enjoy the science of social media and evidence driven design.</h3>
       </div>
     </div><?php // container ?>
@@ -61,7 +61,7 @@
       <div class="row services-points">
         <div class="panel">
           <div class="image-placeholder"></div>
-          <h4>Graphic Design</h4>
+          <h4>Branding</h4>
           <ul>
             <li><a href="" title="Logo Design">Logo Design</a></li>
             <li><a href="" title="Web Design">Web Design</a></li>
@@ -73,7 +73,7 @@
         </div><?php // panel one-third ?>
         <div class="panel">
           <div class="image-placeholder"></div>
-          <h4>Interaction Design</h4>
+          <h4>Interface Design</h4>
           <ul>
             <li><a href="">Wireframes &amp; Prototypes</a></li>
             <li><a href="">Responsive Web Design</a></li>
@@ -90,7 +90,7 @@
             <li>HTML5 &amp; CSS3</li>
             <li>HAML, ERB, SASS, SCSS, LESS</li>
             <li>Javascript and jQuery</li>
-            <li>Wordpress and Various CMS'</li>
+            <li>Custom Wordpress Themes</li>
             <li>E-commerce Stores</li>
           </ul>
         </div><?php // panel one-third ?>
@@ -158,7 +158,7 @@
   <div class="showcase light-bg usability-research">
     <div class="container">
       <h2>Usability Research</h2>
-      <p class="intro">It's one thing to design based on personal preference, assumptions, common mental models and trends. It’s a whole different ball game to use evidence at the base of your conceptual decisions while maintaining an open floor to innovation. We gather research to help reinforce our ideas.</p>
+      <h4>It's one thing to design based on personal preference, assumptions, common mental models and trends. It’s a whole different ball game to use evidence at the base of your conceptual decisions while maintaining an open floor to innovation. We gather research to help reinforce our ideas.</h4>
       <h3>Recent findings</h3>
       <a href="">How changing a single word increased click through rate by 161%</a>
       <p>Veeam Case Study by Siddharth Deswal</p>
