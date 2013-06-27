@@ -22,20 +22,37 @@
         <div class="panel">
           <div class="image-placeholder"></div>
           <p>Diamond education, sister site of <a href="http://ice.com" target="_blank" title="Online Jewelry Shop">ice.com.</a></p>
-          <p class="cta"><a href="http://diamond.com" target="_blank" title="Diamond.com - Jewelry Education">Live site</a> <span class="link-split">|</span> <a href="#">Case Study</a></p>
+          <p class="cta"><a href="http://diamond.com" target="_blank" title="Diamond.com - Jewelry Education">Live site</a> <span class="link-split">|</span> <a href="/views/work/diamond">Case Study</a></p>
         </div>
         <div class="panel">
           <div class="image-placeholder"></div>
-          <p>Doyoulookgood</p>
-          <p class="cta"><a href="http://doyoulookgood.com" target="_blank" title="Doyoulookgood">Live site</a> <span class="link-split">|</span> <a href="#">Case Study</a></p>
+          <p>International audio equipment distributor</p>
+          <p class="cta"><a href="/views/work/skullycandy">Case Study</a></p>
         </div>
         <div class="panel last">
           <div class="image-placeholder"></div>
           <p>Quebec based Hollywood gossip blog</p>
-          <p class="cta"><a href="http://hollywoodpq.com" target="_blank" title="Hollywood PQ">Live site</a> <span class="link-split">|</span> <a href="#">Case Study</a></p>
+          <p class="cta"><a href="http://hollywoodpq.com" target="_blank" title="Hollywood PQ">Live site</a> <span class="link-split">|</span> <a href="/views/work/diamond">Case Study</a></p>
         </div>
       </div><?php // row ?>
-      <a href="#" class="button" title="View Portfolio">View Portfolio</a>
+      <div class="row">
+        <div class="panel">
+          <div class="image-placeholder"></div>
+          <p>Montreal based Photographer</p>
+          <p class="cta"><a href="http://diamond.com" target="_blank" title="Diamond.com - Jewelry Education">Live site</a> <span class="link-split">|</span> <a href="/views/work/diamond">Case Study</a></p>
+        </div>
+        <div class="panel">
+          <div class="image-placeholder"></div>
+          <p>Montreal Art Collective</p>
+          <p class="cta"><a href="http://diamond.com" target="_blank" title="Diamond.com - Jewelry Education">Live site</a> <span class="link-split">|</span> <a href="/views/work/diamond">Case Study</a></p>
+        </div>
+        <div class="panel last">
+          <div class="image-placeholder"></div>
+          <p>Online Dating Site</p>
+          <p class="cta"><a href="http://diamond.com" target="_blank" title="Diamond.com - Jewelry Education">Live site</a> <span class="link-split">|</span> <a href="/views/work/diamond">Case Study</a></p>
+        </div>
+      </div><?php // row ?>
+      <a href="/work" class="button" title="View Portfolio">View Portfolio</a>
     </div><?php // container ?>
   </div><?php // showcase ?>
   <div class="showcase dark-bg">
@@ -46,24 +63,24 @@
           <div class="image-placeholder"></div>
           <h4>Branding</h4>
           <ul>
-            <li><a href="#" title="Logo Design">Logo Design</a></li>
-            <li><a href="#" title="Web Design">Web Design</a></li>
-            <li><a href="#" title="Style Guides">Style Guides</a></li>
-            <li><a href="#" title="Business Cards">Business Cards</a></li>
-            <li><a href="#" title="iAB Advertisements">iAB Advertisements</a></li>
-            <li><a href="#" title="Media Kits">Media Kits</a></li>
+            <li><a href="" title="Logo Design">Logo Design</a></li>
+            <li><a href="" title="Web Design">Web Design</a></li>
+            <li><a href="" title="Style Guides">Style Guides</a></li>
+            <li><a href="" title="Business Cards">Business Cards</a></li>
+            <li><a href="" title="iAB Advertisements">iAB Advertisements</a></li>
+            <li><a href="" title="Media Kits">Media Kits</a></li>
           </ul>
         </div><?php // panel one-third ?>
         <div class="panel">
           <div class="image-placeholder"></div>
           <h4>Interface Design</h4>
           <ul>
-            <li><a href="#">Wireframes &amp; Prototypes</a></li>
-            <li><a href="#">Responsive Web Design</a></li>
-            <li><a href="#">Boutique Websites</a></li>
-            <li><a href="#">Web Applications</a></li>
-            <li><a href="#">E-Commerce</a></li>
-            <li><a href="#">E-mail Campaigns</a></li>
+            <li><a href="">Wireframes &amp; Prototypes</a></li>
+            <li><a href="">Responsive Web Design</a></li>
+            <li><a href="">Boutique Websites</a></li>
+            <li><a href="">Web Applications</a></li>
+            <li><a href="">E-Commerce</a></li>
+            <li><a href="">E-mail Campaigns</a></li>
           </ul>
         </div><?php // panel one-third ?>
         <div class="panel">
@@ -143,16 +160,16 @@
       <h2>Usability Research</h2>
       <h4>It's one thing to design based on personal preference, assumptions, common mental models and trends. It’s a whole different ball game to use evidence at the base of your conceptual decisions while maintaining an open floor to innovation. We gather research to help reinforce our ideas.</h4>
       <h3>Recent findings</h3>
-      <a href="http://visualwebsiteoptimizer.com/split-testing-blog/increase-click-through-rate/" target="_blank">How changing a single word increased click through rate by 161%</a>
+      <a href="">How changing a single word increased click through rate by 161%</a>
       <p>Veeam Case Study by Siddharth Deswal</p>
 
-      <a href="http://boompah.tumblr.com/post/42793917768/when-instinct-trumps-reason-jonah-lehrer" target="_blank">When Instinct Trumps Reason - Jonah Lehrer</a>
+      <a href="">When Instinct Trumps Reason - Jonah Lehrer</a>
       <p>Jonah Lehrer, author of How We Choose, discusses the limitations of rational thought and explains that while the human prefrontal cortex is a "magnificent piece of machinery," it easily short circuits when given too much information.</p>
 
-      <a href="http://electricpulp.com/notes/you-like-apples/" target="_blank">Responsive Web Design by Electric Pulp for O’Neill Clothing increases mobile revenue by 692.67%</a>
+      <a href="">Responsive Web Design by Electric Pulp for O’Neill Clothing increases mobile revenue by 692.67%</a>
       <p>E-commerce case study by Electric Pulp</p>
 
-      <a href="http://diythemes.com/thesis/increase-conversions-split-testing/" target="_blank">DIYThemes: 102.0% improvement on email newsletter sign-up page</a>
+      <a href="">DIYThemes: 102.0% improvement on email newsletter sign-up page</a>
       <p class="last">Newsletter module sign up conversion case study of removing social proof.</p>
     </div><?php // container ?>
   </div><?php // showcase ?>
