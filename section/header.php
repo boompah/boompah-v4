@@ -14,8 +14,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
   <?php // CSS ?>
-  <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
-  <link rel="stylesheet" href="/public/stylesheets/styles.css">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/stylesheets/styles.css">
   
   <?php // Google Fonts ?>
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>

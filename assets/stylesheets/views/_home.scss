@@ -85,6 +85,8 @@ body.home {
 		} // ul
 	} // services-points
 
+	/* Featured Work */
+
 	.featured-work {
 		.panel-block {
 			border: 1px solid lighten($black, 85%);
@@ -93,6 +95,31 @@ body.home {
 		.panel-block.two-m-two {
 			background-color: $black;
 			border: 1px solid $black;
+		}
+	}
+
+	/* Clients */
+	.gray-bg {
+		border-top: 1px solid lighten($black, 85%);
+	}
+
+	.clients {
+		ul {
+			li{
+				margin-bottom: 20px;
+				a{
+					background-color: $black;
+					padding: .5em 1em;
+					color: $white;
+					display: block;
+					@include border-top-radius(6px);
+					@include border-bottom-radius(6px);
+					@include border-left-radius(6px);
+					@include border-right-radius(6px);
+				}
+				a.beckner { background-color: $beckner-blue; }
+				a.capital-rlh { background-color: $beckner-blue; }
+			}
 		}
 	}
 

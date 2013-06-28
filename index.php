@@ -20,7 +20,7 @@
       <h2>Featured Work</h2>
       <div class="row">
         <div class="panel">
-          <a href="http://ice.com" target="_blank" title="Online Jewelry Shop">
+          <a href="http://diamond.com" target="_blank" title="Diamond.com - Jewelry Education">
             <div class="panel-block diamond">
               <img src="assets/images/featured-work/diamond.png" alt="Diamond" title="Diamond" />
             </div>
@@ -49,53 +49,14 @@
       </div><?php // row ?>
     </div><?php // container ?>
   </div><?php // showcase ?>
-  <div class="showcase dark-bg">
-    <div class="container">
-      <h2>Services</h2>
-      <div class="row services-points">
-        <div class="panel">
-          <h4>Branding</h4>
-          <ul>
-            <li><a href="#" title="Logo Design">Logo Design</a></li>
-            <li><a href="#" title="Web Design">Web Design</a></li>
-            <li><a href="#" title="Style Guides">Style Guides</a></li>
-            <li><a href="#" title="Business Cards">Business Cards</a></li>
-            <li><a href="#" title="iAB Advertisements">iAB Advertisements</a></li>
-            <li><a href="#" title="Media Kits">Media Kits</a></li>
-          </ul>
-        </div><?php // panel one-third ?>
-        <div class="panel">
-          <h4>Interface Design</h4>
-          <ul>
-            <li><a href="#">Wireframes &amp; Prototypes</a></li>
-            <li><a href="#">Responsive Web Design</a></li>
-            <li><a href="#">Boutique Websites</a></li>
-            <li><a href="#">Web Applications</a></li>
-            <li><a href="#">E-Commerce</a></li>
-            <li><a href="#">E-mail Campaigns</a></li>
-          </ul>
-        </div><?php // panel one-third ?>
-        <div class="panel">
-          <h4>Development</h4>
-          <ul>
-            <li>HTML5 &amp; CSS3</li>
-            <li>HAML, ERB, SASS, SCSS, LESS</li>
-            <li>Javascript and jQuery</li>
-            <li>Custom Wordpress Themes</li>
-            <li>E-commerce Stores</li>
-          </ul>
-        </div><?php // panel one-third ?>
-      </div><?php // row ?>
-    </div><?php // container ?>
-  </div><?php // showcase ?>
-  <div class="showcase hidden-mobile">
+  <div class="showcase gray-bg hidden-mobile">
     <div class="container">
       <h2>We've worked with</h2>
       <div class="row">
         <div class="clients">
           <ul>
-            <li><a href="http://becknercontracting.com/" target="_blank">Beckner Contracting</a></li>
-            <li><a href="http://www.capitalrlh.com/index-en.php" target="_blank">Capital RLH</a></li>
+            <li><a href="http://becknercontracting.com/" target="_blank" class="beckner">Beckner Contracting</a></li>
+            <li><a href="http://www.capitalrlh.com/index-en.php" target="_blank" class="capital-rlh">Capital RLH</a></li>
             <li><a href="http://oboxmedia.com/" target="_blank">Oboxmedia</a></li>
             <li><a href="http://doyoulookgood.com/index/home?lang=en" target="_blank">Doyoulookgood</a></li>
             <li><a href="http://hollywoodpq.com/" target="_blank">Hollywood PQ</a></li>

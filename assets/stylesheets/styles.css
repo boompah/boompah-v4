@@ -189,6 +189,9 @@ a.button:active {
 .light-bg h3 {
   text-transform: uppercase; }
 
+.gray-bg {
+  background-color: #f2f2f2; }
+
 /* Miscellaneous Helpers */
 .screen-reader-text {
   position: absolute;
@@ -234,103 +237,127 @@ a.button:active {
     .logo-boompah-circle-landing {
       width: 150px; } }
 
-body.home ::selection {
-  background: #CC0000;
-  /* Safari */
-  color: white; }
-body.home ::-moz-selection {
-  background: #CC0000;
-  /* Firefox */
-  color: white; }
-body.home #masthead-wrapper, body.home #header, body.home footer, body.home .dark-bg {
-  background-color: #232333; }
-body.home .light-bg {
-  background-color: #e4e7ee;
-  border-top: 1px solid #aab2bf;
-  border-bottom: 1px solid #aab2bf; }
-body.home #masthead-wrapper h1 {
-  color: #a5a5ce;
-  font-weight: normal; }
-body.home #masthead-wrapper h3 {
-  color: #797999; }
-body.home #header {
-  border-bottom: 2px solid #393951; }
-body.home nav.primary a {
-  color: #7070ba; }
-body.home nav.primary a:hover {
-  color: #9292cb; }
-body.home nav.primary a:active {
-  color: #5050a7; }
-body.home nav.primary a.selected, body.home nav.primary a.selected:visited {
-  background-color: #38384f; }
-body.home nav.primary a.selected:hover {
-  background-color: #4d4d6d; }
-body.home nav.primary a.selected:active {
-  background-color: #232331; }
-body.home .usability-research p {
-  margin-bottom: 3em; }
-body.home .usability-research h3 {
-  margin-top: 1.5em; }
-body.home .usability-research h4 {
-  font-weight: normal; }
-body.home .usability-research p.last {
-  margin-bottom: 0; }
-body.home .services-points h4 {
-  text-transform: uppercase;
-  font-weight: normal; }
-body.home .services-points h4, body.home .services-points ul {
-  text-align: left;
-  color: white; }
-  @media only screen and (max-width: 767px) {
-    body.home .services-points h4, body.home .services-points ul {
-      text-align: center; } }
-@media only screen and (max-width: 767px) {
-  body.home .services-points ul {
-    list-style: none;
-    padding-left: 0; } }
-body.home .services-points ul li a, body.home .services-points ul li a:link, body.home .services-points ul li a:visited {
-  color: #469fdb;
-  -webkit-transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -ms-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
-  transition: all 0.35s ease-in-out; }
-body.home .services-points ul li a:hover {
-  text-decoration: none;
-  color: #1e6a9d; }
-body.home .services-points ul li a:active {
-  color: #71b5e3; }
-body.home .featured-work .panel-block {
-  border: 1px solid #d9d9d9;
-  background-color: white; }
-body.home .featured-work .panel-block.two-m-two {
-  background-color: black;
-  border: 1px solid black; }
-body.home footer a {
-  -webkit-transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -ms-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
-  transition: all 0.35s ease-in-out; }
-body.home footer .services a {
-  color: #7070ba; }
-body.home footer .services a:hover {
-  color: #9292cb; }
-body.home footer .services a:active {
-  color: #5050a7; }
-body.home footer a.boompah {
-  background: url(/assets/images/logo-circle-footer-home.png); }
-body.home footer .copyright {
-  border-top: 1px solid #393951; }
-  body.home footer .copyright p {
-    margin-top: 3em;
-    color: #41415b; }
-  body.home footer .copyright a {
+body.home {
+  /* Featured Work */
+  /* Clients */ }
+  body.home ::selection {
+    background: #CC0000;
+    /* Safari */
+    color: white; }
+  body.home ::-moz-selection {
+    background: #CC0000;
+    /* Firefox */
+    color: white; }
+  body.home #masthead-wrapper, body.home #header, body.home footer, body.home .dark-bg {
+    background-color: #232333; }
+  body.home .light-bg {
+    background-color: #e4e7ee;
+    border-top: 1px solid #aab2bf;
+    border-bottom: 1px solid #aab2bf; }
+  body.home #masthead-wrapper h1 {
+    color: #a5a5ce;
+    font-weight: normal; }
+  body.home #masthead-wrapper h3 {
     color: #797999; }
-  body.home footer .copyright a:hover {
-    color: #9696af; }
-  body.home footer .copyright a:active {
-    color: #60607f; }
+  body.home #header {
+    border-bottom: 2px solid #393951; }
+  body.home nav.primary a {
+    color: #7070ba; }
+  body.home nav.primary a:hover {
+    color: #9292cb; }
+  body.home nav.primary a:active {
+    color: #5050a7; }
+  body.home nav.primary a.selected, body.home nav.primary a.selected:visited {
+    background-color: #38384f; }
+  body.home nav.primary a.selected:hover {
+    background-color: #4d4d6d; }
+  body.home nav.primary a.selected:active {
+    background-color: #232331; }
+  body.home .usability-research p {
+    margin-bottom: 3em; }
+  body.home .usability-research h3 {
+    margin-top: 1.5em; }
+  body.home .usability-research h4 {
+    font-weight: normal; }
+  body.home .usability-research p.last {
+    margin-bottom: 0; }
+  body.home .services-points h4 {
+    text-transform: uppercase;
+    font-weight: normal; }
+  body.home .services-points h4, body.home .services-points ul {
+    text-align: left;
+    color: white; }
+    @media only screen and (max-width: 767px) {
+      body.home .services-points h4, body.home .services-points ul {
+        text-align: center; } }
+  @media only screen and (max-width: 767px) {
+    body.home .services-points ul {
+      list-style: none;
+      padding-left: 0; } }
+  body.home .services-points ul li a, body.home .services-points ul li a:link, body.home .services-points ul li a:visited {
+    color: #469fdb;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out; }
+  body.home .services-points ul li a:hover {
+    text-decoration: none;
+    color: #1e6a9d; }
+  body.home .services-points ul li a:active {
+    color: #71b5e3; }
+  body.home .featured-work .panel-block {
+    border: 1px solid #d9d9d9;
+    background-color: white; }
+  body.home .featured-work .panel-block.two-m-two {
+    background-color: black;
+    border: 1px solid black; }
+  body.home .gray-bg {
+    border-top: 1px solid #d9d9d9; }
+  body.home .clients ul li {
+    margin-bottom: 20px; }
+    body.home .clients ul li a {
+      background-color: black;
+      padding: .5em 1em;
+      color: white;
+      display: block;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+      border-bottom-left-radius: 6px;
+      border-bottom-right-radius: 6px;
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px; }
+    body.home .clients ul li a.beckner {
+      background-color: #10456b; }
+    body.home .clients ul li a.capital-rlh {
+      background-color: #10456b; }
+  body.home footer a {
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out; }
+  body.home footer .services a {
+    color: #7070ba; }
+  body.home footer .services a:hover {
+    color: #9292cb; }
+  body.home footer .services a:active {
+    color: #5050a7; }
+  body.home footer a.boompah {
+    background: url(/assets/images/logo-circle-footer-home.png); }
+  body.home footer .copyright {
+    border-top: 1px solid #393951; }
+    body.home footer .copyright p {
+      margin-top: 3em;
+      color: #41415b; }
+    body.home footer .copyright a {
+      color: #797999; }
+    body.home footer .copyright a:hover {
+      color: #9696af; }
+    body.home footer .copyright a:active {
+      color: #60607f; }
 
 #logo-circle {
   margin: auto;
@@ -523,7 +550,7 @@ nav.primary {
 /* SASS Notes
 	
 	Compile SASS
-	sass --watch assets/stylesheets/base.scss:public/stylesheets/styles.css
+	sass --watch assets/stylesheets/base.scss:assets/stylesheets/styles.css
 	
 	Bourbon
 	$ bourbon help

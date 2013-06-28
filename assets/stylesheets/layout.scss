@@ -200,6 +200,10 @@ a.button:active { background-color: darken($link-blue, 10%); }
 	h3 { text-transform: uppercase; }
 }
 
+.gray-bg {
+	background-color: lighten($black, 95%);
+}
+
 /* Miscellaneous Helpers */
 .screen-reader-text {
 	position: absolute;
