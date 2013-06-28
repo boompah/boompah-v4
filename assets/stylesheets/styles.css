@@ -329,9 +329,54 @@ body.home {
       border-bottom-left-radius: 6px;
       border-top-right-radius: 6px;
       border-bottom-right-radius: 6px; }
-    body.home .clients ul li a.beckner {
+    body.home .clients ul li .beckner {
       background-color: #10456b; }
-    body.home .clients ul li a.capital-rlh {
+    body.home .clients ul li .capital-rlh {
+      background-color: #10456b; }
+    body.home .clients ul li .oboxmedia {
+      background-color: #1abede; }
+    body.home .clients ul li .doyoulookgood {
+      background-color: #fb7a00; }
+    body.home .clients ul li .hollywoodpq {
+      background-color: #e572a7; }
+    body.home .clients ul li .mographtv {
+      background-color: #1abede; }
+    body.home .clients ul li .fellerath {
+      background-color: #720e1d; }
+    body.home .clients ul li .fbs {
+      background-color: #589cc6; }
+    body.home .clients ul li .pente-group {
+      background-color: #cc1e27; }
+    body.home .clients ul li .net-vacations {
+      background-color: #1abede; }
+    body.home .clients ul li .tungle-me {
+      background-color: #9ac146; }
+    body.home .clients ul li .field-turf {
+      background-color: #118546; }
+    body.home .clients ul li .diamond {
+      background-color: #998c9a; }
+    body.home .clients ul li .edison-nation {
+      background-color: #cc1e27; }
+    body.home .clients ul li .reitmans {
+      background-color: #7e8083; }
+    body.home .clients ul li .cineflix {
+      background-color: #10456b; }
+    body.home .clients ul li .osm {
+      background-color: #322e84; }
+    body.home .clients ul li .orange-leap {
+      background-color: #fb7a00; }
+    body.home .clients ul li .the-big-studio {
+      background-color: #fb7a00; }
+    body.home .clients ul li .tracelink {
+      background-color: #322e84; }
+    body.home .clients ul li .tarkett {
+      background-color: #10456b; }
+    body.home .clients ul li .ybp {
+      background-color: #2dfec8;
+      color: black; }
+    body.home .clients ul li .j3concepts {
+      background-color: #652d90; }
+    body.home .clients ul li .telestream {
       background-color: #10456b; }
   body.home footer a {
     -webkit-transition: all 0.35s ease-in-out;

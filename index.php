@@ -55,53 +55,52 @@
       <div class="row">
         <div class="clients">
           <ul>
-            <li><a href="http://becknercontracting.com/" target="_blank" class="beckner">Beckner Contracting</a></li>
-            <li><a href="http://www.capitalrlh.com/index-en.php" target="_blank" class="capital-rlh">Capital RLH</a></li>
-            <li><a href="http://oboxmedia.com/" target="_blank">Oboxmedia</a></li>
-            <li><a href="http://doyoulookgood.com/index/home?lang=en" target="_blank">Doyoulookgood</a></li>
-            <li><a href="http://hollywoodpq.com/" target="_blank">Hollywood PQ</a></li>
-            <li><a href="https://www.facebook.com/mographtv" target="_blank">Mograph TV</a></li>
             <li><a href="http://grooveshark.com/" target="_blank">Grooveshark</a></li>
-            <li><a href="https://www.flexmls.com/" target="_blank">FBS - FlexMLS</a></li>
-            <li><a href="http://fellerath.com/" target="_blank">Kate Fellerath</a></li>
+            <li><a href="http://www.capitalrlh.com/index-en.php" target="_blank" class="capital-rlh">Capital RLH</a></li>
+            <li><a href="http://oboxmedia.com/" target="_blank" class="oboxmedia">Oboxmedia</a></li>
+            <li><a href="http://doyoulookgood.com/index/home?lang=en" target="_blank" class="doyoulookgood">Doyoulookgood</a></li>
+            <li><a href="http://hollywoodpq.com/" target="_blank" class="hollywoodpq">Hollywood PQ</a></li>
+            <li><a href="http://cheapthrillsss.com/" target="_blank">Cheap Thrills</a></li>
+            <li><a href="https://www.facebook.com/mographtv" target="_blank" class="mographtv">Mograph TV</a></li>
+            <li><a href="https://www.flexmls.com/" target="_blank" class="fbs">FBS - FlexMLS</a></li>
           </ul>
         </div><?php // one-fourth ?>
         <div class="clients">
           <ul>
-            <li><a href="http://pentegroup.com/" target="_blank">Pente Group</a></li>
-            <li><a href="http://www.rudsak.com/" target="_blank">Rudsack</a></li>
-            <li><a href="http://www.netvacations.ca/en" target="_blank">Net Vacations.ca</a></li>
-            <li><a href="http://www.tungle.me/index.html" target="_blank">Tungle.me</a></li>
-            <li><a href="http://cheapthrillsss.com/" target="_blank">Cheap Thrills</a></li>
-            <li><a href="http://www.fieldturf.com/en/" target="_blank">Field Turf</a></li>
+            <li><a href="http://www.aldoshoes.com/ca-eng" target="_blank">ALDO</a></li>
+            <li><a href="http://pentegroup.com/" target="_blank" class="pente-group">Pente Group</a></li>
+            <li><a href="http://tracelink.com/" target="blank" class="tracelink">Tracelink</a></li>
+            <li><a href="http://www.2m2.ca/" target="_blank">2M2</a></li>
+            <li><a href="http://www.fieldturf.com/en/" target="_blank" class="field-turf">Field Turf</a></li>
             <li><a href="http://www.dtelepathy.com/" target="_blank">Digital Telepathy</a></li>
-            <li><a href="http://www.diamond.com/" target="_blank">Diamond.com</a></li>
-            <li><a href="http://www.edisonnation.com" target="_blank">Edison Nation</a></li>
+            <li><a href="http://www.diamond.com/" target="_blank" class="diamond">Diamond.com</a></li>
+            <li><a href="http://www.edisonnation.com" target="_blank" class="edison-nation">Edison Nation</a></li>
+            <li><a href="http://fellerath.com/" target="_blank" class="fellerath">Kate Fellerath</a></li>
           </ul>
         </div><?php // one-fourth ?>
         <div class="clients">
           <ul>
             <li><a href="http://www.godynamo.com/" target="_blank">Dynamo</a></li>
-            <li><a href="http://www.2m2.ca/" target="_blank">2M2</a></li>
-            <li><a href="http://www.reitmans.com/" target="_blank">Reitmans</a></li>
-            <li><a href="http://www.aldoshoes.com/ca-eng" target="_blank">ALDO</a></li>
-            <li><a href="http://www.cineflix.com/" target="_blank">Cineflix</a></li>
+            <li><a href="http://www.tungle.me/index.html" target="_blank" class="tungle-me">Tungle.me</a></li>
+            <li><a href="http://www.reitmans.com/" target="_blank" class="reitmans">Reitmans</a></li>
+            <li><a href="http://www.rudsak.com/" target="_blank">Rudsack</a></li>
+            <li><a href="http://www.cineflix.com/" target="_blank" class="cineflix">Cineflix</a></li>
             <li><a href="http://www.liberte.ca/en/nutrition-health/" target="_blank">Liberte Nutrition</a></li>
-            <li><a href="http://www.osm.ca/en" target="_blank">OSM</a></li>
-            <li><a href="http://www.milkshakemedia.com/" target="blank">Milkshake Media</a></li>
+            <li><a href="http://www.osm.ca/en" target="_blank" class="osm">OSM</a></li>
+            <li><a href="http://www.orangeleap.com/index.shtml" target="blank" class="orange-leap">Orange Leap</a></li>
           </ul>
         </div><?php // one-fourth ?>
         <div class="clients">
           <ul>
-            <li><a href="http://www.orangeleap.com/index.shtml" target="blank">Orange Leap</a></li>
-            <li><a href="http://thebig-studio.com/" target="blank">The Big Studio</a></li>
-            <li><a href="http://tracelink.com/" target="blank">Tracelink</a></li>
-            <li><a href="https://www.putnam.com/" target="blank">Putnum Investments</a></li>
             <li><a href="http://www.rw-co.com/" target="blank">RW&amp;CO</a></li>
-            <li><a href="http://www.tarkett.com/" target="blank">Tarkett</a></li>
-            <li><a href="http://www.yellowbirdproject.com/" target="blank">Yellow Bird Project</a></li>
-            <li><a href="http://www.jthreeconcepts.com/" target="blank">j3concepts</a></li>
-            <li><a href="http://www.telestream.net/" target="blank">Telestream</a></li>
+            <li><a href="http://thebig-studio.com/" target="blank" class="the-big-studio">The Big Studio</a></li>
+            <li><a href="http://www.netvacations.ca/en" target="_blank" class="net-vacations">Net Vacations.ca</a></li>
+            <li><a href="https://www.putnam.com/" target="blank">Putnum Investments</a></li>
+            <li><a href="http://becknercontracting.com/" target="_blank" class="beckner">Beckner Contracting</a></li>
+            <li><a href="http://www.tarkett.com/" target="blank" class="tarkett">Tarkett</a></li>
+            <li><a href="http://www.yellowbirdproject.com/" target="blank" class="ybp">Yellow Bird Project</a></li>
+            <li><a href="http://www.jthreeconcepts.com/" target="blank" class="j3concepts">j3concepts</a></li>
+            <li><a href="http://www.telestream.net/" target="blank" class="telestream">Telestream</a></li>
           </ul>
         </div><?php // one-fourth ?>
       </div><?php // row ?>

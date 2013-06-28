@@ -117,8 +117,31 @@ body.home {
 					@include border-left-radius(6px);
 					@include border-right-radius(6px);
 				}
-				a.beckner { background-color: $beckner-blue; }
-				a.capital-rlh { background-color: $beckner-blue; }
+
+				.beckner { background-color: $beckner-blue; }
+				.capital-rlh { background-color: $beckner-blue; }
+				.oboxmedia { background-color: $oboxmedia-blue; }
+				.doyoulookgood { background-color: $dylg-orange; }
+				.hollywoodpq { background-color: $hollywood-pink; }
+				.mographtv { background-color: $oboxmedia-blue; }
+				.fellerath { background-color: $fellerath-red; }
+				.fbs { background-color: $fbs-blue; }
+				.pente-group { background-color: $pente-red; }
+				.net-vacations { background-color: $oboxmedia-blue; }
+				.tungle-me { background-color: $tungle-green; }
+				.field-turf { background-color: $fieldturf-green; }
+				.diamond { background-color: $diamond-purple; }
+				.edison-nation { background-color: $pente-red; }
+				.reitmans { background-color: $reitmans-gray; }
+				.cineflix { background-color: $beckner-blue; }
+				.osm { background-color: $osm-blue; }
+				.orange-leap { background-color: $dylg-orange; }
+				.the-big-studio { background-color: $dylg-orange; }
+				.tracelink { background-color: $osm-blue; }
+				.tarkett { background-color: $beckner-blue; }
+				.ybp { background-color: $ybp-teal; color: $black; }
+				.j3concepts { background-color: $j3concepts-purple; }
+				.telestream { background-color: $beckner-blue; }
 			}
 		}
 	}
