@@ -85,6 +85,17 @@ body.home {
 		} // ul
 	} // services-points
 
+	.featured-work {
+		.panel-block {
+			border: 1px solid lighten($black, 85%);
+			background-color: $white;
+		}
+		.panel-block.two-m-two {
+			background-color: $black;
+			border: 1px solid $black;
+		}
+	}
+
 	footer {
 		a { @include transition (all 0.35s ease-in-out); }
 		.services a { color: $soft-purple; }

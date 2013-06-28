@@ -207,10 +207,11 @@ a.button:active { background-color: darken($link-blue, 10%); }
 	left: -9999px;
 }
 
-.image-placeholder {
+.panel-block {
 	background-color: $light-blue;
 	border: 1px solid $light-blue-border;
-	height: 200px;
+	height: 202px;
+	text-align: center;
 }
 
 @include respond-to(handhelds-and-medium-screens) { 

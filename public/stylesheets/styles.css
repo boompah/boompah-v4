@@ -195,10 +195,11 @@ a.button:active {
   top: -9999px;
   left: -9999px; }
 
-.image-placeholder {
+.panel-block {
   background-color: #e4e7ee;
   border: 1px solid #aab2bf;
-  height: 200px; }
+  height: 202px;
+  text-align: center; }
 
 @media only screen and (max-width: 767px) {
   .hidden-mobile {
@@ -299,6 +300,12 @@ body.home .services-points ul li a:hover {
   color: #1e6a9d; }
 body.home .services-points ul li a:active {
   color: #71b5e3; }
+body.home .featured-work .panel-block {
+  border: 1px solid #d9d9d9;
+  background-color: white; }
+body.home .featured-work .panel-block.two-m-two {
+  background-color: black;
+  border: 1px solid black; }
 body.home footer a {
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;

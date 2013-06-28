@@ -8,34 +8,45 @@
   <?php include 'section/navigation.php' ?>
   <div id="masthead-wrapper">
     <div class="container">
-      <img src="/public/images/logo-circle.png" alt="Boompah" class="logo-boompah-circle-landing" />
+      <img src="assets/images/logo-circle.png" alt="Boompah" class="logo-boompah-circle-landing" />
       <section class="main-content">
         <h1>Boompah is a User Interface &amp; Development Boutique created by Ryan Bollenbach and is based in Winnipeg, Manitoba.</h1>
         <h3>We collaborate with businesses to design interfaces for web applications, boutique websites and e-commerce stores. We also enjoy the science of social media and evidence driven design.</h3>
       </div>
     </div><?php // container ?>
   </div><?php // masthead-wrapper home ?>
-  <div class="showcase">
+  <div class="showcase featured-work">
     <div class="container">
       <h2>Featured Work</h2>
       <div class="row">
         <div class="panel">
-          <div class="image-placeholder"></div>
-          <p>Diamond education, sister site of <a href="http://ice.com" target="_blank" title="Online Jewelry Shop">ice.com.</a></p>
+          <a href="http://ice.com" target="_blank" title="Online Jewelry Shop">
+            <div class="panel-block diamond">
+              <img src="assets/images/featured-work/diamond.png" alt="Diamond" title="Diamond" />
+            </div>
+          </a>
+          <p>Diamond.com, sister site of <a href="http://ice.com" target="_blank" title="Online Jewelry Shop">ice.com.</a></p>
           <p class="cta"><a href="http://diamond.com" target="_blank" title="Diamond.com - Jewelry Education">Live site</a> <span class="link-split">|</span> <a href="#">Case Study</a></p>
         </div>
         <div class="panel">
-          <div class="image-placeholder"></div>
-          <p>Doyoulookgood</p>
-          <p class="cta"><a href="http://doyoulookgood.com" target="_blank" title="Doyoulookgood">Live site</a> <span class="link-split">|</span> <a href="#">Case Study</a></p>
+          <a href="http://2m2.ca" target="_blank" title="2M2, Montreal Art Collective">
+            <div class="panel-block two-m-two">
+              <img src="assets/images/featured-work/2m2.png" alt="2m2" title="2m2" />
+            </div>
+          </a>
+          <p>2M2, Montreal Art Collective</a></p>
+          <p class="cta"><a href="http://2m2.ca" target="_blank" title="2M2, Montreal Art Collective">Live site</a> <span class="link-split">|</span> <a href="#">Case Study</a></p>
         </div>
         <div class="panel last">
-          <div class="image-placeholder"></div>
+          <a href="http://hollywoodpq.com" target="_blank" title="Hollywood PQ">
+            <div class="panel-block hollywood-pq">
+              <img src="assets/images/featured-work/hollywoodpq.png" alt="Hollywood PQ" title="Hollywood PQ" />
+            </div>
+          </a>
           <p>Quebec based Hollywood gossip blog</p>
           <p class="cta"><a href="http://hollywoodpq.com" target="_blank" title="Hollywood PQ">Live site</a> <span class="link-split">|</span> <a href="#">Case Study</a></p>
         </div>
       </div><?php // row ?>
-      <a href="#" class="button" title="View Portfolio">View Portfolio</a>
     </div><?php // container ?>
   </div><?php // showcase ?>
   <div class="showcase dark-bg">
@@ -43,7 +54,6 @@
       <h2>Services</h2>
       <div class="row services-points">
         <div class="panel">
-          <div class="image-placeholder"></div>
           <h4>Branding</h4>
           <ul>
             <li><a href="#" title="Logo Design">Logo Design</a></li>
@@ -55,7 +65,6 @@
           </ul>
         </div><?php // panel one-third ?>
         <div class="panel">
-          <div class="image-placeholder"></div>
           <h4>Interface Design</h4>
           <ul>
             <li><a href="#">Wireframes &amp; Prototypes</a></li>
@@ -67,7 +76,6 @@
           </ul>
         </div><?php // panel one-third ?>
         <div class="panel">
-          <div class="image-placeholder"></div>
           <h4>Development</h4>
           <ul>
             <li>HTML5 &amp; CSS3</li>
@@ -166,14 +174,20 @@
           <em>Dan collaborated with Ryan on various UX tasks</em>
         </p>
         <h4>Dan Nelson, FBS</h4>
-        <p class="role">
-
-        <p>"Ryan is a great collaborator. We had some very complex projects involving multiple team members and he was able to get up to speed on our business, engage all the people involved, and be central to the creative process. Ryan helped us achieve cleaner designs than we would have without his good communication and design skills."</p>
+        <p>"Ryan is a great collaborator. We had some very complex projects involving multiple team members and he was able to get up to speed on our business, 
+          engage all the people involved, and be central to the creative process. Ryan helped us achieve cleaner designs than we would have without his good communication and design skills."</p>
         <p class="role">
           <strong>Top qualities:</strong> Great Results, Personable, High Integrity<br />
           <em>Mike Managed Ryan directly.</em>
         </p>
         <h4>Michael Wurzer, FBS</h4>
+        <p>"Ryan has a great eye for design and was instrumental in helping build the look and feel of the Tungle brand.  We have been really impressed with his work over the years."</p>
+        <p class="role">Erin worked with Ryan directly at Tungle.me.</p>
+        <h4>Erin Lariviere, Marketing Coordinator at Tungle.me</h4>
+        <p>"Ryan's life is full of passion. It's evident in everything he creates. MographTV started as an exercise in creating a community around a brand and has become something much bigger. It's hard not to be inspired by Ryan's continual efforts to always be creating."</p>
+        <p class="role">Chris collaborated with Ryan at <a href="https://www.facebook.com/mographtv" target="_blank">MographTV.com.</a></p>
+        </p>
+        <h4>Chris Savoie</h4>
       </div><?php // half ?>
       <div class="half">
         <p>"Not longer after working with Ryan, it became clear to me that he has a lot of passion for design and is committed to constantly developing his skills, both technical and creative. He also happens to be a pleasure to work with!"</p>
@@ -190,6 +204,14 @@
           Tungle was acquired by BlackBerry in April 2011
         </p>
         <h4>Mark MacLeod</h4>
+        <p>"I was really impressed with how professional Ryan was during an interview I did with him for <a href="https://www.facebook.com/mographtv" target="_blank">MographTV.com.</a> <a href="https://www.facebook.com/mographtv" target="_blank">MographTV.com</a> started from nothing but an idea that Ryan had one day and has become one of THE sites you have to know if you are into motion graphics."</p>
+        <h4>Michael Waldron, President &amp; creative director at nailgun*, worked together at Mograph TV.</h4>
+
+        <p>"Ryan is dedicated and full of initiatives with whom I had to chance to work with on MographTV. He invested time and shared his passion for carefully done work throughout brainstorming sessions to the release of our video."</p>
+        <p class="role">
+          Dave collaborated with Ryan at <a href="https://www.facebook.com/mographtv" target="_blank">MographTV.com.</a>
+        </p>
+        <h4>David Mondou-Labbe</h4>
       </div><?php // half ?>
     </div><?php // container ?>
   </div><?php // showcase ?>
