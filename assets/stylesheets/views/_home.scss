@@ -118,39 +118,82 @@ body.home {
 				margin-bottom: 20px;
 				a{
 					background-color: $black;
+					&:hover { background-color: lighten($black, 30%); }
+
 					padding: .5em 1em;
 					color: $white;
 					display: block;
+					text-decoration: none;
+
 					@include border-top-radius(6px);
 					@include border-bottom-radius(6px);
 					@include border-left-radius(6px);
 					@include border-right-radius(6px);
+
+					@include transition (all 0.35s ease-in-out);
+						
+						i { float: right; }
 				}
 
-				.beckner { background-color: $beckner-blue; }
-				.capital-rlh { background-color: $beckner-blue; }
-				.oboxmedia { background-color: $oboxmedia-blue; }
-				.doyoulookgood { background-color: $dylg-orange; }
-				.hollywoodpq { background-color: $hollywood-pink; }
-				.mographtv { background-color: $oboxmedia-blue; }
-				.fellerath { background-color: $fellerath-red; }
-				.fbs { background-color: $fbs-blue; }
-				.pente-group { background-color: $pente-red; }
-				.net-vacations { background-color: $oboxmedia-blue; }
-				.tungle-me { background-color: $tungle-green; }
-				.field-turf { background-color: $fieldturf-green; }
-				.diamond { background-color: $diamond-purple; }
-				.edison-nation { background-color: $pente-red; }
-				.reitmans { background-color: $reitmans-gray; }
+				.telestream,
+				.beckner,
+				.capital-rlh,
+				.tarkett,
+				.capital-rlh,
+				.tarkett,
 				.cineflix { background-color: $beckner-blue; }
-				.osm { background-color: $osm-blue; }
-				.orange-leap { background-color: $dylg-orange; }
+				
+				.telestream:hover,
+				.beckner:hover,
+				.capital-rlh:hover,
+				.tarkett:hover,
+				.telestream:hover,
+				.cineflix:hover { background-color: lighten($beckner-blue, 15%); }
+
+				.oboxmedia { background-color: $oboxmedia-blue; }
+				.oboxmedia:hover { background-color: darken($oboxmedia-blue, 15%); }
+
+				.doyoulookgood,
 				.the-big-studio { background-color: $dylg-orange; }
-				.tracelink { background-color: $osm-blue; }
-				.tarkett { background-color: $beckner-blue; }
+				
+				.doyoulookgood:hover,
+				.the-big-studio:hover { background-color: darken($dylg-orange, 10%) ; }
+
+				.hollywoodpq { background-color: $hollywood-pink; }
+				.hollywoodpq:hover { background-color: darken($hollywood-pink, 10%); }
+				
+				.fellerath { background-color: $fellerath-red; }
+				.fellerath:hover { background-color: lighten($fellerath-red, 10%); }
+
+				.fbs { background-color: $fbs-blue; }
+				.fbs:hover { background-color: darken($fbs-blue, 10%); }
+
+				.pente-group,
+				.edison-nation { background-color: $pente-red; }
+				
+				.edison-nation:hover,
+				.pente-group:hover { background-color: darken($pente-red, 10%); }
+				
+				.tungle-me { background-color: $tungle-green; }
+				.tungle-me:hover { background-color: darken($tungle-green, 10%); }
+
+				.field-turf { background-color: $fieldturf-green; }
+				.field-turf:hover { background-color: lighten($fieldturf-green, 10%); }
+
+				.diamond { background-color: $diamond-purple; }
+				.diamond:hover { background-color: lighten($diamond-purple, 10%); }
+
+				.reitmans { background-color: $reitmans-gray; }
+				.reitmans:hover { background-color: darken($reitmans-gray, 10%); }
+
+				.osm { background-color: $osm-blue; }
+				.osm:hover { background-color: lighten($osm-blue, 15%); }
+
 				.ybp { background-color: $ybp-teal; color: $black; }
+				.ybp:hover { background-color: darken($ybp-teal, 15%); }
+
 				.j3concepts { background-color: $j3concepts-purple; }
-				.telestream { background-color: $beckner-blue; }
+				.j3concepts:hover { background-color: lighten($j3concepts-purple, 15%); }
 			}
 		}
 	}

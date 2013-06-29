@@ -55,44 +55,44 @@
       <div class="row">
         <div class="clients">
           <ul>
-            <li><a href="http://grooveshark.com/" target="_blank">Grooveshark</a></li>
-            <li><a href="http://oboxmedia.com/" target="_blank" class="oboxmedia">Oboxmedia</a></li>
-            <li><a href="http://doyoulookgood.com/index/home?lang=en" target="_blank" class="doyoulookgood">Doyoulookgood</a></li>
-            <li><a href="http://hollywoodpq.com/" target="_blank" class="hollywoodpq">Hollywood PQ</a></li>
-            <li><a href="https://www.flexmls.com/" target="_blank" class="fbs">FBS - FlexMLS</a></li>
-            <li><a href="http://www.edisonnation.com" target="_blank" class="edison-nation">Edison Nation</a></li>
-            <li><a href="http://fellerath.com/" target="_blank" class="fellerath">Kate Fellerath</a></li>
+            <li><a href="http://grooveshark.com/" target="_blank">Grooveshark<i class="icon-headphones"></i></a></li>
+            <li><a href="http://oboxmedia.com/" target="_blank" class="oboxmedia">Oboxmedia<i class="icon-fighter-jet"></i></a></li>
+            <li><a href="http://doyoulookgood.com/index/home?lang=en" target="_blank" class="doyoulookgood">Doyoulookgood<i class="icon-group"></i></a></li>
+            <li><a href="http://hollywoodpq.com/" target="_blank" class="hollywoodpq">Hollywood PQ<i class="icon-comments"></i></a></li>
+            <li><a href="https://www.flexmls.com/" target="_blank" class="fbs">FBS - FlexMLS<i class="icon-home"></i></a></li>
+            <li><a href="http://www.edisonnation.com" target="_blank" class="edison-nation">Edison Nation<i class="icon-bolt"></i></a></li>
+            <li><a href="http://fellerath.com/" target="_blank" class="fellerath">Kate Fellerath<i class="icon-camera-retro"></i></a></li>
           </ul>
         </div><?php // one-fourth ?>
         <div class="clients">
           <ul>
-            <li><a href="http://www.aldoshoes.com/ca-eng" target="_blank">ALDO</a></li>
-            <li><a href="http://pentegroup.com/" target="_blank" class="pente-group">Pente Group</a></li>
-            <li><a href="http://www.2m2.ca/" target="_blank">2M2</a></li>
-            <li><a href="http://www.fieldturf.com/en/" target="_blank" class="field-turf">Field Turf</a></li>
-            <li><a href="http://www.dtelepathy.com/" target="_blank">Digital Telepathy</a></li>
-            <li><a href="http://www.diamond.com/" target="_blank" class="diamond">Diamond.com</a></li>
+            <li><a href="http://www.aldoshoes.com/ca-eng" target="_blank">ALDO<i class="icon-star"></i></a></li>
+            <li><a href="http://pentegroup.com/" target="_blank" class="pente-group">Pente Group<i class="icon-picture"></i></a></li>
+            <li><a href="http://www.2m2.ca/" target="_blank">2M2<i class="icon-camera-retro"></i></a></li>
+            <li><a href="http://www.fieldturf.com/en/" target="_blank" class="field-turf">Field Turf<i class="icon-sun"></i></a></li>
+            <li><a href="http://www.dtelepathy.com/" target="_blank">Digital Telepathy<i class="icon-pencil"></i></a></li>
+            <li><a href="http://www.diamond.com/" target="_blank" class="diamond">Diamond.com<i class="icon-female"></i></a></li>
           </ul>
         </div><?php // one-fourth ?>
         <div class="clients">
           <ul>
-            <li><a href="http://www.godynamo.com/" target="_blank">Dynamo</a></li>
-            <li><a href="http://www.tungle.me/index.html" target="_blank" class="tungle-me">Tungle.me</a></li>
-            <li><a href="http://www.reitmans.com/" target="_blank" class="reitmans">Reitmans</a></li>
-            <li><a href="http://www.rudsak.com/" target="_blank">Rudsack</a></li>
-            <li><a href="http://www.cineflix.com/" target="_blank" class="cineflix">Cineflix</a></li>
-            <li><a href="http://www.liberte.ca/en/nutrition-health/" target="_blank">Liberte Nutrition</a></li>
-            <li><a href="http://www.osm.ca/en" target="_blank" class="osm">OSM</a></li>
+            <li><a href="http://www.godynamo.com/" target="_blank">Dynamo<i class="icon-fighter-jet"></i></a></li>
+            <li><a href="http://www.reitmans.com/" target="_blank" class="reitmans">Reitmans<i class="icon-female"></i></a></li>
+            <li><a href="http://techcrunch.com/2012/09/18/rim-to-shut-down-tungle-me-team-will-focus-on-blackberry-10-calendar-app/" target="_blank" class="tungle-me">Tungle.me<i class="icon-calendar"></i></a></li>
+            <li><a href="http://www.rudsak.com/" target="_blank">Rudsack<i class="icon-star"></i></a></li>
+            <li><a href="http://www.cineflix.com/" target="_blank" class="cineflix">Cineflix<i class="icon-film"></i></a></li>
+            <li><a href="http://www.liberte.ca/en/nutrition-health/" target="_blank">Liberte Nutrition<i class="icon-heart"></i></a></li>
+            <li><a href="http://www.osm.ca/en" target="_blank" class="osm">OSM<i class="icon-music"></i></a></li>
           </ul>
         </div><?php // one-fourth ?>
         <div class="clients">
           <ul>
-            <li><a href="http://www.rw-co.com/" target="blank">RW&amp;CO</a></li>
-            <li><a href="http://thebig-studio.com/" target="blank" class="the-big-studio">The Big Studio</a></li>
-            <li><a href="http://www.yellowbirdproject.com/" target="blank" class="ybp">Yellow Bird Project</a></li>
-            <li><a href="http://www.tarkett.com/" target="blank" class="tarkett">Tarkett</a></li>
-            <li><a href="http://www.jthreeconcepts.com/" target="blank" class="j3concepts">j3concepts</a></li>
-            <li><a href="https://www.putnam.com/" target="blank">Putnum Investments</a></li>
+            <li><a href="http://www.rw-co.com/" target="blank">RW&amp;CO<i class="icon-star"></i></a></li>
+            <li><a href="http://thebig-studio.com/" target="blank" class="the-big-studio">The Big Studio<i class="icon-plane"></i></a></li>
+            <li><a href="http://www.yellowbirdproject.com/" target="blank" class="ybp">Yellow Bird Project<i class="icon-music"></i></a></li>
+            <li><a href="http://www.tarkett.com/" target="blank" class="tarkett">Tarkett<i class="icon-sun"></i></a></li>
+            <li><a href="http://www.jthreeconcepts.com/" target="blank" class="j3concepts">j3concepts<i class="icon-fighter-jet"></i></a></li>
+            <li><a href="https://www.putnam.com/" target="blank">Putnum Investments<i class="icon-money"></i></a></li>
           </ul>
         </div><?php // one-fourth ?>
       </div><?php // row ?>
