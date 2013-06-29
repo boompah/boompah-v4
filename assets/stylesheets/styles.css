@@ -340,78 +340,94 @@ body.home {
         background-color: #4d4d4d; }
       body.home .clients ul li a i {
         float: right; }
-    body.home .clients ul li .telestream,
-    body.home .clients ul li .beckner,
-    body.home .clients ul li .capital-rlh,
-    body.home .clients ul li .tarkett,
-    body.home .clients ul li .capital-rlh,
-    body.home .clients ul li .tarkett,
-    body.home .clients ul li .cineflix {
+    body.home .clients ul li .royal-blue {
       background-color: #10456b; }
-    body.home .clients ul li .telestream:hover,
-    body.home .clients ul li .beckner:hover,
-    body.home .clients ul li .capital-rlh:hover,
-    body.home .clients ul li .tarkett:hover,
-    body.home .clients ul li .telestream:hover,
-    body.home .clients ul li .cineflix:hover {
+    body.home .clients ul li .royal-blue:hover {
       background-color: #1a70ae; }
+    body.home .clients ul li .royal-blue:active {
+      background-color: #135381; }
     body.home .clients ul li .oboxmedia {
       background-color: #1abede; }
     body.home .clients ul li .oboxmedia:hover {
-      background-color: #12839a; }
-    body.home .clients ul li .doyoulookgood,
-    body.home .clients ul li .the-big-studio {
+      background-color: #1597b0; }
+    body.home .clients ul li .oboxmedia:active {
+      background-color: #2bc8e6; }
+    body.home .clients ul li .orange {
       background-color: #fb7a00; }
-    body.home .clients ul li .doyoulookgood:hover,
-    body.home .clients ul li .the-big-studio:hover {
+    body.home .clients ul li .orange:hover {
       background-color: #c86100; }
+    body.home .clients ul li .orange:active {
+      background-color: #ff8716; }
     body.home .clients ul li .hollywoodpq {
       background-color: #e572a7; }
     body.home .clients ul li .hollywoodpq:hover {
       background-color: #dd478c; }
+    body.home .clients ul li .hollywoodpq:active {
+      background-color: #e988b4; }
     body.home .clients ul li .fellerath {
       background-color: #720e1d; }
     body.home .clients ul li .fellerath:hover {
       background-color: #9f1429; }
+    body.home .clients ul li .fellerath:active {
+      background-color: #cd1934; }
     body.home .clients ul li .fbs {
       background-color: #589cc6; }
     body.home .clients ul li .fbs:hover {
       background-color: #3c83af; }
+    body.home .clients ul li .fbs:active {
+      background-color: #2f6789; }
     body.home .clients ul li .pente-group,
     body.home .clients ul li .edison-nation {
       background-color: #cc1e27; }
     body.home .clients ul li .edison-nation:hover,
     body.home .clients ul li .pente-group:hover {
       background-color: #a0171f; }
+    body.home .clients ul li .edison-nation:active,
+    body.home .clients ul li .pente-group:active {
+      background-color: #df252e; }
     body.home .clients ul li .tungle-me {
       background-color: #9ac146; }
     body.home .clients ul li .tungle-me:hover {
       background-color: #7d9f35; }
+    body.home .clients ul li .tungle-me:active {
+      background-color: #5f7928; }
     body.home .clients ul li .field-turf {
       background-color: #118546; }
     body.home .clients ul li .field-turf:hover {
       background-color: #17b25e; }
+    body.home .clients ul li .field-turf:active {
+      background-color: #1ddf76; }
     body.home .clients ul li .diamond {
       background-color: #998c9a; }
     body.home .clients ul li .diamond:hover {
       background-color: #b1a7b2; }
+    body.home .clients ul li .diamond:active {
+      background-color: #c9c2ca; }
     body.home .clients ul li .reitmans {
       background-color: #7e8083; }
     body.home .clients ul li .reitmans:hover {
       background-color: #656769; }
+    body.home .clients ul li .reitmans:active {
+      background-color: #4c4d4f; }
     body.home .clients ul li .osm {
       background-color: #322e84; }
     body.home .clients ul li .osm:hover {
-      background-color: #4742bd; }
+      background-color: #403baa; }
+    body.home .clients ul li .osm:active {
+      background-color: #5a54c4; }
     body.home .clients ul li .ybp {
       background-color: #2dfec8;
       color: black; }
     body.home .clients ul li .ybp:hover {
       background-color: #01dda5; }
+    body.home .clients ul li .ybp:active {
+      background-color: #60fed5; }
     body.home .clients ul li .j3concepts {
       background-color: #652d90; }
     body.home .clients ul li .j3concepts:hover {
-      background-color: #8d45c5; }
+      background-color: #8039b7; }
+    body.home .clients ul li .j3concepts:active {
+      background-color: #9958cb; }
   body.home footer a {
     -webkit-transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
