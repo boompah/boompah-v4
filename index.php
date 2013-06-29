@@ -56,26 +56,22 @@
         <div class="clients">
           <ul>
             <li><a href="http://grooveshark.com/" target="_blank">Grooveshark</a></li>
-            <li><a href="http://www.capitalrlh.com/index-en.php" target="_blank" class="capital-rlh">Capital RLH</a></li>
             <li><a href="http://oboxmedia.com/" target="_blank" class="oboxmedia">Oboxmedia</a></li>
             <li><a href="http://doyoulookgood.com/index/home?lang=en" target="_blank" class="doyoulookgood">Doyoulookgood</a></li>
             <li><a href="http://hollywoodpq.com/" target="_blank" class="hollywoodpq">Hollywood PQ</a></li>
-            <li><a href="http://cheapthrillsss.com/" target="_blank">Cheap Thrills</a></li>
-            <li><a href="https://www.facebook.com/mographtv" target="_blank" class="mographtv">Mograph TV</a></li>
             <li><a href="https://www.flexmls.com/" target="_blank" class="fbs">FBS - FlexMLS</a></li>
+            <li><a href="http://www.edisonnation.com" target="_blank" class="edison-nation">Edison Nation</a></li>
+            <li><a href="http://fellerath.com/" target="_blank" class="fellerath">Kate Fellerath</a></li>
           </ul>
         </div><?php // one-fourth ?>
         <div class="clients">
           <ul>
             <li><a href="http://www.aldoshoes.com/ca-eng" target="_blank">ALDO</a></li>
             <li><a href="http://pentegroup.com/" target="_blank" class="pente-group">Pente Group</a></li>
-            <li><a href="http://tracelink.com/" target="blank" class="tracelink">Tracelink</a></li>
             <li><a href="http://www.2m2.ca/" target="_blank">2M2</a></li>
             <li><a href="http://www.fieldturf.com/en/" target="_blank" class="field-turf">Field Turf</a></li>
             <li><a href="http://www.dtelepathy.com/" target="_blank">Digital Telepathy</a></li>
             <li><a href="http://www.diamond.com/" target="_blank" class="diamond">Diamond.com</a></li>
-            <li><a href="http://www.edisonnation.com" target="_blank" class="edison-nation">Edison Nation</a></li>
-            <li><a href="http://fellerath.com/" target="_blank" class="fellerath">Kate Fellerath</a></li>
           </ul>
         </div><?php // one-fourth ?>
         <div class="clients">
@@ -87,20 +83,16 @@
             <li><a href="http://www.cineflix.com/" target="_blank" class="cineflix">Cineflix</a></li>
             <li><a href="http://www.liberte.ca/en/nutrition-health/" target="_blank">Liberte Nutrition</a></li>
             <li><a href="http://www.osm.ca/en" target="_blank" class="osm">OSM</a></li>
-            <li><a href="http://www.orangeleap.com/index.shtml" target="blank" class="orange-leap">Orange Leap</a></li>
           </ul>
         </div><?php // one-fourth ?>
         <div class="clients">
           <ul>
             <li><a href="http://www.rw-co.com/" target="blank">RW&amp;CO</a></li>
             <li><a href="http://thebig-studio.com/" target="blank" class="the-big-studio">The Big Studio</a></li>
-            <li><a href="http://www.netvacations.ca/en" target="_blank" class="net-vacations">Net Vacations.ca</a></li>
-            <li><a href="https://www.putnam.com/" target="blank">Putnum Investments</a></li>
-            <li><a href="http://becknercontracting.com/" target="_blank" class="beckner">Beckner Contracting</a></li>
-            <li><a href="http://www.tarkett.com/" target="blank" class="tarkett">Tarkett</a></li>
             <li><a href="http://www.yellowbirdproject.com/" target="blank" class="ybp">Yellow Bird Project</a></li>
+            <li><a href="http://www.tarkett.com/" target="blank" class="tarkett">Tarkett</a></li>
             <li><a href="http://www.jthreeconcepts.com/" target="blank" class="j3concepts">j3concepts</a></li>
-            <li><a href="http://www.telestream.net/" target="blank" class="telestream">Telestream</a></li>
+            <li><a href="https://www.putnam.com/" target="blank">Putnum Investments</a></li>
           </ul>
         </div><?php // one-fourth ?>
       </div><?php // row ?>
@@ -127,52 +119,70 @@
   <div class="showcase testimonials">
     <div class="container">
       <h2>Testimonials</h2>
-      <div class="half">
-        <p>"Ryan has infectious enthusiasm and energy. My role in working with Ryan was to provide background and technical information about our product he was redesigning. He made it easy to collaborate with him over a distance of a thousand miles..."</p>
-        <p class="role">
-          <strong>Top qualities:</strong> Personable, High Integrity, Creative<br />
-          <em>Dan collaborated with Ryan on various UX tasks</em>
-        </p>
-        <h4>Dan Nelson, FBS</h4>
-        <p>"Ryan is a great collaborator. We had some very complex projects involving multiple team members and he was able to get up to speed on our business, 
-          engage all the people involved, and be central to the creative process. Ryan helped us achieve cleaner designs than we would have without his good communication and design skills."</p>
-        <p class="role">
-          <strong>Top qualities:</strong> Great Results, Personable, High Integrity<br />
-          <em>Mike Managed Ryan directly.</em>
-        </p>
-        <h4>Michael Wurzer, FBS</h4>
-        <p>"Ryan has a great eye for design and was instrumental in helping build the look and feel of the Tungle brand.  We have been really impressed with his work over the years."</p>
-        <p class="role">Erin worked with Ryan directly at Tungle.me.</p>
-        <h4>Erin Lariviere, Marketing Coordinator at Tungle.me</h4>
-        <p>"Ryan's life is full of passion. It's evident in everything he creates. MographTV started as an exercise in creating a community around a brand and has become something much bigger. It's hard not to be inspired by Ryan's continual efforts to always be creating."</p>
-        <p class="role">Chris collaborated with Ryan at <a href="https://www.facebook.com/mographtv" target="_blank">MographTV.com.</a></p>
-        </p>
-        <h4>Chris Savoie</h4>
-      </div><?php // half ?>
-      <div class="half">
-        <p>"Not longer after working with Ryan, it became clear to me that he has a lot of passion for design and is committed to constantly developing his skills, both technical and creative. He also happens to be a pleasure to work with!"</p>
-        <p class="role">
-          Mani managed Ryan indirectly at Tungle<br />
-          Tungle was acquired by BlackBerry in April 2011
-        </p>
-        <h4>Mani Ghasemlou, MBA</h4>
-
-        <p>Ryan is a recent addition to the Tungle team. Since joining he has had a big impact. He quickly integrated into our dev team and established a solid design and front end function from nothing (before him we outsourced this). He works quickly and can take high level concepts and translate them into well
-        executed wireframes and images. He is a valuable member of our team."</p>
-        <p class="role">
-          Mark managed Ryan indirectly at Tungle<br />
-          Tungle was acquired by BlackBerry in April 2011
-        </p>
-        <h4>Mark MacLeod</h4>
-        <p>"I was really impressed with how professional Ryan was during an interview I did with him for <a href="https://www.facebook.com/mographtv" target="_blank">MographTV.com.</a> <a href="https://www.facebook.com/mographtv" target="_blank">MographTV.com</a> started from nothing but an idea that Ryan had one day and has become one of THE sites you have to know if you are into motion graphics."</p>
-        <h4>Michael Waldron, President &amp; creative director at nailgun*, worked together at Mograph TV.</h4>
-
-        <p>"Ryan is dedicated and full of initiatives with whom I had to chance to work with on MographTV. He invested time and shared his passion for carefully done work throughout brainstorming sessions to the release of our video."</p>
-        <p class="role">
-          Dave collaborated with Ryan at <a href="https://www.facebook.com/mographtv" target="_blank">MographTV.com.</a>
-        </p>
-        <h4>David Mondou-Labbe</h4>
-      </div><?php // half ?>
+      <div class="row">
+        <div class="half">
+          <p>"Ryan has infectious enthusiasm and energy. My role in working with Ryan was to provide background and technical information about our product he was redesigning. He made it easy to collaborate with him over a distance of a thousand miles..."</p>
+          <p class="role">
+            <strong>Top qualities:</strong> Personable, High Integrity, Creative<br />
+            <em>Dan collaborated with Ryan on various UX tasks</em>
+          </p>
+          <h4>Dan Nelson, FBS</h4>
+        </div>
+        <div class="half">
+          <p>"Ryan is a great collaborator. We had some very complex projects involving multiple team members and he was able to get up to speed on our business, 
+            engage all the people involved, and be central to the creative process. Ryan helped us achieve cleaner designs than we would have without his good communication and design skills."</p>
+          <p class="role">
+            <strong>Top qualities:</strong> Great Results, Personable, High Integrity<br />
+            <em>Mike Managed Ryan directly.</em>
+          </p>
+          <h4>Michael Wurzer, FBS</h4>
+        </div>
+      </div><?php //row ?>
+      <div class="row">
+        <div class="half">
+          <p>"Ryan has a great eye for design and was instrumental in helping build the look and feel of the Tungle brand.  We have been really impressed with his work over the years."</p>
+          <p class="role">Erin worked with Ryan directly at Tungle.me.</p>
+          <h4>Erin Lariviere, Marketing Coordinator at Tungle.me</h4>
+        </div>
+        <div class="half">
+          <p>"Ryan's life is full of passion. It's evident in everything he creates. MographTV started as an exercise in creating a community around a brand and has become something much bigger. It's hard not to be inspired by Ryan's continual efforts to always be creating."</p>
+          <p class="role">Chris collaborated with Ryan at <a href="https://www.facebook.com/mographtv" target="_blank">MographTV.com.</a></p>
+          </p>
+          <h4>Chris Savoie</h4>
+        </div>
+      </div><?php // row ?>
+      <div class="row"> 
+        <div class="half">
+          <p>"Not longer after working with Ryan, it became clear to me that he has a lot of passion for design and is committed to constantly developing his skills, both technical and creative. He also happens to be a pleasure to work with!"</p>
+          <p class="role">
+            Mani managed Ryan indirectly at Tungle<br />
+            Tungle was acquired by BlackBerry in April 2011
+          </p>
+          <h4>Mani Ghasemlou, MBA</h4>
+        </div>
+        <div class="half">
+          <p>Ryan is a recent addition to the Tungle team. Since joining he has had a big impact. He quickly integrated into our dev team and established a solid design and front end function from nothing (before him we outsourced this). He works quickly and can take high level concepts and translate them into well
+          executed wireframes and images. He is a valuable member of our team."</p>
+          <p class="role">
+            Mark managed Ryan indirectly at Tungle<br />
+            Tungle was acquired by BlackBerry in April 2011
+          </p>
+          <h4>Mark MacLeod</h4>
+        </div>
+      </div><?php // row ?>
+      <div class="row">
+        <div class="half">
+          <p>"I was really impressed with how professional Ryan was during an interview I did with him for <a href="https://www.facebook.com/mographtv" target="_blank">MographTV.com.</a> <a href="https://www.facebook.com/mographtv" target="_blank">MographTV.com</a> started from nothing but an idea that Ryan had one day and has become one of THE sites you have to know if you are into motion graphics."</p>
+          <h4>Michael Waldron, President &amp; creative director at nailgun*, worked together at Mograph TV.</h4>
+        </div>
+        <div class="half">
+          <p>"Ryan is dedicated and full of initiatives with whom I had to chance to work with on MographTV. He invested time and shared his passion for carefully done work throughout brainstorming sessions to the release of our video."</p>
+          <p class="role">
+            Dave collaborated with Ryan at <a href="https://www.facebook.com/mographtv" target="_blank">MographTV.com.</a>
+          </p>
+          <h4>David Mondou-Labbe</h4>
+        </div><?php // half ?>
+      </div><?php // row ?>
     </div><?php // container ?>
   </div><?php // showcase ?>
   <?php include'section/footer.php'; ?>

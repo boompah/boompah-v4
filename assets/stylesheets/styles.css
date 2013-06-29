@@ -155,10 +155,6 @@ a.button:active {
       .showcase .half {
         width: 100%;
         text-align: center; } }
-    .showcase .half p {
-      font-family: 'Georgia', serif;
-      font-style: italic;
-      line-height: 1.75em; }
   .showcase .cta {
     text-transform: uppercase; }
   .showcase a.button {
@@ -239,6 +235,7 @@ a.button:active {
 
 body.home {
   /* Featured Work */
+  /* Testimonials */
   /* Clients */ }
   body.home ::selection {
     background: #CC0000;
@@ -312,6 +309,10 @@ body.home {
   body.home .featured-work .panel-block.two-m-two {
     background-color: black;
     border: 1px solid black; }
+  body.home .testimonials p, body.home .testimonials a {
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    line-height: 1.75em; }
   body.home .gray-bg {
     border-top: 1px solid #d9d9d9; }
   body.home .clients ul li {
