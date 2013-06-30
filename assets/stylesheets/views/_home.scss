@@ -127,7 +127,7 @@ body.home {
 
 					@include transition (all 0.35s ease-in-out);
 						
-						i { float: right; }
+						i { float: right; font-size: 1.25em; }
 				}
 
 				.royal-blue { background-color: $royal-blue; }				

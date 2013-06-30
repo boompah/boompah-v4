@@ -10,8 +10,8 @@
     <div class="container">
       <img src="assets/images/logo-circle.png" alt="Boompah" class="logo-boompah-circle-landing" />
       <section class="main-content">
-        <h1>Boompah is a User Interface &amp; Development Boutique created by Ryan Bollenbach and is based in Winnipeg, Manitoba.</h1>
-        <h3>We collaborate with businesses to design interfaces for web applications, boutique websites and e-commerce stores. We also enjoy the science of social media and evidence driven design.</h3>
+        <h1>Boompah is a User Interface &amp; Development Boutique run by Ryan Bollenbach in Winnipeg, MB.</h1>
+        <h3>We collaborate with brands to design interfaces for web applications, boutique websites and e-commerce stores. We thrive on the science of social media and evidence driven design.</h3>
       </div>
     </div><?php // container ?>
   </div><?php // masthead-wrapper home ?>
@@ -121,12 +121,13 @@
       <h2>Testimonials</h2>
       <div class="row">
         <div class="half">
-          <p>"Ryan has infectious enthusiasm and energy. My role in working with Ryan was to provide background and technical information about our product he was redesigning. He made it easy to collaborate with him over a distance of a thousand miles..."</p>
+          <p>"Ryan is a recent addition to the Tungle team. Since joining he has had a big impact. He quickly integrated into our dev team and established a solid design and front end function from nothing (before him we outsourced this). He works quickly and can take high level concepts and translate them into well
+          executed wireframes and images. He is a valuable member of our team."</p>
           <p class="role">
-            <strong>Top qualities:</strong> Personable, High Integrity, Creative<br />
-            <em>Dan collaborated with Ryan on various UX tasks</em>
+            Mark managed Ryan indirectly at Tungle<br />
+            Tungle was acquired by BlackBerry in April 2011
           </p>
-          <h4>Dan Nelson, FBS</h4>
+          <h4>Mark MacLeod, <a href="http://www.startupcfo.ca/" target="_blank" title="StartupCFO">StartupCFO</a></h4>
         </div>
         <div class="half">
           <p>"Ryan is a great collaborator. We had some very complex projects involving multiple team members and he was able to get up to speed on our business, 
@@ -140,15 +141,14 @@
       </div><?php //row ?>
       <div class="row">
         <div class="half">
+          <p>"I was really impressed with how professional Ryan was during an interview I did with him for <a href="https://www.facebook.com/mographtv" target="_blank">MographTV.com.</a> MGTV started from nothing but an idea that Ryan had one day and has become one of THE sites you have to know if you are into motion graphics."</p>
+          <p class="role">Mike collaborated with Ryan at MGTV</a></p>
+          <h4>Michael Waldron, Producer at TV Land</h4>
+        </div>
+        <div class="half">
           <p>"Ryan has a great eye for design and was instrumental in helping build the look and feel of the Tungle brand.  We have been really impressed with his work over the years."</p>
           <p class="role">Erin worked with Ryan directly at Tungle.me.</p>
           <h4>Erin Lariviere, PR at Blackberry</h4>
-        </div>
-        <div class="half">
-          <p>"Ryan's life is full of passion. It's evident in everything he creates. MographTV started as an exercise in creating a community around a brand and has become something much bigger. It's hard not to be inspired by Ryan's continual efforts to always be creating."</p>
-          <p class="role">Chris collaborated with Ryan at <a href="https://www.facebook.com/mographtv" target="_blank">MographTV.com.</a></p>
-          </p>
-          <h4>Chris Savoie</h4>
         </div>
       </div><?php // row ?>
       <div class="row"> 
@@ -161,28 +161,13 @@
           <h4>Mani Ghasemlou, MBA</h4>
         </div>
         <div class="half">
-          <p>Ryan is a recent addition to the Tungle team. Since joining he has had a big impact. He quickly integrated into our dev team and established a solid design and front end function from nothing (before him we outsourced this). He works quickly and can take high level concepts and translate them into well
-          executed wireframes and images. He is a valuable member of our team."</p>
+          <p>"Ryan has infectious enthusiasm and energy. My role in working with Ryan was to provide background and technical information about our product he was redesigning. He made it easy to collaborate with him over a distance of a thousand miles..."</p>
           <p class="role">
-            Mark managed Ryan indirectly at Tungle<br />
-            Tungle was acquired by BlackBerry in April 2011
+            <strong>Top qualities:</strong> Personable, High Integrity, Creative<br />
+            <em>Dan collaborated with Ryan on various UX tasks</em>
           </p>
-          <h4>Mark MacLeod, <a href="http://www.startupcfo.ca/" target="_blank" title="StartupCFO">StartupCFO</a></h4>
+          <h4>Dan Nelson, FBS</h4>
         </div>
-      </div><?php // row ?>
-      <div class="row">
-        <div class="half">
-          <p>"I was really impressed with how professional Ryan was during an interview I did with him for <a href="https://www.facebook.com/mographtv" target="_blank">MographTV.com.</a> MGTV started from nothing but an idea that Ryan had one day and has become one of THE sites you have to know if you are into motion graphics."</p>
-          <p class="role">Mike collaborated with Ryan at <a href="https://www.facebook.com/mographtv" target="_blank">MographTV.com.</a></p>
-          <h4>Michael Waldron, Producer at TV Land</h4>
-        </div>
-        <div class="half">
-          <p>"Ryan is dedicated and full of initiatives with whom I had to chance to work with on MographTV. He invested time and shared his passion for carefully done work throughout brainstorming sessions to the release of our video."</p>
-          <p class="role">
-            Dave collaborated with Ryan at <a href="https://www.facebook.com/mographtv" target="_blank">MographTV.com.</a>
-          </p>
-          <h4>David Mondou-Labbe, <a href="http://wiki.xxiivv.com/" target="_blank" title="XXIIVV">XXIIVV</a></h4>
-        </div><?php // half ?>
       </div><?php // row ?>
     </div><?php // container ?>
   </div><?php // showcase ?>

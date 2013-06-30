@@ -39,7 +39,7 @@ h2 {
 
 h3 {
   font-size: 2em;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.75em; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
     h3 {
@@ -333,7 +333,8 @@ body.home {
       body.home .clients ul li a:hover {
         background-color: #4d4d4d; }
       body.home .clients ul li a i {
-        float: right; }
+        float: right;
+        font-size: 1.25em; }
     body.home .clients ul li .royal-blue {
       background-color: #10456b; }
     body.home .clients ul li .royal-blue:hover {
