@@ -97,6 +97,7 @@ footer {
 		
 		p{
 			float: left;
+			font-size: 1em;
 			@include respond-to(handhelds-and-medium-screens) { 
 				float: none;
 				text-align: center;

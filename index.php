@@ -103,16 +103,16 @@
       <h2>Usability Research</h2>
       <h4>It's one thing to design based on personal preference, assumptions, common mental models and trends. It’s a whole different ball game to use evidence at the base of your conceptual decisions while maintaining an open floor to innovation. We gather research to help reinforce our ideas.</h4>
       <h3>Recent findings</h3>
-      <a href="http://visualwebsiteoptimizer.com/split-testing-blog/increase-click-through-rate/" target="_blank">How changing a single word increased click through rate by 161%</a>
+      <h4><a href="http://visualwebsiteoptimizer.com/split-testing-blog/increase-click-through-rate/" target="_blank">How changing a single word increased click through rate by 161%</a></h4>
       <p>Veeam Case Study by Siddharth Deswal</p>
 
-      <a href="http://boompah.tumblr.com/post/42793917768/when-instinct-trumps-reason-jonah-lehrer" target="_blank">When Instinct Trumps Reason - Jonah Lehrer</a>
+      <h4><a href="http://boompah.tumblr.com/post/42793917768/when-instinct-trumps-reason-jonah-lehrer" target="_blank">When Instinct Trumps Reason - Jonah Lehrer</a></h4>
       <p>Jonah Lehrer, author of How We Choose, discusses the limitations of rational thought and explains that while the human prefrontal cortex is a "magnificent piece of machinery," it easily short circuits when given too much information.</p>
 
-      <a href="http://electricpulp.com/notes/you-like-apples/" target="_blank">Responsive Web Design by Electric Pulp for O’Neill Clothing increases mobile revenue by 692.67%</a>
+      <h4><a href="http://electricpulp.com/notes/you-like-apples/" target="_blank">Responsive Web Design by Electric Pulp for O’Neill Clothing increases mobile revenue by 692.67%</a></h4>
       <p>E-commerce case study by Electric Pulp</p>
 
-      <a href="http://diythemes.com/thesis/increase-conversions-split-testing/" target="_blank">DIYThemes: 102.0% improvement on email newsletter sign-up page</a>
+      <h4><a href="http://diythemes.com/thesis/increase-conversions-split-testing/" target="_blank">DIYThemes: 102.0% improvement on email newsletter sign-up page</a></h4>
       <p class="last">Newsletter module sign up conversion case study of removing social proof.</p>
     </div><?php // container ?>
   </div><?php // showcase ?>
@@ -142,7 +142,7 @@
         <div class="half">
           <p>"Ryan has a great eye for design and was instrumental in helping build the look and feel of the Tungle brand.  We have been really impressed with his work over the years."</p>
           <p class="role">Erin worked with Ryan directly at Tungle.me.</p>
-          <h4>Erin Lariviere, Marketing Coordinator at Tungle.me</h4>
+          <h4>Erin Lariviere, PR at Blackberry</h4>
         </div>
         <div class="half">
           <p>"Ryan's life is full of passion. It's evident in everything he creates. MographTV started as an exercise in creating a community around a brand and has become something much bigger. It's hard not to be inspired by Ryan's continual efforts to always be creating."</p>
@@ -167,20 +167,21 @@
             Mark managed Ryan indirectly at Tungle<br />
             Tungle was acquired by BlackBerry in April 2011
           </p>
-          <h4>Mark MacLeod</h4>
+          <h4>Mark MacLeod, <a href="http://www.startupcfo.ca/" target="_blank" title="StartupCFO">StartupCFO</a></h4>
         </div>
       </div><?php // row ?>
       <div class="row">
         <div class="half">
-          <p>"I was really impressed with how professional Ryan was during an interview I did with him for <a href="https://www.facebook.com/mographtv" target="_blank">MographTV.com.</a> <a href="https://www.facebook.com/mographtv" target="_blank">MographTV.com</a> started from nothing but an idea that Ryan had one day and has become one of THE sites you have to know if you are into motion graphics."</p>
-          <h4>Michael Waldron, President &amp; creative director at nailgun*, worked together at Mograph TV.</h4>
+          <p>"I was really impressed with how professional Ryan was during an interview I did with him for <a href="https://www.facebook.com/mographtv" target="_blank">MographTV.com.</a> MGTV started from nothing but an idea that Ryan had one day and has become one of THE sites you have to know if you are into motion graphics."</p>
+          <p class="role">Mike collaborated with Ryan at <a href="https://www.facebook.com/mographtv" target="_blank">MographTV.com.</a></p>
+          <h4>Michael Waldron, Producer at TV Land</h4>
         </div>
         <div class="half">
           <p>"Ryan is dedicated and full of initiatives with whom I had to chance to work with on MographTV. He invested time and shared his passion for carefully done work throughout brainstorming sessions to the release of our video."</p>
           <p class="role">
             Dave collaborated with Ryan at <a href="https://www.facebook.com/mographtv" target="_blank">MographTV.com.</a>
           </p>
-          <h4>David Mondou-Labbe</h4>
+          <h4>David Mondou-Labbe, <a href="http://wiki.xxiivv.com/" target="_blank" title="XXIIVV">XXIIVV</a></h4>
         </div><?php // half ?>
       </div><?php // row ?>
     </div><?php // container ?>

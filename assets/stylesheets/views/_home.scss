@@ -21,7 +21,6 @@ body.home {
 	#masthead-wrapper {
 		h1 {	
 			color: $light-purple;
-			font-weight: normal;
 		}
 
 		h3 {
@@ -45,7 +44,7 @@ body.home {
 	.usability-research {
 		p { margin-bottom: 3em; }
 		h3 { margin-top: 1.5em; }
-		h4 { font-weight: normal; }
+		h4 {  }
 		p.last { margin-bottom: 0; }
 		
 	} // usability-research
@@ -100,11 +99,7 @@ body.home {
 
 	/* Testimonials */
 	.testimonials {
-		p, a {
-			font-family: 'Georgia', serif;
-			font-style: italic;
-			line-height: 1.75em;
-		}
+
 	}
 
 	/* Clients */

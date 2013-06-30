@@ -16,7 +16,7 @@ nav.primary {
 		}
 	}
 	ul {
-		margin-top: 45px;
+		margin-top: 40px;
 		float: right;
 		list-style: none;
 		@include respond-to(handhelds-and-medium-screens) { display: none; }

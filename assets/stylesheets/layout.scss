@@ -18,12 +18,13 @@ body{
 // ---------------------------------------------------------------------
 
 h1, h2, h3, h4, h5, h6, p, a, ul {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1 {
-	font-size: 2.5em;
-	line-height: 1.5em;
+	font-size: 3em;
+	font-weight: 600;
+	line-height: 1.25em;
 	@include respond-to(large-screens) { font-size: 1.75em; }
 	@include respond-to(medium-screens) { font-size: 1.5em; }
 	@include respond-to(handhelds) { font-size: 1.25em; }
@@ -38,15 +39,22 @@ h2 {
 }
 	
 h3 {
-	font-size: 1.5em;
-	line-height: 2em;
+	font-size: 2em;
+	font-weight: 600;
+	line-height: 1.75em;
 	@include respond-to(large-screens) { font-size: 1.5em; }
 	@include respond-to(medium-screens) { font-size: 1.25em; }
 	@include respond-to(handhelds) { font-size: 1em; }
 	}
 
+h4 { 
+	font-size: 1.5em;
+	font-weight: 500;
+	line-height: 1.5em;
+	}
+
 p {
-	font-size: .9em;
+	font-size: 1.15em;
 	@include respond-to(handhelds-and-medium-screens) { font-size: .8em; }
 	}
 
@@ -57,7 +65,6 @@ p {
 // ---------------------------------------------------------------------
 
 ul, ol {
-	font-size: .9em;
 	@include respond-to(large-screens) { font-size: .9em; }
 	@include respond-to(handhelds-and-medium-screens) { font-size: .8em; }
 }
@@ -78,7 +85,6 @@ ul {
 	h2 {
 		text-align: center;
 		text-transform: uppercase;
-		font-weight: normal;
 		padding: .5em 0;
 	}
 	
@@ -94,7 +100,6 @@ ul {
 	}
 	
 	h3 {
-		font-weight: normal;
 	}
 	
 } // masthead-wrapper
@@ -108,7 +113,6 @@ ul {
 a, a:link, a:visited {
 	text-decoration: none;
 	color: $link-blue;
-	font-weight: normal;
 }
 
 a:hover {
