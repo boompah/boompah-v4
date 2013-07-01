@@ -39,7 +39,7 @@ h2 {
 
 h3 {
   font-size: 2em;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.75em; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
     h3 {
@@ -94,6 +94,8 @@ ul li {
   #masthead-wrapper h1 {
     display: block;
     margin: 5% auto 5%; }
+  #masthead-wrapper h3 {
+    font-weight: 500; }
 
 a, a:link, a:visited {
   text-decoration: none;
@@ -497,6 +499,9 @@ footer {
     @media only screen and (min-width: 768px) and (max-width: 959px) {
       footer ul {
         margin-left: 6%; } }
+    @media only screen and (max-width: 767px) {
+      footer ul li a, footer ul li a:link, footer ul li a:visited {
+        font-size: 1.25em; } }
   @media only screen and (max-width: 767px) {
     footer ul.nav {
       margin-left: 0;
@@ -608,7 +613,7 @@ nav.primary {
     transition: all 0.35s ease-in-out; }
   nav.primary a.boompah {
     display: block;
-    float: left;
+    display: inline-block;
     margin-top: 2.25em;
     height: auto; }
     @media only screen and (max-width: 767px) {
