@@ -105,9 +105,6 @@ footer {
 
 			a, a:link, a:visited {
 				font-size: 32px;
-				color: $light-purple;
-				&:hover { color: darken($light-purple, 20%); }
-				&:active { color: darken($light-purple, 10%); }
 			}
 		}
 		@include respond-to(handhelds-and-medium-screens) { 

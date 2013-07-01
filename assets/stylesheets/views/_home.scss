@@ -1,12 +1,4 @@
 body.home {
-	::selection {
-		background: #CC0000; /* Safari */
-		color: $white;
-		}
-	::-moz-selection {
-		background: #CC0000; /* Firefox */
-		color: $white;
-	}
 	
 	#masthead-wrapper, #header, footer, .dark-bg {
 		background-color: $dark-blue;
@@ -26,11 +18,11 @@ body.home {
 		h3 {
 			color: $secondary-purple;
 		}
-	} // masthead-wrapper
+	} 
 	
 	#header{
 		border-bottom: 2px solid $medium-purple;
-	} // #header
+	} 
 	
 	nav.primary {
 		a { color: $soft-purple; }
@@ -39,7 +31,7 @@ body.home {
 		a.selected, a.selected:visited { background-color: $gray-purple; }
 		a.selected:hover { background-color: lighten($gray-purple, 10%); }
 		a.selected:active { background-color: darken($gray-purple, 10%); }
-	} // nav.primary
+	} 
 	
 	.usability-research {
 		p { margin-bottom: 3em; }
@@ -47,7 +39,7 @@ body.home {
 		h4 {  }
 		p.last { margin-bottom: 0; }
 		
-	} // usability-research
+	}
 	
 	.services-points {
 		h4 {
@@ -216,6 +208,16 @@ body.home {
 
 		.copyright-line { 
 			color: $subtle-purple; 
+		}
+		
+		ul.social-links {
+			li {
+				a, a:link, a:visited {
+					color: $light-purple;
+					&:hover { color: darken($light-purple, 20%); }
+					&:active { color: darken($light-purple, 10%); }
+				}
+			}
 		}
 
 	} // footer

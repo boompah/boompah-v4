@@ -11,8 +11,9 @@
       <h1>Boompah is a User Interface &amp; Development Boutique run by Ryan Bollenbach in Winnipeg, MB.</h1>
       <h3>We collaborate with brands to design interfaces for web applications, boutique websites and e-commerce stores. We thrive on the science of social media and evidence driven design.</h3>
     </div>
-  </div><?php // container ?>
+  </div>
 </div><?php // masthead-wrapper home ?>
+
 <div class="showcase featured-work">
   <div class="container">
     <h2>Featured Work</h2>

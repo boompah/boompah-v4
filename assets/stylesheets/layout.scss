@@ -7,6 +7,14 @@
 body{
 	margin: 0;
 	padding: 0;
+	::selection {
+		background: #CC0000; /* Safari */
+		color: $white;
+		}
+	::-moz-selection {
+		background: #CC0000; /* Firefox */
+		color: $white;
+	}
 }
 
 // ---------------------------------------------------------------------

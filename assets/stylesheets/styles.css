@@ -6,6 +6,14 @@
 body {
   margin: 0;
   padding: 0; }
+  body ::selection {
+    background: #CC0000;
+    /* Safari */
+    color: white; }
+  body ::-moz-selection {
+    background: #CC0000;
+    /* Firefox */
+    color: white; }
 
 h1, h2, h3, h4, h5, h6, p, a, ul {
   font-family: 'Titillium Web', sans-serif; }
@@ -240,14 +248,6 @@ body.home {
   /* Featured Work */
   /* Testimonials */
   /* Clients */ }
-  body.home ::selection {
-    background: #CC0000;
-    /* Safari */
-    color: white; }
-  body.home ::-moz-selection {
-    background: #CC0000;
-    /* Firefox */
-    color: white; }
   body.home #masthead-wrapper, body.home #header, body.home footer, body.home .dark-bg {
     background-color: #232333; }
   body.home .light-bg {
@@ -449,6 +449,12 @@ body.home {
       color: #60607f; }
   body.home footer .copyright-line {
     color: #41415b; }
+  body.home footer ul.social-links li a, body.home footer ul.social-links li a:link, body.home footer ul.social-links li a:visited {
+    color: #a5a5ce; }
+    body.home footer ul.social-links li a:hover, body.home footer ul.social-links li a:link:hover, body.home footer ul.social-links li a:visited:hover {
+      color: #6363aa; }
+    body.home footer ul.social-links li a:active, body.home footer ul.social-links li a:link:active, body.home footer ul.social-links li a:visited:active {
+      color: #8484bc; }
 
 #logo-circle {
   margin: auto;
@@ -462,6 +468,50 @@ body.home {
 .clients ul {
   padding-left: 0;
   list-style: none; }
+
+body.about #masthead-wrapper, body.about #header, body.about footer, body.about .dark-bg {
+  background-color: black; }
+body.about #header {
+  border-bottom: 2px solid #262626; }
+body.about nav.primary a {
+  color: white; }
+body.about nav.primary a:hover {
+  color: #cccccc; }
+body.about nav.primary a:active {
+  color: #e6e6e6; }
+body.about nav.primary a.selected, body.about nav.primary a.selected:visited {
+  background-color: #38384f; }
+body.about nav.primary a.selected:hover {
+  background-color: #4d4d6d; }
+body.about nav.primary a.selected:active {
+  background-color: #232331; }
+body.about #masthead-wrapper {
+  color: white; }
+  body.about #masthead-wrapper h1 {
+    font-size: 10em;
+    text-transform: uppercase;
+    font-weight: 900; }
+  body.about #masthead-wrapper h3 {
+    font-weight: 200;
+    font-size: 2em; }
+body.about .container.showcase {
+  padding: 40px 0; }
+  body.about .container.showcase img {
+    margin-top: 20px;
+    float: left; }
+  body.about .container.showcase h2 {
+    text-align: right;
+    font-size: 6em;
+    font-weight: 300;
+    margin-bottom: 0; }
+  body.about .container.showcase .food {
+    font-size: 4em; }
+body.about footer a.boompah {
+  background: url(/assets/images/logo-circle-footer-about.png); }
+body.about footer .copyright {
+  border-top: 1px solid #262626; }
+body.about footer .copyright-line {
+  color: #404040; }
 
 #header {
   height: 6.75em; }
@@ -585,12 +635,7 @@ footer {
       display: inline-block;
       margin: 0 10px; }
       footer ul.social-links li a, footer ul.social-links li a:link, footer ul.social-links li a:visited {
-        font-size: 32px;
-        color: #a5a5ce; }
-        footer ul.social-links li a:hover, footer ul.social-links li a:link:hover, footer ul.social-links li a:visited:hover {
-          color: #6363aa; }
-        footer ul.social-links li a:active, footer ul.social-links li a:link:active, footer ul.social-links li a:visited:active {
-          color: #8484bc; }
+        font-size: 32px; }
     @media only screen and (max-width: 767px) {
       footer ul.social-links {
         float: none; } }
