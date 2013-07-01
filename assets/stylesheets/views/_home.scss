@@ -32,7 +32,7 @@ body.home {
 		border-bottom: 2px solid $medium-purple;
 	} // #header
 	
-	nav.primary,  {
+	nav.primary {
 		a { color: $soft-purple; }
 		a:hover { color: lighten($soft-purple, 10%); }
 		a:active { color: darken($soft-purple, 10%); }
@@ -207,17 +207,17 @@ body.home {
 		.copyright {
 			border-top: 1px solid $medium-purple;
 			
-			p {
-				margin-top: 3em;
-				color: $subtle-purple;
-			}
-			
 			a {
 				color: $secondary-purple;
 			}
 			a:hover { color: lighten($secondary-purple, 10%); }
 			a:active { color: darken($secondary-purple, 10%); }
 		} // copyright
+
+		.copyright-line { 
+			color: $subtle-purple; 
+		}
+
 	} // footer
 } // body.home
 

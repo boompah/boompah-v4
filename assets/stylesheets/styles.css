@@ -16,13 +16,13 @@ h1 {
   line-height: 1.25em; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
     h1 {
-      font-size: 1.75em; } }
+      font-size: 2em; } }
   @media only screen and (min-width: 480px) and (max-width: 767px) {
     h1 {
-      font-size: 1.5em; } }
+      font-size: 1.75em; } }
   @media only screen and (max-width: 479px) {
     h1 {
-      font-size: 1.25em; } }
+      font-size: 1.5em; } }
 
 h2 {
   font-size: 2.25em;
@@ -49,7 +49,7 @@ h3 {
       font-size: 1.25em; } }
   @media only screen and (max-width: 479px) {
     h3 {
-      font-size: 1em; } }
+      font-size: 1.15em; } }
 
 h4 {
   font-size: 1.5em;
@@ -60,7 +60,7 @@ p {
   font-size: 1.15em; }
   @media only screen and (max-width: 767px) {
     p {
-      font-size: .8em; } }
+      font-size: 1.15em; } }
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
   ul, ol {
@@ -439,15 +439,14 @@ body.home {
     background: url(/assets/images/logo-circle-footer-home.png); }
   body.home footer .copyright {
     border-top: 1px solid #393951; }
-    body.home footer .copyright p {
-      margin-top: 3em;
-      color: #41415b; }
     body.home footer .copyright a {
       color: #797999; }
     body.home footer .copyright a:hover {
       color: #9696af; }
     body.home footer .copyright a:active {
       color: #60607f; }
+  body.home footer .copyright-line {
+    color: #41415b; }
 
 #logo-circle {
   margin: auto;
@@ -486,17 +485,18 @@ body.home {
 
 footer {
   padding: 3em 0; }
+  @media only screen and (max-width: 767px) {
+    footer .container {
+      text-align: center; } }
   footer ul {
     float: left;
     padding-left: 0;
-    margin-left: 10%;
+    margin-left: 9%;
     list-style: none;
     text-transform: uppercase; }
     @media only screen and (min-width: 768px) and (max-width: 959px) {
       footer ul {
         margin-left: 6%; } }
-    footer ul li a, footer ul li a:link, footer ul li a:visited {
-      font-size: .9em; }
   @media only screen and (max-width: 767px) {
     footer ul.nav {
       margin-left: 0;
@@ -559,28 +559,36 @@ footer {
     margin-top: 1em; }
     footer .copyright:last-child {
       margin-right: 0; }
-    footer .copyright ul.social-links {
-      float: right; }
-      footer .copyright ul.social-links li {
-        float: right;
-        margin-left: 1em; }
-        footer .copyright ul.social-links li a, footer .copyright ul.social-links li a:link, footer .copyright ul.social-links li a:visited {
-          font-size: 2em; }
-      @media only screen and (max-width: 767px) {
-        footer .copyright ul.social-links {
-          float: none;
-          margin-left: 3em;
-          width: 60%;
-          font-size: 1.25em; } }
     footer .copyright p, footer .copyright ul {
       margin-top: 3em; }
-    footer .copyright p {
-      float: left;
-      font-size: 1em; }
-      @media only screen and (max-width: 767px) {
-        footer .copyright p {
-          float: none;
-          text-align: center; } }
+  footer .copyright-line {
+    margin-top: 50px;
+    float: left;
+    font-size: 1em;
+    display: inline-block; }
+    @media only screen and (max-width: 767px) {
+      footer .copyright-line {
+        float: none; } }
+  footer ul.social-links {
+    margin-top: 40px;
+    float: right;
+    display: inline-block; }
+    @media only screen and (max-width: 767px) {
+      footer ul.social-links {
+        margin-left: 0; } }
+    footer ul.social-links li {
+      display: inline-block;
+      margin: 0 10px; }
+      footer ul.social-links li a, footer ul.social-links li a:link, footer ul.social-links li a:visited {
+        font-size: 32px;
+        color: #a5a5ce; }
+        footer ul.social-links li a:hover, footer ul.social-links li a:link:hover, footer ul.social-links li a:visited:hover {
+          color: #6363aa; }
+        footer ul.social-links li a:active, footer ul.social-links li a:link:active, footer ul.social-links li a:visited:active {
+          color: #8484bc; }
+    @media only screen and (max-width: 767px) {
+      footer ul.social-links {
+        float: none; } }
 
 nav.primary {
   *zoom: 1;

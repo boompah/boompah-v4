@@ -25,9 +25,9 @@ h1 {
 	font-size: 3em;
 	font-weight: 600;
 	line-height: 1.25em;
-	@include respond-to(large-screens) { font-size: 1.75em; }
-	@include respond-to(medium-screens) { font-size: 1.5em; }
-	@include respond-to(handhelds) { font-size: 1.25em; }
+	@include respond-to(large-screens) { font-size: 2em; }
+	@include respond-to(medium-screens) { font-size: 1.75em; }
+	@include respond-to(handhelds) { font-size: 1.5em; }
 	}
 	
 h2 {
@@ -44,7 +44,7 @@ h3 {
 	line-height: 1.75em;
 	@include respond-to(large-screens) { font-size: 1.5em; }
 	@include respond-to(medium-screens) { font-size: 1.25em; }
-	@include respond-to(handhelds) { font-size: 1em; }
+	@include respond-to(handhelds) { font-size: 1.15em; }
 	}
 
 h4 { 
@@ -55,7 +55,7 @@ h4 {
 
 p {
 	font-size: 1.15em;
-	@include respond-to(handhelds-and-medium-screens) { font-size: .8em; }
+	@include respond-to(handhelds-and-medium-screens) { font-size: 1.15em; }
 	}
 
 // ---------------------------------------------------------------------
