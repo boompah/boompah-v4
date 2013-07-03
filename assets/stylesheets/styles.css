@@ -513,8 +513,6 @@ body.about .container.showcase {
     font-size: 6em;
     font-weight: 300;
     margin-bottom: 0; }
-  body.about .container.showcase .food {
-    font-size: 4em; }
 body.about footer a.boompah {
   background: url(/assets/images/logo-circle-footer-about.png); }
 body.about footer .copyright {
@@ -590,6 +588,21 @@ a.timeline-bar {
 .tungle-green__bg {
   background-color: #9ac146;
   color: white; }
+
+.food-porn-xxx {
+  font-size: 13em;
+  font-weight: 900;
+  line-height: 0px;
+  margin: 0;
+  padding: 0;
+  text-shadow: 2px 2px 5px #e572a7; }
+
+.food-porn {
+  font-size: 7em;
+  line-height: 100px;
+  margin: .5em 0;
+  font-weight: 200;
+  text-transform: uppercase; }
 
 #header {
   height: 6.75em; }

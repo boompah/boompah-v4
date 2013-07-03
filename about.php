@@ -22,7 +22,7 @@
 	<div class="row">
 		<div class="half">
 			<h3 class="timeline">My Timeline</h3>
-       		<p>I'm blessed to have experienced a lot of awesome things in my life, below are some events I'd like to share with you.</p>
+       		<p>I'm blessed to have experienced a lot of great things in my life, below are some events I'd like to share with you.</p>
           <p><em>This concept was inspired by <a href="http://chriscoyier.net/about/" title="About Chris Coyier">Chris Coyier's gnarly about page.</a></em></p>
       	</div>
     </div><?php // row ?>
@@ -85,11 +85,15 @@
         <h3><span class="date">Oct. 2012</span>Bought my first car, 2012 Honda Civic<i class="icon-truck"></i></h3>
       </div>
       <div class="timeline-bar android__bg">
-        <h3><span class="date">May 2013</span>Switched to Android, Samsung S4<i class="icon-android"></i></h3>
+        <h3><span class="date">May 2013</span>Started playing with Android, Samsung S4<i class="icon-android"></i></h3>
       </div>
     </div>
-    <!--
-    <h3 class="food">Food Porn</h3>
+  </div>
+</div>
+<div class="showcase gray-bg">
+  <div class="container">
+    <h2 class="food-porn-xxx">XXX</h2>
+    <h3 class="food-porn">Food Porn</h3>
     <p>We love eating healthy food while we work and we're proud of our recipes.</p>
     <div class="row">
       <div class="panel">
@@ -119,7 +123,7 @@
         <p>Quebec based Hollywood gossip blog</p>
         <p class="cta"><a href="http://hollywoodpq.com" target="_blank" title="Hollywood PQ">Live site</a> <span class="link-split">|</span> <a href="#">Case Study</a></p>
       </div>
-    </div><?php // row ?>
-    -->
+    </div>
+  </div>
 </div>
 <?php include'section/footer.php'; ?>
