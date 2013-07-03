@@ -6,7 +6,7 @@
 <?php include 'section/header.php'; ?>
 <div id="masthead-wrapper">
   <div class="container">
-    <img src="assets/images/logo-circle.png" alt="Boompah" class="logo-boompah-circle-landing" />
+    <img src="/assets/images/logo-circle.png" alt="Boompah" class="logo-boompah-circle-landing" />
     <section class="main-content">
       <h1>Boompah is a User Interface &amp; Development Boutique run by Ryan Bollenbach in Winnipeg, MB.</h1>
       <h3>We collaborate with brands to design interfaces for web applications, boutique websites and e-commerce stores. We thrive on the science of social media and evidence driven design.</h3>
@@ -21,7 +21,7 @@
       <div class="panel">
         <a href="http://diamond.com" target="_blank" title="Diamond.com - Jewelry Education">
           <div class="panel-block diamond">
-            <img src="assets/images/featured-work/diamond.png" alt="Diamond" title="Diamond" />
+            <img src="/assets/images/featured-work/diamond.png" alt="Diamond" title="Diamond" />
           </div>
         </a>
         <p>Diamond.com, sister site of <a href="http://ice.com" target="_blank" title="Online Jewelry Shop">ice.com.</a></p>
@@ -30,7 +30,7 @@
       <div class="panel">
         <a href="http://2m2.ca" target="_blank" title="2M2, Montreal Art Collective">
           <div class="panel-block two-m-two">
-            <img src="assets/images/featured-work/2m2.png" alt="2m2" title="2m2" />
+            <img src="/assets/images/featured-work/2m2.png" alt="2m2" title="2m2" />
           </div>
         </a>
         <p>2M2, Montreal Art Collective</a></p>
@@ -39,7 +39,7 @@
       <div class="panel last">
         <a href="http://hollywoodpq.com" target="_blank" title="Hollywood PQ">
           <div class="panel-block hollywood-pq">
-            <img src="assets/images/featured-work/hollywoodpq.png" alt="Hollywood PQ" title="Hollywood PQ" />
+            <img src="/assets/images/featured-work/hollywoodpq.png" alt="Hollywood PQ" title="Hollywood PQ" />
           </div>
         </a>
         <p>Quebec based Hollywood gossip blog</p>
