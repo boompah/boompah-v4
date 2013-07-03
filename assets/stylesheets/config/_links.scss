@@ -1,0 +1,3 @@
+a.baby-blue__bg { background-color: $baby-blue; }
+a.baby-blue__bg:hover { background-color: darken($baby-blue, 10%); }
+a.baby-blue__bg:active { background-color: lighten($baby-blue, 5%); }

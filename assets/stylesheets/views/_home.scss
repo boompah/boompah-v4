@@ -126,9 +126,9 @@ body.home {
 				.royal-blue:hover { background-color: lighten($royal-blue, 15%); }
 				.royal-blue:active { background-color: lighten($royal-blue, 5%); }
 
-				.oboxmedia { background-color: $oboxmedia-blue; }
-				.oboxmedia:hover { background-color: darken($oboxmedia-blue, 10%); }
-				.oboxmedia:active { background-color: lighten($oboxmedia-blue, 5%); }
+				.baby-blue__bg { background-color: $baby-blue; }
+				.baby-blue__bg:hover { background-color: darken($baby-blue, 10%); }
+				.baby-blue__bg:active { background-color: lighten($baby-blue, 5%); }
 
 				.orange { background-color: $orange; }
 				.orange:hover { background-color: darken($orange, 10%); }
@@ -147,13 +147,13 @@ body.home {
 				.fbs:active { background-color: darken($fbs-blue, 20%); }
 
 				.pente-group,
-				.edison-nation { background-color: $pente-red; }
+				.edison-nation { background-color: $red; }
 				
 				.edison-nation:hover,
-				.pente-group:hover { background-color: darken($pente-red, 10%); }
+				.pente-group:hover { background-color: darken($red, 10%); }
 
 				.edison-nation:active,
-				.pente-group:active { background-color: lighten($pente-red, 5%); }
+				.pente-group:active { background-color: lighten($red, 5%); }
 				
 				.tungle-me { background-color: $tungle-green; }
 				.tungle-me:hover { background-color: darken($tungle-green, 10%); }

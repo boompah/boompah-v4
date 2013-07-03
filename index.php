@@ -55,7 +55,7 @@
       <div class="clients">
         <ul>
           <li><a href="http://grooveshark.com/" target="_blank">Grooveshark<i class="icon-headphones"></i></a></li>
-          <li><a href="http://oboxmedia.com/" target="_blank" class="oboxmedia">Oboxmedia<i class="icon-rocket"></i></a></li>
+          <li><a href="http://oboxmedia.com/" target="_blank" class="baby-blue__bg">Oboxmedia<i class="icon-rocket"></i></a></li>
           <li><a href="http://doyoulookgood.com/index/home?lang=en" target="_blank" class="orange">Doyoulookgood<i class="icon-group"></i></a></li>
           <li><a href="http://hollywoodpq.com/" target="_blank" class="hollywoodpq">Hollywood PQ<i class="icon-comments"></i></a></li>
           <li><a href="https://www.flexmls.com/" target="_blank" class="fbs">FBS - FlexMLS<i class="icon-home"></i></a></li>

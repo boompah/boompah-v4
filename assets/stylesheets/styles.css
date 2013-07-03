@@ -3,6 +3,15 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+a.baby-blue__bg {
+  background-color: #1abede; }
+
+a.baby-blue__bg:hover {
+  background-color: #1597b0; }
+
+a.baby-blue__bg:active {
+  background-color: #2bc8e6; }
+
 body {
   margin: 0;
   padding: 0; }
@@ -343,11 +352,11 @@ body.home {
       background-color: #1a70ae; }
     body.home .clients ul li .royal-blue:active {
       background-color: #135381; }
-    body.home .clients ul li .oboxmedia {
+    body.home .clients ul li .baby-blue__bg {
       background-color: #1abede; }
-    body.home .clients ul li .oboxmedia:hover {
+    body.home .clients ul li .baby-blue__bg:hover {
       background-color: #1597b0; }
-    body.home .clients ul li .oboxmedia:active {
+    body.home .clients ul li .baby-blue__bg:active {
       background-color: #2bc8e6; }
     body.home .clients ul li .orange {
       background-color: #fb7a00; }
@@ -375,13 +384,13 @@ body.home {
       background-color: #2f6789; }
     body.home .clients ul li .pente-group,
     body.home .clients ul li .edison-nation {
-      background-color: #cc1e27; }
+      background-color: #cc1514; }
     body.home .clients ul li .edison-nation:hover,
     body.home .clients ul li .pente-group:hover {
-      background-color: #a0171f; }
+      background-color: #9e100f; }
     body.home .clients ul li .edison-nation:active,
     body.home .clients ul li .pente-group:active {
-      background-color: #df252e; }
+      background-color: #e31716; }
     body.home .clients ul li .tungle-me {
       background-color: #9ac146; }
     body.home .clients ul li .tungle-me:hover {
@@ -499,7 +508,7 @@ body.about .container.showcase {
   body.about .container.showcase img {
     margin-top: 20px;
     float: left; }
-  body.about .container.showcase h2 {
+  body.about .container.showcase .main-name {
     text-align: right;
     font-size: 6em;
     font-weight: 300;
@@ -512,6 +521,75 @@ body.about footer .copyright {
   border-top: 1px solid #262626; }
 body.about footer .copyright-line {
   color: #404040; }
+
+h3.timeline {
+  font-size: 3.5em;
+  margin: 0; }
+
+.timeline-bar {
+  background-color: #f2f2f2;
+  clear: both;
+  text-align: left;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px; }
+  .timeline-bar h3 {
+    font-weight: 500; }
+  .timeline-bar .date {
+    width: 5em;
+    margin-right: .5em;
+    text-align: center;
+    display: block;
+    float: left;
+    background-color: black;
+    color: white;
+    font-weight: 200;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px; }
+  .timeline-bar i {
+    margin: .35em .5em 0 0;
+    float: right; }
+
+a.timeline-bar {
+  text-decoration: none; }
+
+.timeline-bar.baby-blue__bg {
+  background-color: #1abede;
+  color: white; }
+
+.timeline-bar.baby-blue__bg:hover {
+  background-color: #1597b0; }
+
+.timeline-bar.baby-blue__bg:active {
+  background-color: #2bc8e6; }
+
+.timeline-bar.red__bg {
+  background-color: #cc1514;
+  color: white; }
+
+.timeline-bar.android__bg {
+  background-color: #a0ca28;
+  color: white; }
+
+.timeline-bar.deviantart-green__bg {
+  background-color: #526155;
+  color: white; }
+
+.timeline-bar.deviantart-green__bg:hover {
+  background-color: #3b453d; }
+
+.timeline-bar.deviantart-green__bg:active {
+  background-color: #5e6f61; }
+
+.tungle-green__bg {
+  background-color: #9ac146;
+  color: white; }
 
 #header {
   height: 6.75em; }

@@ -1,10 +1,13 @@
 // Bourbon
 @import 'bourbon/bourbon.scss';
 @import 'neat/neat';
-@import 'config/mixins.scss';
 
-// Base
+// Configuration
 @import "config/variables.scss";
+@import "config/links.scss";
+@import "config/mixins.scss";
+
+// Layout
 @import "layout.scss";
 
 // Views

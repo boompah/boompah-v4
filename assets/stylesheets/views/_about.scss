@@ -31,7 +31,7 @@ body.about {
 			margin-top: 20px;
 			float: left;
 		}
-		h2 {
+		.main-name {
 			text-align: right;
 			font-size: 6em;
 			font-weight: 300;
@@ -41,6 +41,7 @@ body.about {
 			font-size: 4em;
 		}
 	}
+
 	footer {
 		a.boompah {
 			background: url(/assets/images/logo-circle-footer-about.png);
@@ -53,3 +54,64 @@ body.about {
 		}
 	}
 }
+
+
+// Timeline
+
+h3.timeline {
+	font-size: 3.5em;
+	margin: 0;
+}
+
+.timeline-bar {
+	background-color: lighten($black, 95%);
+	clear: both;
+	text-align: left;
+
+	@include transition (all 0.35s ease-in-out);
+	
+	@include border-left-radius(8px);
+	@include border-right-radius(8px);
+
+	h3 {
+		font-weight: 500;
+	}
+
+	.date { 
+		width: 5em;
+		margin-right: .5em;
+		text-align: center;
+		display: block;
+		float: left;
+		background-color: $black;
+		color: $white;
+		font-weight: 200;
+
+		@include border-left-radius(8px);
+
+	}
+
+	i { 
+		margin: .35em .5em 0 0;
+		float: right;
+	}
+}
+
+a.timeline-bar {
+	text-decoration: none;
+}
+
+//Custom Colours
+.timeline-bar.baby-blue__bg { background-color: $baby-blue; color: $white; }
+.timeline-bar.baby-blue__bg:hover { background-color: darken($baby-blue, 10%); }
+.timeline-bar.baby-blue__bg:active { background-color: lighten($baby-blue, 5%); }
+
+.timeline-bar.red__bg { background-color: $red; color: $white; }
+
+.timeline-bar.android__bg { background-color: $android-green; color: $white; }
+
+.timeline-bar.deviantart-green__bg { background-color: $deviantart-green; color: $white; }
+.timeline-bar.deviantart-green__bg:hover { background-color: darken($deviantart-green, 10%); }
+.timeline-bar.deviantart-green__bg:active { background-color: lighten($deviantart-green, 5%); }
+
+.tungle-green__bg { background-color: $tungle-green; color: $white; }
