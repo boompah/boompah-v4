@@ -602,6 +602,32 @@ a.timeline-bar {
     padding: 0;
     text-shadow: 2px 2px 5px #e572a7; }
 
+body.contact #masthead-wrapper, body.contact #header, body.contact footer, body.contact .dark-bg {
+  background-color: #cc1514; }
+body.contact #header {
+  border-bottom: 2px solid #ec4140; }
+body.contact nav.primary a {
+  color: white; }
+body.contact nav.primary a:hover {
+  color: #cccccc; }
+body.contact nav.primary a:active {
+  color: #e6e6e6; }
+body.contact nav.primary a.selected, body.contact nav.primary a.selected:visited {
+  background-color: #38384f; }
+body.contact nav.primary a.selected:hover {
+  background-color: #4d4d6d; }
+body.contact nav.primary a.selected:active {
+  background-color: #232331; }
+body.contact #masthead-wrapper {
+  color: white; }
+  body.contact #masthead-wrapper h1 {
+    font-size: 10em;
+    text-transform: uppercase;
+    font-weight: 900; }
+  body.contact #masthead-wrapper h3 {
+    font-weight: 200;
+    font-size: 2em; }
+
 #header {
   height: 6.75em; }
   @media only screen and (max-width: 767px) {

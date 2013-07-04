@@ -1,0 +1,28 @@
+body.contact {
+	#masthead-wrapper, #header, footer, .dark-bg {
+		background-color: $red;
+	}
+	#header{
+		border-bottom: 2px solid lighten($red, 15%);
+	}
+	nav.primary {
+		a { color: $white; }
+		a:hover { color: darken($white, 20%); }
+		a:active { color: darken($white, 10%); }
+		a.selected, a.selected:visited { background-color: $gray-purple; }
+		a.selected:hover { background-color: lighten($gray-purple, 10%); }
+		a.selected:active { background-color: darken($gray-purple, 10%); }
+	}
+	#masthead-wrapper{
+		color: $white;
+		h1 {
+			font-size: 10em;
+			text-transform: uppercase;
+			font-weight: 900;
+		}
+		h3 {
+			font-weight: 200;
+			font-size: 2em;
+		}
+	}
+}
