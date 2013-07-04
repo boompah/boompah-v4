@@ -24,5 +24,4 @@
   <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body class="<?php echo $bodyclass; ?>">
-  <?php include 'section/chrome-frame.php'; ?>
-  <?php include 'section/navigation.php' ?>
+  <?php include 'navigation.php' ?>
