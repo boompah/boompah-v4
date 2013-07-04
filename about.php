@@ -90,40 +90,31 @@
     </div>
   </div>
 </div>
-<div class="showcase gray-bg">
+<div class="showcase food-porn">
   <div class="container">
-    <h2 class="food-porn-xxx">XXX</h2>
-    <h3 class="food-porn">Food Porn</h3>
-    <p>We love eating healthy food while we work and we're proud of our recipes.</p>
     <div class="row">
       <div class="panel">
-        <a href="http://diamond.com" target="_blank" title="Diamond.com - Jewelry Education">
+        <a href="http://instagram.com/p/Wf2mKkkg6H/" target="_blank" title="Mexican Plate">
           <div class="panel-block diamond">
-            <img src="assets/images/featured-work/diamond.png" alt="Diamond" title="Diamond" />
+            <img src="/assets/images/about/food-porn/01-mexican-plate.jpg" alt="Mexican Plate" title="Mexican Plate" />
           </div>
         </a>
-        <p>Diamond.com, sister site of <a href="http://ice.com" target="_blank" title="Online Jewelry Shop">ice.com.</a></p>
-        <p class="cta"><a href="http://diamond.com" target="_blank" title="Diamond.com - Jewelry Education">Live site</a> <span class="link-split">|</span> <a href="#">Case Study</a></p>
       </div>
       <div class="panel">
-        <a href="http://2m2.ca" target="_blank" title="2M2, Montreal Art Collective">
-          <div class="panel-block two-m-two">
-            <img src="assets/images/featured-work/2m2.png" alt="2m2" title="2m2" />
+        <a href="http://instagram.com/p/Yah4ZMkgwx/" target="_blank" title="Pineapple Salad">
+          <div class="panel-block diamond">
+            <img src="/assets/images/about/food-porn/02-pineapple-salad.jpg" alt="Pineapple Salad" title="Pineapple Salad" />
           </div>
         </a>
-        <p>2M2, Montreal Art Collective</a></p>
-        <p class="cta"><a href="http://2m2.ca" target="_blank" title="2M2, Montreal Art Collective">Live site</a> <span class="link-split">|</span> <a href="#">Case Study</a></p>
       </div>
       <div class="panel last">
-        <a href="http://hollywoodpq.com" target="_blank" title="Hollywood PQ">
-          <div class="panel-block hollywood-pq">
-            <img src="assets/images/featured-work/hollywoodpq.png" alt="Hollywood PQ" title="Hollywood PQ" />
+        <a href="http://instagram.com/p/X-MqVzEg4u/" target="_blank" title="Cauliflower Spagetti">
+          <div class="panel-block diamond">
+            <img src="/assets/images/about/food-porn/03-cauliflower-spagetti.jpg" alt="Cauliflower Spagetti" title="Cauliflower Spagetti" />
           </div>
         </a>
-        <p>Quebec based Hollywood gossip blog</p>
-        <p class="cta"><a href="http://hollywoodpq.com" target="_blank" title="Hollywood PQ">Live site</a> <span class="link-split">|</span> <a href="#">Case Study</a></p>
       </div>
-    </div>
+    </div><?php // row ?>
   </div>
 </div>
 <?php include'section/footer.php'; ?>
