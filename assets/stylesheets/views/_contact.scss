@@ -1,9 +1,9 @@
 body.contact {
 	#masthead-wrapper, #header, footer, .dark-bg {
-		background-color: $red;
+		background-color: $ruby-red;
 	}
 	#header{
-		border-bottom: 2px solid lighten($red, 15%);
+		border-bottom: 2px solid lighten($ruby-red, 15%);
 	}
 	nav.primary {
 		a { color: $white; }
@@ -23,6 +23,17 @@ body.contact {
 		h3 {
 			font-weight: 200;
 			font-size: 2em;
+		}
+	}
+	footer {
+		a.boompah {
+			background: url(/assets/images/logo-circle-footer-about.png);
+		}
+		.copyright {
+			border-top: 1px solid lighten($ruby-red, 15%);
+		}
+		.copyright-line { 
+			color: lighten($ruby-red, 25%); 
 		}
 	}
 }

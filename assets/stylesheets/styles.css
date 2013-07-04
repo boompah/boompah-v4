@@ -603,9 +603,9 @@ a.timeline-bar {
     text-shadow: 2px 2px 5px #e572a7; }
 
 body.contact #masthead-wrapper, body.contact #header, body.contact footer, body.contact .dark-bg {
-  background-color: #cc1514; }
+  background-color: #a51c27; }
 body.contact #header {
-  border-bottom: 2px solid #ec4140; }
+  border-bottom: 2px solid #dc313f; }
 body.contact nav.primary a {
   color: white; }
 body.contact nav.primary a:hover {
@@ -627,6 +627,12 @@ body.contact #masthead-wrapper {
   body.contact #masthead-wrapper h3 {
     font-weight: 200;
     font-size: 2em; }
+body.contact footer a.boompah {
+  background: url(/assets/images/logo-circle-footer-about.png); }
+body.contact footer .copyright {
+  border-top: 1px solid #dc313f; }
+body.contact footer .copyright-line {
+  color: #e45d68; }
 
 #header {
   height: 6.75em; }
