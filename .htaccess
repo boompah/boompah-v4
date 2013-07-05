@@ -17,3 +17,30 @@
 
 # End of Apache Rewrite Rules
  </IfModule>
+
+ ## enable browser image caching
+<FilesMatch "\.(jpg|jpeg|gif|png)$">
+Header set Cache-Control "max-age=29030400, public"
+</FilesMatch>
+ 
+## enable browser javascript caching
+<FilesMatch "\.(js)$">
+Header set Cache-Control "max-age=29030400, public"
+</FilesMatch>
+ 
+## enable browser css caching
+<FilesMatch "\.(css)$">
+Header set Cache-Control "max-age=29030400, public"
+</FilesMatch>
+ 
+## enable browser html caching
+<FilesMatch "\.(html|php)$">
+Header set Cache-Control "max-age=29030400, public"
+</FilesMatch>
+ 
+## javascript and css compression (gzip)
+<IfModule mod_deflate.c>
+<FilesMatch "\.(js|css)$">
+SetOutputFilter DEFLATE
+</FilesMatch>
+</IfModule>

@@ -38,7 +38,7 @@
       </div>
     </div>
     <div class="row">
-      <h2>Contact Ryan directly for new project enquires.</h2>
+      <h2>Say Hello</h2>
     </div>
   </div>
   <i class="icon-phone"></i>
