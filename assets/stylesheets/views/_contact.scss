@@ -17,7 +17,7 @@ body.contact {
 		color: $white;
 		h1 {
 			font-size: 10em;
-			text-transform: uppercase;
+			letter-spacing: 2px;
 			font-weight: 900;
 		}
 		h3 {
@@ -25,9 +25,25 @@ body.contact {
 			font-size: 2em;
 		}
 	}
+	i { color: $ruby-red; font-size: 1.25em; }
+	.guidelines {
+		i { margin-right: 15px; }
+	}
+	.contact-details {
+		h2 {
+			text-transform: none;
+			font-size: 5em;
+			line-height: 1em;
+			font-weight: 200;
+		}
+		i {
+			font-size: 4.5em;
+		}
+		p { font-size: 1.5em; }
+	}
 	footer {
 		a.boompah {
-			background: url(/assets/images/logo-circle-footer-about.png);
+			background: url(/assets/images/contact/logo-circle-footer.png);
 		}
 		.copyright {
 			border-top: 1px solid lighten($ruby-red, 15%);

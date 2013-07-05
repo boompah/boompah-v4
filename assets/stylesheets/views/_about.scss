@@ -17,8 +17,8 @@ body.about {
 		color: $white;
 		h1 {
 			font-size: 10em;
-			text-transform: uppercase;
 			font-weight: 900;
+			letter-spacing: 2px;
 		}
 		h3 {
 			font-weight: 200;
@@ -41,7 +41,7 @@ body.about {
 
 	footer {
 		a.boompah {
-			background: url(/assets/images/logo-circle-footer-about.png);
+			background: url(/assets/images/about/logo-circle-footer.png);
 		}
 		.copyright {
 			border-top: 1px solid lighten($black, 15%);

@@ -62,7 +62,7 @@ h4 {
 	}
 
 p {
-	font-size: 1.15em;
+	font-size: 1.25em;
 	@include respond-to(handhelds-and-medium-screens) { font-size: 1.15em; }
 	}
 
@@ -92,7 +92,8 @@ ul {
 	
 	h2 {
 		text-align: center;
-		text-transform: uppercase;
+		font-size: 3em;
+		line-height: 1em;
 		padding: .5em 0;
 	}
 	

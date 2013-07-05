@@ -14,7 +14,8 @@
 </div><?php // masthead-wrapper home ?>
 <div class="container">
   <div class="showcase">
-    <div class="row">
+    <h2>Guidelines</h2>
+    <div class="row guidelines">
       <div class="half">
         <h3><i class="icon-file-text"></i> Project Breif</h3>
         <p>Please provide us with as much detail as you can about your project. It’s important for us to ensure it’s a good match and understand how
@@ -26,7 +27,7 @@
          Our typical projects start from $7,500 and our hourly rate is $75.</p>
       </div>
     </div>
-    <div class="row">
+    <div class="row guidelines">
       <div class="half">
         <h3><i class="icon-calendar"></i> Timeline</h3>
         <p>We need to know when a project must begin and end in order to manage expectations. <em>*Please include your timezone, we’re on Central Standard Time.*</em></p>
@@ -37,15 +38,21 @@
 2-hour UX/Usability review sessions are $250.</p>
       </div>
     </div>
-    <div class="row">
+    <div class="row contact-details">
       <h2>Say Hello</h2>
+      <div class="panel">
+        <i class="icon-phone"></i>
+        <p>204 807 0619</p>
+      </div>
+      <div class="panel">
+        <i class="icon-skype"></i>
+        <p>ryan.bollenbach</p>
+      </div>
+      <div class="panel">
+        <a href="mailto:hello@boompah.com" title="Email us"><i class="icon-envelope"></i></a>
+        <p><a href="mailto:hello@boompah.com" title="Email us">hello@boompah.com</a></p>
+      </div>
     </div>
   </div>
-  <i class="icon-phone"></i>
-  204 807 0619
-  <i class="icon-skype"></i>
-  ryan.bollenbach
-  <i class="icon-envelope"></i>
-  <a href="mailto:hello@boompah.com" title="Email us">hello@boompah.com</a>
 </div>
 <?php include'section/footer.php'; ?>

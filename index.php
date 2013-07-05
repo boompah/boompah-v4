@@ -31,6 +31,4 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
 include 'section/header.php';
 include 'section/home/main-content.php';
 
-echo "This page was last modified: ".date("d.m.Y H:i:s",time());
-
 ?>
