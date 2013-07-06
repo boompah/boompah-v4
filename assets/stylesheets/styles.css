@@ -633,7 +633,10 @@ body.contact i {
   font-size: 1.25em; }
 body.contact .guidelines i {
   margin-right: 15px; }
+body.contact .guidelines h3 {
+  margin-top: 0; }
 body.contact .contact-details h2 {
+  margin-top: 0;
   text-transform: none;
   font-size: 5em;
   line-height: 1em;

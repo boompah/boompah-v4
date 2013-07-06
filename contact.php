@@ -8,7 +8,7 @@
   <div class="container">
     <section class="main-content">
       <h1>Contact</h1>
-      <h3>In order to make this process as effiecent as possible, please follow the guidelines below before contacting us to discuss a new project.</h3>
+      <h3>In order to make this process as efficient as possible, please follow the guidelines below before contacting us to discuss a new project.</h3>
     </div>
   </div>
 </div><?php // masthead-wrapper home ?>
@@ -17,7 +17,7 @@
     <h2>Guidelines</h2>
     <div class="row guidelines">
       <div class="half">
-        <h3><i class="icon-file-text"></i> Project Breif</h3>
+        <h3><i class="icon-file-text"></i> Project Brief</h3>
         <p>Please provide us with as much detail as you can about your project. It’s important for us to ensure it’s a good match and understand how
          you’d like us to be involved. If you have any wireframes, sketches, notes, objectives or goals, please append those as well.</p>
       </div>
@@ -30,7 +30,7 @@
     <div class="row guidelines">
       <div class="half">
         <h3><i class="icon-calendar"></i> Timeline</h3>
-        <p>We need to know when a project must begin and end in order to manage expectations. <em>*Please include your timezone, we’re on Central Standard Time.*</em></p>
+        <p>We need to know when a project must begin and end in order to manage expectations. Please inform us if there are any foreseeable roadblocks, your approval process, other people involved, etc.<em>*Please include your timezone, we’re on Central Standard Time <strong>(CST)</strong>*</em></p>
       </div>
       <div class="half">
         <h3><i class="icon-coffee"></i> One on One Consultations</h3>
