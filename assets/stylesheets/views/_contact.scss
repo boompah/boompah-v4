@@ -45,6 +45,14 @@ body.contact {
 	}
 	footer {
 		ul.nav {
+			@include respond-to(large-screens) { 
+				a {
+					background-color: lighten($ruby-red, 15%);
+					color: $ruby-red;
+				}
+				a:hover { background-color: darken($ruby-red, 20%); }
+				a:active { background-color: darken($ruby-red, 10%); }
+			}
 			@include respond-to(handhelds-and-medium-screens) { 
 				a {
 					background-color: lighten($ruby-red, 15%);
