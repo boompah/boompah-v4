@@ -37,6 +37,8 @@ footer {
 				@include border-bottom-radius(5px);
 				@include border-left-radius(5px);
 				@include border-right-radius(5px);
+				
+				@include transition (all 0.35s ease-in-out);
 			}
 			a:hover { background-color: darken($light-purple, 20%); }
 			a:active { background-color: darken($light-purple, 10%); }

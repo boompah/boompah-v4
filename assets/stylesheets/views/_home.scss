@@ -12,11 +12,17 @@ body.home {
 	
 	#masthead-wrapper {
 		h1 {	
+			margin: 5% auto 5%;
 			color: $light-purple;
+			font-size: 3.25em;
+			font-weight: 600;
+			line-height: 1.25em;
 		}
 
 		h3 {
 			color: $secondary-purple;
+			font-size: 2em;
+			font-weight: 500;
 		}
 	} 
 	
