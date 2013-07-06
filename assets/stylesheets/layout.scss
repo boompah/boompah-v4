@@ -52,13 +52,15 @@ h3 {
 	line-height: 1.75em;
 	@include respond-to(large-screens) { font-size: 1.5em; }
 	@include respond-to(medium-screens) { font-size: 1.25em; }
-	@include respond-to(handhelds) { font-size: 1.15em; }
+	@include respond-to(handhelds) { font-size: 1.25em; }
 	}
 
 h4 { 
 	font-size: 1.5em;
 	font-weight: 500;
 	line-height: 1.5em;
+	@include respond-to(large-screens) { font-size: 1.25em; }
+	@include respond-to(handhelds-and-medium-screens) { font-size: 1.15em; }
 	}
 
 p {
@@ -93,6 +95,9 @@ ul {
 	h2 {
 		text-align: center;
 		font-size: 3em;
+		@include respond-to(large-screens) { font-size: 2.25em; }
+		@include respond-to(handhelds-and-medium-screens) { font-size: 1.75em; }
+
 		line-height: 1em;
 		padding: .5em 0;
 	}
@@ -211,10 +216,6 @@ a.button:active { background-color: darken($link-blue, 10%); }
 
 .dark-bg {
 	h2 { color: $white; }
-}
-
-.light-bg { 
-	h3 { text-transform: uppercase; }
 }
 
 .gray-bg {

@@ -17,12 +17,16 @@ body.home {
 			font-size: 3.25em;
 			font-weight: 600;
 			line-height: 1.25em;
+			@include respond-to(large-screens) { font-size: 2.5em; }
+			@include respond-to(handhelds-and-medium-screens) { font-size: 1.5em; }
 		}
 
 		h3 {
 			color: $secondary-purple;
 			font-size: 2em;
 			font-weight: 500;
+			@include respond-to(large-screens) { font-size: 1.5em; }
+			@include respond-to(handhelds-and-medium-screens) { font-size: 1.25em; }
 		}
 	} 
 	
@@ -41,7 +45,10 @@ body.home {
 	
 	.usability-research {
 		p { margin-bottom: 3em; }
-		h3 { margin-top: 1.5em; }
+		h3 {
+			margin-top: 1.5em;
+			@include respond-to(handhelds-and-medium-screens) { font-size: 1.5em; }
+		}
 		h4 {  }
 		p.last { margin-bottom: 0; }
 		
@@ -97,7 +104,9 @@ body.home {
 
 	/* Testimonials */
 	.testimonials {
-
+		p, h4 {
+			@include respond-to(handhelds-and-medium-screens) { text-align: left; }
+		}
 	}
 
 	/* Clients */

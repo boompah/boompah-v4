@@ -66,12 +66,18 @@ h3 {
       font-size: 1.25em; } }
   @media only screen and (max-width: 479px) {
     h3 {
-      font-size: 1.15em; } }
+      font-size: 1.25em; } }
 
 h4 {
   font-size: 1.5em;
   font-weight: 500;
   line-height: 1.5em; }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    h4 {
+      font-size: 1.25em; } }
+  @media only screen and (max-width: 767px) {
+    h4 {
+      font-size: 1.15em; } }
 
 p {
   font-size: 1.25em; }
@@ -105,6 +111,12 @@ ul li {
     font-size: 3em;
     line-height: 1em;
     padding: .5em 0; }
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+      .container h2 {
+        font-size: 2.25em; } }
+    @media only screen and (max-width: 767px) {
+      .container h2 {
+        font-size: 1.75em; } }
 
 #masthead-wrapper {
   padding: 4% 0;
@@ -219,9 +231,6 @@ a.button:active {
 .dark-bg h2 {
   color: white; }
 
-.light-bg h3 {
-  text-transform: uppercase; }
-
 .gray-bg {
   background-color: #f2f2f2; }
 
@@ -286,10 +295,22 @@ body.home {
     font-size: 3.25em;
     font-weight: 600;
     line-height: 1.25em; }
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+      body.home #masthead-wrapper h1 {
+        font-size: 2.5em; } }
+    @media only screen and (max-width: 767px) {
+      body.home #masthead-wrapper h1 {
+        font-size: 1.5em; } }
   body.home #masthead-wrapper h3 {
     color: #797999;
     font-size: 2em;
     font-weight: 500; }
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+      body.home #masthead-wrapper h3 {
+        font-size: 1.5em; } }
+    @media only screen and (max-width: 767px) {
+      body.home #masthead-wrapper h3 {
+        font-size: 1.25em; } }
   body.home #header {
     border-bottom: 2px solid #393951; }
   body.home nav.primary a {
@@ -308,6 +329,9 @@ body.home {
     margin-bottom: 3em; }
   body.home .usability-research h3 {
     margin-top: 1.5em; }
+    @media only screen and (max-width: 767px) {
+      body.home .usability-research h3 {
+        font-size: 1.5em; } }
   body.home .usability-research p.last {
     margin-bottom: 0; }
   body.home .services-points h4 {
@@ -341,6 +365,9 @@ body.home {
   body.home .featured-work .panel-block.two-m-two {
     background-color: black;
     border: 1px solid black; }
+  @media only screen and (max-width: 767px) {
+    body.home .testimonials p, body.home .testimonials h4 {
+      text-align: left; } }
   body.home .gray-bg {
     border-top: 1px solid #d9d9d9; }
   body.home .clients ul li {
