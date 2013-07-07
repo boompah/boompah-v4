@@ -247,6 +247,9 @@ a.button:active {
   .page-toggle .left .arrow-up {
     float: right;
     margin-right: 18%; }
+    @media only screen and (max-width: 767px) {
+      .page-toggle .left .arrow-up {
+        margin-right: 30%; } }
   .page-toggle .right h2 {
     text-align: left; }
   .page-toggle .right .arrow-up {
