@@ -18,6 +18,9 @@ body.services {
 			color: $white;
 		}
 	}
+  .page-toggle {
+    a { color: lighten($forest-green, 15%) }
+   }
 	footer {
 		ul.nav {
 			@include respond-to(large-screens) { 

@@ -214,6 +214,42 @@ a.button:active { background-color: darken($link-blue, 10%); }
 
 } // showcase
 
+// ---------------------------------------------------------------------
+
+	// Page Toggle
+
+// ---------------------------------------------------------------------
+
+.page-toggle {
+	background-color: $black;
+	h2 {
+		color: $white;
+		font-weight: 200;
+		margin: 10px 0 0 0;
+	}
+	.left, .right { @include span-columns(6); }
+	.left { 
+		h2 { text-align: right; padding-right: 20px; }
+		.arrow-up { float: right; margin-right: 18%; }
+	}
+	.right {
+			h2 { text-align: left; }
+			.arrow-up { float: left; margin-left: 15%; }
+		} 
+	.selected { font-weight: 500; }
+
+	a { text-decoration: none; }
+
+	.arrow-up {
+		width: 0; 
+		height: 0;
+		clear: both;
+		border-left: 20px solid transparent;
+		border-right: 20px solid transparent;
+		border-bottom: 20px solid $white;
+	}
+}
+
 .dark-bg {
 	h2 { color: $white; }
 }

@@ -228,6 +228,42 @@ a.button:active {
       .showcase .panel {
         width: 100%; } }
 
+.page-toggle {
+  background-color: black; }
+  .page-toggle h2 {
+    color: white;
+    font-weight: 200;
+    margin: 10px 0 0 0; }
+  .page-toggle .left, .page-toggle .right {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .page-toggle .left:last-child, .page-toggle .right:last-child {
+      margin-right: 0; }
+  .page-toggle .left h2 {
+    text-align: right;
+    padding-right: 20px; }
+  .page-toggle .left .arrow-up {
+    float: right;
+    margin-right: 18%; }
+  .page-toggle .right h2 {
+    text-align: left; }
+  .page-toggle .right .arrow-up {
+    float: left;
+    margin-left: 15%; }
+  .page-toggle .selected {
+    font-weight: 500; }
+  .page-toggle a {
+    text-decoration: none; }
+  .page-toggle .arrow-up {
+    width: 0;
+    height: 0;
+    clear: both;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid white; }
+
 .dark-bg h2 {
   color: white; }
 
@@ -802,6 +838,8 @@ body.services nav.primary a.selected:active {
   background-color: #232331; }
 body.services #masthead-wrapper h1, body.services #masthead-wrapper h3 {
   color: white; }
+body.services .page-toggle a {
+  color: #00b45f; }
 @media only screen and (min-width: 768px) and (max-width: 959px) {
   body.services footer ul.nav a {
     background-color: #02ff88;
