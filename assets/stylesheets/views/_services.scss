@@ -1,0 +1,50 @@
+body.services {
+	#masthead-wrapper, #header, footer, .dark-bg {
+		background-color: $forest-green;
+	}
+	#header{
+		border-bottom: 2px solid lighten($forest-green, 15%);
+	}
+		nav.primary {
+		a { color: $white; }
+		a:hover { color: darken($white, 20%); }
+		a:active { color: darken($white, 10%); }
+		a.selected, a.selected:visited { background-color: $gray-purple; }
+		a.selected:hover { background-color: lighten($gray-purple, 10%); }
+		a.selected:active { background-color: darken($gray-purple, 10%); }
+	}
+	#masthead-wrapper{
+		h1, h3 {
+			color: $white;
+		}
+	}
+	footer {
+		ul.nav {
+			@include respond-to(large-screens) { 
+				a {
+					background-color: lighten($forest-green, 30%);
+					color: $forest-green;
+				}
+				a:hover { background-color: lighten($forest-green, 15%); }
+				a:active { background-color: lighten($forest-green, 50%); }
+			}
+			@include respond-to(handhelds-and-medium-screens) { 
+				a {
+					background-color: lighten($forest-green, 30%);
+					color: $forest-green;
+				}
+				a:hover { background-color: lighten($forest-green, 15%); }
+				a:active { background-color: lighten($forest-green, 50%); }
+			}
+		}
+		a.boompah {
+			background: url(/assets/images/services/logo-circle-footer.png);
+		}
+		.copyright {
+			border-top: 1px solid lighten($forest-green, 15%);
+		}
+		.copyright-line { 
+			color: lighten($forest-green, 25%); 
+		}
+	}
+}

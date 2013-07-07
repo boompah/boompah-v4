@@ -24,6 +24,7 @@ body.contact {
 		h3 {
 			margin-top: 0;
 			font-size: 1.75em;
+			@include respond-to(handhelds-and-medium-screens) { font-size: 1.5em; }
 		}
 	}
 	.contact-details {

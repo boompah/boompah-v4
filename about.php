@@ -1,6 +1,6 @@
 <?php
   $bodyclass = about;
-  $title = 'User Experience Design and Social Media Science - Boompah';
+  $title = 'About';
   $description = 'Boompah is a User Interface &amp; Development Boutique founded by Ryan Bollenbach and based in Winnipeg, Canada.';
 ?>
 <?php include 'section/header.php'; ?>
