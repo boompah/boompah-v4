@@ -843,6 +843,10 @@ body.services #masthead-wrapper h1, body.services #masthead-wrapper h3 {
   color: white; }
 body.services .page-toggle a {
   color: #00b45f; }
+body.services .showcase {
+  padding-top: 60px; }
+  body.services .showcase h3 {
+    margin: 0; }
 @media only screen and (min-width: 768px) and (max-width: 959px) {
   body.services footer ul.nav a {
     background-color: #02ff88;

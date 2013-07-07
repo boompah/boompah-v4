@@ -26,20 +26,20 @@
 <div class="container showcase services-content">
   <div class="row">
     <div class="half">
-      <h3>Web Design</h3>
-      <p>Whether it's starting from scratch, a full on re-design or improving a single page element, we love helping brands through the whole design lifecycle. A web design is usually also be the foundation of a brand’s style guidelines. We constantly strive to refine our process to create solutions that create the best user experience possible.</p>
-      <p>We believe a successful design is the balance of its responsiveness, visual aesthetic, performance and user interaction. We fuel our design decisions with research and testing instead of making assumptions and shooting from the hip.</p>
-    </div>
-    <div class="half">
       <h3>Style Guides</h3>
       <p>These days there are several different definitions of a brand style guide and it’s important to keep in mind so your brand stays consistent. Since the majority of marketing is online based, it only makes sense to have a style guide that maps out your online presence.</p>
       <p>Whether you have an existing website or worked with us on a new or re-designed site, we will document all the characteristics of your brand. This includes specific HTML assets, colour values, typography &amp; fonts, content layouts, forms, graphic styles, responsive web design considerations.</p>
       <p>The beauty of a style guide is the ability to have multiple designers work on a project while speaking the same language of a brand.</p>
     </div>
+    <div class="half">
+      <h3>Social Media Science</h3>
+      <p>We approach social media quite differently than what we've been seeing in the wild. We do not want to be anyone's cheerleader, we create meaningful interactions. We do the grunt work in hunting down an audience that’s related to your market, location and demographic. We listen more than we tweet and ask questions instead of only stuffing ads in people’s feeds.</p>
+      <p>We use various tools for automation and <em>*make the internet work for us*</em>. We establish an agile high level strategy, community directory and track everything with actionable items to grow. We also guide brands through contests, content activations and grassroots campaigns.</p>
+    </div>
   </div>
   <div class="row">
     <div class="half">
-      <h3>iAB Advertisements &amp; Social Activation</h3>
+      <h3>iAB &amp; Custom Ads</h3>
       <p>We create both static and animated banners for running iAB standard ads or custom sizes and specifications. We translate your promotion idea and branding to create a compelling advertisement for potential customers.</p>
       <p>We can activate or reinvigorate your social media presence by
   infusing it with your personal brand or promotion(s). Having a following is only the first step in taking full advantage of your audience. Creating a meaningful, personalized connections with your users is a key ingredient to user engagement and retention. We can provide you with out of the box solutions for action oriented content.</p>
@@ -63,7 +63,7 @@
       What is your target audience?</p>
     </div>
     <div class="half">
-      <h3>Business Cards</h3>
+      <h3>Print Media</h3>
       <p>Business cards will always remain an essential asset to advertise your brand at a one on one level. When you’re at the golf course chatting with a potential client, making a lasting first impression could be the difference between landing a new lead or losing brand respect.</p>
       <p>We believe it’s good to stay classy but think outside of the box when designing business cards. We’ll ensure brand consistency with your website and help you put your best step forward.</p>
       <p>We’re affiliated with international and local (Winnipeg, MB) printers to ensure your business cards will be delivered to your doorstep.</p>

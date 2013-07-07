@@ -18,9 +18,15 @@ body.services {
 			color: $white;
 		}
 	}
-  .page-toggle {
+  .page-toggle { 
     a { color: lighten($forest-green, 15%) }
-   }
+  }
+  // Showcase
+  .showcase {
+    padding-top: 60px;
+    h3 { margin: 0; }
+  }
+
 	footer {
 		ul.nav {
 			@include respond-to(large-screens) { 
