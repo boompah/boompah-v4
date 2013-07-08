@@ -1,30 +1,28 @@
 <?php
-  $bodyclass = about;
   $title = 'About';
   $description = 'Boompah is a User Interface &amp; Development Boutique founded by Ryan Bollenbach and based in Winnipeg, Canada.';
 ?>
-<?php include 'section/header.php'; ?>
 <div id="masthead-wrapper">
   <div class="container">
     <section class="main-content">
       <h1>About</h1>
       <h3>Our mission is to collaborate with awesome people that want to make a positive change in the world.
-		Whether it's inspiring a healthy diet, enhancing a wardrobe, or guiding someone through the home buying process.</h3>
+    Whether it's inspiring a healthy diet, enhancing a wardrobe, or guiding someone through the home buying process.</h3>
     </div>
   </div>
 </div><?php // masthead-wrapper home ?>
 <div class="container showcase">
-	<div class="row">
-		<img src="/assets/images/about/ryan-sydney-circle.jpg" title="Photo of Ryan" alt="Photo of Ryan" />
-		<h2 class="main-name">Ryan<br />
-		Bollenbach</h2>
-	</div>
-	<div class="row">
-		<div class="half">
-			<h3 class="timeline">My Timeline</h3>
-       		<p>I'm blessed to have experienced a lot of great things in my life, below are some events I'd like to share with you.</p>
+  <div class="row">
+    <img src="/assets/images/about/ryan-sydney-circle.jpg" title="Photo of Ryan" alt="Photo of Ryan" />
+    <h2 class="main-name">Ryan<br />
+    Bollenbach</h2>
+  </div>
+  <div class="row">
+    <div class="half">
+      <h3 class="timeline">My Timeline</h3>
+          <p>I'm blessed to have experienced a lot of great things in my life, below are some events I'd like to share with you.</p>
           <p><em>This concept was inspired by <a href="http://chriscoyier.net/about/" title="About Chris Coyier">Chris Coyier's gnarly about page.</a></em></p>
-      	</div>
+        </div>
     </div><?php // row ?>
     <div class="row">
       <div class="timeline-bar red__bg">
@@ -189,4 +187,3 @@
     </div><?php // row ?>
   </div>
 </div>
-<?php include'section/footer.php'; ?>
