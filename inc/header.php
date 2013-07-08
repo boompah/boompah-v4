@@ -8,8 +8,8 @@
   <?php // Basic Page Needs ?>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title><?php echo $title; ?></title>
-  <meta name="description" content="<?php echo $description; ?>">
+  <title>User Experience Design and Social Media Science - <?=$title?> - Boompah</title>
+  <meta name="description" content="">
   <meta name="author" content="Ryan Bollenbach">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
