@@ -331,25 +331,25 @@ body.home, .winnipeg-web-design, .work {
   body.home #masthead-wrapper h1, .winnipeg-web-design #masthead-wrapper h1, .work #masthead-wrapper h1 {
     margin: 5% auto 5%;
     color: #a5a5ce;
-    font-size: 3.25em;
+    font-size: 2.75em;
     font-weight: 600;
     line-height: 1.25em; }
     @media only screen and (min-width: 768px) and (max-width: 959px) {
       body.home #masthead-wrapper h1, .winnipeg-web-design #masthead-wrapper h1, .work #masthead-wrapper h1 {
-        font-size: 2.5em; } }
+        font-size: 2.35em; } }
     @media only screen and (max-width: 767px) {
       body.home #masthead-wrapper h1, .winnipeg-web-design #masthead-wrapper h1, .work #masthead-wrapper h1 {
         font-size: 1.5em; } }
   body.home #masthead-wrapper h3, .winnipeg-web-design #masthead-wrapper h3, .work #masthead-wrapper h3 {
     color: #797999;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 500; }
     @media only screen and (min-width: 768px) and (max-width: 959px) {
       body.home #masthead-wrapper h3, .winnipeg-web-design #masthead-wrapper h3, .work #masthead-wrapper h3 {
-        font-size: 1.5em; } }
+        font-size: 1.35em; } }
     @media only screen and (max-width: 767px) {
       body.home #masthead-wrapper h3, .winnipeg-web-design #masthead-wrapper h3, .work #masthead-wrapper h3 {
-        font-size: 1.25em; } }
+        font-size: 1.15em; } }
   body.home #header, .winnipeg-web-design #header, .work #header {
     border-bottom: 2px solid #393951; }
   body.home nav.primary a, .winnipeg-web-design nav.primary a, .work nav.primary a {

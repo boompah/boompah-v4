@@ -1,6 +1,6 @@
 <header id="header">
   <nav class="primary container">
-    <a name="top" href="/?page=home" class="boompah">
+    <a name="top" href="/" class="boompah">
       <img src="/img/logo-nav.png" alt="Boompah" />
       <span class="screen-reader-text">Boompah</span>
     </a>

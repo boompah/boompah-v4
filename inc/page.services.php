@@ -17,7 +17,7 @@
       <div class="arrow-up"></div>
     </div>
     <div class="right">
-      <h2><a href="/branding" title="Branding">Branding</a></h2>
+      <h2><a href="?page=branding" title="Branding">Branding</a></h2>
     </div>
   </div>
 </div>
@@ -53,7 +53,7 @@
     <div class="half">
       <h3>E-commerce Design</h3>
       <p>"In 2012, B2C ecommerce sales grew 21.1% to top $1 trillion for the first time, according to new global estimates by <a href="http://www.emarketer.com/Article/Ecommerce-Sales-Topped-1-Trillion-First-Time-2012/1009649" title="eMarketer" target="_blank">eMarketer</a>". E-commerce is another topic fuels our passion towards attention to detail.</p>
-      <p>An easy checkout process, ensuring users can login or retrieve their account and mobile considerations are defining points of revenue. We start with the cusomter experience and then think about technology</p>
+      <p>An easy checkout process, ensuring users can login or retrieve their account and mobile considerations are defining points of revenue.</p>
     </div>
     <div class="half">
       <h3>E-mail Campaigns</h3>

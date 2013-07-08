@@ -14,19 +14,19 @@ body.home, .winnipeg-web-design, .work {
 		h1 {	
 			margin: 5% auto 5%;
 			color: $light-purple;
-			font-size: 3.25em;
+			font-size: 2.75em;
 			font-weight: 600;
 			line-height: 1.25em;
-			@include respond-to(large-screens) { font-size: 2.5em; }
+			@include respond-to(large-screens) { font-size: 2.35em; }
 			@include respond-to(handhelds-and-medium-screens) { font-size: 1.5em; }
 		}
 
 		h3 {
 			color: $secondary-purple;
-			font-size: 2em;
+			font-size: 1.5em;
 			font-weight: 500;
-			@include respond-to(large-screens) { font-size: 1.5em; }
-			@include respond-to(handhelds-and-medium-screens) { font-size: 1.25em; }
+			@include respond-to(large-screens) { font-size: 1.35em; }
+			@include respond-to(handhelds-and-medium-screens) { font-size: 1.15em; }
 		}
 	} 
 	
