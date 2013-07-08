@@ -542,7 +542,7 @@ body.home, .winnipeg-web-design, .work {
   body.home footer .services a:active, .winnipeg-web-design footer .services a:active, .work footer .services a:active {
     color: #5050a7; }
   body.home footer a.boompah, .winnipeg-web-design footer a.boompah, .work footer a.boompah {
-    background: url(/assets/images/home/logo-circle-footer.png); }
+    background: url(/img/home/logo-circle-footer.png); }
   body.home footer .copyright, .winnipeg-web-design footer .copyright, .work footer .copyright {
     border-top: 1px solid #393951; }
     body.home footer .copyright a, .winnipeg-web-design footer .copyright a, .work footer .copyright a {
@@ -644,7 +644,7 @@ body.about .container.showcase {
   body.about footer ul.nav a:active {
     background-color: gray; } }
 body.about footer a.boompah {
-  background: url(/assets/images/about/logo-circle-footer.png); }
+  background: url(/img/about/logo-circle-footer.png); }
 body.about footer .copyright {
   border-top: 1px solid #262626; }
 body.about footer .copyright-line {
@@ -823,7 +823,7 @@ body.contact .contact-details p {
   body.contact footer ul.nav a:active {
     background-color: #79151d; } }
 body.contact footer a.boompah {
-  background: url(/assets/images/contact/logo-circle-footer.png); }
+  background: url(/img/contact/logo-circle-footer.png); }
 body.contact footer .copyright {
   border-top: 1px solid #dc313f; }
 body.contact footer .copyright-line {
@@ -870,7 +870,7 @@ body.services .showcase, .branding .showcase {
   body.services footer ul.nav a:active, .branding footer ul.nav a:active {
     background-color: #68ffb8; } }
 body.services footer a.boompah, .branding footer a.boompah {
-  background: url(/assets/images/services/logo-circle-footer.png); }
+  background: url(/img/services/logo-circle-footer.png); }
 body.services footer .copyright, .branding footer .copyright {
   border-top: 1px solid #00b45f; }
 body.services footer .copyright-line, .branding footer .copyright-line {
@@ -1067,7 +1067,7 @@ nav.primary {
 /* SASS Notes
 	
 	Compile SASS
-	sass --watch assets/stylesheets/base.scss:inc/styles.css
+	sass --watch assets/sass/base.scss:inc/styles.css
 	
 	Bourbon
 	$ bourbon help

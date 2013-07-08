@@ -23,6 +23,6 @@
   <?php // HTML5 shiv ?>
   <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
-<body class="<?php echo $_GET["page"]; ?>">
+<body class="<?php echo $page; ?>">
   <?php include 'chrome-frame.php'; ?>
   <?php include 'navigation.php' ?>
