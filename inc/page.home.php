@@ -4,8 +4,8 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
 ?>
 <div id="masthead-wrapper">
   <div class="container">
-    <img src="/img/logo-circle.png" alt="Boompah" class="logo-boompah-circle-landing" />
     <section class="main-content">
+      <img src="/img/logo-circle.png" alt="Boompah" class="logo-boompah-circle-landing" />
       <h1>Boompah is a User Interface &amp; Development Boutique run by Ryan Bollenbach in Winnipeg, MB.</h1>
       <h3>We collaborate with brands to design interfaces for web applications, boutique websites and e-commerce stores. We thrive on the science of social media and evidence driven design.</h3>
     </div>

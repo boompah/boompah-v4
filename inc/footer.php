@@ -26,8 +26,9 @@
       <div class="copyright"></div>
       <p class="copyright-line">&copy; Boompah 2011 - <?php echo date("Y") ?>. All rights reserved.</p>
       <ul class="social-links">
-        <li><a class="icon-twitter" href="https://twitter.com/gotboompah"><span class="screen-reader-text">Boompah on Twitter</span></a></li>
-        <li><a class="icon-facebook" href="https://www.facebook.com/gotboompah"><span class="screen-reader-text">Boompah on Facebook</span></a></li>
+        <li><a class="icon-twitter" href="http://twitter.com/gotboompah"><span class="screen-reader-text">Boompah on Twitter</span></a></li>
+        <li><a class="icon-facebook" href="http://www.facebook.com/gotboompah"><span class="screen-reader-text">Boompah on Facebook</span></a></li>
+        <li><a class="icon-google-plus" href="http://plus.google.com/109066667958483064936/"><span class="screen-reader-text">Boompah on Google Plus</span></a></li>
         <li><a href="http://ca.linkedin.com/in/ryanbollenbach" class="icon-linkedin"><span class="screen-reader-text">Boompah on LinkedIn</span></a></li>
         <li><a class="icon-pinterest" href="http://pinterest.com/boompah/"><span class="screen-reader-text">Boompah on Pinterest</span></a></li>
         <li><a class="icon-tumblr" href="http://boompah.tumblr.com/"><span class="screen-reader-text">Boompah on Tumblr</span></a></li>
@@ -48,8 +49,6 @@
   }; }
   
   </script>
-  
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-
   </body>
 </html>

@@ -6,8 +6,7 @@
   <div class="container">
     <section class="main-content">
       <h1>About</h1>
-      <h3>Our mission is to collaborate with awesome people that want to make a positive change in the world.
-    Whether it's inspiring a healthy diet, enhancing a wardrobe, or guiding someone through the home buying process.</h3>
+      <h3>Our mantra is to help brands create meaningful interactions through interface design, usability testing and social science.</h3>
     </div>
   </div>
 </div><?php // masthead-wrapper home ?>
@@ -20,7 +19,7 @@
   <div class="row">
     <div class="half">
       <h3 class="timeline">My Timeline</h3>
-          <p>I'm blessed to have experienced a lot of great things in my life, below are some events I'd like to share with you.</p>
+          <p>I'm grateful to have experienced a lot of awesome things in my life, below are some events I'd like to share with you.</p>
           <p><em>This concept was inspired by <a href="http://chriscoyier.net/about/" title="About Chris Coyier">Chris Coyier's gnarly about page.</a></em></p>
         </div>
     </div><?php // row ?>

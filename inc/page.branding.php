@@ -25,7 +25,7 @@
   <div class="row">
     <div class="half">
       <h3>Social Media Science</h3>
-      <p>We approach social media quite differently than what we've been seeing in the wild. We do the grunt work in hunting down an audience that’s related to your market, location and demographic. We listen more than we tweet and ask questions instead of only stuffing ads in people’s feeds.</p>
+      <p>We do the grunt work in hunting down an audience that’s related to your market, location and demographic. We listen more than we tweet and ask questions instead of only stuffing ads in people’s feeds.</p>
       <p>We use various tools for automation and <em>*make the internet work for us*</em>. We establish an agile high level strategy, community directory and track everything with actionable items to grow. We also guide brands through contests, content activations and grassroots campaigns.</p>
     </div>
     <div class="half">

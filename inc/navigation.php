@@ -1,4 +1,4 @@
-<header id="header">
+<header class="header">
   <nav class="primary container">
     <a name="top" href="/" class="boompah">
       <img src="/img/logo-nav.png" alt="Boompah" />

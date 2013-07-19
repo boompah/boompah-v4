@@ -1,9 +1,6 @@
 body.about {
-	#masthead-wrapper, #header, footer, .dark-bg {
+	#masthead-wrapper, .header, footer, .dark-bg {
 		background-color: $black;
-	}
-	#header{
-		border-bottom: 2px solid lighten($black, 15%);
 	}
 	nav.primary {
 		a { color: $white; }

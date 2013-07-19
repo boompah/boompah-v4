@@ -1,9 +1,6 @@
 body.services, .branding {
-	#masthead-wrapper, #header, footer, .dark-bg {
+	#masthead-wrapper, .header, footer, .dark-bg {
 		background-color: $forest-green;
-	}
-	#header{
-		border-bottom: 2px solid lighten($forest-green, 15%);
 	}
 		nav.primary {
 		a { color: $white; }

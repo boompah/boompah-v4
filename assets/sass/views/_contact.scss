@@ -1,9 +1,6 @@
 body.contact {
-	#masthead-wrapper, #header, footer, .dark-bg {
-		background-color: $ruby-red;
-	}
-	#header{
-		border-bottom: 2px solid lighten($ruby-red, 15%);
+	#masthead-wrapper, .header, footer, .dark-bg {
+		background-color: darken($google-salmon, 3%);
 	}
 	nav.primary {
 		a { color: $white; }
@@ -17,7 +14,7 @@ body.contact {
 		h1, h3 { color: $white; }
 	}
 	.showcase {
-		i { color: $ruby-red; font-size: 1.25em; }
+		i { color: $google-salmon; font-size: 1.25em; }
 	}
 	.guidelines {
 		i { margin-right: 10px; }
@@ -46,31 +43,45 @@ body.contact {
 	}
 	footer {
 		ul.nav {
+			a:hover { color: lighten($google-salmon, 5%); }
+			a:active { color: lighten($google-salmon, 15%); }
 			@include respond-to(large-screens) { 
 				a {
-					background-color: lighten($ruby-red, 15%);
-					color: $ruby-red;
+					background-color: lighten($google-salmon, 15%);
+					color: $google-salmon;
 				}
-				a:hover { background-color: darken($ruby-red, 20%); }
-				a:active { background-color: darken($ruby-red, 10%); }
+				a:hover { background-color: darken($google-salmon, 5%); }
+				a:active { background-color: darken($google-salmon, 10%); }
 			}
 			@include respond-to(handhelds-and-medium-screens) { 
 				a {
-					background-color: lighten($ruby-red, 15%);
-					color: $ruby-red;
+					background-color: lighten($google-salmon, 15%);
+					color: $google-salmon;
 				}
-				a:hover { background-color: darken($ruby-red, 20%); }
-				a:active { background-color: darken($ruby-red, 10%); }
+				a:hover { background-color: darken($google-salmon, 20%); }
+				a:active { background-color: darken($google-salmon, 10%); }
 			}
 		}
 		a.boompah {
 			background: url(/img/contact/logo-circle-footer.png);
 		}
 		.copyright {
-			border-top: 1px solid lighten($ruby-red, 15%);
+			border-top: 1px solid lighten($google-salmon, 5%);
 		}
 		.copyright-line { 
-			color: lighten($ruby-red, 25%); 
+			color: lighten($google-salmon, 20%); 
+		}
+		.social-links, .services {
+			a {
+				color: lighten($google-salmon, 20%);
+				@include transition (all 0.35s ease-in-out);
+			}
+			a:hover {
+				color: darken($google-salmon, 10%);
+			}
+			a:active {
+				color: darken($google-salmon, 20%);
+			}
 		}
 	}
 }
