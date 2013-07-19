@@ -839,7 +839,7 @@ body.contact footer .social-links a:active, body.contact footer .services a:acti
   color: #da1415; }
 
 body.services #masthead-wrapper, body.services .header, body.services footer, body.services .dark-bg, .branding #masthead-wrapper, .branding .header, .branding footer, .branding .dark-bg {
-  background-color: #006837; }
+  background-color: #55bca2; }
 body.services nav.primary a, .branding nav.primary a {
   color: white; }
 body.services nav.primary a:hover, .branding nav.primary a:hover {
@@ -855,33 +855,33 @@ body.services nav.primary a.selected:active, .branding nav.primary a.selected:ac
 body.services #masthead-wrapper h1, body.services #masthead-wrapper h3, .branding #masthead-wrapper h1, .branding #masthead-wrapper h3 {
   color: white; }
 body.services .page-toggle a, .branding .page-toggle a {
-  color: #00b45f; }
+  color: #8cd2c0; }
 body.services .showcase, .branding .showcase {
   padding-top: 60px; }
   body.services .showcase h3, .branding .showcase h3 {
     margin: 0; }
 @media only screen and (min-width: 768px) and (max-width: 959px) {
   body.services footer ul.nav a, .branding footer ul.nav a {
-    background-color: #02ff88;
-    color: #006837; }
+    background-color: #c3e7de;
+    color: #55bca2; }
   body.services footer ul.nav a:hover, .branding footer ul.nav a:hover {
-    background-color: #00b45f; }
+    background-color: #8cd2c0; }
   body.services footer ul.nav a:active, .branding footer ul.nav a:active {
-    background-color: #68ffb8; } }
+    background-color: white; } }
 @media only screen and (max-width: 767px) {
   body.services footer ul.nav a, .branding footer ul.nav a {
-    background-color: #02ff88;
-    color: #006837; }
+    background-color: #c3e7de;
+    color: #55bca2; }
   body.services footer ul.nav a:hover, .branding footer ul.nav a:hover {
-    background-color: #00b45f; }
+    background-color: #8cd2c0; }
   body.services footer ul.nav a:active, .branding footer ul.nav a:active {
-    background-color: #68ffb8; } }
+    background-color: white; } }
 body.services footer a.boompah, .branding footer a.boompah {
   background: url(/img/services/logo-circle-footer.png); }
 body.services footer .copyright, .branding footer .copyright {
-  border-top: 1px solid #00b45f; }
+  border-top: 1px solid #8cd2c0; }
 body.services footer .copyright-line, .branding footer .copyright-line {
-  color: #00e87a; }
+  color: #b0e0d4; }
 
 .header {
   height: 5em; }
