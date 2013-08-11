@@ -124,6 +124,12 @@ body.about {
 	}
 }
 
+.timeline {
+	h3 {
+		@include respond-to(handhelds-and-medium-screens) { margin-top: 0; }
+	}
+}
+
 a.timeline-bar {
 	text-decoration: none;
 }

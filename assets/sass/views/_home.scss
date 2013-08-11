@@ -40,6 +40,9 @@ body.home, .winnipeg-web-design, .work {
 	} 
 	
 	.usability-research {
+		h2, h3, h4, p {
+			@include respond-to(handhelds-and-medium-screens) { text-align: left; }
+		}
 		p { margin-bottom: 3em; }
 		h3 {
 			margin-top: 1.5em;
@@ -100,7 +103,7 @@ body.home, .winnipeg-web-design, .work {
 
 	/* Testimonials */
 	.testimonials {
-		p, h4 {
+		h2, p, h4 {
 			@include respond-to(handhelds-and-medium-screens) { text-align: left; }
 		}
 	}

@@ -22,6 +22,9 @@ body.services, .branding {
   .showcase {
     padding-top: 60px;
     h3 { margin: 0; }
+    h3, p {
+    	@include respond-to(handhelds-and-medium-screens) { text-align: left; }
+    }
   }
 
 	footer {

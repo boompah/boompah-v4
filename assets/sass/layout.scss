@@ -113,7 +113,10 @@ ul {
 		display: block;
 		font-size: 10em;
 		@include respond-to(large-screens) { font-size: 7em; }
-		@include respond-to(handhelds-and-medium-screens) { font-size: 3em; }
+		@include respond-to(handhelds-and-medium-screens) {
+			font-size: 3em;
+			text-align: left;
+		}
 
 		font-weight: 900;
 		letter-spacing: 2px;
@@ -123,7 +126,10 @@ ul {
 		font-weight: 200;
 		font-size: 2em;
 		@include respond-to(large-screens) { font-size: 1.75em; }
-		@include respond-to(handhelds-and-medium-screens) { font-size: 1.25em; }
+		@include respond-to(handhelds-and-medium-screens) {
+			font-size: 1.25em;
+			text-align: left;
+		}
 	}
 	
 } // masthead-wrapper
@@ -137,6 +143,7 @@ ul {
 a, a:link, a:visited {
 	text-decoration: none;
 	color: $link-blue;
+	outline: none;
 }
 
 a:hover {

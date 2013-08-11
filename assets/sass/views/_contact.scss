@@ -23,6 +23,9 @@ body.contact {
 			font-size: 1.75em;
 			@include respond-to(handhelds-and-medium-screens) { font-size: 1.5em; }
 		}
+		h2, h3, p {
+    	@include respond-to(handhelds-and-medium-screens) { text-align: left; }
+    }
 	}
 	.contact-details {
 		h2 {

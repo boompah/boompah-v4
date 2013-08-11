@@ -132,7 +132,8 @@ ul li {
         font-size: 7em; } }
     @media only screen and (max-width: 767px) {
       #masthead-wrapper h1 {
-        font-size: 3em; } }
+        font-size: 3em;
+        text-align: left; } }
   #masthead-wrapper h3 {
     font-weight: 200;
     font-size: 2em; }
@@ -141,11 +142,13 @@ ul li {
         font-size: 1.75em; } }
     @media only screen and (max-width: 767px) {
       #masthead-wrapper h3 {
-        font-size: 1.25em; } }
+        font-size: 1.25em;
+        text-align: left; } }
 
 a, a:link, a:visited {
   text-decoration: none;
-  color: #3b5998; }
+  color: #3b5998;
+  outline: none; }
 
 a:hover {
   text-decoration: underline; }
@@ -362,6 +365,9 @@ body.home, .winnipeg-web-design, .work {
     background-color: #4d4d6d; }
   body.home nav.primary a.selected:active, .winnipeg-web-design nav.primary a.selected:active, .work nav.primary a.selected:active {
     background-color: #232331; }
+  @media only screen and (max-width: 767px) {
+    body.home .usability-research h2, body.home .usability-research h3, body.home .usability-research h4, body.home .usability-research p, .winnipeg-web-design .usability-research h2, .winnipeg-web-design .usability-research h3, .winnipeg-web-design .usability-research h4, .winnipeg-web-design .usability-research p, .work .usability-research h2, .work .usability-research h3, .work .usability-research h4, .work .usability-research p {
+      text-align: left; } }
   body.home .usability-research p, .winnipeg-web-design .usability-research p, .work .usability-research p {
     margin-bottom: 3em; }
   body.home .usability-research h3, .winnipeg-web-design .usability-research h3, .work .usability-research h3 {
@@ -403,7 +409,7 @@ body.home, .winnipeg-web-design, .work {
     background-color: black;
     border: 1px solid black; }
   @media only screen and (max-width: 767px) {
-    body.home .testimonials p, body.home .testimonials h4, .winnipeg-web-design .testimonials p, .winnipeg-web-design .testimonials h4, .work .testimonials p, .work .testimonials h4 {
+    body.home .testimonials h2, body.home .testimonials p, body.home .testimonials h4, .winnipeg-web-design .testimonials h2, .winnipeg-web-design .testimonials p, .winnipeg-web-design .testimonials h4, .work .testimonials h2, .work .testimonials p, .work .testimonials h4 {
       text-align: left; } }
   body.home .gray-bg, .winnipeg-web-design .gray-bg, .work .gray-bg {
     border-top: 1px solid #d9d9d9; }
@@ -695,6 +701,10 @@ body.about footer .copyright-line {
       .timeline-bar i {
         display: none; } }
 
+@media only screen and (max-width: 767px) {
+  .timeline h3 {
+    margin-top: 0; } }
+
 a.timeline-bar {
   text-decoration: none; }
 
@@ -778,6 +788,9 @@ body.contact .guidelines h3 {
   @media only screen and (max-width: 767px) {
     body.contact .guidelines h3 {
       font-size: 1.5em; } }
+@media only screen and (max-width: 767px) {
+  body.contact .guidelines h2, body.contact .guidelines h3, body.contact .guidelines p {
+    text-align: left; } }
 body.contact .contact-details h2 {
   margin-top: 0;
   text-transform: none;
@@ -860,6 +873,9 @@ body.services .showcase, .branding .showcase {
   padding-top: 60px; }
   body.services .showcase h3, .branding .showcase h3 {
     margin: 0; }
+  @media only screen and (max-width: 767px) {
+    body.services .showcase h3, body.services .showcase p, .branding .showcase h3, .branding .showcase p {
+      text-align: left; } }
 @media only screen and (min-width: 768px) and (max-width: 959px) {
   body.services footer ul.nav a, .branding footer ul.nav a {
     background-color: #c3e7de;

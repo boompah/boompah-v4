@@ -16,9 +16,9 @@
     <h2 class="main-name">Ryan<br />
     Bollenbach</h2>
   </div>
-  <div class="row">
+  <div class="row timeline">
     <div class="half">
-      <h3 class="timeline">My Timeline</h3>
+      <h3>My Timeline</h3>
           <p>I'm grateful to have experienced a lot of awesome things in my life, below are some events I'd like to share with you.</p>
           <p><em>This concept was inspired by <a href="http://chriscoyier.net/about/" title="About Chris Coyier">Chris Coyier's gnarly about page.</a></em></p>
         </div>
