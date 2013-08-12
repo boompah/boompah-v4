@@ -1,0 +1,22 @@
+/*
+Theme Name: Boompah Blog
+Theme URI: http://blog.boompah.com
+Description: A child theme of 2012 default WordPress theme.
+Author: Your Name
+Author url: http://yoursite.com/
+Version: 1.0
+Tags: black, blue, white, fixed-width, custom-header, theme-options
+Template: twentytwelve
+*/
+@import url('../twentytwelve/style.css');
+@import url('http://boompah.com/inc/styles.css');
+
+body {
+  background-color: #232333;
+}
+
+body.single.single-post footer.entry-meta,
+body.home.blog footer.entry-meta { background-color: #FFFFFF; }
+
+body.single.single-post footer.entry-meta a,
+body.home.blog footer.entry-meta a {color: #3b5998; }
