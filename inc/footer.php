@@ -37,7 +37,7 @@
     </div><?php // container ?>
   </footer><?php // footer ?>
 
-  <!-- jQuery -->
+  <?php // jQuery ?>
   <script>
   var _gaq=[['_setAccount','UA-15341567-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
@@ -50,5 +50,8 @@
   
   </script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+  <?php // Retina JS ?>
+  <script type="text/javascript" src="/inc/js/scripts/retina.js"></script>
   </body>
 </html>

@@ -1,6 +1,6 @@
 body.services, .branding {
 	#masthead-wrapper, .header, footer, .dark-bg {
-		background-color: $boompah-teal;
+		background-color: $xbox-green;
 	}
 		nav.primary {
 		a { color: $white; }
@@ -16,7 +16,7 @@ body.services, .branding {
 		}
 	}
   .page-toggle { 
-    a { color: lighten($boompah-teal, 15%) }
+    a { color: lighten($xbox-green, 15%) }
   }
   // Showcase
   .showcase {
@@ -31,29 +31,29 @@ body.services, .branding {
 		ul.nav {
 			@include respond-to(large-screens) { 
 				a {
-					background-color: lighten($boompah-teal, 30%);
-					color: $boompah-teal;
+					background-color: lighten($xbox-green, 30%);
+					color: $xbox-green;
 				}
-				a:hover { background-color: lighten($boompah-teal, 15%); }
-				a:active { background-color: lighten($boompah-teal, 50%); }
+				a:hover { background-color: lighten($xbox-green, 15%); }
+				a:active { background-color: lighten($xbox-green, 50%); }
 			}
 			@include respond-to(handhelds-and-medium-screens) { 
 				a {
-					background-color: lighten($boompah-teal, 30%);
-					color: $boompah-teal;
+					background-color: lighten($xbox-green, 30%);
+					color: $xbox-green;
 				}
-				a:hover { background-color: lighten($boompah-teal, 15%); }
-				a:active { background-color: lighten($boompah-teal, 50%); }
+				a:hover { background-color: lighten($xbox-green, 15%); }
+				a:active { background-color: lighten($xbox-green, 50%); }
 			}
 		}
 		a.boompah {
 			background: url(/img/services/logo-circle-footer.png);
 		}
 		.copyright {
-			border-top: 1px solid lighten($boompah-teal, 15%);
+			border-top: 1px solid lighten($xbox-green, 15%);
 		}
 		.copyright-line { 
-			color: lighten($boompah-teal, 25%);
+			color: lighten($xbox-green, 25%);
 		}
 	}
 }

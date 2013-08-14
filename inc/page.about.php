@@ -32,7 +32,7 @@
         </h3>
       </div>
       <div class="timeline-bar">
-        <span class="date">Aug 1991</span>
+        <span class="date">Sep 1991</span>
         <h3>
           <span class="event">First day of Kindergarten</span>
           <i class="icon-building"></i>
