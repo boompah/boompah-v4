@@ -156,6 +156,13 @@
           <i class="icon-android"></i>
         </h3>
       </div>
+      <div class="timeline-bar xbox__bg">
+        <span class="date">Aug 2013</span>
+        <h3>
+          <span class="event">Pre-ordered Xbox One</span>
+          <i class="icon-gamepad"></i>
+        </h3>
+      </div>
     </div>
   </div>
 </div>

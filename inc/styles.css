@@ -124,7 +124,7 @@ ul li {
   #masthead-wrapper h1 {
     margin: 0;
     display: block;
-    font-size: 10em;
+    font-size: 7em;
     font-weight: 900;
     letter-spacing: 2px; }
     @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -727,6 +727,10 @@ a.timeline-bar {
 
 .timeline-bar.android__bg {
   background-color: #a0ca28;
+  color: white; }
+
+.timeline-bar.xbox__bg {
+  background-color: #107c10;
   color: white; }
 
 .timeline-bar.deviantart-green__bg {
