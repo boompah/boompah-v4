@@ -87,7 +87,6 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
           <li><a href="http://www.yellowbirdproject.com/" target="blank" class="ybp">Yellow Bird Project<i class="icon-music"></i></a></li>
           <li><a href="http://www.tarkett.com/" target="blank" class="royal-blue">Tarkett<i class="icon-sun"></i></a></li>
           <li><a href="http://www.jthreeconcepts.com/" target="blank" class="j3concepts">j3concepts<i class="icon-picture"></i></a></li>
-          <li><a href="https://www.putnam.com/" target="blank">Putnum Investments<i class="icon-money"></i></a></li>
         </ul>
       </div><?php // one-fourth ?>
     </div><?php // row ?>

@@ -20,3 +20,23 @@ body.home.blog footer.entry-meta { background-color: #FFFFFF; }
 
 body.single.single-post footer.entry-meta a,
 body.home.blog footer.entry-meta a {color: #3b5998; }
+
+#secondary { display: none; }
+
+.site-content { width: 100%; }
+
+.entry-content ul {
+  font-size: 1.25em;
+}
+
+.entry-header .entry-title,
+h1.entry-title a {
+  font-family: 'Trocchi', serif;
+  font-weight: 400;
+  font-size: 50px;
+  color: #232333;
+}
+
+footer.entry-meta {
+  display: none;
+}
