@@ -3,7 +3,7 @@
       <a href="/" class="boompah hidden-mobile">
         <span class="screen-reader-text">Boompah</span>
       </a>
-      <ul class="services hidden-mobile">
+      <ul class="services hidden-mobile menu">
         <li><a href="#">Logo Design</a></li>
         <li><a href="#">Web Design</a></li>
         <li><a href="#">Style Guides</a></li>
@@ -11,7 +11,7 @@
         <li><a href="#">iAB Advertisements</a></li>
         <li><a href="#">Media Kits</a></li>
       </ul>
-      <ul class="services hidden-mobile">
+      <ul class="services hidden-mobile menu">
         <li><a href="#">Wireframes &amp; Prototypes</a></li>
         <li><a href="#">Responsive Web Design</a></li>
         <li><a href="#">Boutique Websites</a></li>
@@ -19,13 +19,13 @@
         <li><a href="#">E-Commerce</a></li>
         <li><a href="#">E-mail Campaigns</a></li>
       </ul>
-      <ul class="nav">
+      <ul class="nav menu">
         <li><a name="footer-menu" href="#top">Top of page <i class="icon-arrow-up"></i></a></li>
         <?php include 'menu-core.php'; ?>
       </ul>
       <div class="copyright"></div>
       <p class="copyright-line">&copy; Boompah 2011 - <?php echo date("Y") ?>. All rights reserved.</p>
-      <ul class="social-links">
+      <ul class="social-links menu">
         <li><a class="icon-twitter" href="http://twitter.com/gotboompah"><span class="screen-reader-text">Boompah on Twitter</span></a></li>
         <li><a class="icon-facebook" href="http://www.facebook.com/gotboompah"><span class="screen-reader-text">Boompah on Facebook</span></a></li>
         <li><a class="icon-google-plus" href="http://plus.google.com/109066667958483064936/"><span class="screen-reader-text">Boompah on Google Plus</span></a></li>

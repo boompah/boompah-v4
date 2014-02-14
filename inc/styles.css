@@ -79,18 +79,20 @@ h4 {
     h4 {
       font-size: 1.15em; } }
 
-p {
+p, ul, ol {
   font-size: 1.25em; }
   @media only screen and (max-width: 767px) {
-    p {
+    p, ul, ol {
       font-size: 1.15em; } }
 
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-  ul, ol {
-    font-size: .9em; } }
-@media only screen and (max-width: 767px) {
-  ul, ol {
-    font-size: .8em; } }
+ul.menu {
+  font-size: 1em; }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    ul.menu {
+      font-size: .9em; } }
+  @media only screen and (max-width: 767px) {
+    ul.menu {
+      font-size: .8em; } }
 
 ul li {
   margin-bottom: 20px; }
@@ -163,8 +165,6 @@ a.button, a.button:visited {
   color: white;
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
-  -ms-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out; }
   @media only screen and (max-width: 767px) {
     a.button, a.button:visited {
@@ -321,101 +321,283 @@ a.button:active {
     .logo-boompah-circle-landing {
       width: 150px; } }
 
-body.home, body.single.single-post, .winnipeg-web-design, .work {
+body.home,
+body.single.single-post,
+.winnipeg-web-design,
+.work,
+.cv {
   /* Featured Work */
   /* Testimonials */
   /* Clients */ }
-  body.home #masthead-wrapper, body.home .header, body.home footer, body.home .dark-bg, body.single.single-post #masthead-wrapper, body.single.single-post .header, body.single.single-post footer, body.single.single-post .dark-bg, .winnipeg-web-design #masthead-wrapper, .winnipeg-web-design .header, .winnipeg-web-design footer, .winnipeg-web-design .dark-bg, .work #masthead-wrapper, .work .header, .work footer, .work .dark-bg {
+  body.home #masthead-wrapper, body.home .header, body.home footer, body.home .dark-bg,
+  body.single.single-post #masthead-wrapper,
+  body.single.single-post .header,
+  body.single.single-post footer,
+  body.single.single-post .dark-bg,
+  .winnipeg-web-design #masthead-wrapper,
+  .winnipeg-web-design .header,
+  .winnipeg-web-design footer,
+  .winnipeg-web-design .dark-bg,
+  .work #masthead-wrapper,
+  .work .header,
+  .work footer,
+  .work .dark-bg,
+  .cv #masthead-wrapper,
+  .cv .header,
+  .cv footer,
+  .cv .dark-bg {
     background-color: #232333; }
-  body.home .light-bg, body.single.single-post .light-bg, .winnipeg-web-design .light-bg, .work .light-bg {
+  body.home .light-bg,
+  body.single.single-post .light-bg,
+  .winnipeg-web-design .light-bg,
+  .work .light-bg,
+  .cv .light-bg {
     background-color: #e4e7ee;
     border-top: 1px solid #aab2bf;
     border-bottom: 1px solid #aab2bf; }
-  body.home #masthead-wrapper h1, body.single.single-post #masthead-wrapper h1, .winnipeg-web-design #masthead-wrapper h1, .work #masthead-wrapper h1 {
+  body.home #masthead-wrapper h1,
+  body.single.single-post #masthead-wrapper h1,
+  .winnipeg-web-design #masthead-wrapper h1,
+  .work #masthead-wrapper h1,
+  .cv #masthead-wrapper h1 {
     margin: 5% auto 5%;
     color: #a5a5ce;
     font-size: 2.5em;
     font-weight: 600;
     line-height: 1.25em; }
     @media only screen and (min-width: 768px) and (max-width: 959px) {
-      body.home #masthead-wrapper h1, body.single.single-post #masthead-wrapper h1, .winnipeg-web-design #masthead-wrapper h1, .work #masthead-wrapper h1 {
+      body.home #masthead-wrapper h1,
+      body.single.single-post #masthead-wrapper h1,
+      .winnipeg-web-design #masthead-wrapper h1,
+      .work #masthead-wrapper h1,
+      .cv #masthead-wrapper h1 {
         font-size: 2.35em; } }
     @media only screen and (max-width: 767px) {
-      body.home #masthead-wrapper h1, body.single.single-post #masthead-wrapper h1, .winnipeg-web-design #masthead-wrapper h1, .work #masthead-wrapper h1 {
+      body.home #masthead-wrapper h1,
+      body.single.single-post #masthead-wrapper h1,
+      .winnipeg-web-design #masthead-wrapper h1,
+      .work #masthead-wrapper h1,
+      .cv #masthead-wrapper h1 {
         font-size: 1.5em; } }
-  body.home #masthead-wrapper h3, body.single.single-post #masthead-wrapper h3, .winnipeg-web-design #masthead-wrapper h3, .work #masthead-wrapper h3 {
+  body.home #masthead-wrapper h3,
+  body.single.single-post #masthead-wrapper h3,
+  .winnipeg-web-design #masthead-wrapper h3,
+  .work #masthead-wrapper h3,
+  .cv #masthead-wrapper h3 {
     color: #797999;
     font-size: 1.5em;
     font-weight: 500; }
     @media only screen and (min-width: 768px) and (max-width: 959px) {
-      body.home #masthead-wrapper h3, body.single.single-post #masthead-wrapper h3, .winnipeg-web-design #masthead-wrapper h3, .work #masthead-wrapper h3 {
+      body.home #masthead-wrapper h3,
+      body.single.single-post #masthead-wrapper h3,
+      .winnipeg-web-design #masthead-wrapper h3,
+      .work #masthead-wrapper h3,
+      .cv #masthead-wrapper h3 {
         font-size: 1.35em; } }
     @media only screen and (max-width: 767px) {
-      body.home #masthead-wrapper h3, body.single.single-post #masthead-wrapper h3, .winnipeg-web-design #masthead-wrapper h3, .work #masthead-wrapper h3 {
+      body.home #masthead-wrapper h3,
+      body.single.single-post #masthead-wrapper h3,
+      .winnipeg-web-design #masthead-wrapper h3,
+      .work #masthead-wrapper h3,
+      .cv #masthead-wrapper h3 {
         font-size: 1.15em; } }
-  body.home nav.primary a, body.single.single-post nav.primary a, .winnipeg-web-design nav.primary a, .work nav.primary a {
+  body.home nav.primary a,
+  body.single.single-post nav.primary a,
+  .winnipeg-web-design nav.primary a,
+  .work nav.primary a,
+  .cv nav.primary a {
     color: #7070ba; }
-  body.home nav.primary a:hover, body.single.single-post nav.primary a:hover, .winnipeg-web-design nav.primary a:hover, .work nav.primary a:hover {
+  body.home nav.primary a:hover,
+  body.single.single-post nav.primary a:hover,
+  .winnipeg-web-design nav.primary a:hover,
+  .work nav.primary a:hover,
+  .cv nav.primary a:hover {
     color: #9292cb; }
-  body.home nav.primary a:active, body.single.single-post nav.primary a:active, .winnipeg-web-design nav.primary a:active, .work nav.primary a:active {
+  body.home nav.primary a:active,
+  body.single.single-post nav.primary a:active,
+  .winnipeg-web-design nav.primary a:active,
+  .work nav.primary a:active,
+  .cv nav.primary a:active {
     color: #5050a7; }
-  body.home nav.primary a.selected, body.home nav.primary a.selected:visited, body.single.single-post nav.primary a.selected, body.single.single-post nav.primary a.selected:visited, .winnipeg-web-design nav.primary a.selected, .winnipeg-web-design nav.primary a.selected:visited, .work nav.primary a.selected, .work nav.primary a.selected:visited {
+  body.home nav.primary a.selected, body.home nav.primary a.selected:visited,
+  body.single.single-post nav.primary a.selected,
+  body.single.single-post nav.primary a.selected:visited,
+  .winnipeg-web-design nav.primary a.selected,
+  .winnipeg-web-design nav.primary a.selected:visited,
+  .work nav.primary a.selected,
+  .work nav.primary a.selected:visited,
+  .cv nav.primary a.selected,
+  .cv nav.primary a.selected:visited {
     background-color: #38384f; }
-  body.home nav.primary a.selected:hover, body.single.single-post nav.primary a.selected:hover, .winnipeg-web-design nav.primary a.selected:hover, .work nav.primary a.selected:hover {
+  body.home nav.primary a.selected:hover,
+  body.single.single-post nav.primary a.selected:hover,
+  .winnipeg-web-design nav.primary a.selected:hover,
+  .work nav.primary a.selected:hover,
+  .cv nav.primary a.selected:hover {
     background-color: #4d4d6d; }
-  body.home nav.primary a.selected:active, body.single.single-post nav.primary a.selected:active, .winnipeg-web-design nav.primary a.selected:active, .work nav.primary a.selected:active {
+  body.home nav.primary a.selected:active,
+  body.single.single-post nav.primary a.selected:active,
+  .winnipeg-web-design nav.primary a.selected:active,
+  .work nav.primary a.selected:active,
+  .cv nav.primary a.selected:active {
     background-color: #232331; }
   @media only screen and (max-width: 767px) {
-    body.home .usability-research h2, body.home .usability-research h3, body.home .usability-research h4, body.home .usability-research p, body.single.single-post .usability-research h2, body.single.single-post .usability-research h3, body.single.single-post .usability-research h4, body.single.single-post .usability-research p, .winnipeg-web-design .usability-research h2, .winnipeg-web-design .usability-research h3, .winnipeg-web-design .usability-research h4, .winnipeg-web-design .usability-research p, .work .usability-research h2, .work .usability-research h3, .work .usability-research h4, .work .usability-research p {
+    body.home .usability-research h2, body.home .usability-research h3, body.home .usability-research h4, body.home .usability-research p,
+    body.single.single-post .usability-research h2,
+    body.single.single-post .usability-research h3,
+    body.single.single-post .usability-research h4,
+    body.single.single-post .usability-research p,
+    .winnipeg-web-design .usability-research h2,
+    .winnipeg-web-design .usability-research h3,
+    .winnipeg-web-design .usability-research h4,
+    .winnipeg-web-design .usability-research p,
+    .work .usability-research h2,
+    .work .usability-research h3,
+    .work .usability-research h4,
+    .work .usability-research p,
+    .cv .usability-research h2,
+    .cv .usability-research h3,
+    .cv .usability-research h4,
+    .cv .usability-research p {
       text-align: left; } }
-  body.home .usability-research p, body.single.single-post .usability-research p, .winnipeg-web-design .usability-research p, .work .usability-research p {
+  body.home .usability-research p,
+  body.single.single-post .usability-research p,
+  .winnipeg-web-design .usability-research p,
+  .work .usability-research p,
+  .cv .usability-research p {
     margin-bottom: 3em; }
-  body.home .usability-research h3, body.single.single-post .usability-research h3, .winnipeg-web-design .usability-research h3, .work .usability-research h3 {
+  body.home .usability-research h3,
+  body.single.single-post .usability-research h3,
+  .winnipeg-web-design .usability-research h3,
+  .work .usability-research h3,
+  .cv .usability-research h3 {
     margin-top: 1.5em; }
     @media only screen and (max-width: 767px) {
-      body.home .usability-research h3, body.single.single-post .usability-research h3, .winnipeg-web-design .usability-research h3, .work .usability-research h3 {
+      body.home .usability-research h3,
+      body.single.single-post .usability-research h3,
+      .winnipeg-web-design .usability-research h3,
+      .work .usability-research h3,
+      .cv .usability-research h3 {
         font-size: 1.5em; } }
-  body.home .usability-research p.last, body.single.single-post .usability-research p.last, .winnipeg-web-design .usability-research p.last, .work .usability-research p.last {
+  body.home .usability-research p.last,
+  body.single.single-post .usability-research p.last,
+  .winnipeg-web-design .usability-research p.last,
+  .work .usability-research p.last,
+  .cv .usability-research p.last {
     margin-bottom: 0; }
-  body.home .services-points h4, body.single.single-post .services-points h4, .winnipeg-web-design .services-points h4, .work .services-points h4 {
+  body.home .services-points h4,
+  body.single.single-post .services-points h4,
+  .winnipeg-web-design .services-points h4,
+  .work .services-points h4,
+  .cv .services-points h4 {
     text-transform: uppercase;
     font-weight: normal; }
-  body.home .services-points h4, body.home .services-points ul, body.single.single-post .services-points h4, body.single.single-post .services-points ul, .winnipeg-web-design .services-points h4, .winnipeg-web-design .services-points ul, .work .services-points h4, .work .services-points ul {
+  body.home .services-points h4, body.home .services-points ul,
+  body.single.single-post .services-points h4,
+  body.single.single-post .services-points ul,
+  .winnipeg-web-design .services-points h4,
+  .winnipeg-web-design .services-points ul,
+  .work .services-points h4,
+  .work .services-points ul,
+  .cv .services-points h4,
+  .cv .services-points ul {
     text-align: left;
     color: white; }
     @media only screen and (max-width: 767px) {
-      body.home .services-points h4, body.home .services-points ul, body.single.single-post .services-points h4, body.single.single-post .services-points ul, .winnipeg-web-design .services-points h4, .winnipeg-web-design .services-points ul, .work .services-points h4, .work .services-points ul {
+      body.home .services-points h4, body.home .services-points ul,
+      body.single.single-post .services-points h4,
+      body.single.single-post .services-points ul,
+      .winnipeg-web-design .services-points h4,
+      .winnipeg-web-design .services-points ul,
+      .work .services-points h4,
+      .work .services-points ul,
+      .cv .services-points h4,
+      .cv .services-points ul {
         text-align: center; } }
   @media only screen and (max-width: 767px) {
-    body.home .services-points ul, body.single.single-post .services-points ul, .winnipeg-web-design .services-points ul, .work .services-points ul {
+    body.home .services-points ul,
+    body.single.single-post .services-points ul,
+    .winnipeg-web-design .services-points ul,
+    .work .services-points ul,
+    .cv .services-points ul {
       list-style: none;
       padding-left: 0; } }
-  body.home .services-points ul li a, body.home .services-points ul li a:link, body.home .services-points ul li a:visited, body.single.single-post .services-points ul li a, body.single.single-post .services-points ul li a:link, body.single.single-post .services-points ul li a:visited, .winnipeg-web-design .services-points ul li a, .winnipeg-web-design .services-points ul li a:link, .winnipeg-web-design .services-points ul li a:visited, .work .services-points ul li a, .work .services-points ul li a:link, .work .services-points ul li a:visited {
+  body.home .services-points ul li a, body.home .services-points ul li a:link, body.home .services-points ul li a:visited,
+  body.single.single-post .services-points ul li a,
+  body.single.single-post .services-points ul li a:link,
+  body.single.single-post .services-points ul li a:visited,
+  .winnipeg-web-design .services-points ul li a,
+  .winnipeg-web-design .services-points ul li a:link,
+  .winnipeg-web-design .services-points ul li a:visited,
+  .work .services-points ul li a,
+  .work .services-points ul li a:link,
+  .work .services-points ul li a:visited,
+  .cv .services-points ul li a,
+  .cv .services-points ul li a:link,
+  .cv .services-points ul li a:visited {
     color: #469fdb;
     -webkit-transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
-    -ms-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
     transition: all 0.35s ease-in-out; }
-  body.home .services-points ul li a:hover, body.single.single-post .services-points ul li a:hover, .winnipeg-web-design .services-points ul li a:hover, .work .services-points ul li a:hover {
+  body.home .services-points ul li a:hover,
+  body.single.single-post .services-points ul li a:hover,
+  .winnipeg-web-design .services-points ul li a:hover,
+  .work .services-points ul li a:hover,
+  .cv .services-points ul li a:hover {
     text-decoration: none;
     color: #1e6a9d; }
-  body.home .services-points ul li a:active, body.single.single-post .services-points ul li a:active, .winnipeg-web-design .services-points ul li a:active, .work .services-points ul li a:active {
+  body.home .services-points ul li a:active,
+  body.single.single-post .services-points ul li a:active,
+  .winnipeg-web-design .services-points ul li a:active,
+  .work .services-points ul li a:active,
+  .cv .services-points ul li a:active {
     color: #71b5e3; }
-  body.home .featured-work .panel-block, body.single.single-post .featured-work .panel-block, .winnipeg-web-design .featured-work .panel-block, .work .featured-work .panel-block {
+  body.home .featured-work .panel-block,
+  body.single.single-post .featured-work .panel-block,
+  .winnipeg-web-design .featured-work .panel-block,
+  .work .featured-work .panel-block,
+  .cv .featured-work .panel-block {
     border: 1px solid #d9d9d9;
     background-color: white; }
-  body.home .featured-work .panel-block.two-m-two, body.single.single-post .featured-work .panel-block.two-m-two, .winnipeg-web-design .featured-work .panel-block.two-m-two, .work .featured-work .panel-block.two-m-two {
+  body.home .featured-work .panel-block.two-m-two,
+  body.single.single-post .featured-work .panel-block.two-m-two,
+  .winnipeg-web-design .featured-work .panel-block.two-m-two,
+  .work .featured-work .panel-block.two-m-two,
+  .cv .featured-work .panel-block.two-m-two {
     background-color: black;
     border: 1px solid black; }
   @media only screen and (max-width: 767px) {
-    body.home .testimonials h2, body.home .testimonials p, body.home .testimonials h4, body.single.single-post .testimonials h2, body.single.single-post .testimonials p, body.single.single-post .testimonials h4, .winnipeg-web-design .testimonials h2, .winnipeg-web-design .testimonials p, .winnipeg-web-design .testimonials h4, .work .testimonials h2, .work .testimonials p, .work .testimonials h4 {
+    body.home .testimonials h2, body.home .testimonials p, body.home .testimonials h4,
+    body.single.single-post .testimonials h2,
+    body.single.single-post .testimonials p,
+    body.single.single-post .testimonials h4,
+    .winnipeg-web-design .testimonials h2,
+    .winnipeg-web-design .testimonials p,
+    .winnipeg-web-design .testimonials h4,
+    .work .testimonials h2,
+    .work .testimonials p,
+    .work .testimonials h4,
+    .cv .testimonials h2,
+    .cv .testimonials p,
+    .cv .testimonials h4 {
       text-align: left; } }
-  body.home .gray-bg, body.single.single-post .gray-bg, .winnipeg-web-design .gray-bg, .work .gray-bg {
+  body.home .gray-bg,
+  body.single.single-post .gray-bg,
+  .winnipeg-web-design .gray-bg,
+  .work .gray-bg,
+  .cv .gray-bg {
     border-top: 1px solid #d9d9d9; }
-  body.home .clients ul li, body.single.single-post .clients ul li, .winnipeg-web-design .clients ul li, .work .clients ul li {
+  body.home .clients ul li,
+  body.single.single-post .clients ul li,
+  .winnipeg-web-design .clients ul li,
+  .work .clients ul li,
+  .cv .clients ul li {
     margin-bottom: 20px; }
-    body.home .clients ul li a, body.single.single-post .clients ul li a, .winnipeg-web-design .clients ul li a, .work .clients ul li a {
+    body.home .clients ul li a,
+    body.single.single-post .clients ul li a,
+    .winnipeg-web-design .clients ul li a,
+    .work .clients ul li a,
+    .cv .clients ul li a {
       background-color: black;
       padding: .5em 1em;
       color: white;
@@ -431,140 +613,391 @@ body.home, body.single.single-post, .winnipeg-web-design, .work {
       border-bottom-right-radius: 6px;
       -webkit-transition: all 0.35s ease-in-out;
       -moz-transition: all 0.35s ease-in-out;
-      -ms-transition: all 0.35s ease-in-out;
-      -o-transition: all 0.35s ease-in-out;
       transition: all 0.35s ease-in-out; }
-      body.home .clients ul li a:hover, body.single.single-post .clients ul li a:hover, .winnipeg-web-design .clients ul li a:hover, .work .clients ul li a:hover {
+      body.home .clients ul li a:hover,
+      body.single.single-post .clients ul li a:hover,
+      .winnipeg-web-design .clients ul li a:hover,
+      .work .clients ul li a:hover,
+      .cv .clients ul li a:hover {
         background-color: #4d4d4d; }
-      body.home .clients ul li a i, body.single.single-post .clients ul li a i, .winnipeg-web-design .clients ul li a i, .work .clients ul li a i {
+      body.home .clients ul li a i,
+      body.single.single-post .clients ul li a i,
+      .winnipeg-web-design .clients ul li a i,
+      .work .clients ul li a i,
+      .cv .clients ul li a i {
         float: right;
         font-size: 1.25em; }
-    body.home .clients ul li .royal-blue, body.single.single-post .clients ul li .royal-blue, .winnipeg-web-design .clients ul li .royal-blue, .work .clients ul li .royal-blue {
+    body.home .clients ul li .royal-blue,
+    body.single.single-post .clients ul li .royal-blue,
+    .winnipeg-web-design .clients ul li .royal-blue,
+    .work .clients ul li .royal-blue,
+    .cv .clients ul li .royal-blue {
       background-color: #10456b; }
-    body.home .clients ul li .royal-blue:hover, body.single.single-post .clients ul li .royal-blue:hover, .winnipeg-web-design .clients ul li .royal-blue:hover, .work .clients ul li .royal-blue:hover {
+    body.home .clients ul li .royal-blue:hover,
+    body.single.single-post .clients ul li .royal-blue:hover,
+    .winnipeg-web-design .clients ul li .royal-blue:hover,
+    .work .clients ul li .royal-blue:hover,
+    .cv .clients ul li .royal-blue:hover {
       background-color: #1a70ae; }
-    body.home .clients ul li .royal-blue:active, body.single.single-post .clients ul li .royal-blue:active, .winnipeg-web-design .clients ul li .royal-blue:active, .work .clients ul li .royal-blue:active {
+    body.home .clients ul li .royal-blue:active,
+    body.single.single-post .clients ul li .royal-blue:active,
+    .winnipeg-web-design .clients ul li .royal-blue:active,
+    .work .clients ul li .royal-blue:active,
+    .cv .clients ul li .royal-blue:active {
       background-color: #135381; }
-    body.home .clients ul li .baby-blue__bg, body.single.single-post .clients ul li .baby-blue__bg, .winnipeg-web-design .clients ul li .baby-blue__bg, .work .clients ul li .baby-blue__bg {
+    body.home .clients ul li .baby-blue__bg,
+    body.single.single-post .clients ul li .baby-blue__bg,
+    .winnipeg-web-design .clients ul li .baby-blue__bg,
+    .work .clients ul li .baby-blue__bg,
+    .cv .clients ul li .baby-blue__bg {
       background-color: #07a4e5; }
-    body.home .clients ul li .baby-blue__bg:hover, body.single.single-post .clients ul li .baby-blue__bg:hover, .winnipeg-web-design .clients ul li .baby-blue__bg:hover, .work .clients ul li .baby-blue__bg:hover {
+    body.home .clients ul li .baby-blue__bg:hover,
+    body.single.single-post .clients ul li .baby-blue__bg:hover,
+    .winnipeg-web-design .clients ul li .baby-blue__bg:hover,
+    .work .clients ul li .baby-blue__bg:hover,
+    .cv .clients ul li .baby-blue__bg:hover {
       background-color: #0581b4; }
-    body.home .clients ul li .baby-blue__bg:active, body.single.single-post .clients ul li .baby-blue__bg:active, .winnipeg-web-design .clients ul li .baby-blue__bg:active, .work .clients ul li .baby-blue__bg:active {
+    body.home .clients ul li .baby-blue__bg:active,
+    body.single.single-post .clients ul li .baby-blue__bg:active,
+    .winnipeg-web-design .clients ul li .baby-blue__bg:active,
+    .work .clients ul li .baby-blue__bg:active,
+    .cv .clients ul li .baby-blue__bg:active {
       background-color: #0eb3f8; }
-    body.home .clients ul li .orange, body.single.single-post .clients ul li .orange, .winnipeg-web-design .clients ul li .orange, .work .clients ul li .orange {
+    body.home .clients ul li .orange,
+    body.single.single-post .clients ul li .orange,
+    .winnipeg-web-design .clients ul li .orange,
+    .work .clients ul li .orange,
+    .cv .clients ul li .orange {
       background-color: #fb7a00; }
-    body.home .clients ul li .orange:hover, body.single.single-post .clients ul li .orange:hover, .winnipeg-web-design .clients ul li .orange:hover, .work .clients ul li .orange:hover {
+    body.home .clients ul li .orange:hover,
+    body.single.single-post .clients ul li .orange:hover,
+    .winnipeg-web-design .clients ul li .orange:hover,
+    .work .clients ul li .orange:hover,
+    .cv .clients ul li .orange:hover {
       background-color: #c86100; }
-    body.home .clients ul li .orange:active, body.single.single-post .clients ul li .orange:active, .winnipeg-web-design .clients ul li .orange:active, .work .clients ul li .orange:active {
+    body.home .clients ul li .orange:active,
+    body.single.single-post .clients ul li .orange:active,
+    .winnipeg-web-design .clients ul li .orange:active,
+    .work .clients ul li .orange:active,
+    .cv .clients ul li .orange:active {
       background-color: #ff8716; }
-    body.home .clients ul li .hollywoodpq, body.single.single-post .clients ul li .hollywoodpq, .winnipeg-web-design .clients ul li .hollywoodpq, .work .clients ul li .hollywoodpq {
+    body.home .clients ul li .hollywoodpq,
+    body.single.single-post .clients ul li .hollywoodpq,
+    .winnipeg-web-design .clients ul li .hollywoodpq,
+    .work .clients ul li .hollywoodpq,
+    .cv .clients ul li .hollywoodpq {
       background-color: #e572a7; }
-    body.home .clients ul li .hollywoodpq:hover, body.single.single-post .clients ul li .hollywoodpq:hover, .winnipeg-web-design .clients ul li .hollywoodpq:hover, .work .clients ul li .hollywoodpq:hover {
+    body.home .clients ul li .hollywoodpq:hover,
+    body.single.single-post .clients ul li .hollywoodpq:hover,
+    .winnipeg-web-design .clients ul li .hollywoodpq:hover,
+    .work .clients ul li .hollywoodpq:hover,
+    .cv .clients ul li .hollywoodpq:hover {
       background-color: #dd478c; }
-    body.home .clients ul li .hollywoodpq:active, body.single.single-post .clients ul li .hollywoodpq:active, .winnipeg-web-design .clients ul li .hollywoodpq:active, .work .clients ul li .hollywoodpq:active {
+    body.home .clients ul li .hollywoodpq:active,
+    body.single.single-post .clients ul li .hollywoodpq:active,
+    .winnipeg-web-design .clients ul li .hollywoodpq:active,
+    .work .clients ul li .hollywoodpq:active,
+    .cv .clients ul li .hollywoodpq:active {
       background-color: #e988b4; }
-    body.home .clients ul li .fellerath, body.single.single-post .clients ul li .fellerath, .winnipeg-web-design .clients ul li .fellerath, .work .clients ul li .fellerath {
+    body.home .clients ul li .fellerath,
+    body.single.single-post .clients ul li .fellerath,
+    .winnipeg-web-design .clients ul li .fellerath,
+    .work .clients ul li .fellerath,
+    .cv .clients ul li .fellerath {
       background-color: #720e1d; }
-    body.home .clients ul li .fellerath:hover, body.single.single-post .clients ul li .fellerath:hover, .winnipeg-web-design .clients ul li .fellerath:hover, .work .clients ul li .fellerath:hover {
+    body.home .clients ul li .fellerath:hover,
+    body.single.single-post .clients ul li .fellerath:hover,
+    .winnipeg-web-design .clients ul li .fellerath:hover,
+    .work .clients ul li .fellerath:hover,
+    .cv .clients ul li .fellerath:hover {
       background-color: #9f1429; }
-    body.home .clients ul li .fellerath:active, body.single.single-post .clients ul li .fellerath:active, .winnipeg-web-design .clients ul li .fellerath:active, .work .clients ul li .fellerath:active {
+    body.home .clients ul li .fellerath:active,
+    body.single.single-post .clients ul li .fellerath:active,
+    .winnipeg-web-design .clients ul li .fellerath:active,
+    .work .clients ul li .fellerath:active,
+    .cv .clients ul li .fellerath:active {
       background-color: #cd1934; }
-    body.home .clients ul li .fbs, body.single.single-post .clients ul li .fbs, .winnipeg-web-design .clients ul li .fbs, .work .clients ul li .fbs {
+    body.home .clients ul li .fbs,
+    body.single.single-post .clients ul li .fbs,
+    .winnipeg-web-design .clients ul li .fbs,
+    .work .clients ul li .fbs,
+    .cv .clients ul li .fbs {
       background-color: #589cc6; }
-    body.home .clients ul li .fbs:hover, body.single.single-post .clients ul li .fbs:hover, .winnipeg-web-design .clients ul li .fbs:hover, .work .clients ul li .fbs:hover {
+    body.home .clients ul li .fbs:hover,
+    body.single.single-post .clients ul li .fbs:hover,
+    .winnipeg-web-design .clients ul li .fbs:hover,
+    .work .clients ul li .fbs:hover,
+    .cv .clients ul li .fbs:hover {
       background-color: #3c83af; }
-    body.home .clients ul li .fbs:active, body.single.single-post .clients ul li .fbs:active, .winnipeg-web-design .clients ul li .fbs:active, .work .clients ul li .fbs:active {
+    body.home .clients ul li .fbs:active,
+    body.single.single-post .clients ul li .fbs:active,
+    .winnipeg-web-design .clients ul li .fbs:active,
+    .work .clients ul li .fbs:active,
+    .cv .clients ul li .fbs:active {
       background-color: #2f6789; }
     body.home .clients ul li .pente-group,
-    body.home .clients ul li .edison-nation, body.single.single-post .clients ul li .pente-group,
-    body.single.single-post .clients ul li .edison-nation, .winnipeg-web-design .clients ul li .pente-group,
-    .winnipeg-web-design .clients ul li .edison-nation, .work .clients ul li .pente-group,
-    .work .clients ul li .edison-nation {
+    body.home .clients ul li .edison-nation,
+    body.single.single-post .clients ul li .pente-group,
+    body.single.single-post .clients ul li .edison-nation,
+    .winnipeg-web-design .clients ul li .pente-group,
+    .winnipeg-web-design .clients ul li .edison-nation,
+    .work .clients ul li .pente-group,
+    .work .clients ul li .edison-nation,
+    .cv .clients ul li .pente-group,
+    .cv .clients ul li .edison-nation {
       background-color: #cc1514; }
     body.home .clients ul li .edison-nation:hover,
-    body.home .clients ul li .pente-group:hover, body.single.single-post .clients ul li .edison-nation:hover,
-    body.single.single-post .clients ul li .pente-group:hover, .winnipeg-web-design .clients ul li .edison-nation:hover,
-    .winnipeg-web-design .clients ul li .pente-group:hover, .work .clients ul li .edison-nation:hover,
-    .work .clients ul li .pente-group:hover {
+    body.home .clients ul li .pente-group:hover,
+    body.single.single-post .clients ul li .edison-nation:hover,
+    body.single.single-post .clients ul li .pente-group:hover,
+    .winnipeg-web-design .clients ul li .edison-nation:hover,
+    .winnipeg-web-design .clients ul li .pente-group:hover,
+    .work .clients ul li .edison-nation:hover,
+    .work .clients ul li .pente-group:hover,
+    .cv .clients ul li .edison-nation:hover,
+    .cv .clients ul li .pente-group:hover {
       background-color: #9e100f; }
     body.home .clients ul li .edison-nation:active,
-    body.home .clients ul li .pente-group:active, body.single.single-post .clients ul li .edison-nation:active,
-    body.single.single-post .clients ul li .pente-group:active, .winnipeg-web-design .clients ul li .edison-nation:active,
-    .winnipeg-web-design .clients ul li .pente-group:active, .work .clients ul li .edison-nation:active,
-    .work .clients ul li .pente-group:active {
+    body.home .clients ul li .pente-group:active,
+    body.single.single-post .clients ul li .edison-nation:active,
+    body.single.single-post .clients ul li .pente-group:active,
+    .winnipeg-web-design .clients ul li .edison-nation:active,
+    .winnipeg-web-design .clients ul li .pente-group:active,
+    .work .clients ul li .edison-nation:active,
+    .work .clients ul li .pente-group:active,
+    .cv .clients ul li .edison-nation:active,
+    .cv .clients ul li .pente-group:active {
       background-color: #e31716; }
-    body.home .clients ul li .tungle-me, body.single.single-post .clients ul li .tungle-me, .winnipeg-web-design .clients ul li .tungle-me, .work .clients ul li .tungle-me {
+    body.home .clients ul li .tungle-me,
+    body.single.single-post .clients ul li .tungle-me,
+    .winnipeg-web-design .clients ul li .tungle-me,
+    .work .clients ul li .tungle-me,
+    .cv .clients ul li .tungle-me {
       background-color: #9ac146; }
-    body.home .clients ul li .tungle-me:hover, body.single.single-post .clients ul li .tungle-me:hover, .winnipeg-web-design .clients ul li .tungle-me:hover, .work .clients ul li .tungle-me:hover {
+    body.home .clients ul li .tungle-me:hover,
+    body.single.single-post .clients ul li .tungle-me:hover,
+    .winnipeg-web-design .clients ul li .tungle-me:hover,
+    .work .clients ul li .tungle-me:hover,
+    .cv .clients ul li .tungle-me:hover {
       background-color: #7d9f35; }
-    body.home .clients ul li .tungle-me:active, body.single.single-post .clients ul li .tungle-me:active, .winnipeg-web-design .clients ul li .tungle-me:active, .work .clients ul li .tungle-me:active {
+    body.home .clients ul li .tungle-me:active,
+    body.single.single-post .clients ul li .tungle-me:active,
+    .winnipeg-web-design .clients ul li .tungle-me:active,
+    .work .clients ul li .tungle-me:active,
+    .cv .clients ul li .tungle-me:active {
       background-color: #5f7928; }
-    body.home .clients ul li .field-turf, body.single.single-post .clients ul li .field-turf, .winnipeg-web-design .clients ul li .field-turf, .work .clients ul li .field-turf {
+    body.home .clients ul li .field-turf,
+    body.single.single-post .clients ul li .field-turf,
+    .winnipeg-web-design .clients ul li .field-turf,
+    .work .clients ul li .field-turf,
+    .cv .clients ul li .field-turf {
       background-color: #118546; }
-    body.home .clients ul li .field-turf:hover, body.single.single-post .clients ul li .field-turf:hover, .winnipeg-web-design .clients ul li .field-turf:hover, .work .clients ul li .field-turf:hover {
+    body.home .clients ul li .field-turf:hover,
+    body.single.single-post .clients ul li .field-turf:hover,
+    .winnipeg-web-design .clients ul li .field-turf:hover,
+    .work .clients ul li .field-turf:hover,
+    .cv .clients ul li .field-turf:hover {
       background-color: #17b25e; }
-    body.home .clients ul li .field-turf:active, body.single.single-post .clients ul li .field-turf:active, .winnipeg-web-design .clients ul li .field-turf:active, .work .clients ul li .field-turf:active {
+    body.home .clients ul li .field-turf:active,
+    body.single.single-post .clients ul li .field-turf:active,
+    .winnipeg-web-design .clients ul li .field-turf:active,
+    .work .clients ul li .field-turf:active,
+    .cv .clients ul li .field-turf:active {
       background-color: #1ddf76; }
-    body.home .clients ul li .diamond, body.single.single-post .clients ul li .diamond, .winnipeg-web-design .clients ul li .diamond, .work .clients ul li .diamond {
+    body.home .clients ul li .diamond,
+    body.single.single-post .clients ul li .diamond,
+    .winnipeg-web-design .clients ul li .diamond,
+    .work .clients ul li .diamond,
+    .cv .clients ul li .diamond {
       background-color: #998c9a; }
-    body.home .clients ul li .diamond:hover, body.single.single-post .clients ul li .diamond:hover, .winnipeg-web-design .clients ul li .diamond:hover, .work .clients ul li .diamond:hover {
+    body.home .clients ul li .diamond:hover,
+    body.single.single-post .clients ul li .diamond:hover,
+    .winnipeg-web-design .clients ul li .diamond:hover,
+    .work .clients ul li .diamond:hover,
+    .cv .clients ul li .diamond:hover {
       background-color: #b1a7b2; }
-    body.home .clients ul li .diamond:active, body.single.single-post .clients ul li .diamond:active, .winnipeg-web-design .clients ul li .diamond:active, .work .clients ul li .diamond:active {
+    body.home .clients ul li .diamond:active,
+    body.single.single-post .clients ul li .diamond:active,
+    .winnipeg-web-design .clients ul li .diamond:active,
+    .work .clients ul li .diamond:active,
+    .cv .clients ul li .diamond:active {
       background-color: #c9c2ca; }
-    body.home .clients ul li .reitmans, body.single.single-post .clients ul li .reitmans, .winnipeg-web-design .clients ul li .reitmans, .work .clients ul li .reitmans {
+    body.home .clients ul li .reitmans,
+    body.single.single-post .clients ul li .reitmans,
+    .winnipeg-web-design .clients ul li .reitmans,
+    .work .clients ul li .reitmans,
+    .cv .clients ul li .reitmans {
       background-color: #7e8083; }
-    body.home .clients ul li .reitmans:hover, body.single.single-post .clients ul li .reitmans:hover, .winnipeg-web-design .clients ul li .reitmans:hover, .work .clients ul li .reitmans:hover {
+    body.home .clients ul li .reitmans:hover,
+    body.single.single-post .clients ul li .reitmans:hover,
+    .winnipeg-web-design .clients ul li .reitmans:hover,
+    .work .clients ul li .reitmans:hover,
+    .cv .clients ul li .reitmans:hover {
       background-color: #656769; }
-    body.home .clients ul li .reitmans:active, body.single.single-post .clients ul li .reitmans:active, .winnipeg-web-design .clients ul li .reitmans:active, .work .clients ul li .reitmans:active {
+    body.home .clients ul li .reitmans:active,
+    body.single.single-post .clients ul li .reitmans:active,
+    .winnipeg-web-design .clients ul li .reitmans:active,
+    .work .clients ul li .reitmans:active,
+    .cv .clients ul li .reitmans:active {
       background-color: #4c4d4f; }
-    body.home .clients ul li .osm, body.single.single-post .clients ul li .osm, .winnipeg-web-design .clients ul li .osm, .work .clients ul li .osm {
+    body.home .clients ul li .osm,
+    body.single.single-post .clients ul li .osm,
+    .winnipeg-web-design .clients ul li .osm,
+    .work .clients ul li .osm,
+    .cv .clients ul li .osm {
       background-color: #322e84; }
-    body.home .clients ul li .osm:hover, body.single.single-post .clients ul li .osm:hover, .winnipeg-web-design .clients ul li .osm:hover, .work .clients ul li .osm:hover {
+    body.home .clients ul li .osm:hover,
+    body.single.single-post .clients ul li .osm:hover,
+    .winnipeg-web-design .clients ul li .osm:hover,
+    .work .clients ul li .osm:hover,
+    .cv .clients ul li .osm:hover {
       background-color: #403baa; }
-    body.home .clients ul li .osm:active, body.single.single-post .clients ul li .osm:active, .winnipeg-web-design .clients ul li .osm:active, .work .clients ul li .osm:active {
+    body.home .clients ul li .osm:active,
+    body.single.single-post .clients ul li .osm:active,
+    .winnipeg-web-design .clients ul li .osm:active,
+    .work .clients ul li .osm:active,
+    .cv .clients ul li .osm:active {
       background-color: #5a54c4; }
-    body.home .clients ul li .ybp, body.single.single-post .clients ul li .ybp, .winnipeg-web-design .clients ul li .ybp, .work .clients ul li .ybp {
+    body.home .clients ul li .ybp,
+    body.single.single-post .clients ul li .ybp,
+    .winnipeg-web-design .clients ul li .ybp,
+    .work .clients ul li .ybp,
+    .cv .clients ul li .ybp {
       background-color: #2dfec8;
       color: black; }
-    body.home .clients ul li .ybp:hover, body.single.single-post .clients ul li .ybp:hover, .winnipeg-web-design .clients ul li .ybp:hover, .work .clients ul li .ybp:hover {
+    body.home .clients ul li .ybp:hover,
+    body.single.single-post .clients ul li .ybp:hover,
+    .winnipeg-web-design .clients ul li .ybp:hover,
+    .work .clients ul li .ybp:hover,
+    .cv .clients ul li .ybp:hover {
       background-color: #01dda5; }
-    body.home .clients ul li .ybp:active, body.single.single-post .clients ul li .ybp:active, .winnipeg-web-design .clients ul li .ybp:active, .work .clients ul li .ybp:active {
+    body.home .clients ul li .ybp:active,
+    body.single.single-post .clients ul li .ybp:active,
+    .winnipeg-web-design .clients ul li .ybp:active,
+    .work .clients ul li .ybp:active,
+    .cv .clients ul li .ybp:active {
       background-color: #60fed5; }
-    body.home .clients ul li .j3concepts, body.single.single-post .clients ul li .j3concepts, .winnipeg-web-design .clients ul li .j3concepts, .work .clients ul li .j3concepts {
+    body.home .clients ul li .j3concepts,
+    body.single.single-post .clients ul li .j3concepts,
+    .winnipeg-web-design .clients ul li .j3concepts,
+    .work .clients ul li .j3concepts,
+    .cv .clients ul li .j3concepts {
       background-color: #652d90; }
-    body.home .clients ul li .j3concepts:hover, body.single.single-post .clients ul li .j3concepts:hover, .winnipeg-web-design .clients ul li .j3concepts:hover, .work .clients ul li .j3concepts:hover {
+    body.home .clients ul li .j3concepts:hover,
+    body.single.single-post .clients ul li .j3concepts:hover,
+    .winnipeg-web-design .clients ul li .j3concepts:hover,
+    .work .clients ul li .j3concepts:hover,
+    .cv .clients ul li .j3concepts:hover {
       background-color: #8039b7; }
-    body.home .clients ul li .j3concepts:active, body.single.single-post .clients ul li .j3concepts:active, .winnipeg-web-design .clients ul li .j3concepts:active, .work .clients ul li .j3concepts:active {
+    body.home .clients ul li .j3concepts:active,
+    body.single.single-post .clients ul li .j3concepts:active,
+    .winnipeg-web-design .clients ul li .j3concepts:active,
+    .work .clients ul li .j3concepts:active,
+    .cv .clients ul li .j3concepts:active {
       background-color: #9958cb; }
-  body.home footer a, body.single.single-post footer a, .winnipeg-web-design footer a, .work footer a {
+  body.home footer a,
+  body.single.single-post footer a,
+  .winnipeg-web-design footer a,
+  .work footer a,
+  .cv footer a {
     -webkit-transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
-    -ms-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
     transition: all 0.35s ease-in-out; }
-  body.home footer .services a, body.single.single-post footer .services a, .winnipeg-web-design footer .services a, .work footer .services a {
+  body.home footer .services a,
+  body.single.single-post footer .services a,
+  .winnipeg-web-design footer .services a,
+  .work footer .services a,
+  .cv footer .services a {
     color: #7070ba; }
-  body.home footer .services a:hover, body.single.single-post footer .services a:hover, .winnipeg-web-design footer .services a:hover, .work footer .services a:hover {
+  body.home footer .services a:hover,
+  body.single.single-post footer .services a:hover,
+  .winnipeg-web-design footer .services a:hover,
+  .work footer .services a:hover,
+  .cv footer .services a:hover {
     color: #9292cb; }
-  body.home footer .services a:active, body.single.single-post footer .services a:active, .winnipeg-web-design footer .services a:active, .work footer .services a:active {
+  body.home footer .services a:active,
+  body.single.single-post footer .services a:active,
+  .winnipeg-web-design footer .services a:active,
+  .work footer .services a:active,
+  .cv footer .services a:active {
     color: #5050a7; }
-  body.home footer a.boompah, body.single.single-post footer a.boompah, .winnipeg-web-design footer a.boompah, .work footer a.boompah {
+  body.home footer a.boompah,
+  body.single.single-post footer a.boompah,
+  .winnipeg-web-design footer a.boompah,
+  .work footer a.boompah,
+  .cv footer a.boompah {
     background: url(/img/home/logo-circle-footer.png); }
-  body.home footer .copyright, body.single.single-post footer .copyright, .winnipeg-web-design footer .copyright, .work footer .copyright {
+  body.home footer .copyright,
+  body.single.single-post footer .copyright,
+  .winnipeg-web-design footer .copyright,
+  .work footer .copyright,
+  .cv footer .copyright {
     border-top: 1px solid #393951; }
-    body.home footer .copyright a, body.single.single-post footer .copyright a, .winnipeg-web-design footer .copyright a, .work footer .copyright a {
+    body.home footer .copyright a,
+    body.single.single-post footer .copyright a,
+    .winnipeg-web-design footer .copyright a,
+    .work footer .copyright a,
+    .cv footer .copyright a {
       color: #797999; }
-    body.home footer .copyright a:hover, body.single.single-post footer .copyright a:hover, .winnipeg-web-design footer .copyright a:hover, .work footer .copyright a:hover {
+    body.home footer .copyright a:hover,
+    body.single.single-post footer .copyright a:hover,
+    .winnipeg-web-design footer .copyright a:hover,
+    .work footer .copyright a:hover,
+    .cv footer .copyright a:hover {
       color: #9696af; }
-    body.home footer .copyright a:active, body.single.single-post footer .copyright a:active, .winnipeg-web-design footer .copyright a:active, .work footer .copyright a:active {
+    body.home footer .copyright a:active,
+    body.single.single-post footer .copyright a:active,
+    .winnipeg-web-design footer .copyright a:active,
+    .work footer .copyright a:active,
+    .cv footer .copyright a:active {
       color: #60607f; }
-  body.home footer .copyright-line, body.single.single-post footer .copyright-line, .winnipeg-web-design footer .copyright-line, .work footer .copyright-line {
+  body.home footer .copyright-line,
+  body.single.single-post footer .copyright-line,
+  .winnipeg-web-design footer .copyright-line,
+  .work footer .copyright-line,
+  .cv footer .copyright-line {
     color: #41415b; }
-  body.home footer ul.social-links li a, body.home footer ul.social-links li a:link, body.home footer ul.social-links li a:visited, body.single.single-post footer ul.social-links li a, body.single.single-post footer ul.social-links li a:link, body.single.single-post footer ul.social-links li a:visited, .winnipeg-web-design footer ul.social-links li a, .winnipeg-web-design footer ul.social-links li a:link, .winnipeg-web-design footer ul.social-links li a:visited, .work footer ul.social-links li a, .work footer ul.social-links li a:link, .work footer ul.social-links li a:visited {
+  body.home footer ul.social-links li a, body.home footer ul.social-links li a:link, body.home footer ul.social-links li a:visited,
+  body.single.single-post footer ul.social-links li a,
+  body.single.single-post footer ul.social-links li a:link,
+  body.single.single-post footer ul.social-links li a:visited,
+  .winnipeg-web-design footer ul.social-links li a,
+  .winnipeg-web-design footer ul.social-links li a:link,
+  .winnipeg-web-design footer ul.social-links li a:visited,
+  .work footer ul.social-links li a,
+  .work footer ul.social-links li a:link,
+  .work footer ul.social-links li a:visited,
+  .cv footer ul.social-links li a,
+  .cv footer ul.social-links li a:link,
+  .cv footer ul.social-links li a:visited {
     color: #a5a5ce; }
-    body.home footer ul.social-links li a:hover, body.home footer ul.social-links li a:link:hover, body.home footer ul.social-links li a:visited:hover, body.single.single-post footer ul.social-links li a:hover, body.single.single-post footer ul.social-links li a:link:hover, body.single.single-post footer ul.social-links li a:visited:hover, .winnipeg-web-design footer ul.social-links li a:hover, .winnipeg-web-design footer ul.social-links li a:link:hover, .winnipeg-web-design footer ul.social-links li a:visited:hover, .work footer ul.social-links li a:hover, .work footer ul.social-links li a:link:hover, .work footer ul.social-links li a:visited:hover {
+    body.home footer ul.social-links li a:hover, body.home footer ul.social-links li a:link:hover, body.home footer ul.social-links li a:visited:hover,
+    body.single.single-post footer ul.social-links li a:hover,
+    body.single.single-post footer ul.social-links li a:link:hover,
+    body.single.single-post footer ul.social-links li a:visited:hover,
+    .winnipeg-web-design footer ul.social-links li a:hover,
+    .winnipeg-web-design footer ul.social-links li a:link:hover,
+    .winnipeg-web-design footer ul.social-links li a:visited:hover,
+    .work footer ul.social-links li a:hover,
+    .work footer ul.social-links li a:link:hover,
+    .work footer ul.social-links li a:visited:hover,
+    .cv footer ul.social-links li a:hover,
+    .cv footer ul.social-links li a:link:hover,
+    .cv footer ul.social-links li a:visited:hover {
       color: #6363aa; }
-    body.home footer ul.social-links li a:active, body.home footer ul.social-links li a:link:active, body.home footer ul.social-links li a:visited:active, body.single.single-post footer ul.social-links li a:active, body.single.single-post footer ul.social-links li a:link:active, body.single.single-post footer ul.social-links li a:visited:active, .winnipeg-web-design footer ul.social-links li a:active, .winnipeg-web-design footer ul.social-links li a:link:active, .winnipeg-web-design footer ul.social-links li a:visited:active, .work footer ul.social-links li a:active, .work footer ul.social-links li a:link:active, .work footer ul.social-links li a:visited:active {
+    body.home footer ul.social-links li a:active, body.home footer ul.social-links li a:link:active, body.home footer ul.social-links li a:visited:active,
+    body.single.single-post footer ul.social-links li a:active,
+    body.single.single-post footer ul.social-links li a:link:active,
+    body.single.single-post footer ul.social-links li a:visited:active,
+    .winnipeg-web-design footer ul.social-links li a:active,
+    .winnipeg-web-design footer ul.social-links li a:link:active,
+    .winnipeg-web-design footer ul.social-links li a:visited:active,
+    .work footer ul.social-links li a:active,
+    .work footer ul.social-links li a:link:active,
+    .work footer ul.social-links li a:visited:active,
+    .cv footer ul.social-links li a:active,
+    .cv footer ul.social-links li a:link:active,
+    .cv footer ul.social-links li a:visited:active {
       color: #8484bc; }
 
 #logo-circle {
@@ -661,8 +1094,6 @@ body.about footer .copyright-line {
   text-align: left;
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
-  -ms-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
@@ -850,8 +1281,6 @@ body.contact footer .social-links a, body.contact footer .services a {
   color: #e04753;
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
-  -ms-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out; }
 body.contact footer .social-links a:hover, body.contact footer .services a:hover {
   color: #79151d; }
@@ -963,8 +1392,6 @@ footer {
         border-bottom-right-radius: 5px;
         -webkit-transition: all 0.35s ease-in-out;
         -moz-transition: all 0.35s ease-in-out;
-        -ms-transition: all 0.35s ease-in-out;
-        -o-transition: all 0.35s ease-in-out;
         transition: all 0.35s ease-in-out; }
       footer ul.nav a:hover {
         background-color: #6363aa; }
@@ -1048,8 +1475,6 @@ nav.primary {
   nav.primary a {
     -webkit-transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
-    -ms-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
     transition: all 0.35s ease-in-out; }
   nav.primary a.boompah {
     float: left;

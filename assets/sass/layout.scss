@@ -63,7 +63,7 @@ h4 {
 	@include respond-to(handhelds-and-medium-screens) { font-size: 1.15em; }
 	}
 
-p {
+p, ul, ol {
 	font-size: 1.25em;
 	@include respond-to(handhelds-and-medium-screens) { font-size: 1.15em; }
 	}
@@ -74,7 +74,8 @@ p {
 
 // ---------------------------------------------------------------------
 
-ul, ol {
+ul.menu {
+	font-size: 1em;
 	@include respond-to(large-screens) { font-size: .9em; }
 	@include respond-to(handhelds-and-medium-screens) { font-size: .8em; }
 }
@@ -169,6 +170,7 @@ a.button:active { background-color: darken($link-blue, 10%); }
 	// Showcase
 
 // ---------------------------------------------------------------------
+
 .showcase {
 	text-align: center;
 	padding-bottom: 40px;
