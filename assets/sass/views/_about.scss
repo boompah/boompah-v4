@@ -26,8 +26,12 @@ body.about {
 			@include respond-to(medium-screens) { width: 50%; }
 			@include respond-to(handhelds) { width: 80%; }
 		}
+		.cv-cta {
+			i {
+				margin-right: 10px;
+			}
+		}
 		.main-name {
-			text-align: right;
 			font-size: 6em;
 			@include respond-to(large-screens) { font-size: 4.5em; }
 			@include respond-to(medium-screens) { font-size: 3em; }
@@ -40,6 +44,10 @@ body.about {
 			br {
 				@include respond-to(handhelds-and-medium-screens) { display: none; }
 			}
+		}
+		.cv-cta,
+		.main-name {
+			text-align: right;
 		}
 	}
 	footer {
@@ -91,6 +99,7 @@ body.about {
 	}
 
 	h3 {
+		padding: 12px 0;
 		@include respond-to(large-screens) { height: 46px; }
 		@include respond-to(handhelds-and-medium-screens) { padding: 0 8px; }
 	}
@@ -118,7 +127,7 @@ body.about {
 	}
 
 	i { 
-		margin: .35em .5em 0 0;
+		margin: 0px 20px 0 0;
 		float: right;
 		@include respond-to(handhelds-and-medium-screens) { display: none; }
 	}

@@ -4,7 +4,7 @@ nav.primary {
 	a.boompah {
 		float: left;
 		display: inline-block;
-		margin-top: 2.25em;
+		margin-top: 25px;
 		height: auto;
 		@include respond-to (handhelds-and-medium-screens) {
 			margin-top: 1.25em;
@@ -16,7 +16,7 @@ nav.primary {
 		}
 	}
 	ul {
-		margin-top: 40px;
+		margin-top: 25px;
 		float: right;
 		list-style: none;
 		@include respond-to(handhelds-and-medium-screens) { display: none; }

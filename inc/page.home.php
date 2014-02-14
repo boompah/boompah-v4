@@ -95,7 +95,7 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
 <div class="showcase light-bg usability-research">
   <div class="container">
     <h2>Usability Research</h2>
-    <h4>It's one thing to design based on personal preference, assumptions, common mental models and trends. It’s a whole different ball game to use evidence at the base of your conceptual decisions while maintaining an open floor to innovation. We gather research to help reinforce our ideas.</h4>
+    <p>It's one thing to design based on personal preference, assumptions, common mental models and trends. It’s a whole different ball game to use evidence at the base of your conceptual decisions while maintaining an open floor to innovation. We gather research to help reinforce our ideas.</p>
     <h3>Recent findings</h3>
     <h4><a href="http://visualwebsiteoptimizer.com/split-testing-blog/increase-click-through-rate/" target="_blank">How changing a single word increased click through rate by 161%</a></h4>
     <p>Veeam Case Study by Siddharth Deswal</p>

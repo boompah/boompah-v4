@@ -15,6 +15,8 @@
   
   <?php // CSS ?>
   <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
   <link rel="stylesheet" href="/inc/styles.css">
   
   <?php // Google Fonts ?>

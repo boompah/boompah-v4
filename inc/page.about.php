@@ -15,12 +15,12 @@
     <img src="/img/about/ryan-sydney-circle.jpg" title="Photo of Ryan" alt="Photo of Ryan" />
     <h2 class="main-name">Ryan<br />
     Bollenbach</h2>
+    <p class="cv-cta"><a href="?page=cv"><i class="fa fa-file"></i>Check out my CV</a></p>
   </div>
   <div class="row timeline">
     <div class="half">
       <h3>My Timeline</h3>
           <p>I'm grateful to have experienced a lot of awesome things in my life, below are some events I'd like to share with you.</p>
-          <p><em>This concept was inspired by <a href="http://chriscoyier.net/about/" title="About Chris Coyier">Chris Coyier's gnarly about page.</a></em></p>
         </div>
     </div><?php // row ?>
     <div class="row">
@@ -161,6 +161,13 @@
         <h3>
           <span class="event">Pre-ordered Xbox One</span>
           <i class="icon-gamepad"></i>
+        </h3>
+      </div>
+      <div class="timeline-bar">
+        <span class="date">Nov 2013</span>
+        <h3>
+          <span class="event">Switched back to an iPhone 5s</span>
+          <i class="icon-apple"></i>
         </h3>
       </div>
     </div>
