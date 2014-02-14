@@ -57,7 +57,7 @@ h2 {
 h3 {
   font-size: 2em;
   font-weight: 600;
-  line-height: 1.75em; }
+  line-height: 1em; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
     h3 {
       font-size: 1.5em; } }
@@ -70,8 +70,9 @@ h3 {
 
 h4 {
   font-size: 1.5em;
-  font-weight: 500;
-  line-height: 1.5em; }
+  font-weight: 600;
+  line-height: 1em;
+  margin: 40px 0 10px 0; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
     h4 {
       font-size: 1.25em; } }
@@ -320,6 +321,298 @@ a.button:active {
   @media only screen and (max-width: 479px) {
     .logo-boompah-circle-landing {
       width: 150px; } }
+
+.full-content {
+  padding-bottom: 40px;
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .full-content:last-child {
+    margin-right: 0; }
+
+body.about #masthead-wrapper, body.about .header, body.about footer, body.about .dark-bg {
+  background-color: black; }
+body.about nav.primary a {
+  color: white; }
+body.about nav.primary a:hover {
+  color: #cccccc; }
+body.about nav.primary a:active {
+  color: #e6e6e6; }
+body.about nav.primary a.selected, body.about nav.primary a.selected:visited {
+  background-color: #38384f; }
+body.about nav.primary a.selected:hover {
+  background-color: #4d4d6d; }
+body.about nav.primary a.selected:active {
+  background-color: #232331; }
+body.about #masthead-wrapper h1, body.about #masthead-wrapper h3 {
+  color: white; }
+body.about .container.showcase {
+  padding: 40px 20px; }
+  body.about .container.showcase img {
+    margin-top: 20px;
+    float: left;
+    width: 40%; }
+    @media only screen and (max-width: 767px) {
+      body.about .container.showcase img {
+        width: 40%;
+        float: none; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      body.about .container.showcase img {
+        width: 50%; } }
+    @media only screen and (max-width: 479px) {
+      body.about .container.showcase img {
+        width: 80%; } }
+  body.about .container.showcase .cv-cta i {
+    margin-right: 10px; }
+  body.about .container.showcase .main-name {
+    font-size: 6em;
+    font-weight: 300;
+    margin-bottom: 0; }
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+      body.about .container.showcase .main-name {
+        font-size: 4.5em; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      body.about .container.showcase .main-name {
+        font-size: 3em; } }
+    @media only screen and (max-width: 479px) {
+      body.about .container.showcase .main-name {
+        font-size: 2em; } }
+    @media only screen and (max-width: 767px) {
+      body.about .container.showcase .main-name {
+        text-align: center; } }
+    @media only screen and (max-width: 767px) {
+      body.about .container.showcase .main-name br {
+        display: none; } }
+  body.about .container.showcase .cv-cta,
+  body.about .container.showcase .main-name {
+    text-align: right; }
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  body.about footer ul.nav a {
+    background-color: #4d4d4d;
+    color: black; }
+  body.about footer ul.nav a:hover {
+    background-color: #262626; }
+  body.about footer ul.nav a:active {
+    background-color: gray; } }
+@media only screen and (max-width: 767px) {
+  body.about footer ul.nav a {
+    background-color: #4d4d4d;
+    color: black; }
+  body.about footer ul.nav a:hover {
+    background-color: #262626; }
+  body.about footer ul.nav a:active {
+    background-color: gray; } }
+body.about footer a.boompah {
+  background: url(/img/about/logo-circle-footer.png); }
+body.about footer .copyright {
+  border-top: 1px solid #262626; }
+body.about footer .copyright-line {
+  color: #404040; }
+
+.timeline-bar {
+  background-color: #f2f2f2;
+  clear: both;
+  text-align: left;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px; }
+  .timeline-bar h3, .timeline-bar span, .timeline-bar p {
+    font-weight: 500; }
+  .timeline-bar h3 {
+    padding: 12px 0; }
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+      .timeline-bar h3 {
+        height: 46px; } }
+    @media only screen and (max-width: 767px) {
+      .timeline-bar h3 {
+        padding: 0 8px; } }
+  .timeline-bar .date {
+    width: 5em;
+    margin-right: .5em;
+    text-align: center;
+    display: block;
+    float: left;
+    background-color: black;
+    color: white;
+    font-weight: 200;
+    font-size: 37px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px; }
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+      .timeline-bar .date {
+        font-size: 30px; } }
+    @media only screen and (max-width: 767px) {
+      .timeline-bar .date {
+        width: 100%;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        font-size: 22px; } }
+  .timeline-bar i {
+    margin: 0px 20px 0 0;
+    float: right; }
+    @media only screen and (max-width: 767px) {
+      .timeline-bar i {
+        display: none; } }
+
+@media only screen and (max-width: 767px) {
+  .timeline h3 {
+    margin-top: 0; } }
+
+a.timeline-bar {
+  text-decoration: none; }
+
+.timeline-bar.baby-blue__bg {
+  background-color: #07a4e5;
+  color: white; }
+
+.timeline-bar.baby-blue__bg:hover {
+  background-color: #0581b4; }
+
+.timeline-bar.baby-blue__bg:active {
+  background-color: #0eb3f8; }
+
+.timeline-bar.red__bg {
+  background-color: #cc1514;
+  color: white; }
+
+.timeline-bar.android__bg {
+  background-color: #a0ca28;
+  color: white; }
+
+.timeline-bar.xbox__bg {
+  background-color: #107c10;
+  color: white; }
+
+.timeline-bar.deviantart-green__bg {
+  background-color: #526155;
+  color: white; }
+
+.timeline-bar.deviantart-green__bg:hover {
+  background-color: #3b453d; }
+
+.timeline-bar.deviantart-green__bg:active {
+  background-color: #5e6f61; }
+
+.tungle-green__bg {
+  background-color: #9ac146;
+  color: white; }
+
+.food-porn {
+  background-color: #f2f2f2;
+  border-top: 1px solid #d9d9d9;
+  padding: 100px 0 200px 0; }
+  @media only screen and (max-width: 767px) {
+    .food-porn {
+      padding: 80px 0 40px 0; } }
+  .food-porn .panel-block {
+    background: none;
+    border: none; }
+    @media only screen and (max-width: 767px) {
+      .food-porn .panel-block {
+        height: 333px;
+        margin-bottom: 20px; } }
+  .food-porn img {
+    border: 2px solid white;
+    width: 100%; }
+    @media only screen and (max-width: 767px) {
+      .food-porn img {
+        width: 333px; } }
+
+body.contact #masthead-wrapper, body.contact .header, body.contact footer, body.contact .dark-bg {
+  background-color: #981a24; }
+body.contact nav.primary a {
+  color: white; }
+body.contact nav.primary a:hover {
+  color: #cccccc; }
+body.contact nav.primary a:active {
+  color: #e6e6e6; }
+body.contact nav.primary a.selected, body.contact nav.primary a.selected:visited {
+  background-color: #38384f; }
+body.contact nav.primary a.selected:hover {
+  background-color: #4d4d6d; }
+body.contact nav.primary a.selected:active {
+  background-color: #232331; }
+body.contact #masthead-wrapper h1, body.contact #masthead-wrapper h3 {
+  color: white; }
+body.contact .showcase i {
+  color: #a51c27;
+  font-size: 1.25em; }
+body.contact .guidelines i {
+  margin-right: 10px; }
+body.contact .guidelines h3 {
+  margin-top: 0;
+  font-size: 1.75em; }
+  @media only screen and (max-width: 767px) {
+    body.contact .guidelines h3 {
+      font-size: 1.5em; } }
+@media only screen and (max-width: 767px) {
+  body.contact .guidelines h2, body.contact .guidelines h3, body.contact .guidelines p {
+    text-align: left; } }
+body.contact .contact-details h2 {
+  margin-top: 0;
+  text-transform: none;
+  font-size: 5em;
+  line-height: 1em;
+  font-weight: 200; }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    body.contact .contact-details h2 {
+      font-size: 3.5em; } }
+  @media only screen and (max-width: 767px) {
+    body.contact .contact-details h2 {
+      font-size: 3em; } }
+body.contact .contact-details i {
+  font-size: 4.5em; }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    body.contact .contact-details i {
+      font-size: 3.5em; } }
+  @media only screen and (max-width: 767px) {
+    body.contact .contact-details i {
+      font-size: 3em; } }
+body.contact .contact-details p {
+  font-size: 1.5em; }
+body.contact footer ul.nav a:hover {
+  color: #bb202c; }
+body.contact footer ul.nav a:active {
+  color: #dc313f; }
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  body.contact footer ul.nav a {
+    background-color: #dc313f;
+    color: #a51c27; }
+  body.contact footer ul.nav a:hover {
+    background-color: #8f1822; }
+  body.contact footer ul.nav a:active {
+    background-color: #79151d; } }
+@media only screen and (max-width: 767px) {
+  body.contact footer ul.nav a {
+    background-color: #dc313f;
+    color: #a51c27; }
+  body.contact footer ul.nav a:hover {
+    background-color: #4e0d12; }
+  body.contact footer ul.nav a:active {
+    background-color: #79151d; } }
+body.contact footer a.boompah {
+  background: url(/img/contact/logo-circle-footer.png); }
+body.contact footer .copyright {
+  border-top: 1px solid #bb202c; }
+body.contact footer .copyright-line {
+  color: #e04753; }
+body.contact footer .social-links a, body.contact footer .services a {
+  color: #e04753;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out; }
+body.contact footer .social-links a:hover, body.contact footer .services a:hover {
+  color: #79151d; }
+body.contact footer .social-links a:active, body.contact footer .services a:active {
+  color: #4e0d12; }
+
+body.cv .profile-info {
+  text-align: center; }
 
 body.home,
 body.single.single-post,
@@ -1013,280 +1306,6 @@ body.single.single-post,
   padding-left: 0;
   list-style: none; }
 
-body.about #masthead-wrapper, body.about .header, body.about footer, body.about .dark-bg {
-  background-color: black; }
-body.about nav.primary a {
-  color: white; }
-body.about nav.primary a:hover {
-  color: #cccccc; }
-body.about nav.primary a:active {
-  color: #e6e6e6; }
-body.about nav.primary a.selected, body.about nav.primary a.selected:visited {
-  background-color: #38384f; }
-body.about nav.primary a.selected:hover {
-  background-color: #4d4d6d; }
-body.about nav.primary a.selected:active {
-  background-color: #232331; }
-body.about #masthead-wrapper h1, body.about #masthead-wrapper h3 {
-  color: white; }
-body.about .container.showcase {
-  padding: 40px 20px; }
-  body.about .container.showcase img {
-    margin-top: 20px;
-    float: left;
-    width: 40%; }
-    @media only screen and (max-width: 767px) {
-      body.about .container.showcase img {
-        width: 40%;
-        float: none; } }
-    @media only screen and (min-width: 480px) and (max-width: 767px) {
-      body.about .container.showcase img {
-        width: 50%; } }
-    @media only screen and (max-width: 479px) {
-      body.about .container.showcase img {
-        width: 80%; } }
-  body.about .container.showcase .main-name {
-    text-align: right;
-    font-size: 6em;
-    font-weight: 300;
-    margin-bottom: 0; }
-    @media only screen and (min-width: 768px) and (max-width: 959px) {
-      body.about .container.showcase .main-name {
-        font-size: 4.5em; } }
-    @media only screen and (min-width: 480px) and (max-width: 767px) {
-      body.about .container.showcase .main-name {
-        font-size: 3em; } }
-    @media only screen and (max-width: 479px) {
-      body.about .container.showcase .main-name {
-        font-size: 2em; } }
-    @media only screen and (max-width: 767px) {
-      body.about .container.showcase .main-name {
-        text-align: center; } }
-    @media only screen and (max-width: 767px) {
-      body.about .container.showcase .main-name br {
-        display: none; } }
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-  body.about footer ul.nav a {
-    background-color: #4d4d4d;
-    color: black; }
-  body.about footer ul.nav a:hover {
-    background-color: #262626; }
-  body.about footer ul.nav a:active {
-    background-color: gray; } }
-@media only screen and (max-width: 767px) {
-  body.about footer ul.nav a {
-    background-color: #4d4d4d;
-    color: black; }
-  body.about footer ul.nav a:hover {
-    background-color: #262626; }
-  body.about footer ul.nav a:active {
-    background-color: gray; } }
-body.about footer a.boompah {
-  background: url(/img/about/logo-circle-footer.png); }
-body.about footer .copyright {
-  border-top: 1px solid #262626; }
-body.about footer .copyright-line {
-  color: #404040; }
-
-.timeline-bar {
-  background-color: #f2f2f2;
-  clear: both;
-  text-align: left;
-  -webkit-transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  transition: all 0.35s ease-in-out;
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px; }
-  .timeline-bar h3, .timeline-bar span, .timeline-bar p {
-    font-weight: 500; }
-  @media only screen and (min-width: 768px) and (max-width: 959px) {
-    .timeline-bar h3 {
-      height: 46px; } }
-  @media only screen and (max-width: 767px) {
-    .timeline-bar h3 {
-      padding: 0 8px; } }
-  .timeline-bar .date {
-    width: 5em;
-    margin-right: .5em;
-    text-align: center;
-    display: block;
-    float: left;
-    background-color: black;
-    color: white;
-    font-weight: 200;
-    font-size: 37px;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px; }
-    @media only screen and (min-width: 768px) and (max-width: 959px) {
-      .timeline-bar .date {
-        font-size: 30px; } }
-    @media only screen and (max-width: 767px) {
-      .timeline-bar .date {
-        width: 100%;
-        border-top-right-radius: 8px;
-        border-bottom-right-radius: 8px;
-        font-size: 22px; } }
-  .timeline-bar i {
-    margin: .35em .5em 0 0;
-    float: right; }
-    @media only screen and (max-width: 767px) {
-      .timeline-bar i {
-        display: none; } }
-
-@media only screen and (max-width: 767px) {
-  .timeline h3 {
-    margin-top: 0; } }
-
-a.timeline-bar {
-  text-decoration: none; }
-
-.timeline-bar.baby-blue__bg {
-  background-color: #07a4e5;
-  color: white; }
-
-.timeline-bar.baby-blue__bg:hover {
-  background-color: #0581b4; }
-
-.timeline-bar.baby-blue__bg:active {
-  background-color: #0eb3f8; }
-
-.timeline-bar.red__bg {
-  background-color: #cc1514;
-  color: white; }
-
-.timeline-bar.android__bg {
-  background-color: #a0ca28;
-  color: white; }
-
-.timeline-bar.xbox__bg {
-  background-color: #107c10;
-  color: white; }
-
-.timeline-bar.deviantart-green__bg {
-  background-color: #526155;
-  color: white; }
-
-.timeline-bar.deviantart-green__bg:hover {
-  background-color: #3b453d; }
-
-.timeline-bar.deviantart-green__bg:active {
-  background-color: #5e6f61; }
-
-.tungle-green__bg {
-  background-color: #9ac146;
-  color: white; }
-
-.food-porn {
-  background-color: #f2f2f2;
-  border-top: 1px solid #d9d9d9;
-  padding: 100px 0 200px 0; }
-  @media only screen and (max-width: 767px) {
-    .food-porn {
-      padding: 80px 0 40px 0; } }
-  .food-porn .panel-block {
-    background: none;
-    border: none; }
-    @media only screen and (max-width: 767px) {
-      .food-porn .panel-block {
-        height: 333px;
-        margin-bottom: 20px; } }
-  .food-porn img {
-    border: 2px solid white;
-    width: 100%; }
-    @media only screen and (max-width: 767px) {
-      .food-porn img {
-        width: 333px; } }
-
-body.contact #masthead-wrapper, body.contact .header, body.contact footer, body.contact .dark-bg {
-  background-color: #981a24; }
-body.contact nav.primary a {
-  color: white; }
-body.contact nav.primary a:hover {
-  color: #cccccc; }
-body.contact nav.primary a:active {
-  color: #e6e6e6; }
-body.contact nav.primary a.selected, body.contact nav.primary a.selected:visited {
-  background-color: #38384f; }
-body.contact nav.primary a.selected:hover {
-  background-color: #4d4d6d; }
-body.contact nav.primary a.selected:active {
-  background-color: #232331; }
-body.contact #masthead-wrapper h1, body.contact #masthead-wrapper h3 {
-  color: white; }
-body.contact .showcase i {
-  color: #a51c27;
-  font-size: 1.25em; }
-body.contact .guidelines i {
-  margin-right: 10px; }
-body.contact .guidelines h3 {
-  margin-top: 0;
-  font-size: 1.75em; }
-  @media only screen and (max-width: 767px) {
-    body.contact .guidelines h3 {
-      font-size: 1.5em; } }
-@media only screen and (max-width: 767px) {
-  body.contact .guidelines h2, body.contact .guidelines h3, body.contact .guidelines p {
-    text-align: left; } }
-body.contact .contact-details h2 {
-  margin-top: 0;
-  text-transform: none;
-  font-size: 5em;
-  line-height: 1em;
-  font-weight: 200; }
-  @media only screen and (min-width: 768px) and (max-width: 959px) {
-    body.contact .contact-details h2 {
-      font-size: 3.5em; } }
-  @media only screen and (max-width: 767px) {
-    body.contact .contact-details h2 {
-      font-size: 3em; } }
-body.contact .contact-details i {
-  font-size: 4.5em; }
-  @media only screen and (min-width: 768px) and (max-width: 959px) {
-    body.contact .contact-details i {
-      font-size: 3.5em; } }
-  @media only screen and (max-width: 767px) {
-    body.contact .contact-details i {
-      font-size: 3em; } }
-body.contact .contact-details p {
-  font-size: 1.5em; }
-body.contact footer ul.nav a:hover {
-  color: #bb202c; }
-body.contact footer ul.nav a:active {
-  color: #dc313f; }
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-  body.contact footer ul.nav a {
-    background-color: #dc313f;
-    color: #a51c27; }
-  body.contact footer ul.nav a:hover {
-    background-color: #8f1822; }
-  body.contact footer ul.nav a:active {
-    background-color: #79151d; } }
-@media only screen and (max-width: 767px) {
-  body.contact footer ul.nav a {
-    background-color: #dc313f;
-    color: #a51c27; }
-  body.contact footer ul.nav a:hover {
-    background-color: #4e0d12; }
-  body.contact footer ul.nav a:active {
-    background-color: #79151d; } }
-body.contact footer a.boompah {
-  background: url(/img/contact/logo-circle-footer.png); }
-body.contact footer .copyright {
-  border-top: 1px solid #bb202c; }
-body.contact footer .copyright-line {
-  color: #e04753; }
-body.contact footer .social-links a, body.contact footer .services a {
-  color: #e04753;
-  -webkit-transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  transition: all 0.35s ease-in-out; }
-body.contact footer .social-links a:hover, body.contact footer .services a:hover {
-  color: #79151d; }
-body.contact footer .social-links a:active, body.contact footer .services a:active {
-  color: #4e0d12; }
-
 body.services #masthead-wrapper, body.services .header, body.services footer, body.services .dark-bg, .branding #masthead-wrapper, .branding .header, .branding footer, .branding .dark-bg {
   background-color: #107c10; }
 body.services nav.primary a, .branding nav.primary a {
@@ -1479,7 +1498,7 @@ nav.primary {
   nav.primary a.boompah {
     float: left;
     display: inline-block;
-    margin-top: 2.25em;
+    margin-top: 25px;
     height: auto; }
     @media only screen and (max-width: 767px) {
       nav.primary a.boompah {
@@ -1488,7 +1507,7 @@ nav.primary {
       nav.primary a.boompah img {
         width: 120px; } }
   nav.primary ul {
-    margin-top: 40px;
+    margin-top: 25px;
     float: right;
     list-style: none; }
     @media only screen and (max-width: 767px) {
