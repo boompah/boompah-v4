@@ -20,8 +20,7 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
             <img src="/img/featured-work/diamond.png" alt="Diamond" title="Diamond" />
           </div>
         </a>
-        <p>Diamond.com, sister site of <a href="http://ice.com" target="_blank" title="Online Jewelry Shop">ice.com.</a></p>
-        <p class="cta"><a href="http://diamond.com" target="_blank" title="Diamond.com - Jewelry Education">Live site</a> <span class="link-split">|</span> <a href="#">Case Study</a></p>
+        <p><a href="http://ice.com" target="_blank" title="Online Jewelry Shop">Diamond.com (sister site of ice.com)</a></p>
       </div>
       <div class="panel">
         <a href="http://2m2.ca" target="_blank" title="2M2, Montreal Art Collective">
@@ -29,8 +28,7 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
             <img src="/img/featured-work/2m2.png" alt="2m2" title="2m2" />
           </div>
         </a>
-        <p>2M2, Montreal Art Collective</a></p>
-        <p class="cta"><a href="http://2m2.ca" target="_blank" title="2M2, Montreal Art Collective">Live site</a> <span class="link-split">|</span> <a href="#">Case Study</a></p>
+        <p><a href="http://2m2.ca" target="_blank" title="2M2, Montreal Art Collective">2M2, Montreal Art Collective</a></p>
       </div>
       <div class="panel last">
         <a href="http://hollywoodpq.com" target="_blank" title="Hollywood PQ">
@@ -38,8 +36,7 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
             <img src="/img/featured-work/hollywoodpq.png" alt="Hollywood PQ" title="Hollywood PQ" />
           </div>
         </a>
-        <p>Quebec based Hollywood gossip blog</p>
-        <p class="cta"><a href="http://hollywoodpq.com" target="_blank" title="Hollywood PQ">Live site</a> <span class="link-split">|</span> <a href="#">Case Study</a></p>
+        <p><a href="http://2m2.ca" target="_blank" title="2M2, Montreal Art Collective">Quebec based Hollywood gossip blog</a></p>
       </div>
     </div><?php // row ?>
   </div><?php // container ?>

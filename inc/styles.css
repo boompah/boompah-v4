@@ -92,7 +92,7 @@ a {
   transition: all 0.35s ease-in-out; }
 
 ul.menu {
-  font-size: 1em; }
+  font-size: 18px; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
     ul.menu {
       font-size: .9em; } }
@@ -116,7 +116,7 @@ ul li {
     clear: both; }
   .container h2 {
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
     line-height: 1em;
     padding: .5em 0; }
     @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -132,8 +132,8 @@ ul li {
   #masthead-wrapper h1 {
     margin: 0;
     display: block;
-    font-size: 7em;
-    font-weight: 900;
+    font-size: 4em;
+    font-weight: 700;
     letter-spacing: 2px; }
     @media only screen and (min-width: 768px) and (max-width: 959px) {
       #masthead-wrapper h1 {
@@ -144,8 +144,8 @@ ul li {
         text-align: left; } }
   #masthead-wrapper h3 {
     font-weight: 200;
-    font-size: 2em;
-    line-height: 1.75em; }
+    font-size: 1.75em;
+    line-height: 1.5em; }
     @media only screen and (min-width: 768px) and (max-width: 959px) {
       #masthead-wrapper h3 {
         font-size: 1.75em; } }
@@ -1106,14 +1106,13 @@ footer {
     float: left;
     padding-left: 0;
     margin-left: 9%;
-    list-style: none;
-    text-transform: uppercase; }
+    list-style: none; }
     @media only screen and (min-width: 768px) and (max-width: 959px) {
       footer ul {
         margin-left: 6%; } }
     @media only screen and (max-width: 767px) {
       footer ul li a, footer ul li a:link, footer ul li a:visited {
-        font-size: 1.25em; } }
+        font-size: 18px; } }
   footer ul.nav li.home-icon {
     display: none; }
   footer ul.nav a {
@@ -1179,7 +1178,7 @@ footer {
     width: 100%;
     margin-top: 1em;
     margin-top: 25px;
-    border-bottom: 1px solid white; }
+    border-bottom: 1px solid lightgrey; }
     footer .copyright:last-child {
       margin-right: 0; }
     footer .copyright p, footer .copyright ul {
@@ -1194,7 +1193,7 @@ footer {
       footer .copyright-line {
         float: none; } }
   footer ul.social-links {
-    margin-top: 25xpx;
+    margin-top: 25px;
     float: right;
     display: inline-block; }
     @media only screen and (max-width: 767px) {
@@ -1250,7 +1249,6 @@ nav.primary {
       float: left;
       margin-left: 30px; }
       nav.primary ul li a {
-        text-transform: uppercase;
         font-size: 18px;
         color: #727272; }
       nav.primary ul li a:hover, nav.primary ul li a:active {
