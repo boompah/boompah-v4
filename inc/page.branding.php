@@ -13,7 +13,7 @@
 <div class="page-toggle">
   <div class="container">
     <div class="left">
-      <h2><a href="?page=services" title="Interface Design">Interfaces</a></h2>
+      <h2><a href="/services" title="Interface Design">Interfaces</a></h2>
     </div>
     <div class="right">
       <h2 class="selected">Branding</h2>

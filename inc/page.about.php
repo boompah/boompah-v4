@@ -15,7 +15,7 @@
     <img src="/img/about/ryan-sydney-circle.jpg" title="Photo of Ryan" alt="Photo of Ryan" />
     <h2 class="main-name">Ryan<br />
     Bollenbach</h2>
-    <p class="cv-cta"><a href="?page=cv"><i class="fa fa-file"></i>Check out my CV</a></p>
+    <p class="cv-cta"><a href="/cv"><i class="fa fa-file"></i>Check out my CV</a></p>
   </div>
   <div class="row timeline">
     <div class="half">
@@ -171,32 +171,5 @@
         </h3>
       </div>
     </div>
-  </div>
-</div>
-<div class="showcase food-porn">
-  <div class="container">
-    <div class="row">
-      <div class="panel">
-        <a href="http://instagram.com/p/Wf2mKkkg6H/" target="_blank" title="Mexican Plate">
-          <div class="panel-block diamond">
-            <img src="/img/about/food-porn/01-mexican-plate.jpg" alt="Mexican Plate" title="Mexican Plate" />
-          </div>
-        </a>
-      </div>
-      <div class="panel">
-        <a href="http://instagram.com/p/Yah4ZMkgwx/" target="_blank" title="Pineapple Salad">
-          <div class="panel-block diamond">
-            <img src="/img/about/food-porn/02-pineapple-salad.jpg" alt="Pineapple Salad" title="Pineapple Salad" />
-          </div>
-        </a>
-      </div>
-      <div class="panel last">
-        <a href="http://instagram.com/p/X-MqVzEg4u/" target="_blank" title="Cauliflower Spagetti">
-          <div class="panel-block diamond">
-            <img src="/img/about/food-porn/03-cauliflower-spagetti.jpg" alt="Cauliflower Spagetti" title="Cauliflower Spagetti" />
-          </div>
-        </a>
-      </div>
-    </div><?php // row ?>
   </div>
 </div>

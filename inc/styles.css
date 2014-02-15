@@ -605,7 +605,7 @@ body.single.single-post,
       .winnipeg-web-design #masthead-wrapper h1,
       .work #masthead-wrapper h1,
       .cv #masthead-wrapper h1 {
-        font-size: 1.5em; } }
+        font-size: 20px; } }
   body.home #masthead-wrapper h3,
   body.single.single-post #masthead-wrapper h3,
   .winnipeg-web-design #masthead-wrapper h3,
@@ -1186,6 +1186,9 @@ footer {
     color: #cccccc; }
   footer a.circle-logo {
     float: left; }
+    @media only screen and (max-width: 767px) {
+      footer a.circle-logo {
+        display: none; } }
   footer .copyright {
     display: block;
     float: left;
@@ -1290,7 +1293,7 @@ a.mobile-nav,
 a.mobile-nav:visited {
   float: right;
   font-size: 2em;
-  margin: 1em .5em 0 0;
+  margin: 20px 10px 0 0;
   display: none;
   color: #727272; }
   @media only screen and (max-width: 767px) {

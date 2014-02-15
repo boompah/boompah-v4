@@ -61,7 +61,7 @@ a.mobile-nav,
 a.mobile-nav:visited {
 	float: right;
 	font-size: 2em;
-	margin: 1em .5em 0 0;
+	margin: 20px 10px 0 0;
 	display: none;
 	color: $base-gray;
 	@include respond-to(handhelds-and-medium-screens) {

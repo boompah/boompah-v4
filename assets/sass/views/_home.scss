@@ -22,7 +22,7 @@ body.single.single-post,
 			font-weight: 600;
 			line-height: 1.25em;
 			@include respond-to(large-screens) { font-size: 2.35em; }
-			@include respond-to(handhelds-and-medium-screens) { font-size: 1.5em; }
+			@include respond-to(handhelds-and-medium-screens) { font-size: 20px; }
 		}
 
 		h3 {

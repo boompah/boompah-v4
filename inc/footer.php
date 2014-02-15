@@ -1,4 +1,4 @@
-  <footer>
+  <footer id="bottom">
     <div class="container">
       <a href="/" class="circle-logo">
         <img src="/img/logo-circle.png" alt="Boompah">
@@ -21,7 +21,7 @@
       </ul>
       <ul class="nav menu">
         <li>
-          <a href="#" class="searchbychar" data-target="a" onclick="return false">Top of page <i class="icon-arrow-up"></i></a></li>
+          <a href="#" class="searchbychar" data-target="top" onclick="return false">Top of page <i class="icon-arrow-up"></i></a></li>
         <?php include 'menu-core.php'; ?>
       </ul>
       <div class="copyright"></div>

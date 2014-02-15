@@ -76,6 +76,9 @@ footer {
 	
 	a.circle-logo {
 		float: left;
+		@include respond-to(handhelds-and-medium-screens) {
+			display: none;
+		}
 	}
 	
 	.copyright {

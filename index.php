@@ -5,5 +5,6 @@ if(!$page) { $page = "home"; }
 $title = ucfirst($page);
 include ("inc/header.php");
 include("inc/page.$page.php");
+include("articles/page.$page.php");
 include 'inc/footer.php';
 ?>

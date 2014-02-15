@@ -17,7 +17,7 @@
       <div class="arrow-up"></div>
     </div>
     <div class="right">
-      <h2><a href="?page=branding" title="Branding">Branding</a></h2>
+      <h2><a href="/branding" title="Branding">Branding</a></h2>
     </div>
   </div>
 </div>
