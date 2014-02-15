@@ -1,7 +1,7 @@
   <footer>
     <div class="container">
-      <a href="/" class="boompah hidden-mobile">
-        <span class="screen-reader-text">Boompah</span>
+      <a href="/" class="circle-logo">
+        <img src="/img/logo-circle.png" alt="Boompah">
       </a>
       <ul class="services hidden-mobile menu">
         <li><a href="#">Logo Design</a></li>
@@ -24,7 +24,7 @@
         <?php include 'menu-core.php'; ?>
       </ul>
       <div class="copyright"></div>
-      <p class="copyright-line">&copy; Boompah 2011 - <?php echo date("Y") ?>. All rights reserved.</p>
+      <p class="copyright-line">&copy; Boompah 2010  - <?php echo date("Y") ?>. All rights reserved.</p>
       <ul class="social-links menu">
         <li><a class="icon-twitter" href="http://twitter.com/gotboompah"><span class="screen-reader-text">Boompah on Twitter</span></a></li>
         <li><a href="http://ca.linkedin.com/in/ryanbollenbach" class="icon-linkedin"><span class="screen-reader-text">Boompah on LinkedIn</span></a></li>

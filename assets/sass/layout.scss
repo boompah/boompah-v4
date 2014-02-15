@@ -53,7 +53,7 @@ h3 {
 	@include respond-to(large-screens) { font-size: 1.5em; }
 	@include respond-to(medium-screens) { font-size: 1.25em; }
 	@include respond-to(handhelds) { font-size: 1.25em; }
-	}
+}
 
 h4 { 
 	font-size: 1.5em;
@@ -62,12 +62,14 @@ h4 {
 	@include respond-to(large-screens) { font-size: 1.25em; }
 	@include respond-to(handhelds-and-medium-screens) { font-size: 1.15em; }
 	margin: 40px 0 10px 0;
-	}
+}
 
 p, ul, ol {
 	font-size: 1.25em;
 	@include respond-to(handhelds-and-medium-screens) { font-size: 1.15em; }
-	}
+}
+
+a { @include transition (all 0.35s ease-in-out); }
 
 // ---------------------------------------------------------------------
 

@@ -21,27 +21,58 @@ nav.primary {
 		list-style: none;
 		@include respond-to(handhelds-and-medium-screens) { display: none; }
 		@include respond-to(large-screens) { display: none; }
+		li.home-text {
+			display: none;
+		}
 		li {
 			float: left;
 			margin-left: 30px;
 			
 			a {
 				text-transform: uppercase;
-				font-size: .9em;
+				font-size: 18px;
+				color: $base-gray;
 			}
 			
-			a:hover{
+			a:hover, a:active {
 				text-decoration: none;
+				color: lighten($base-gray, 15%);
 			}
-			
-			a.selected {
+				
+			a.selected, a.selected:visited {
+				background-color: $base-gray;
+				color: $white;
 				padding: 10px 25px;
 				@include border-top-radius(20px);
 				@include border-bottom-radius(20px);
 				@include border-left-radius(20px);
 				@include border-right-radius(20px);
 			}
+			a.selected:hover {
+				background-color: lighten($base-gray, 10%);
+			}
+			a.selected:active {
+				background-color: darken($base-gray, 10%);
+			}
 		} // li
 	} // ul
-	
 } // nav
+
+a.mobile-nav,
+a.mobile-nav:visited {
+	float: right;
+	font-size: 2em;
+	margin: 1em .5em 0 0;
+	display: none;
+	color: $base-gray;
+	@include respond-to(handhelds-and-medium-screens) {
+		display: inline;
+		margin: .75em 0 0 0;
+		font-size: 1.5em;
+		}
+	@include respond-to(large-screens) { display: inline; }
+	&:hover{
+		text-decoration: none;
+		color: lighten($base-gray, 15%);
+	}
+}

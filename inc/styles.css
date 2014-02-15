@@ -86,6 +86,11 @@ p, ul, ol {
     p, ul, ol {
       font-size: 1.15em; } }
 
+a {
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out; }
+
 ul.menu {
   font-size: 1em; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -332,20 +337,8 @@ a.button:active {
   .full-content:last-child {
     margin-right: 0; }
 
-body.about #masthead-wrapper, body.about .header, body.about footer, body.about .dark-bg {
+body.about #masthead-wrapper, body.about .dark-bg {
   background-color: black; }
-body.about nav.primary a {
-  color: white; }
-body.about nav.primary a:hover {
-  color: #cccccc; }
-body.about nav.primary a:active {
-  color: #e6e6e6; }
-body.about nav.primary a.selected, body.about nav.primary a.selected:visited {
-  background-color: #38384f; }
-body.about nav.primary a.selected:hover {
-  background-color: #4d4d6d; }
-body.about nav.primary a.selected:active {
-  background-color: #232331; }
 body.about #masthead-wrapper h1, body.about #masthead-wrapper h3 {
   color: white; }
 body.about .container.showcase {
@@ -388,28 +381,6 @@ body.about .container.showcase {
   body.about .container.showcase .cv-cta,
   body.about .container.showcase .main-name {
     text-align: right; }
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-  body.about footer ul.nav a {
-    background-color: #4d4d4d;
-    color: black; }
-  body.about footer ul.nav a:hover {
-    background-color: #262626; }
-  body.about footer ul.nav a:active {
-    background-color: gray; } }
-@media only screen and (max-width: 767px) {
-  body.about footer ul.nav a {
-    background-color: #4d4d4d;
-    color: black; }
-  body.about footer ul.nav a:hover {
-    background-color: #262626; }
-  body.about footer ul.nav a:active {
-    background-color: gray; } }
-body.about footer a.boompah {
-  background: url(/img/about/logo-circle-footer.png); }
-body.about footer .copyright {
-  border-top: 1px solid #262626; }
-body.about footer .copyright-line {
-  color: #404040; }
 
 .timeline-bar {
   background-color: #f2f2f2;
@@ -524,20 +495,8 @@ a.timeline-bar {
       .food-porn img {
         width: 333px; } }
 
-body.contact #masthead-wrapper, body.contact .header, body.contact footer, body.contact .dark-bg {
+body.contact #masthead-wrapper, body.contact .dark-bg {
   background-color: #981a24; }
-body.contact nav.primary a {
-  color: white; }
-body.contact nav.primary a:hover {
-  color: #cccccc; }
-body.contact nav.primary a:active {
-  color: #e6e6e6; }
-body.contact nav.primary a.selected, body.contact nav.primary a.selected:visited {
-  background-color: #38384f; }
-body.contact nav.primary a.selected:hover {
-  background-color: #4d4d6d; }
-body.contact nav.primary a.selected:active {
-  background-color: #232331; }
 body.contact #masthead-wrapper h1, body.contact #masthead-wrapper h3 {
   color: white; }
 body.contact .showcase i {
@@ -576,41 +535,6 @@ body.contact .contact-details i {
       font-size: 3em; } }
 body.contact .contact-details p {
   font-size: 1.5em; }
-body.contact footer ul.nav a:hover {
-  color: #bb202c; }
-body.contact footer ul.nav a:active {
-  color: #dc313f; }
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-  body.contact footer ul.nav a {
-    background-color: #dc313f;
-    color: #a51c27; }
-  body.contact footer ul.nav a:hover {
-    background-color: #8f1822; }
-  body.contact footer ul.nav a:active {
-    background-color: #79151d; } }
-@media only screen and (max-width: 767px) {
-  body.contact footer ul.nav a {
-    background-color: #dc313f;
-    color: #a51c27; }
-  body.contact footer ul.nav a:hover {
-    background-color: #4e0d12; }
-  body.contact footer ul.nav a:active {
-    background-color: #79151d; } }
-body.contact footer a.boompah {
-  background: url(/img/contact/logo-circle-footer.png); }
-body.contact footer .copyright {
-  border-top: 1px solid #bb202c; }
-body.contact footer .copyright-line {
-  color: #e04753; }
-body.contact footer .social-links a, body.contact footer .services a {
-  color: #e04753;
-  -webkit-transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  transition: all 0.35s ease-in-out; }
-body.contact footer .social-links a:hover, body.contact footer .services a:hover {
-  color: #79151d; }
-body.contact footer .social-links a:active, body.contact footer .services a:active {
-  color: #4e0d12; }
 
 body.cv .profile-info {
   text-align: center; }
@@ -623,22 +547,14 @@ body.single.single-post,
   /* Featured Work */
   /* Testimonials */
   /* Clients */ }
-  body.home #masthead-wrapper, body.home .header, body.home footer, body.home .dark-bg,
+  body.home #masthead-wrapper, body.home .dark-bg,
   body.single.single-post #masthead-wrapper,
-  body.single.single-post .header,
-  body.single.single-post footer,
   body.single.single-post .dark-bg,
   .winnipeg-web-design #masthead-wrapper,
-  .winnipeg-web-design .header,
-  .winnipeg-web-design footer,
   .winnipeg-web-design .dark-bg,
   .work #masthead-wrapper,
-  .work .header,
-  .work footer,
   .work .dark-bg,
   .cv #masthead-wrapper,
-  .cv .header,
-  .cv footer,
   .cv .dark-bg {
     background-color: #232333; }
   body.home .light-bg,
@@ -695,46 +611,6 @@ body.single.single-post,
       .work #masthead-wrapper h3,
       .cv #masthead-wrapper h3 {
         font-size: 1.15em; } }
-  body.home nav.primary a,
-  body.single.single-post nav.primary a,
-  .winnipeg-web-design nav.primary a,
-  .work nav.primary a,
-  .cv nav.primary a {
-    color: #7070ba; }
-  body.home nav.primary a:hover,
-  body.single.single-post nav.primary a:hover,
-  .winnipeg-web-design nav.primary a:hover,
-  .work nav.primary a:hover,
-  .cv nav.primary a:hover {
-    color: #9292cb; }
-  body.home nav.primary a:active,
-  body.single.single-post nav.primary a:active,
-  .winnipeg-web-design nav.primary a:active,
-  .work nav.primary a:active,
-  .cv nav.primary a:active {
-    color: #5050a7; }
-  body.home nav.primary a.selected, body.home nav.primary a.selected:visited,
-  body.single.single-post nav.primary a.selected,
-  body.single.single-post nav.primary a.selected:visited,
-  .winnipeg-web-design nav.primary a.selected,
-  .winnipeg-web-design nav.primary a.selected:visited,
-  .work nav.primary a.selected,
-  .work nav.primary a.selected:visited,
-  .cv nav.primary a.selected,
-  .cv nav.primary a.selected:visited {
-    background-color: #38384f; }
-  body.home nav.primary a.selected:hover,
-  body.single.single-post nav.primary a.selected:hover,
-  .winnipeg-web-design nav.primary a.selected:hover,
-  .work nav.primary a.selected:hover,
-  .cv nav.primary a.selected:hover {
-    background-color: #4d4d6d; }
-  body.home nav.primary a.selected:active,
-  body.single.single-post nav.primary a.selected:active,
-  .winnipeg-web-design nav.primary a.selected:active,
-  .work nav.primary a.selected:active,
-  .cv nav.primary a.selected:active {
-    background-color: #232331; }
   @media only screen and (max-width: 767px) {
     body.home .usability-research h2, body.home .usability-research h3, body.home .usability-research h4, body.home .usability-research p,
     body.single.single-post .usability-research h2,
@@ -1189,110 +1065,6 @@ body.single.single-post,
     .work .clients ul li .j3concepts:active,
     .cv .clients ul li .j3concepts:active {
       background-color: #9958cb; }
-  body.home footer a,
-  body.single.single-post footer a,
-  .winnipeg-web-design footer a,
-  .work footer a,
-  .cv footer a {
-    -webkit-transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    transition: all 0.35s ease-in-out; }
-  body.home footer .services a,
-  body.single.single-post footer .services a,
-  .winnipeg-web-design footer .services a,
-  .work footer .services a,
-  .cv footer .services a {
-    color: #7070ba; }
-  body.home footer .services a:hover,
-  body.single.single-post footer .services a:hover,
-  .winnipeg-web-design footer .services a:hover,
-  .work footer .services a:hover,
-  .cv footer .services a:hover {
-    color: #9292cb; }
-  body.home footer .services a:active,
-  body.single.single-post footer .services a:active,
-  .winnipeg-web-design footer .services a:active,
-  .work footer .services a:active,
-  .cv footer .services a:active {
-    color: #5050a7; }
-  body.home footer a.boompah,
-  body.single.single-post footer a.boompah,
-  .winnipeg-web-design footer a.boompah,
-  .work footer a.boompah,
-  .cv footer a.boompah {
-    background: url(/img/home/logo-circle-footer.png); }
-  body.home footer .copyright,
-  body.single.single-post footer .copyright,
-  .winnipeg-web-design footer .copyright,
-  .work footer .copyright,
-  .cv footer .copyright {
-    border-top: 1px solid #393951; }
-    body.home footer .copyright a,
-    body.single.single-post footer .copyright a,
-    .winnipeg-web-design footer .copyright a,
-    .work footer .copyright a,
-    .cv footer .copyright a {
-      color: #797999; }
-    body.home footer .copyright a:hover,
-    body.single.single-post footer .copyright a:hover,
-    .winnipeg-web-design footer .copyright a:hover,
-    .work footer .copyright a:hover,
-    .cv footer .copyright a:hover {
-      color: #9696af; }
-    body.home footer .copyright a:active,
-    body.single.single-post footer .copyright a:active,
-    .winnipeg-web-design footer .copyright a:active,
-    .work footer .copyright a:active,
-    .cv footer .copyright a:active {
-      color: #60607f; }
-  body.home footer .copyright-line,
-  body.single.single-post footer .copyright-line,
-  .winnipeg-web-design footer .copyright-line,
-  .work footer .copyright-line,
-  .cv footer .copyright-line {
-    color: #41415b; }
-  body.home footer ul.social-links li a, body.home footer ul.social-links li a:link, body.home footer ul.social-links li a:visited,
-  body.single.single-post footer ul.social-links li a,
-  body.single.single-post footer ul.social-links li a:link,
-  body.single.single-post footer ul.social-links li a:visited,
-  .winnipeg-web-design footer ul.social-links li a,
-  .winnipeg-web-design footer ul.social-links li a:link,
-  .winnipeg-web-design footer ul.social-links li a:visited,
-  .work footer ul.social-links li a,
-  .work footer ul.social-links li a:link,
-  .work footer ul.social-links li a:visited,
-  .cv footer ul.social-links li a,
-  .cv footer ul.social-links li a:link,
-  .cv footer ul.social-links li a:visited {
-    color: #a5a5ce; }
-    body.home footer ul.social-links li a:hover, body.home footer ul.social-links li a:link:hover, body.home footer ul.social-links li a:visited:hover,
-    body.single.single-post footer ul.social-links li a:hover,
-    body.single.single-post footer ul.social-links li a:link:hover,
-    body.single.single-post footer ul.social-links li a:visited:hover,
-    .winnipeg-web-design footer ul.social-links li a:hover,
-    .winnipeg-web-design footer ul.social-links li a:link:hover,
-    .winnipeg-web-design footer ul.social-links li a:visited:hover,
-    .work footer ul.social-links li a:hover,
-    .work footer ul.social-links li a:link:hover,
-    .work footer ul.social-links li a:visited:hover,
-    .cv footer ul.social-links li a:hover,
-    .cv footer ul.social-links li a:link:hover,
-    .cv footer ul.social-links li a:visited:hover {
-      color: #6363aa; }
-    body.home footer ul.social-links li a:active, body.home footer ul.social-links li a:link:active, body.home footer ul.social-links li a:visited:active,
-    body.single.single-post footer ul.social-links li a:active,
-    body.single.single-post footer ul.social-links li a:link:active,
-    body.single.single-post footer ul.social-links li a:visited:active,
-    .winnipeg-web-design footer ul.social-links li a:active,
-    .winnipeg-web-design footer ul.social-links li a:link:active,
-    .winnipeg-web-design footer ul.social-links li a:visited:active,
-    .work footer ul.social-links li a:active,
-    .work footer ul.social-links li a:link:active,
-    .work footer ul.social-links li a:visited:active,
-    .cv footer ul.social-links li a:active,
-    .cv footer ul.social-links li a:link:active,
-    .cv footer ul.social-links li a:visited:active {
-      color: #8484bc; }
 
 #logo-circle {
   margin: auto;
@@ -1307,20 +1079,8 @@ body.single.single-post,
   padding-left: 0;
   list-style: none; }
 
-body.services #masthead-wrapper, body.services .header, body.services footer, body.services .dark-bg, .branding #masthead-wrapper, .branding .header, .branding footer, .branding .dark-bg {
+body.services #masthead-wrapper, body.services .dark-bg, .branding #masthead-wrapper, .branding .dark-bg {
   background-color: #107c10; }
-body.services nav.primary a, .branding nav.primary a {
-  color: white; }
-body.services nav.primary a:hover, .branding nav.primary a:hover {
-  color: #cccccc; }
-body.services nav.primary a:active, .branding nav.primary a:active {
-  color: #e6e6e6; }
-body.services nav.primary a.selected, body.services nav.primary a.selected:visited, .branding nav.primary a.selected, .branding nav.primary a.selected:visited {
-  background-color: #38384f; }
-body.services nav.primary a.selected:hover, .branding nav.primary a.selected:hover {
-  background-color: #4d4d6d; }
-body.services nav.primary a.selected:active, .branding nav.primary a.selected:active {
-  background-color: #232331; }
 body.services #masthead-wrapper h1, body.services #masthead-wrapper h3, .branding #masthead-wrapper h1, .branding #masthead-wrapper h3 {
   color: white; }
 body.services .page-toggle a, .branding .page-toggle a {
@@ -1332,50 +1092,13 @@ body.services .showcase, .branding .showcase {
   @media only screen and (max-width: 767px) {
     body.services .showcase h3, body.services .showcase p, .branding .showcase h3, .branding .showcase p {
       text-align: left; } }
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-  body.services footer ul.nav a, .branding footer ul.nav a {
-    background-color: #3fe63f;
-    color: #107c10; }
-  body.services footer ul.nav a:hover, .branding footer ul.nav a:hover {
-    background-color: #19c019; }
-  body.services footer ul.nav a:active, .branding footer ul.nav a:active {
-    background-color: #99f299; } }
-@media only screen and (max-width: 767px) {
-  body.services footer ul.nav a, .branding footer ul.nav a {
-    background-color: #3fe63f;
-    color: #107c10; }
-  body.services footer ul.nav a:hover, .branding footer ul.nav a:hover {
-    background-color: #19c019; }
-  body.services footer ul.nav a:active, .branding footer ul.nav a:active {
-    background-color: #99f299; } }
-body.services footer a.boompah, .branding footer a.boompah {
-  background: url(/img/services/logo-circle-footer.png); }
-body.services footer .copyright, .branding footer .copyright {
-  border-top: 1px solid #19c019; }
-body.services footer .copyright-line, .branding footer .copyright-line {
-  color: #28e328; }
 
 .header {
   height: 5em; }
 
-.mobile-nav {
-  float: right;
-  font-size: 2em;
-  margin: 1em .5em 0 0;
-  display: none; }
-  @media only screen and (max-width: 767px) {
-    .mobile-nav {
-      display: inline;
-      margin: .75em 0 0 0;
-      font-size: 1.5em; } }
-  @media only screen and (min-width: 768px) and (max-width: 959px) {
-    .mobile-nav {
-      display: inline; } }
-  .mobile-nav:hover {
-    text-decoration: none; }
-
 footer {
-  padding: 3em 0; }
+  padding: 3em 0;
+  background-color: #f3f3f3; }
   @media only screen and (max-width: 767px) {
     footer .container {
       text-align: center; } }
@@ -1391,6 +1114,10 @@ footer {
     @media only screen and (max-width: 767px) {
       footer ul li a, footer ul li a:link, footer ul li a:visited {
         font-size: 1.25em; } }
+  footer ul.nav li.home-icon {
+    display: none; }
+  footer ul.nav a {
+    color: black; }
   @media only screen and (max-width: 767px) {
     footer ul.nav {
       margin-left: 0;
@@ -1400,8 +1127,8 @@ footer {
         padding: 1em 0;
         text-align: center;
         display: block;
-        background-color: #a5a5ce;
-        color: #232333;
+        background-color: #727272;
+        color: white;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
         border-bottom-left-radius: 5px;
@@ -1414,9 +1141,9 @@ footer {
         -moz-transition: all 0.35s ease-in-out;
         transition: all 0.35s ease-in-out; }
       footer ul.nav a:hover {
-        background-color: #6363aa; }
+        background-color: #3f3f3f; }
       footer ul.nav a:active {
-        background-color: #8484bc; } }
+        background-color: #595959; } }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
     footer ul.nav {
       margin-left: 0;
@@ -1426,8 +1153,8 @@ footer {
         padding: 1em 0;
         text-align: center;
         display: block;
-        background-color: #a5a5ce;
-        color: #232333;
+        background-color: #727272;
+        color: white;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
         border-bottom-left-radius: 5px;
@@ -1437,37 +1164,37 @@ footer {
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px; } }
   footer a, footer a:link, footer a:visited {
-    color: white; }
+    color: #727272; }
   footer a:hover {
     text-decoration: none;
     color: #999999; }
   footer a:active {
     color: #cccccc; }
-  footer a.boompah {
-    background-repeat: no-repeat;
-    width: 150px;
-    height: 150px;
+  footer a.circle-logo {
     float: left; }
   footer .copyright {
     display: block;
     float: left;
     margin-right: 2.35765%;
     width: 100%;
-    margin-top: 1em; }
+    margin-top: 1em;
+    margin-top: 25px;
+    border-bottom: 1px solid white; }
     footer .copyright:last-child {
       margin-right: 0; }
     footer .copyright p, footer .copyright ul {
       margin-top: 3em; }
   footer .copyright-line {
-    margin-top: 50px;
+    margin-top: 25px;
     float: left;
     font-size: 1em;
-    display: inline-block; }
+    display: inline-block;
+    color: #727272; }
     @media only screen and (max-width: 767px) {
       footer .copyright-line {
         float: none; } }
   footer ul.social-links {
-    margin-top: 40px;
+    margin-top: 25xpx;
     float: right;
     display: inline-block; }
     @media only screen and (max-width: 767px) {
@@ -1517,15 +1244,21 @@ nav.primary {
     @media only screen and (min-width: 768px) and (max-width: 959px) {
       nav.primary ul {
         display: none; } }
+    nav.primary ul li.home-text {
+      display: none; }
     nav.primary ul li {
       float: left;
       margin-left: 30px; }
       nav.primary ul li a {
         text-transform: uppercase;
-        font-size: .9em; }
-      nav.primary ul li a:hover {
-        text-decoration: none; }
-      nav.primary ul li a.selected {
+        font-size: 18px;
+        color: #727272; }
+      nav.primary ul li a:hover, nav.primary ul li a:active {
+        text-decoration: none;
+        color: #989898; }
+      nav.primary ul li a.selected, nav.primary ul li a.selected:visited {
+        background-color: #727272;
+        color: white;
         padding: 10px 25px;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
@@ -1535,6 +1268,32 @@ nav.primary {
         border-bottom-left-radius: 20px;
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px; }
+      nav.primary ul li a.selected:hover {
+        background-color: #8c8c8c; }
+      nav.primary ul li a.selected:active {
+        background-color: #595959; }
+
+a.mobile-nav,
+a.mobile-nav:visited {
+  float: right;
+  font-size: 2em;
+  margin: 1em .5em 0 0;
+  display: none;
+  color: #727272; }
+  @media only screen and (max-width: 767px) {
+    a.mobile-nav,
+    a.mobile-nav:visited {
+      display: inline;
+      margin: .75em 0 0 0;
+      font-size: 1.5em; } }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    a.mobile-nav,
+    a.mobile-nav:visited {
+      display: inline; } }
+  a.mobile-nav:hover,
+  a.mobile-nav:visited:hover {
+    text-decoration: none;
+    color: #989898; }
 
 /* SASS Notes
 	

@@ -1,14 +1,6 @@
 body.about {
-	#masthead-wrapper, .header, footer, .dark-bg {
+	#masthead-wrapper, .dark-bg {
 		background-color: $black;
-	}
-	nav.primary {
-		a { color: $white; }
-		a:hover { color: darken($white, 20%); }
-		a:active { color: darken($white, 10%); }
-		a.selected, a.selected:visited { background-color: $gray-purple; }
-		a.selected:hover { background-color: lighten($gray-purple, 10%); }
-		a.selected:active { background-color: darken($gray-purple, 10%); }
 	}
 	#masthead-wrapper{
 		h1, h3 {
@@ -48,35 +40,6 @@ body.about {
 		.cv-cta,
 		.main-name {
 			text-align: right;
-		}
-	}
-	footer {
-		ul.nav {
-			@include respond-to(large-screens) { 
-				a {
-					background-color: lighten($black, 30%);
-					color: $black;
-				}
-				a:hover { background-color: lighten($black, 15%); }
-				a:active { background-color: lighten($black, 50%); }
-			}
-			@include respond-to(handhelds-and-medium-screens) { 
-				a {
-					background-color: lighten($black, 30%);
-					color: $black;
-				}
-				a:hover { background-color: lighten($black, 15%); }
-				a:active { background-color: lighten($black, 50%); }
-			}
-		}
-		a.boompah {
-			background: url(/img/about/logo-circle-footer.png);
-		}
-		.copyright {
-			border-top: 1px solid lighten($black, 15%);
-		}
-		.copyright-line { 
-			color: lighten($black, 25%); 
 		}
 	}
 }

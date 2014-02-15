@@ -1,5 +1,5 @@
-<li><a href="/" title="Home">Home</a></li>
+<li class="home-icon"><a href="/" title="Home"><i class="fa fa-home"></i></a></li>
+<li class="home-text"><a href="/" title="Home">home</a></li>
 <li><a href="?page=services" title="Services">Services</a></li>
 <li><a href="?page=about" title="About">About</a></li>
-<li><a href="http://blog.boompah.com" title="Blog">Blog</a></li>
 <li><a href="?page=contact" title="Contact">Contact</a></li>

@@ -1,14 +1,6 @@
 body.services, .branding {
-	#masthead-wrapper, .header, footer, .dark-bg {
+	#masthead-wrapper, .dark-bg {
 		background-color: $xbox-green;
-	}
-		nav.primary {
-		a { color: $white; }
-		a:hover { color: darken($white, 20%); }
-		a:active { color: darken($white, 10%); }
-		a.selected, a.selected:visited { background-color: $gray-purple; }
-		a.selected:hover { background-color: lighten($gray-purple, 10%); }
-		a.selected:active { background-color: darken($gray-purple, 10%); }
 	}
 	#masthead-wrapper{
 		h1, h3 {
@@ -26,34 +18,4 @@ body.services, .branding {
     	@include respond-to(handhelds-and-medium-screens) { text-align: left; }
     }
   }
-
-	footer {
-		ul.nav {
-			@include respond-to(large-screens) { 
-				a {
-					background-color: lighten($xbox-green, 30%);
-					color: $xbox-green;
-				}
-				a:hover { background-color: lighten($xbox-green, 15%); }
-				a:active { background-color: lighten($xbox-green, 50%); }
-			}
-			@include respond-to(handhelds-and-medium-screens) { 
-				a {
-					background-color: lighten($xbox-green, 30%);
-					color: $xbox-green;
-				}
-				a:hover { background-color: lighten($xbox-green, 15%); }
-				a:active { background-color: lighten($xbox-green, 50%); }
-			}
-		}
-		a.boompah {
-			background: url(/img/services/logo-circle-footer.png);
-		}
-		.copyright {
-			border-top: 1px solid lighten($xbox-green, 15%);
-		}
-		.copyright-line { 
-			color: lighten($xbox-green, 25%);
-		}
-	}
 }

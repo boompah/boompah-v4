@@ -1,5 +1,6 @@
 footer {
 	padding: 3em 0;
+	background-color: $light-gray;
 
 	.container {
 		@include respond-to(handhelds-and-medium-screens) { text-align: center; }
@@ -23,6 +24,12 @@ footer {
 	} // ul
 	
 	ul.nav {
+		li.home-icon {
+			display: none;
+		}
+		a {
+			color: $black;
+		}
 		@include respond-to(handhelds-and-medium-screens) { 
 			margin-left: 0;
 			width: 100%;
@@ -31,8 +38,8 @@ footer {
 				padding: 1em 0;
 				text-align: center;
 				display: block;
-				background-color: $light-purple;
-				color: $dark-blue;
+				background-color: $base-gray;
+				color: $white;
 				@include border-top-radius(5px);
 				@include border-bottom-radius(5px);
 				@include border-left-radius(5px);
@@ -40,8 +47,8 @@ footer {
 				
 				@include transition (all 0.35s ease-in-out);
 			}
-			a:hover { background-color: darken($light-purple, 20%); }
-			a:active { background-color: darken($light-purple, 10%); }
+			a:hover { background-color: darken($base-gray, 20%); }
+			a:active { background-color: darken($base-gray, 10%); }
 		}
 		@include respond-to(large-screens) { 
 			margin-left: 0;
@@ -51,8 +58,8 @@ footer {
 				padding: 1em 0;
 				text-align: center;
 				display: block;
-				background-color: $light-purple;
-				color: $dark-blue;
+				background-color: $base-gray;
+				color: $white;
 				@include border-top-radius(5px);
 				@include border-bottom-radius(5px);
 				@include border-left-radius(5px);
@@ -61,39 +68,39 @@ footer {
 		}
 	}
 		
-	a, a:link, a:visited { color: $white; }
+	a, a:link, a:visited { color: $base-gray; }
 	a:hover {
 		text-decoration: none;
 		color: darken($white, 40%);
 	}
 	a:active { color: darken($white, 20%); }
 	
-	a.boompah {
-		background-repeat: no-repeat;
-		width: 150px;
-		height: 150px;
+	a.circle-logo {
 		float: left;
 	}
 	
 	.copyright {
 		@include span-columns(12);
-		margin-top: 1em;
+		margin-top: 1em;margin-top: 25px;
+		border-bottom: 1px solid $white;
 		p, ul {
 			margin-top: 3em;
 		}
 	} // copyright
+
 	.copyright-line {
-		margin-top: 50px;
+		margin-top: 25px;
 		float: left;
 		font-size: 1em;
 		display: inline-block;
+		color: $base-gray;
 		@include respond-to(handhelds-and-medium-screens) {
 			float: none;
 		}
 	}
 
 	ul.social-links {
-		margin-top: 40px;
+		margin-top: 25xpx;
 		float: right;
 		display: inline-block;
 
