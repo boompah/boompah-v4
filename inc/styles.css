@@ -3,14 +3,31 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-a.baby-blue__bg {
-  background-color: #07a4e5; }
+.btn {
+  padding: 5px 10px;
+  display: inline-block;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  text-decoration: none; }
+  .btn:hover {
+    text-decoration: none; }
 
-a.baby-blue__bg:hover {
-  background-color: #0581b4; }
+.btn-white {
+  background-color: white; }
 
-a.baby-blue__bg:active {
-  background-color: #0eb3f8; }
+.btn.btn-cta {
+  padding: 5px 20px; }
+  .btn.btn-cta i {
+    margin-left: 15px; }
+
+.btn-cta {
+  font-size: 1.25em; }
 
 body {
   margin: 0;
@@ -570,7 +587,7 @@ body.single.single-post,
   .winnipeg-web-design #masthead-wrapper h1,
   .work #masthead-wrapper h1,
   .cv #masthead-wrapper h1 {
-    margin: 5% auto 5%;
+    margin: 0 auto 5%;
     color: #a5a5ce;
     font-size: 2.5em;
     font-weight: 600;
@@ -611,6 +628,12 @@ body.single.single-post,
       .work #masthead-wrapper h3,
       .cv #masthead-wrapper h3 {
         font-size: 1.15em; } }
+  body.home #masthead-wrapper .btn-cta,
+  body.single.single-post #masthead-wrapper .btn-cta,
+  .winnipeg-web-design #masthead-wrapper .btn-cta,
+  .work #masthead-wrapper .btn-cta,
+  .cv #masthead-wrapper .btn-cta {
+    margin-top: 20px; }
   @media only screen and (max-width: 767px) {
     body.home .usability-research h2, body.home .usability-research h3, body.home .usability-research h4, body.home .usability-research p,
     body.single.single-post .usability-research h2,
@@ -769,18 +792,9 @@ body.single.single-post,
     .work .clients ul li a,
     .cv .clients ul li a {
       background-color: black;
-      padding: 5px 10px;
       color: white;
       display: block;
       text-decoration: none;
-      border-top-left-radius: 6px;
-      border-top-right-radius: 6px;
-      border-bottom-left-radius: 6px;
-      border-bottom-right-radius: 6px;
-      border-top-left-radius: 6px;
-      border-bottom-left-radius: 6px;
-      border-top-right-radius: 6px;
-      border-bottom-right-radius: 6px;
       -webkit-transition: all 0.35s ease-in-out;
       -moz-transition: all 0.35s ease-in-out;
       transition: all 0.35s ease-in-out; }

@@ -1,3 +1,27 @@
-a.baby-blue__bg { background-color: $baby-blue; }
-a.baby-blue__bg:hover { background-color: darken($baby-blue, 10%); }
-a.baby-blue__bg:active { background-color: lighten($baby-blue, 5%); }
+.btn {
+  padding: 5px 10px;
+  display: inline-block;
+  @include border-top-radius(6px);
+  @include border-bottom-radius(6px);
+  @include border-left-radius(6px);
+  @include border-right-radius(6px);
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.btn-white {
+  background-color: $white;
+}
+
+.btn.btn-cta {
+  padding: 5px 20px;
+  i {
+    margin-left: 15px;
+  }
+}
+
+.btn-cta {
+  font-size: 1.25em;
+}
