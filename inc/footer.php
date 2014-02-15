@@ -20,7 +20,8 @@
         <li><a href="#">E-mail Campaigns</a></li>
       </ul>
       <ul class="nav menu">
-        <li><a name="footer-menu" href="#top">Top of page <i class="icon-arrow-up"></i></a></li>
+        <li>
+          <a href="#" class="searchbychar" data-target="a" onclick="return false">Top of page <i class="icon-arrow-up"></i></a></li>
         <?php include 'menu-core.php'; ?>
       </ul>
       <div class="copyright"></div>
@@ -34,20 +35,19 @@
   </footer><?php // footer ?>
 
   <?php // jQuery ?>
-  <script>
-  var _gaq=[['_setAccount','UA-15341567-1'],['_trackPageview']];
-  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-  s.parentNode.insertBefore(g,s)}(document,'script'));
-  
-  if (/mobile/i.test(navigator.userAgent) && !window.location.hash) { window.onload = function () {
-    window.scrollTo(0, 1);
-  }; }
+
+  <script type="type/javascript">
+    var _gaq=[['_setAccount','UA-15341567-1'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+    
+    if (/mobile/i.test(navigator.userAgent) && !window.location.hash) { window.onload = function () {
+      window.scrollTo(0, 1);
+    }; }
   
   </script>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-
-  <?php // Retina JS ?>
-  <script type="text/javascript" src="/inc/js/scripts/retina.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="/inc/js/scroll-to.js" type="text/javascript"></script>
   </body>
 </html>

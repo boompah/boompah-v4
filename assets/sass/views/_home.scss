@@ -116,7 +116,7 @@ body.single.single-post,
 					background-color: $black;
 					&:hover { background-color: lighten($black, 30%); }
 
-					padding: .5em 1em;
+					padding: 5px 10px;
 					color: $white;
 					display: block;
 					text-decoration: none;
@@ -128,7 +128,11 @@ body.single.single-post,
 
 					@include transition (all 0.35s ease-in-out);
 						
-						i { float: right; font-size: 1.25em; }
+						i {
+							float: right;
+							font-size: 1.25em;
+							margin-top: 2px;
+						}
 				}
 
 				.royal-blue { background-color: $royal-blue; }				

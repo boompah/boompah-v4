@@ -769,7 +769,7 @@ body.single.single-post,
     .work .clients ul li a,
     .cv .clients ul li a {
       background-color: black;
-      padding: .5em 1em;
+      padding: 5px 10px;
       color: white;
       display: block;
       text-decoration: none;
@@ -796,7 +796,8 @@ body.single.single-post,
       .work .clients ul li a i,
       .cv .clients ul li a i {
         float: right;
-        font-size: 1.25em; }
+        font-size: 1.25em;
+        margin-top: 2px; }
     body.home .clients ul li .royal-blue,
     body.single.single-post .clients ul li .royal-blue,
     .winnipeg-web-design .clients ul li .royal-blue,
