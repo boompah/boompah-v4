@@ -4,8 +4,11 @@ body.single.single-post,
 .work,
 .cv {
 	
-	#masthead-wrapper, .dark-bg {
-		background-color: $dark-blue;
+	#masthead-wrapper {
+		background-color: $teal;
+		height: 620px;
+		background-image: url(/img/home/01-feature-graphic.jpg);
+		background-position: center;
 	}
 	
 	.light-bg {
@@ -15,19 +18,21 @@ body.single.single-post,
 	}
 	
 	#masthead-wrapper {
+		h1, h3 {
+			color: $white;
+		}
 		h1 {	
-			margin: 0 auto 5%;
-			color: $light-purple;
+			margin-top: 50px;
 			font-size: 2.5em;
 			font-weight: 600;
 			line-height: 1.25em;
 			@include respond-to(large-screens) { font-size: 2.35em; }
 			@include respond-to(handhelds-and-medium-screens) { font-size: 20px; }
+			font-family: 'Varela Round', sans-serif;
 		}
 
 		h3 {
-			color: $secondary-purple;
-			font-size: 1.5em;
+			font-size: 1.25em;
 			font-weight: 500;
 			@include respond-to(large-screens) { font-size: 1.35em; }
 			@include respond-to(handhelds-and-medium-screens) { font-size: 1.15em; }
@@ -36,6 +41,11 @@ body.single.single-post,
 			margin-top: 20px;
 		}
 	}  
+
+	.main-headline {
+		@include span-columns(6);
+		text-align: left;
+	}
 	
 	.usability-research {
 		h2, h3, h4, p {

@@ -6,27 +6,22 @@
 .btn {
   padding: 5px 10px;
   display: inline-block;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px;
-  border-top-left-radius: 6px;
-  border-bottom-left-radius: 6px;
-  border-top-right-radius: 6px;
-  border-bottom-right-radius: 6px;
   text-decoration: none; }
   .btn:hover {
     text-decoration: none; }
 
-.btn-white {
-  background-color: white; }
+a.btn-soft-purple,
+a.btn-soft-purple:link,
+a.btn-soft-purple:visited {
+  background-color: #7a86f4;
+  color: white; }
 
-.btn.btn-cta {
+a.btn.btn-cta {
   padding: 5px 20px; }
-  .btn.btn-cta i {
+  a.btn.btn-cta i {
     margin-left: 15px; }
 
-.btn-cta {
+a.btn-cta {
   font-size: 1.25em; }
 
 body {
@@ -144,7 +139,7 @@ ul li {
         font-size: 1.75em; } }
 
 #masthead-wrapper {
-  padding: 4% 0;
+  padding: 40px 0 60px 0;
   text-align: center; }
   #masthead-wrapper h1 {
     margin: 0;
@@ -564,16 +559,15 @@ body.single.single-post,
   /* Featured Work */
   /* Testimonials */
   /* Clients */ }
-  body.home #masthead-wrapper, body.home .dark-bg,
+  body.home #masthead-wrapper,
   body.single.single-post #masthead-wrapper,
-  body.single.single-post .dark-bg,
   .winnipeg-web-design #masthead-wrapper,
-  .winnipeg-web-design .dark-bg,
   .work #masthead-wrapper,
-  .work .dark-bg,
-  .cv #masthead-wrapper,
-  .cv .dark-bg {
-    background-color: #232333; }
+  .cv #masthead-wrapper {
+    background-color: #36c99f;
+    height: 620px;
+    background-image: url(/img/home/01-feature-graphic.jpg);
+    background-position: center; }
   body.home .light-bg,
   body.single.single-post .light-bg,
   .winnipeg-web-design .light-bg,
@@ -582,16 +576,26 @@ body.single.single-post,
     background-color: #e4e7ee;
     border-top: 1px solid #aab2bf;
     border-bottom: 1px solid #aab2bf; }
+  body.home #masthead-wrapper h1, body.home #masthead-wrapper h3,
+  body.single.single-post #masthead-wrapper h1,
+  body.single.single-post #masthead-wrapper h3,
+  .winnipeg-web-design #masthead-wrapper h1,
+  .winnipeg-web-design #masthead-wrapper h3,
+  .work #masthead-wrapper h1,
+  .work #masthead-wrapper h3,
+  .cv #masthead-wrapper h1,
+  .cv #masthead-wrapper h3 {
+    color: white; }
   body.home #masthead-wrapper h1,
   body.single.single-post #masthead-wrapper h1,
   .winnipeg-web-design #masthead-wrapper h1,
   .work #masthead-wrapper h1,
   .cv #masthead-wrapper h1 {
-    margin: 0 auto 5%;
-    color: #a5a5ce;
+    margin-top: 50px;
     font-size: 2.5em;
     font-weight: 600;
-    line-height: 1.25em; }
+    line-height: 1.25em;
+    font-family: 'Varela Round', sans-serif; }
     @media only screen and (min-width: 768px) and (max-width: 959px) {
       body.home #masthead-wrapper h1,
       body.single.single-post #masthead-wrapper h1,
@@ -611,8 +615,7 @@ body.single.single-post,
   .winnipeg-web-design #masthead-wrapper h3,
   .work #masthead-wrapper h3,
   .cv #masthead-wrapper h3 {
-    color: #797999;
-    font-size: 1.5em;
+    font-size: 1.25em;
     font-weight: 500; }
     @media only screen and (min-width: 768px) and (max-width: 959px) {
       body.home #masthead-wrapper h3,
@@ -634,6 +637,22 @@ body.single.single-post,
   .work #masthead-wrapper .btn-cta,
   .cv #masthead-wrapper .btn-cta {
     margin-top: 20px; }
+  body.home .main-headline,
+  body.single.single-post .main-headline,
+  .winnipeg-web-design .main-headline,
+  .work .main-headline,
+  .cv .main-headline {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    text-align: left; }
+    body.home .main-headline:last-child,
+    body.single.single-post .main-headline:last-child,
+    .winnipeg-web-design .main-headline:last-child,
+    .work .main-headline:last-child,
+    .cv .main-headline:last-child {
+      margin-right: 0; }
   @media only screen and (max-width: 767px) {
     body.home .usability-research h2, body.home .usability-research h3, body.home .usability-research h4, body.home .usability-research p,
     body.single.single-post .usability-research h2,

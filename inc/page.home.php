@@ -4,10 +4,10 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
 ?>
 <div id="masthead-wrapper">
   <div class="container">
-    <section class="main-content">
-      <h1>Responsive Websites &amp; Mobile Apps Design for Awesome Brands</h1>
-      <h3>We collaborate with brands to design interfaces for web applications, boutique websites and e-commerce stores. We thrive on the science of social media and evidence driven design.</h3>
-      <a href="/contact" class="btn btn-white btn-cta">Request a Quote<i class="fa fa-arrow-circle-o-right"></i></a>
+    <div class="main-headline">
+      <h1>Responsive Websites<br /> &amp; Mobile App Design for Awesome Brands</h1>
+      <h3>We strive for a beautiful UX on every project.</h3>
+      <a href="/contact" class="btn btn-soft-purple btn-cta">Request a Quote<i class="fa fa-arrow-circle-o-right"></i></a>
     </div>
   </div>
 </div><?php // masthead-wrapper home ?>

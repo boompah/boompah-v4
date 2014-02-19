@@ -1,27 +1,26 @@
 .btn {
   padding: 5px 10px;
   display: inline-block;
-  @include border-top-radius(6px);
-  @include border-bottom-radius(6px);
-  @include border-left-radius(6px);
-  @include border-right-radius(6px);
   text-decoration: none;
   &:hover {
     text-decoration: none;
   }
 }
 
-.btn-white {
-  background-color: $white;
+a.btn-soft-purple,
+a.btn-soft-purple:link,
+a.btn-soft-purple:visited {
+  background-color: $btn-soft-purple;
+  color: $white;
 }
 
-.btn.btn-cta {
+a.btn.btn-cta {
   padding: 5px 20px;
   i {
     margin-left: 15px;
   }
 }
 
-.btn-cta {
+a.btn-cta {
   font-size: 1.25em;
 }
