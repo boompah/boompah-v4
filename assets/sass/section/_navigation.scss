@@ -10,9 +10,18 @@ nav.primary {
 			margin-top: 1.25em;
 		}
 		img {
+			float: left;
 			@include respond-to (handhelds-and-medium-screens) {
 				width: 120px;
 			}
+		}
+	}
+	.bitcoin {
+		margin: 15px 0 0 35px;
+		float: right;
+		@include respond-to (handhelds-and-medium-screens) {
+			width: 100px;
+			margin-top: 22px;
 		}
 	}
 	ul {

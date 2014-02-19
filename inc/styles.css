@@ -567,7 +567,8 @@ body.single.single-post,
     background-color: #36c99f;
     height: 620px;
     background-image: url(/img/home/01-feature-graphic.jpg);
-    background-position: center; }
+    background-position: center;
+    background-repeat: no-repeat; }
   body.home .light-bg,
   body.single.single-post .light-bg,
   .winnipeg-web-design .light-bg,
@@ -591,7 +592,7 @@ body.single.single-post,
   .winnipeg-web-design #masthead-wrapper h1,
   .work #masthead-wrapper h1,
   .cv #masthead-wrapper h1 {
-    margin-top: 50px;
+    margin-top: 40px;
     font-size: 2.5em;
     font-weight: 600;
     line-height: 1.25em;
@@ -1267,9 +1268,18 @@ nav.primary {
     @media only screen and (max-width: 767px) {
       nav.primary a.boompah {
         margin-top: 1.25em; } }
+    nav.primary a.boompah img {
+      float: left; }
+      @media only screen and (max-width: 767px) {
+        nav.primary a.boompah img {
+          width: 120px; } }
+  nav.primary .bitcoin {
+    margin: 15px 0 0 35px;
+    float: right; }
     @media only screen and (max-width: 767px) {
-      nav.primary a.boompah img {
-        width: 120px; } }
+      nav.primary .bitcoin {
+        width: 100px;
+        margin-top: 22px; } }
   nav.primary ul {
     margin-top: 25px;
     float: right;

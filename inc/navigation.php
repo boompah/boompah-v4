@@ -4,6 +4,7 @@
       <img src="/img/logo-nav.png" alt="Boompah" />
       <span class="screen-reader-text">Boompah</span>
     </a>
+    <img src="/img/btc.png" alt="Bitcon accepted here" class="bitcoin" />
     <ul class="menu">
       <?php include 'menu-core.php'; ?>
     </ul>
