@@ -557,8 +557,7 @@ body.single.single-post,
 .work,
 .cv {
   /* Featured Work */
-  /* Testimonials */
-  /* Clients */ }
+  /* Testimonials */ }
   body.home #masthead-wrapper,
   body.single.single-post #masthead-wrapper,
   .winnipeg-web-design #masthead-wrapper,
@@ -794,12 +793,6 @@ body.single.single-post,
     .cv .testimonials p,
     .cv .testimonials h4 {
       text-align: left; } }
-  body.home .gray-bg,
-  body.single.single-post .gray-bg,
-  .winnipeg-web-design .gray-bg,
-  .work .gray-bg,
-  .cv .gray-bg {
-    border-top: 1px solid #d9d9d9; }
   body.home .clients ul li,
   body.single.single-post .clients ul li,
   .winnipeg-web-design .clients ul li,

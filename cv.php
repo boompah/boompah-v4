@@ -1,7 +1,9 @@
 <?php
+  $page = cv;
   $title = 'Curriculum Vitae';
   $description = 'The Professional History of Ryan Bollenbach';
 ?>
+<?php include 'inc/header.php' ?>
 <div class="container">
   <div class="full-content">
     <div class="profile-info">
@@ -181,3 +183,4 @@
     </ul>
   </div>
 </div>
+<?php include 'inc/footer.php' ?>
