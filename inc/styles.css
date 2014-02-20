@@ -103,6 +103,9 @@ a {
   -moz-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out; }
 
+.text-center {
+  text-align: center; }
+
 ul.menu {
   font-size: 18px; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -506,6 +509,11 @@ a.timeline-bar {
     @media only screen and (max-width: 767px) {
       .food-porn img {
         width: 333px; } }
+
+body.bitcoin .main-content {
+  text-align: center; }
+body.bitcoin img.bitcoin-circle {
+  margin-top: 40px; }
 
 body.contact #masthead-wrapper, body.contact .dark-bg {
   background-color: #981a24; }
@@ -1108,11 +1116,11 @@ body.single.single-post,
   list-style: none; }
 
 body.services #masthead-wrapper, body.services .dark-bg, .branding #masthead-wrapper, .branding .dark-bg {
-  background-color: #107c10; }
+  background-color: #36c99f; }
 body.services #masthead-wrapper h1, body.services #masthead-wrapper h3, .branding #masthead-wrapper h1, .branding #masthead-wrapper h3 {
   color: white; }
 body.services .page-toggle a, .branding .page-toggle a {
-  color: #19c019; }
+  color: #36c99f; }
 body.services .showcase, .branding .showcase {
   padding-top: 60px; }
   body.services .showcase h3, .branding .showcase h3 {
@@ -1267,7 +1275,7 @@ nav.primary {
         nav.primary a.boompah img {
           width: 120px; } }
   nav.primary .bitcoin {
-    margin: 15px 0 0 35px;
+    margin: 25px 0 0 20px;
     float: right; }
     @media only screen and (max-width: 767px) {
       nav.primary .bitcoin {

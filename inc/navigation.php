@@ -4,7 +4,7 @@
       <img src="/img/logo-nav.png" alt="Boompah" />
       <span class="screen-reader-text">Boompah</span>
     </a>
-    <a href="buy-with-btc">
+    <a href="/buy-web-design-with-bitcoin">
       <img src="/img/btc.png" alt="Bitcon accepted here" class="bitcoin" />
     </a>
     <ul class="menu">

@@ -71,6 +71,10 @@ p, ul, ol {
 
 a { @include transition (all 0.35s ease-in-out); }
 
+.text-center {
+	text-align: center;
+}
+
 // ---------------------------------------------------------------------
 
 	// Lists

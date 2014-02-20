@@ -1,6 +1,6 @@
 body.services, .branding {
 	#masthead-wrapper, .dark-bg {
-		background-color: $xbox-green;
+		background-color: $teal;
 	}
 	#masthead-wrapper{
 		h1, h3 {
@@ -8,7 +8,7 @@ body.services, .branding {
 		}
 	}
   .page-toggle { 
-    a { color: lighten($xbox-green, 15%) }
+    a { color: $teal; }
   }
   // Showcase
   .showcase {
