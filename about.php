@@ -175,4 +175,59 @@
     </div>
   </div>
 </div>
+<div class="showcase testimonials">
+  <div class="container">
+    <h2>Testimonials</h2>
+    <div class="row">
+      <div class="half">
+        <p>"Ryan is a recent addition to the Tungle team. Since joining he has had a big impact. He quickly integrated into our dev team and established a solid design and front end function from nothing (before him we outsourced this). He works quickly and can take high level concepts and translate them into well
+        executed wireframes and images. He is a valuable member of our team."</p>
+        <p class="role">
+          Mark managed Ryan indirectly at Tungle<br />
+          Tungle was acquired by BlackBerry in April 2011
+        </p>
+        <h4>Mark MacLeod, <a href="http://www.startupcfo.ca/" target="_blank" title="StartupCFO">StartupCFO</a></h4>
+      </div>
+      <div class="half">
+        <p>"Ryan is a great collaborator. We had some very complex projects involving multiple team members and he was able to get up to speed on our business, 
+          engage all the people involved, and be central to the creative process. Ryan helped us achieve cleaner designs than we would have without his good communication and design skills."</p>
+        <p class="role">
+          <strong>Top qualities:</strong> Great Results, Personable, High Integrity<br />
+          <em>Mike Managed Ryan directly.</em>
+        </p>
+        <h4>Michael Wurzer, FBS</h4>
+      </div>
+    </div><?php //row ?>
+    <div class="row">
+      <div class="half">
+        <p>"I was really impressed with how professional Ryan was during an interview I did with him for <a href="https://www.facebook.com/mographtv" target="_blank">MographTV.com.</a> MGTV started from nothing but an idea that Ryan had one day and has become one of THE sites you have to know if you are into motion graphics."</p>
+        <p class="role">Mike collaborated with Ryan at MGTV</a></p>
+        <h4>Michael Waldron, Producer at TV Land</h4>
+      </div>
+      <div class="half">
+        <p>"Ryan has a great eye for design and was instrumental in helping build the look and feel of the Tungle brand.  We have been really impressed with his work over the years."</p>
+        <p class="role">Erin worked with Ryan directly at Tungle.me.</p>
+        <h4>Erin Lariviere, PR at Blackberry</h4>
+      </div>
+    </div><?php // row ?>
+    <div class="row"> 
+      <div class="half">
+        <p>"Not longer after working with Ryan, it became clear to me that he has a lot of passion for design and is committed to constantly developing his skills, both technical and creative. He also happens to be a pleasure to work with!"</p>
+        <p class="role">
+          Mani managed Ryan indirectly at Tungle<br />
+          Tungle was acquired by BlackBerry in April 2011
+        </p>
+        <h4>Mani Ghasemlou, MBA</h4>
+      </div>
+      <div class="half">
+        <p>"Ryan has infectious enthusiasm and energy. My role in working with Ryan was to provide background and technical information about our product he was redesigning. He made it easy to collaborate with him over a distance of a thousand miles..."</p>
+        <p class="role">
+          <strong>Top qualities:</strong> Personable, High Integrity, Creative<br />
+          <em>Dan collaborated with Ryan on various UX tasks</em>
+        </p>
+        <h4>Dan Nelson, FBS</h4>
+      </div>
+    </div><?php // row ?>
+  </div><?php // container ?>
+</div><?php // showcase ?>
 <?php include 'inc/footer.php' ?>

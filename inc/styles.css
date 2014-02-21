@@ -352,50 +352,55 @@ a.button:active {
   .full-content:last-child {
     margin-right: 0; }
 
-body.about #masthead-wrapper, body.about .dark-bg {
-  background-color: black; }
-body.about #masthead-wrapper h1, body.about #masthead-wrapper h3 {
-  color: white; }
-body.about .container.showcase {
-  padding: 40px 20px; }
-  body.about .container.showcase img {
-    margin-top: 20px;
-    float: left;
-    width: 40%; }
-    @media only screen and (max-width: 767px) {
-      body.about .container.showcase img {
-        width: 40%;
-        float: none; } }
-    @media only screen and (min-width: 480px) and (max-width: 767px) {
-      body.about .container.showcase img {
-        width: 50%; } }
-    @media only screen and (max-width: 479px) {
-      body.about .container.showcase img {
-        width: 80%; } }
-  body.about .container.showcase .cv-cta i {
-    margin-right: 10px; }
-  body.about .container.showcase .main-name {
-    font-size: 6em;
-    font-weight: 300;
-    margin-bottom: 0; }
-    @media only screen and (min-width: 768px) and (max-width: 959px) {
-      body.about .container.showcase .main-name {
-        font-size: 4.5em; } }
-    @media only screen and (min-width: 480px) and (max-width: 767px) {
-      body.about .container.showcase .main-name {
-        font-size: 3em; } }
-    @media only screen and (max-width: 479px) {
-      body.about .container.showcase .main-name {
-        font-size: 2em; } }
-    @media only screen and (max-width: 767px) {
-      body.about .container.showcase .main-name {
-        text-align: center; } }
-    @media only screen and (max-width: 767px) {
-      body.about .container.showcase .main-name br {
-        display: none; } }
-  body.about .container.showcase .cv-cta,
-  body.about .container.showcase .main-name {
-    text-align: right; }
+body.about {
+  /* Testimonials */ }
+  body.about #masthead-wrapper, body.about .dark-bg {
+    background-color: black; }
+  body.about #masthead-wrapper h1, body.about #masthead-wrapper h3 {
+    color: white; }
+  body.about .container.showcase {
+    padding: 40px 20px; }
+    body.about .container.showcase img {
+      margin-top: 20px;
+      float: left;
+      width: 40%; }
+      @media only screen and (max-width: 767px) {
+        body.about .container.showcase img {
+          width: 40%;
+          float: none; } }
+      @media only screen and (min-width: 480px) and (max-width: 767px) {
+        body.about .container.showcase img {
+          width: 50%; } }
+      @media only screen and (max-width: 479px) {
+        body.about .container.showcase img {
+          width: 80%; } }
+    body.about .container.showcase .cv-cta i {
+      margin-right: 10px; }
+    body.about .container.showcase .main-name {
+      font-size: 6em;
+      font-weight: 300;
+      margin-bottom: 0; }
+      @media only screen and (min-width: 768px) and (max-width: 959px) {
+        body.about .container.showcase .main-name {
+          font-size: 4.5em; } }
+      @media only screen and (min-width: 480px) and (max-width: 767px) {
+        body.about .container.showcase .main-name {
+          font-size: 3em; } }
+      @media only screen and (max-width: 479px) {
+        body.about .container.showcase .main-name {
+          font-size: 2em; } }
+      @media only screen and (max-width: 767px) {
+        body.about .container.showcase .main-name {
+          text-align: center; } }
+      @media only screen and (max-width: 767px) {
+        body.about .container.showcase .main-name br {
+          display: none; } }
+    body.about .container.showcase .cv-cta,
+    body.about .container.showcase .main-name {
+      text-align: right; }
+  @media only screen and (max-width: 767px) {
+    body.about .testimonials h2, body.about .testimonials p, body.about .testimonials h4 {
+      text-align: left; } }
 
 .timeline-bar {
   background-color: #f2f2f2;
@@ -564,8 +569,7 @@ body.single.single-post,
 .winnipeg-web-design,
 .work,
 .cv {
-  /* Featured Work */
-  /* Testimonials */ }
+  /* Featured Work */ }
   body.home #masthead-wrapper,
   body.single.single-post #masthead-wrapper,
   .winnipeg-web-design #masthead-wrapper,
@@ -786,21 +790,6 @@ body.single.single-post,
   .cv .featured-work .panel-block.two-m-two {
     background-color: black;
     border: 1px solid black; }
-  @media only screen and (max-width: 767px) {
-    body.home .testimonials h2, body.home .testimonials p, body.home .testimonials h4,
-    body.single.single-post .testimonials h2,
-    body.single.single-post .testimonials p,
-    body.single.single-post .testimonials h4,
-    .winnipeg-web-design .testimonials h2,
-    .winnipeg-web-design .testimonials p,
-    .winnipeg-web-design .testimonials h4,
-    .work .testimonials h2,
-    .work .testimonials p,
-    .work .testimonials h4,
-    .cv .testimonials h2,
-    .cv .testimonials p,
-    .cv .testimonials h4 {
-      text-align: left; } }
   body.home .clients ul li,
   body.single.single-post .clients ul li,
   .winnipeg-web-design .clients ul li,

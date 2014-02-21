@@ -110,13 +110,6 @@ body.single.single-post,
 		}
 	}
 
-	/* Testimonials */
-	.testimonials {
-		h2, p, h4 {
-			@include respond-to(handhelds-and-medium-screens) { text-align: left; }
-		}
-	}
-
 	.clients {
 		ul {
 			li{
