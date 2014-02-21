@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -27,5 +27,9 @@
   <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body class="<?php echo $page; ?>">
+  <!-- Preloader -->
+  <div id="preloader">
+      <div id="status">&nbsp;</div>
+  </div>
   <?php include 'chrome-frame.php'; ?>
   <?php include 'navigation.php' ?>

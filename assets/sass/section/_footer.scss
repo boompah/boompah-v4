@@ -29,6 +29,10 @@ footer {
 		h5, p {
 			margin: 0 20px 0 0;
 		}
+		a, a:link, a:visited {
+			color: $alabas-gray;
+			text-decoration: underline;
+		}
 	}
 	.made-in-manitoba {
 		border-right: 1px solid $dark-gray-border;

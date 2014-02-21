@@ -26,7 +26,8 @@ a.btn-cta {
 
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  overflow: hidden; }
   body ::selection {
     background: #CC0000;
     /* Safari */
@@ -362,6 +363,32 @@ a.button:active {
   width: 100%; }
   .full-content:last-child {
     margin-right: 0; }
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  /* change if the mask should have another color then white */
+  z-index: 99;
+  /* makes sure it stays on top */ }
+
+#status {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  /* centers the loading animation horizontally one the screen */
+  top: 50%;
+  /* centers the loading animation vertically one the screen */
+  background-image: url(/img/status.gif);
+  /* path to your loading animation */
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px;
+  /* is width and height divided by two */ }
 
 body.about {
   /* Testimonials */ }
@@ -896,6 +923,12 @@ footer .we-are-passionate {
   footer .we-are-passionate h5,
   footer .we-are-passionate p {
     margin: 0 20px 0 0; }
+  footer .made-in-manitoba a, footer .made-in-manitoba a:link, footer .made-in-manitoba a:visited,
+  footer .we-are-passionate a,
+  footer .we-are-passionate a:link,
+  footer .we-are-passionate a:visited {
+    color: #7f7c7c;
+    text-decoration: underline; }
 footer .made-in-manitoba {
   border-right: 1px solid #2f2f2f; }
 footer .we-are-passionate {

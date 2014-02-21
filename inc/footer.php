@@ -2,10 +2,10 @@
     <div class="top-wrap">
       <div class="container">
         <div class="made-in-manitoba">
-          <p>Boompah is founded by Ryan Bollenbach and is based in Winnipeg, MB. We work with personal brands, small businesses and fortune 500 companies to make awesome things happen.</p>
+          <p>Boompah is founded by Ryan Bollenbach and is based in Winnipeg, MB. We work with personal brands, small businesses and fortune 500 companies to help make awesome things happen.</p>
         </div>
         <div class="we-are-passionate">
-          <p>We are passionate about helping brands tell their story through beautiful user experiences and mobile apps. We specialize in bringing content to life with out of the box ideas.</p>
+          <p>We are passionate about helping brands tell their story through beautiful user experiences and mobile apps. We specialize in bringing content to life with out of the box ideas and <a href="http://vimeo.com/51038971" title="More Cowbell" target="_blank">more cowbell.</a></p>
         </div>
         <div class="want-more">
           <h5>Want more?</h5>
@@ -43,6 +43,16 @@
   </script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="/inc/js/scroll-to.js" type="text/javascript"></script>
+  <!-- Preloader -->
+  <script type="text/javascript">
+    //<![CDATA[
+        $(window).load(function() { // makes sure the whole site is loaded
+            $('#status').fadeOut(); // will first fade out the loading animation
+            $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+            $('body').delay(350).css({'overflow':'visible'});
+        })
+    //]]>
+  </script>
   </body>
 </html>
 
