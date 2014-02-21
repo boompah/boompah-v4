@@ -115,81 +115,18 @@ body.single.single-post,
 			li{
 				margin-bottom: 20px;
 				a{
-					background-color: $black;
+					background-color: $white;
 					&:hover { background-color: lighten($black, 30%); }
-					color: $white;
+					color: $base-gray;
 					display: block;
 					text-decoration: none;
-
-					@include transition (all 0.35s ease-in-out);
-						
-						i {
-							float: right;
-							font-size: 1.25em;
-							margin-top: 2px;
-						}
+					@include transition (all 0.35s ease-in-out);	
+					i {
+						float: right;
+						font-size: 1.25em;
+						margin-top: 2px;
+					}
 				}
-
-				.royal-blue { background-color: $royal-blue; }				
-				.royal-blue:hover { background-color: lighten($royal-blue, 15%); }
-				.royal-blue:active { background-color: lighten($royal-blue, 5%); }
-
-				.baby-blue__bg { background-color: $baby-blue; }
-				.baby-blue__bg:hover { background-color: darken($baby-blue, 10%); }
-				.baby-blue__bg:active { background-color: lighten($baby-blue, 5%); }
-
-				.orange { background-color: $orange; }
-				.orange:hover { background-color: darken($orange, 10%); }
-				.orange:active { background-color: lighten($orange, 5%); }
-
-				.hollywoodpq { background-color: $hollywood-pink; }
-				.hollywoodpq:hover { background-color: darken($hollywood-pink, 10%); }
-				.hollywoodpq:active { background-color: lighten($hollywood-pink, 5%); }
-				
-				.fellerath { background-color: $fellerath-red; }
-				.fellerath:hover { background-color: lighten($fellerath-red, 10%); }
-				.fellerath:active { background-color: lighten($fellerath-red, 20%); }
-
-				.fbs { background-color: $fbs-blue; }
-				.fbs:hover { background-color: darken($fbs-blue, 10%); }
-				.fbs:active { background-color: darken($fbs-blue, 20%); }
-
-				.pente-group,
-				.edison-nation { background-color: $red; }
-				
-				.edison-nation:hover,
-				.pente-group:hover { background-color: darken($red, 10%); }
-
-				.edison-nation:active,
-				.pente-group:active { background-color: lighten($red, 5%); }
-				
-				.tungle-me { background-color: $tungle-green; }
-				.tungle-me:hover { background-color: darken($tungle-green, 10%); }
-				.tungle-me:active { background-color: darken($tungle-green, 20%); }
-
-				.field-turf { background-color: $fieldturf-green; }
-				.field-turf:hover { background-color: lighten($fieldturf-green, 10%); }
-				.field-turf:active { background-color: lighten($fieldturf-green, 20%); }
-
-				.diamond { background-color: $diamond-purple; }
-				.diamond:hover { background-color: lighten($diamond-purple, 10%); }
-				.diamond:active { background-color: lighten($diamond-purple, 20%); }
-
-				.reitmans { background-color: $reitmans-gray; }
-				.reitmans:hover { background-color: darken($reitmans-gray, 10%); }
-				.reitmans:active { background-color: darken($reitmans-gray, 20%); }
-
-				.osm { background-color: $osm-blue; }
-				.osm:hover { background-color: lighten($osm-blue, 10%); }
-				.osm:active { background-color: lighten($osm-blue, 20%); }
-
-				.ybp { background-color: $ybp-teal; color: $black; }
-				.ybp:hover { background-color: darken($ybp-teal, 15%); }
-				.ybp:active { background-color: lighten($ybp-teal, 10%); }
-
-				.j3concepts { background-color: $j3concepts-purple; }
-				.j3concepts:hover { background-color: lighten($j3concepts-purple, 10%); }
-				.j3concepts:active { background-color: lighten($j3concepts-purple, 20%); }
 			}
 		}
 	}

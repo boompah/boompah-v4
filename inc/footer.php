@@ -1,38 +1,32 @@
-  <footer id="bottom">
-    <div class="container">
-      <a href="/" class="circle-logo">
-        <img src="/img/logo-circle.png" alt="Boompah">
-      </a>
-      <ul class="services hidden-mobile menu">
-        <li><a href="#">Logo Design</a></li>
-        <li><a href="#">Web Design</a></li>
-        <li><a href="#">Style Guides</a></li>
-        <li><a href="#">Business Cards</a></li>
-        <li><a href="#">iAB Advertisements</a></li>
-        <li><a href="#">Media Kits</a></li>
-      </ul>
-      <ul class="services hidden-mobile menu">
-        <li><a href="#">Wireframes &amp; Prototypes</a></li>
-        <li><a href="#">Responsive Web Design</a></li>
-        <li><a href="#">Boutique Websites</a></li>
-        <li><a href="#">Web Applications</a></li>
-        <li><a href="#">E-Commerce</a></li>
-        <li><a href="#">E-mail Campaigns</a></li>
-      </ul>
-      <ul class="nav menu">
-        <li>
-          <a href="#" class="searchbychar" data-target="top" onclick="return false">Top of page <i class="icon-arrow-up"></i></a></li>
-        <?php include 'menu-core.php'; ?>
-      </ul>
-      <div class="copyright"></div>
-      <p class="copyright-line">&copy; Boompah 2010  - <?php echo date("Y") ?>. All rights reserved.</p>
-      <ul class="social-links menu">
-        <li><a class="icon-twitter" href="http://twitter.com/gotboompah"><span class="screen-reader-text">Boompah on Twitter</span></a></li>
-        <li><a href="http://ca.linkedin.com/in/ryanbollenbach" class="icon-linkedin"><span class="screen-reader-text">Boompah on LinkedIn</span></a></li>
-        <li><a class="icon-instagram" href="http://instagram.com/boompah" class=""><span class="screen-reader-text">Boompah on Instagram</span></a></li>
-      </ul>
-    </div><?php // container ?>
-  </footer><?php // footer ?>
+  <footer>
+    <div class="top-wrap">
+      <div class="container">
+        <div class="made-in-manitoba">
+          <p>Boompah is founded by Ryan Bollenbach and is based in Winnipeg, MB. We work with personal brands, small businesses and fortune 500 companies to make awesome things happen.</p>
+        </div>
+        <div class="we-are-passionate">
+          <p>We are passionate about helping brands tell their story through beautiful user experiences and mobile apps. We specialize in bringing content to life with out of the box ideas.</p>
+        </div>
+        <div class="want-more">
+          <h5>Want more?</h5>
+          <ul>
+            <?php include 'menu-core.php'; ?>
+          </ul>
+        </div>
+        <div class="socialize">
+          <h5>Socialize</h5>
+          <ul>
+            <li><a href="http://twitter.com/gotboompah">Twitter</span></a></li>
+            <li><a href="http://ca.linkedin.com/in/ryanbollenbach">LinkedIn</span></a></li>
+            <li><a href="http://instagram.com/boompah">Instagram</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <a href="/" title="Boompah"><img src="/img/footer/01-logo-circle.png" /></a>
+    </div>
+  </footer>
 
   <?php // jQuery ?>
 
@@ -51,3 +45,8 @@
   <script src="/inc/js/scroll-to.js" type="text/javascript"></script>
   </body>
 </html>
+
+<!--
+<p class="copyright-line">&copy; Boompah 2010  - <?php echo date("Y") ?>. All rights reserved.</p>
+<a href="#" class="searchbychar" data-target="top" onclick="return false">Top of page <i class="icon-arrow-up"></i></a></li>
+-->

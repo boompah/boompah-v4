@@ -92,6 +92,17 @@ h4 {
     h4 {
       font-size: 1.15em; } }
 
+h5 {
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 1em; }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    h5 {
+      font-size: 1em; } }
+  @media only screen and (max-width: 767px) {
+    h5 {
+      font-size: 1em; } }
+
 p, ul, ol {
   font-size: 1.25em; }
   @media only screen and (max-width: 767px) {
@@ -801,8 +812,8 @@ body.single.single-post,
     .winnipeg-web-design .clients ul li a,
     .work .clients ul li a,
     .cv .clients ul li a {
-      background-color: black;
-      color: white;
+      background-color: white;
+      color: #727272;
       display: block;
       text-decoration: none;
       -webkit-transition: all 0.35s ease-in-out;
@@ -822,274 +833,6 @@ body.single.single-post,
         float: right;
         font-size: 1.25em;
         margin-top: 2px; }
-    body.home .clients ul li .royal-blue,
-    body.single.single-post .clients ul li .royal-blue,
-    .winnipeg-web-design .clients ul li .royal-blue,
-    .work .clients ul li .royal-blue,
-    .cv .clients ul li .royal-blue {
-      background-color: #10456b; }
-    body.home .clients ul li .royal-blue:hover,
-    body.single.single-post .clients ul li .royal-blue:hover,
-    .winnipeg-web-design .clients ul li .royal-blue:hover,
-    .work .clients ul li .royal-blue:hover,
-    .cv .clients ul li .royal-blue:hover {
-      background-color: #1a70ae; }
-    body.home .clients ul li .royal-blue:active,
-    body.single.single-post .clients ul li .royal-blue:active,
-    .winnipeg-web-design .clients ul li .royal-blue:active,
-    .work .clients ul li .royal-blue:active,
-    .cv .clients ul li .royal-blue:active {
-      background-color: #135381; }
-    body.home .clients ul li .baby-blue__bg,
-    body.single.single-post .clients ul li .baby-blue__bg,
-    .winnipeg-web-design .clients ul li .baby-blue__bg,
-    .work .clients ul li .baby-blue__bg,
-    .cv .clients ul li .baby-blue__bg {
-      background-color: #07a4e5; }
-    body.home .clients ul li .baby-blue__bg:hover,
-    body.single.single-post .clients ul li .baby-blue__bg:hover,
-    .winnipeg-web-design .clients ul li .baby-blue__bg:hover,
-    .work .clients ul li .baby-blue__bg:hover,
-    .cv .clients ul li .baby-blue__bg:hover {
-      background-color: #0581b4; }
-    body.home .clients ul li .baby-blue__bg:active,
-    body.single.single-post .clients ul li .baby-blue__bg:active,
-    .winnipeg-web-design .clients ul li .baby-blue__bg:active,
-    .work .clients ul li .baby-blue__bg:active,
-    .cv .clients ul li .baby-blue__bg:active {
-      background-color: #0eb3f8; }
-    body.home .clients ul li .orange,
-    body.single.single-post .clients ul li .orange,
-    .winnipeg-web-design .clients ul li .orange,
-    .work .clients ul li .orange,
-    .cv .clients ul li .orange {
-      background-color: #fb7a00; }
-    body.home .clients ul li .orange:hover,
-    body.single.single-post .clients ul li .orange:hover,
-    .winnipeg-web-design .clients ul li .orange:hover,
-    .work .clients ul li .orange:hover,
-    .cv .clients ul li .orange:hover {
-      background-color: #c86100; }
-    body.home .clients ul li .orange:active,
-    body.single.single-post .clients ul li .orange:active,
-    .winnipeg-web-design .clients ul li .orange:active,
-    .work .clients ul li .orange:active,
-    .cv .clients ul li .orange:active {
-      background-color: #ff8716; }
-    body.home .clients ul li .hollywoodpq,
-    body.single.single-post .clients ul li .hollywoodpq,
-    .winnipeg-web-design .clients ul li .hollywoodpq,
-    .work .clients ul li .hollywoodpq,
-    .cv .clients ul li .hollywoodpq {
-      background-color: #e572a7; }
-    body.home .clients ul li .hollywoodpq:hover,
-    body.single.single-post .clients ul li .hollywoodpq:hover,
-    .winnipeg-web-design .clients ul li .hollywoodpq:hover,
-    .work .clients ul li .hollywoodpq:hover,
-    .cv .clients ul li .hollywoodpq:hover {
-      background-color: #dd478c; }
-    body.home .clients ul li .hollywoodpq:active,
-    body.single.single-post .clients ul li .hollywoodpq:active,
-    .winnipeg-web-design .clients ul li .hollywoodpq:active,
-    .work .clients ul li .hollywoodpq:active,
-    .cv .clients ul li .hollywoodpq:active {
-      background-color: #e988b4; }
-    body.home .clients ul li .fellerath,
-    body.single.single-post .clients ul li .fellerath,
-    .winnipeg-web-design .clients ul li .fellerath,
-    .work .clients ul li .fellerath,
-    .cv .clients ul li .fellerath {
-      background-color: #720e1d; }
-    body.home .clients ul li .fellerath:hover,
-    body.single.single-post .clients ul li .fellerath:hover,
-    .winnipeg-web-design .clients ul li .fellerath:hover,
-    .work .clients ul li .fellerath:hover,
-    .cv .clients ul li .fellerath:hover {
-      background-color: #9f1429; }
-    body.home .clients ul li .fellerath:active,
-    body.single.single-post .clients ul li .fellerath:active,
-    .winnipeg-web-design .clients ul li .fellerath:active,
-    .work .clients ul li .fellerath:active,
-    .cv .clients ul li .fellerath:active {
-      background-color: #cd1934; }
-    body.home .clients ul li .fbs,
-    body.single.single-post .clients ul li .fbs,
-    .winnipeg-web-design .clients ul li .fbs,
-    .work .clients ul li .fbs,
-    .cv .clients ul li .fbs {
-      background-color: #589cc6; }
-    body.home .clients ul li .fbs:hover,
-    body.single.single-post .clients ul li .fbs:hover,
-    .winnipeg-web-design .clients ul li .fbs:hover,
-    .work .clients ul li .fbs:hover,
-    .cv .clients ul li .fbs:hover {
-      background-color: #3c83af; }
-    body.home .clients ul li .fbs:active,
-    body.single.single-post .clients ul li .fbs:active,
-    .winnipeg-web-design .clients ul li .fbs:active,
-    .work .clients ul li .fbs:active,
-    .cv .clients ul li .fbs:active {
-      background-color: #2f6789; }
-    body.home .clients ul li .pente-group,
-    body.home .clients ul li .edison-nation,
-    body.single.single-post .clients ul li .pente-group,
-    body.single.single-post .clients ul li .edison-nation,
-    .winnipeg-web-design .clients ul li .pente-group,
-    .winnipeg-web-design .clients ul li .edison-nation,
-    .work .clients ul li .pente-group,
-    .work .clients ul li .edison-nation,
-    .cv .clients ul li .pente-group,
-    .cv .clients ul li .edison-nation {
-      background-color: #cc1514; }
-    body.home .clients ul li .edison-nation:hover,
-    body.home .clients ul li .pente-group:hover,
-    body.single.single-post .clients ul li .edison-nation:hover,
-    body.single.single-post .clients ul li .pente-group:hover,
-    .winnipeg-web-design .clients ul li .edison-nation:hover,
-    .winnipeg-web-design .clients ul li .pente-group:hover,
-    .work .clients ul li .edison-nation:hover,
-    .work .clients ul li .pente-group:hover,
-    .cv .clients ul li .edison-nation:hover,
-    .cv .clients ul li .pente-group:hover {
-      background-color: #9e100f; }
-    body.home .clients ul li .edison-nation:active,
-    body.home .clients ul li .pente-group:active,
-    body.single.single-post .clients ul li .edison-nation:active,
-    body.single.single-post .clients ul li .pente-group:active,
-    .winnipeg-web-design .clients ul li .edison-nation:active,
-    .winnipeg-web-design .clients ul li .pente-group:active,
-    .work .clients ul li .edison-nation:active,
-    .work .clients ul li .pente-group:active,
-    .cv .clients ul li .edison-nation:active,
-    .cv .clients ul li .pente-group:active {
-      background-color: #e31716; }
-    body.home .clients ul li .tungle-me,
-    body.single.single-post .clients ul li .tungle-me,
-    .winnipeg-web-design .clients ul li .tungle-me,
-    .work .clients ul li .tungle-me,
-    .cv .clients ul li .tungle-me {
-      background-color: #9ac146; }
-    body.home .clients ul li .tungle-me:hover,
-    body.single.single-post .clients ul li .tungle-me:hover,
-    .winnipeg-web-design .clients ul li .tungle-me:hover,
-    .work .clients ul li .tungle-me:hover,
-    .cv .clients ul li .tungle-me:hover {
-      background-color: #7d9f35; }
-    body.home .clients ul li .tungle-me:active,
-    body.single.single-post .clients ul li .tungle-me:active,
-    .winnipeg-web-design .clients ul li .tungle-me:active,
-    .work .clients ul li .tungle-me:active,
-    .cv .clients ul li .tungle-me:active {
-      background-color: #5f7928; }
-    body.home .clients ul li .field-turf,
-    body.single.single-post .clients ul li .field-turf,
-    .winnipeg-web-design .clients ul li .field-turf,
-    .work .clients ul li .field-turf,
-    .cv .clients ul li .field-turf {
-      background-color: #118546; }
-    body.home .clients ul li .field-turf:hover,
-    body.single.single-post .clients ul li .field-turf:hover,
-    .winnipeg-web-design .clients ul li .field-turf:hover,
-    .work .clients ul li .field-turf:hover,
-    .cv .clients ul li .field-turf:hover {
-      background-color: #17b25e; }
-    body.home .clients ul li .field-turf:active,
-    body.single.single-post .clients ul li .field-turf:active,
-    .winnipeg-web-design .clients ul li .field-turf:active,
-    .work .clients ul li .field-turf:active,
-    .cv .clients ul li .field-turf:active {
-      background-color: #1ddf76; }
-    body.home .clients ul li .diamond,
-    body.single.single-post .clients ul li .diamond,
-    .winnipeg-web-design .clients ul li .diamond,
-    .work .clients ul li .diamond,
-    .cv .clients ul li .diamond {
-      background-color: #998c9a; }
-    body.home .clients ul li .diamond:hover,
-    body.single.single-post .clients ul li .diamond:hover,
-    .winnipeg-web-design .clients ul li .diamond:hover,
-    .work .clients ul li .diamond:hover,
-    .cv .clients ul li .diamond:hover {
-      background-color: #b1a7b2; }
-    body.home .clients ul li .diamond:active,
-    body.single.single-post .clients ul li .diamond:active,
-    .winnipeg-web-design .clients ul li .diamond:active,
-    .work .clients ul li .diamond:active,
-    .cv .clients ul li .diamond:active {
-      background-color: #c9c2ca; }
-    body.home .clients ul li .reitmans,
-    body.single.single-post .clients ul li .reitmans,
-    .winnipeg-web-design .clients ul li .reitmans,
-    .work .clients ul li .reitmans,
-    .cv .clients ul li .reitmans {
-      background-color: #7e8083; }
-    body.home .clients ul li .reitmans:hover,
-    body.single.single-post .clients ul li .reitmans:hover,
-    .winnipeg-web-design .clients ul li .reitmans:hover,
-    .work .clients ul li .reitmans:hover,
-    .cv .clients ul li .reitmans:hover {
-      background-color: #656769; }
-    body.home .clients ul li .reitmans:active,
-    body.single.single-post .clients ul li .reitmans:active,
-    .winnipeg-web-design .clients ul li .reitmans:active,
-    .work .clients ul li .reitmans:active,
-    .cv .clients ul li .reitmans:active {
-      background-color: #4c4d4f; }
-    body.home .clients ul li .osm,
-    body.single.single-post .clients ul li .osm,
-    .winnipeg-web-design .clients ul li .osm,
-    .work .clients ul li .osm,
-    .cv .clients ul li .osm {
-      background-color: #322e84; }
-    body.home .clients ul li .osm:hover,
-    body.single.single-post .clients ul li .osm:hover,
-    .winnipeg-web-design .clients ul li .osm:hover,
-    .work .clients ul li .osm:hover,
-    .cv .clients ul li .osm:hover {
-      background-color: #403baa; }
-    body.home .clients ul li .osm:active,
-    body.single.single-post .clients ul li .osm:active,
-    .winnipeg-web-design .clients ul li .osm:active,
-    .work .clients ul li .osm:active,
-    .cv .clients ul li .osm:active {
-      background-color: #5a54c4; }
-    body.home .clients ul li .ybp,
-    body.single.single-post .clients ul li .ybp,
-    .winnipeg-web-design .clients ul li .ybp,
-    .work .clients ul li .ybp,
-    .cv .clients ul li .ybp {
-      background-color: #2dfec8;
-      color: black; }
-    body.home .clients ul li .ybp:hover,
-    body.single.single-post .clients ul li .ybp:hover,
-    .winnipeg-web-design .clients ul li .ybp:hover,
-    .work .clients ul li .ybp:hover,
-    .cv .clients ul li .ybp:hover {
-      background-color: #01dda5; }
-    body.home .clients ul li .ybp:active,
-    body.single.single-post .clients ul li .ybp:active,
-    .winnipeg-web-design .clients ul li .ybp:active,
-    .work .clients ul li .ybp:active,
-    .cv .clients ul li .ybp:active {
-      background-color: #60fed5; }
-    body.home .clients ul li .j3concepts,
-    body.single.single-post .clients ul li .j3concepts,
-    .winnipeg-web-design .clients ul li .j3concepts,
-    .work .clients ul li .j3concepts,
-    .cv .clients ul li .j3concepts {
-      background-color: #652d90; }
-    body.home .clients ul li .j3concepts:hover,
-    body.single.single-post .clients ul li .j3concepts:hover,
-    .winnipeg-web-design .clients ul li .j3concepts:hover,
-    .work .clients ul li .j3concepts:hover,
-    .cv .clients ul li .j3concepts:hover {
-      background-color: #8039b7; }
-    body.home .clients ul li .j3concepts:active,
-    body.single.single-post .clients ul li .j3concepts:active,
-    .winnipeg-web-design .clients ul li .j3concepts:active,
-    .work .clients ul li .j3concepts:active,
-    .cv .clients ul li .j3concepts:active {
-      background-color: #9958cb; }
 
 #logo-circle {
   margin: auto;
@@ -1121,120 +864,61 @@ body.services .showcase, .branding .showcase {
 .header {
   height: 5em; }
 
-footer {
-  padding: 3em 0;
-  background-color: #f3f3f3; }
-  @media only screen and (max-width: 767px) {
-    footer .container {
-      text-align: center; } }
-  footer ul {
-    float: left;
-    padding-left: 0;
-    margin-left: 9%;
-    list-style: none; }
-    @media only screen and (min-width: 768px) and (max-width: 959px) {
-      footer ul {
-        margin-left: 6%; } }
-    @media only screen and (max-width: 767px) {
-      footer ul li a, footer ul li a:link, footer ul li a:visited {
-        font-size: 18px; } }
-  footer ul.nav li.home-icon {
-    display: none; }
-  footer ul.nav a {
-    color: black; }
-  @media only screen and (max-width: 767px) {
-    footer ul.nav {
-      margin-left: 0;
-      width: 100%; }
-      footer ul.nav a {
-        width: 100%;
-        padding: 1em 0;
-        text-align: center;
-        display: block;
-        background-color: #727272;
-        color: white;
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
-        border-top-left-radius: 5px;
-        border-bottom-left-radius: 5px;
-        border-top-right-radius: 5px;
-        border-bottom-right-radius: 5px;
-        -webkit-transition: all 0.35s ease-in-out;
-        -moz-transition: all 0.35s ease-in-out;
-        transition: all 0.35s ease-in-out; }
-      footer ul.nav a:hover {
-        background-color: #3f3f3f; }
-      footer ul.nav a:active {
-        background-color: #595959; } }
-  @media only screen and (min-width: 768px) and (max-width: 959px) {
-    footer ul.nav {
-      margin-left: 0;
-      width: 100%; }
-      footer ul.nav a {
-        width: 100%;
-        padding: 1em 0;
-        text-align: center;
-        display: block;
-        background-color: #727272;
-        color: white;
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
-        border-top-left-radius: 5px;
-        border-bottom-left-radius: 5px;
-        border-top-right-radius: 5px;
-        border-bottom-right-radius: 5px; } }
-  footer a, footer a:link, footer a:visited {
-    color: #727272; }
-  footer a:hover {
-    text-decoration: none;
-    color: #999999; }
-  footer a:active {
-    color: #cccccc; }
-  footer a.circle-logo {
-    float: left; }
-    @media only screen and (max-width: 767px) {
-      footer a.circle-logo {
-        display: none; } }
-  footer .copyright {
-    display: block;
-    float: left;
-    margin-right: 2.35765%;
-    width: 100%;
-    margin-top: 1em;
-    margin-top: 25px;
-    border-bottom: 1px solid lightgrey; }
-    footer .copyright:last-child {
-      margin-right: 0; }
-    footer .copyright p, footer .copyright ul {
-      margin-top: 3em; }
-  footer .copyright-line {
-    margin-top: 25px;
-    float: left;
-    font-size: 1em;
-    display: inline-block;
-    color: #727272; }
-    @media only screen and (max-width: 767px) {
-      footer .copyright-line {
-        float: none; } }
-  footer ul.social-links {
-    margin-top: 25px;
-    float: right;
-    display: inline-block; }
-    @media only screen and (max-width: 767px) {
-      footer ul.social-links {
-        margin-left: 0; } }
-    footer ul.social-links li {
-      display: inline-block;
-      margin: 0 10px; }
-      footer ul.social-links li a, footer ul.social-links li a:link, footer ul.social-links li a:visited {
-        font-size: 32px; }
-    @media only screen and (max-width: 767px) {
-      footer ul.social-links {
-        float: none; } }
+footer ul {
+  list-style: none;
+  padding-left: 0; }
+footer h5 {
+  text-align: center;
+  margin-top: 0; }
+footer h5, footer p {
+  color: #7f7c7c;
+  font-weight: 200; }
+footer .top-wrap {
+  padding: 60px 0;
+  background: url(/img/footer/black_lozenge/black_lozenge.png) #2b2b2b; }
+footer .made-in-manitoba,
+footer .we-are-passionate,
+footer .want-more,
+footer .socialize {
+  text-align: center;
+  height: 320px;
+  padding-top: 40px; }
+footer .made-in-manitoba,
+footer .we-are-passionate {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  footer .made-in-manitoba:last-child,
+  footer .we-are-passionate:last-child {
+    margin-right: 0; }
+  footer .made-in-manitoba h5, footer .made-in-manitoba p,
+  footer .we-are-passionate h5,
+  footer .we-are-passionate p {
+    margin: 0 20px 0 0; }
+footer .made-in-manitoba {
+  border-right: 1px solid #2f2f2f; }
+footer .we-are-passionate {
+  border-right: 1px solid #2f2f2f; }
+footer .socialize {
+  border-left: 1px solid #2f2f2f; }
+footer .want-more,
+footer .socialize {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 14.70196%; }
+  footer .want-more:last-child,
+  footer .socialize:last-child {
+    margin-right: 0; }
+footer .bottom {
+  background-color: #cc1514;
+  text-align: center;
+  padding: 30px 0 20px 0; }
+footer .home-icon {
+  display: none; }
+footer a, footer a:link, footer a:visited {
+  color: white; }
 
 nav.primary {
   *zoom: 1;

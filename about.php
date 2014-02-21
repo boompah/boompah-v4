@@ -8,7 +8,8 @@
   <div class="container">
     <section class="main-content">
       <h1>About</h1>
-      <h3>Our mantra is to help brands create meaningful interactions through interface design, usability testing and social science.</h3>
+      <h3>Boompah was founded by Ryan Bollenbach in Winnipeg, MB.<br />
+        Our mantra is to help brands create meaningful interactions through interface design, usability testing and social science.</h3>
     </div>
   </div>
 </div><?php // masthead-wrapper home ?>
