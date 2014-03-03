@@ -16,9 +16,10 @@
         <div class="socialize">
           <h5>Socialize</h5>
           <ul>
-            <li><a href="http://twitter.com/gotboompah">Twitter</span></a></li>
-            <li><a href="http://ca.linkedin.com/in/ryanbollenbach">LinkedIn</span></a></li>
-            <li><a href="http://instagram.com/boompah">Instagram</span></a></li>
+            <li><a href="http://facebook.com/gotboompah" target="_blank">Facebook</span></a></li>
+            <li><a href="http://twitter.com/gotboompah" target="_blank">Twitter</span></a></li>
+            <li><a href="http://ca.linkedin.com/in/ryanbollenbach" target="_blank">LinkedIn</span></a></li>
+            <li><a href="http://instagram.com/boompah" target="_blank">Instagram</span></a></li>
           </ul>
         </div>
       </div>
@@ -42,7 +43,9 @@
   
   </script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="/inc/js/scroll-to.js" type="text/javascript"></script>
+  <script src="/js/scroll-to.js" type="text/javascript"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="/js/jquery.slimmenu.min.js" type="text/javascript"></script>
   <!-- Preloader -->
   <script type="text/javascript">
     //<![CDATA[
@@ -53,10 +56,16 @@
         })
     //]]>
   </script>
+  <script>
+    $('ul.slimmenu').slimmenu(
+    {
+        resizeWidth: '800',
+        collapserTitle: 'Main Menu',
+        easingEffect:'easeInOutQuint',
+        animSpeed:'medium',
+        indentChildren: true,
+        childrenIndenter: '&raquo;'
+    });
+  </script>
   </body>
 </html>
-
-<!--
-<p class="copyright-line">&copy; Boompah 2010  - <?php echo date("Y") ?>. All rights reserved.</p>
-<a href="#" class="searchbychar" data-target="top" onclick="return false">Top of page <i class="icon-arrow-up"></i></a></li>
--->

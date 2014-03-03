@@ -7,17 +7,14 @@
 @import "config/links.scss";
 @import "config/mixins.scss";
 
+// Components
+@import "components/base.scss";
+
 // Layout
 @import "layout.scss";
 
 // Views
-@import "views/about.scss";
-@import "views/bitcoin.scss";
-@import "views/contact.scss";
-@import "views/cv.scss";
-@import "views/home.scss";
-@import "views/services.scss";
-@import "views/work.scss";
+@import "views/base.scss";
 
 // Section
 @import "section/header.scss";

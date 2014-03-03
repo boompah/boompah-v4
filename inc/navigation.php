@@ -1,3 +1,6 @@
+<ul class="slimmenu">
+  <?php include 'menu-core.php'; ?>
+</ul>
 <header id="top" class="header">
   <nav class="primary container">
     <a href="/" class="boompah">
