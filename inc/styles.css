@@ -26,8 +26,7 @@ a.btn-cta {
 
 body {
   margin: 0;
-  padding: 0;
-  overflow: hidden; }
+  padding: 0; }
   body ::selection {
     background: #CC0000;
     /* Safari */
@@ -895,8 +894,8 @@ footer ul {
   list-style: none;
   padding-left: 0; }
 footer h5 {
-  text-align: center;
-  margin-top: 0; }
+  margin-top: 0;
+  font-size: 1.25em; }
 footer h5, footer p {
   color: #7f7c7c;
   font-weight: 200; }
@@ -910,6 +909,14 @@ footer .socialize {
   text-align: center;
   height: 320px;
   padding-top: 40px; }
+  @media only screen and (max-width: 767px) {
+    footer .made-in-manitoba,
+    footer .we-are-passionate,
+    footer .want-more,
+    footer .socialize {
+      text-align: left;
+      height: auto;
+      padding-top: 10px; } }
 footer .made-in-manitoba,
 footer .we-are-passionate {
   display: block;
@@ -923,18 +930,34 @@ footer .we-are-passionate {
   footer .we-are-passionate h5,
   footer .we-are-passionate p {
     margin: 0 20px 0 0; }
+    @media only screen and (max-width: 767px) {
+      footer .made-in-manitoba h5, footer .made-in-manitoba p,
+      footer .we-are-passionate h5,
+      footer .we-are-passionate p {
+        margin-right: 0;
+        text-align: left; } }
   footer .made-in-manitoba a, footer .made-in-manitoba a:link, footer .made-in-manitoba a:visited,
   footer .we-are-passionate a,
   footer .we-are-passionate a:link,
   footer .we-are-passionate a:visited {
     color: #7f7c7c;
     text-decoration: underline; }
+  @media only screen and (max-width: 767px) {
+    footer .made-in-manitoba,
+    footer .we-are-passionate {
+      display: block;
+      float: none;
+      width: 100%; } }
 footer .made-in-manitoba {
   border-right: 1px solid #2f2f2f; }
+  @media only screen and (max-width: 767px) {
+    footer .made-in-manitoba {
+      border-right: none; } }
 footer .we-are-passionate {
   border-right: 1px solid #2f2f2f; }
-footer .socialize {
-  border-left: 1px solid #2f2f2f; }
+  @media only screen and (max-width: 767px) {
+    footer .we-are-passionate {
+      border-right: none; } }
 footer .want-more,
 footer .socialize {
   display: block;
@@ -944,6 +967,16 @@ footer .socialize {
   footer .want-more:last-child,
   footer .socialize:last-child {
     margin-right: 0; }
+  @media only screen and (max-width: 767px) {
+    footer .want-more,
+    footer .socialize {
+      margin-top: 40px;
+      width: 40%; } }
+footer .socialize {
+  border-left: 1px solid #2f2f2f; }
+  @media only screen and (max-width: 767px) {
+    footer .socialize {
+      border-left: none; } }
 footer .bottom {
   background-color: #cc1514;
   text-align: center;
