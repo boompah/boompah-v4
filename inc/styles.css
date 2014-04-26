@@ -1220,27 +1220,9 @@ nav.primary {
       nav.primary ul li a.selected:active {
         background-color: #595959; }
 
-a.mobile-nav,
-a.mobile-nav:visited {
-  float: right;
-  font-size: 2em;
-  margin: 20px 10px 0 0;
-  display: none;
-  color: #727272; }
-  @media only screen and (max-width: 767px) {
-    a.mobile-nav,
-    a.mobile-nav:visited {
-      display: inline;
-      margin: .75em 0 0 0;
-      font-size: 1.5em; } }
-  @media only screen and (min-width: 768px) and (max-width: 959px) {
-    a.mobile-nav,
-    a.mobile-nav:visited {
-      display: inline; } }
-  a.mobile-nav:hover,
-  a.mobile-nav:visited:hover {
-    text-decoration: none;
-    color: #989898; }
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .slimmenu {
+    display: none; } }
 
 /* SASS Notes
 	

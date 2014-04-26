@@ -13,6 +13,5 @@
     <ul class="menu">
       <?php include 'menu-core.php'; ?>
     </ul>
-    <a href="#" class="searchbychar mobile-nav" data-target="bottom" onclick="return false"><i class="icon-align-justify"></i><span class="screen-reader-text">menu</span></a>
   </nav>
 </header>
