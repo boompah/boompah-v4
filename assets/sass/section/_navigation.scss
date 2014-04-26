@@ -29,44 +29,4 @@ nav.primary {
 			margin-top: 22px;
 		}
 	}
-	// ul {
-	// 	margin-top: 25px;
-	// 	float: right;
-	// 	list-style: none;
-	// 	@include respond-to(handhelds-and-medium-screens) { display: none; }
-	// 	@include respond-to(large-screens) { display: none; }
-	// 	li.home-text {
-	// 		display: none;
-	// 	}
-	// 	li {
-	// 		float: left;
-	// 		margin-left: 30px;
-			
-	// 		a {
-	// 			font-size: 18px;
-	// 			color: $base-gray;
-	// 		}
-			
-	// 		a:hover, a:active {
-	// 			text-decoration: none;
-	// 			color: lighten($base-gray, 15%);
-	// 		}
-				
-	// 		a.selected, a.selected:visited {
-	// 			background-color: $base-gray;
-	// 			color: $white;
-	// 			padding: 10px 25px;
-	// 			@include border-top-radius(20px);
-	// 			@include border-bottom-radius(20px);
-	// 			@include border-left-radius(20px);
-	// 			@include border-right-radius(20px);
-	// 		}
-	// 		a.selected:hover {
-	// 			background-color: lighten($base-gray, 10%);
-	// 		}
-	// 		a.selected:active {
-	// 			background-color: darken($base-gray, 10%);
-	// 		}
-	// 	} // li
-	// } // ul
 } // nav

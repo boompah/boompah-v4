@@ -1142,6 +1142,9 @@ footer .home-icon {
   display: none; }
 footer a, footer a:link, footer a:visited {
   color: white; }
+footer a:hover {
+  text-decoration: none;
+  color: #cc1514; }
 
 nav.primary {
   *zoom: 1;
