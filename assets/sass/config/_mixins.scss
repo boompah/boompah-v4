@@ -8,6 +8,9 @@
   @else if $media == handhelds-and-medium-screens {
     @media only screen and (max-width: 767px) { @content;}
     }
+  @else if $media == top-navigation-query {
+   @media only screen and (min-width: 768px) and (max-width: 800px) { @content; }
+    }
   @else if $media == large-screens {
     @media only screen and (min-width: 768px) and (max-width: 959px) { @content; }
     }

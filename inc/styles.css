@@ -26,7 +26,6 @@ a.btn-cta {
 
 .menu-collapser {
   position: relative;
-  background-color: #999;
   color: #FFF;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
   width: 100%;
@@ -83,17 +82,14 @@ a.btn-cta {
 ul.slimmenu {
   list-style-type: none;
   margin: 0;
-  padding: 0;
-  width: 100%; }
+  padding: 0; }
 
 ul.slimmenu li {
   position: relative;
-  display: inline-block;
-  background-color: #AAA; }
+  display: inline-block; }
 
 ul.slimmenu > li {
-  margin-right: -5px;
-  border-left: 1px solid #999999; }
+  margin-right: -5px; }
 
 ul.slimmenu > li:first-child {
   border-left: 0; }
@@ -103,10 +99,9 @@ ul.slimmenu > li:last-child {
 
 ul.slimmenu li a {
   display: block;
-  color: #333;
-  padding: 12px 64px 12px 16px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  padding: 10px 25px;
+  font-size: 18px;
+  color: #727272;
   font-weight: 400;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
   transition: background-color 0.5s ease-out;
@@ -115,7 +110,6 @@ ul.slimmenu li a {
   -webkit-transition: background-color 0.5s ease-out; }
 
 ul.slimmenu li a:hover {
-  background-color: #999;
   text-decoration: none; }
 
 ul.slimmenu li .sub-collapser {
@@ -1049,8 +1043,9 @@ body.services .showcase, .branding .showcase {
     body.services .showcase h3, body.services .showcase p, .branding .showcase h3, .branding .showcase p {
       text-align: left; } }
 
-.header {
-  height: 5em; }
+@media only screen and (max-width: 767px) {
+  header#top .primary.container {
+    padding: 0; } }
 
 footer ul {
   list-style: none;
@@ -1163,18 +1158,23 @@ nav.primary {
     -moz-transition: all 0.35s ease-in-out;
     transition: all 0.35s ease-in-out; }
   nav.primary a.boompah {
+    position: absolute;
     float: left;
     display: inline-block;
-    margin-top: 25px;
-    height: auto; }
+    height: auto;
+    top: 22px; }
+    @media only screen and (min-width: 768px) and (max-width: 800px) {
+      nav.primary a.boompah {
+        top: 8px; } }
     @media only screen and (max-width: 767px) {
       nav.primary a.boompah {
-        margin-top: 1.25em; } }
-    nav.primary a.boompah img {
-      float: left; }
-      @media only screen and (max-width: 767px) {
-        nav.primary a.boompah img {
-          width: 120px; } }
+        top: 8px;
+        left: 16px; } }
+  nav.primary .slimmenu {
+    float: right; }
+    @media only screen and (max-width: 767px) {
+      nav.primary .slimmenu {
+        float: none; } }
   nav.primary .bitcoin {
     margin: 25px 0 0 20px;
     float: right; }
@@ -1182,47 +1182,6 @@ nav.primary {
       nav.primary .bitcoin {
         width: 100px;
         margin-top: 22px; } }
-  nav.primary ul {
-    margin-top: 25px;
-    float: right;
-    list-style: none; }
-    @media only screen and (max-width: 767px) {
-      nav.primary ul {
-        display: none; } }
-    @media only screen and (min-width: 768px) and (max-width: 959px) {
-      nav.primary ul {
-        display: none; } }
-    nav.primary ul li.home-text {
-      display: none; }
-    nav.primary ul li {
-      float: left;
-      margin-left: 30px; }
-      nav.primary ul li a {
-        font-size: 18px;
-        color: #727272; }
-      nav.primary ul li a:hover, nav.primary ul li a:active {
-        text-decoration: none;
-        color: #989898; }
-      nav.primary ul li a.selected, nav.primary ul li a.selected:visited {
-        background-color: #727272;
-        color: white;
-        padding: 10px 25px;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        border-top-left-radius: 20px;
-        border-bottom-left-radius: 20px;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px; }
-      nav.primary ul li a.selected:hover {
-        background-color: #8c8c8c; }
-      nav.primary ul li a.selected:active {
-        background-color: #595959; }
-
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-  .slimmenu {
-    display: none; } }
 
 /* SASS Notes
 	

@@ -1,6 +1,5 @@
 .menu-collapser {
     position: relative;
-    background-color: #999;
     color: #FFF;
     text-shadow: 0 1px 0 rgba(0,0,0,0.5);
     width: 100%;
@@ -61,22 +60,19 @@ ul.slimmenu {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 100%;
 }
 ul.slimmenu li {
     position: relative;
     display: inline-block;
-    background-color: #AAA;
 }
-ul.slimmenu > li { margin-right: -5px; border-left: 1px solid #999 }
+ul.slimmenu > li { margin-right: -5px; }
 ul.slimmenu > li:first-child { border-left: 0 }
 ul.slimmenu > li:last-child { margin-right: 0 }
 ul.slimmenu li a {
     display: block;
-    color: #333;
-    padding: 12px 64px 12px 16px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    padding: 10px 25px;
+    font-size: 18px;
+    color: $base-gray;
     font-weight: 400;
     text-shadow: 0 1px 0 rgba(255,255,255,0.2);
     transition: background-color 0.5s ease-out;
@@ -85,7 +81,6 @@ ul.slimmenu li a {
     -webkit-transition: background-color 0.5s ease-out;
 }
 ul.slimmenu li a:hover {
-    background-color: #999;
     text-decoration: none;
 }
 ul.slimmenu li .sub-collapser {

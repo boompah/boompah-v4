@@ -1,3 +1,5 @@
-.header {
-	height: 5em;
+header#top {
+  .primary.container {
+    @include respond-to(handhelds-and-medium-screens) { padding: 0; }
+  }
 }

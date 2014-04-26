@@ -45,7 +45,7 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="/js/scroll-to.js" type="text/javascript"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-  <script src="/js/jquery.slimmenu.min.js" type="text/javascript"></script>
+  <script src="/js/jquery.slimmenu.js" type="text/javascript"></script>
   <!-- Preloader -->
   <script type="text/javascript">
     //<![CDATA[
@@ -60,7 +60,7 @@
     $('ul.slimmenu').slimmenu(
     {
         resizeWidth: '800',
-        collapserTitle: 'Main Menu',
+        collapserTitle: '',
         easingEffect:'easeInOutQuint',
         animSpeed:'medium',
         indentChildren: true,
