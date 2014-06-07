@@ -110,7 +110,11 @@ ul.slimmenu li a {
   -webkit-transition: background-color 0.5s ease-out; }
 
 ul.slimmenu li a:hover {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #989898;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out; }
 
 ul.slimmenu li .sub-collapser {
   background: none repeat scroll 0 0 rgba(0, 0, 0, 0.075);

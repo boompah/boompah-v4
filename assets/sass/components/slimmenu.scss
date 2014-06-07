@@ -82,6 +82,8 @@ ul.slimmenu li a {
 }
 ul.slimmenu li a:hover {
     text-decoration: none;
+    color: lighten($base-gray, 15%);
+    @include transition (all 0.35s ease-in-out);
 }
 ul.slimmenu li .sub-collapser {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.075);
