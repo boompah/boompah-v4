@@ -1,0 +1,38 @@
+// Bourbon
+@import 'bourbon/bourbon.scss';
+@import 'neat/neat';
+
+// Modules
+@import "modules/all.scss";
+@import "modules/colors.scss";
+@import "modules/mixins.scss";
+@import "modules/utility.scss";
+
+// Partials
+@import "partials/base.scss";
+@import "partials/buttons.scss";
+@import "partials/figures.scss";
+@import "partials/footer.scss";
+@import "partials/grids.scss";
+@import "partials/header.scss";
+@import "partials/navigation.scss";
+@import "partials/reset.scss";
+@import "partials/typography.scss";
+
+// Vendor
+@import "vendor/prism.scss";
+@import "vendor/slimmenu.scss";
+
+// Views
+@import "views/base.scss";
+
+/* SASS Notes
+	
+	Compile SASS
+	sass --watch assets/sass/main.scss:inc/styles.css
+	
+	Bourbon
+	$ bourbon help
+	$ bourbon update
+
+*/
