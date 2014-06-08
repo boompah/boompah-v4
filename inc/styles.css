@@ -1301,9 +1301,12 @@ body.services .showcase, .branding .showcase {
 	
 	Compile SASS
 	sass --watch assets/sass/main.scss:inc/styles.css
+  sass assets/sass/main.scss:inc/styles.css --sourcemap
 	
 	Bourbon
 	$ bourbon help
 	$ bourbon update
 
 */
+
+/*# sourceMappingURL=styles.css.map */

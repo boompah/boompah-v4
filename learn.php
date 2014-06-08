@@ -21,7 +21,20 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
     <li><a href="http://lea.verou.me/" title="Lea Verou">Lea Verou</a></li>
   </ul>
   -->
-  <h3>06.08.2014 - Things move quickly! Step by step...</h3>
+  <h3>06.08.2014</h3>
+  <ul>
+    <li>
+      <p>
+        <a href="http://thesassway.com/intermediate/using-source-maps-with-sass" title="Source maps">Source maps</a> are amazingly helpful! Simply run this script in your command line:<br />
+        <pre><code class="language-javascript">$ sass assets/sass/main.scss:inc/styles.css --sourcemap</code></pre>
+      </p>
+      <p>
+        It'll poop out this at the bottom of your rendered CSS file:<br />
+        <pre><code class="language-javascript">/*# sourceMappingURL=style.css.map */</code></pre>
+        That's all there is to it! Now you'll be able to view which SASS file created the style you're inspecting through Chrome, Firefox or Safari. Be sure to enable CSS source maps.
+      </p>
+    </li>
+  </ul>
   <h3>06.07.2014 - SASS Placeholders + Extend vs. Include</h3>
   <ul>
     <li>
