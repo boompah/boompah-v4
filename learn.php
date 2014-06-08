@@ -21,7 +21,8 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
     <li><a href="http://lea.verou.me/" title="Lea Verou">Lea Verou</a></li>
   </ul>
   -->
-  <h3>06.07.2014 - SASS Learning 02</h3>
+  <h3>06.08.2014 - Things move quickly! Step by step...</h3>
+  <h3>06.07.2014 - SASS Placeholders + Extend vs. Include</h3>
   <ul>
     <li>
       <a href="http://thesassway.com/intermediate/understanding-placeholder-selectors" title="Understanding placeholder selectors" target="_blank">Understanding placeholder selectors</a>
@@ -37,11 +38,31 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
       Discovered <a href="http://prismjs.com/" title="Prism">prism.js</a> for syntax highlighting in a browser
     </li>
     <li>
-      <strong>HTML5:</strong> <code class="language-markup">&lt;figure&gt;</code> - I noticed that <a href="http://thesassway.com/beginner/how-to-structure-a-sass-project" target="_blank">John Long's SASS structure</a> included a file for figures under the partials directory. After a quick google, I realized the figure element was introduced in HTML5. The figure element is typically used for "an image, an illustration, a diagram, a code snippet, or a schema that is referenced in the main text, but that can be moved to another page or to an appendix without affecting the main flow."<br />
+      <a href="http://thesassway.com/intermediate/mixins-for-semi-transparent-colors" title="Mixins for semi-transparent colors">Mixins for semi-transparent colors</a><br />
+      <pre>
+        <code class="language-scss">
+          // Mixin
+          @mixin alpha-attribute($attribute, $color, $background) {
+            $percent: alpha($color) * 100%;
+            $opaque: opacify($color, 1);
+            $solid-color: mix($opaque, $background, $percent);
+            #{$attribute}: $solid-color;
+            #{$attribute}: $color;
+          }
+
+          // Code
+          .button {
+            @include alpha-attribute('background-color', rgba(black, 0.5), white);
+          }
+        </code>
+      </pre>
+    </li>
+    <li>
+      <strong>HTML5:</strong> <code class="language-markup">&lt;figure&gt;</code> - I noticed that <a href="http://thesassway.com/beginner/how-to-structure-a-sass-project" target="_blank">John Long's SASS structure</a> included a file for figures under the partials directory. After a quick google, I realized the figure element was introduced in HTML5. The figure element is typically used for <em>“an image, an illustration, a diagram, a code snippet, or a schema that is referenced in the main text, but that can be moved to another page or to an appendix without affecting the main flow.”</em><br />
       <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure" target="_blank">Source: &lt;figure&gt; HTML | MDN</a>
     </li>
   </ul>
-  <h3>06.06.2014 - SASS Learning 01</h3>
+  <h3>06.06.2014 - SASS Basics</h3>
   <ul>
     <li>Refreshing myself with mixins, extend / inheritence, and operators</li>
     <li>Using semantic variable names - <a href="http://thesassway.com/beginner/variable-naming" title="Choosing great variable names" target="_blank">source</a></li>
