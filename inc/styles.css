@@ -533,6 +533,9 @@ nav.primary {
         width: 100px;
         margin-top: 22px; } }
 
+.light-base-header {
+  color: #e5e5e5; }
+
 /* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript+scss+ruby */
 /**
  * prism.js default theme for JavaScript, CSS and HTML
