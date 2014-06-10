@@ -452,6 +452,48 @@ nav.primary {
         width: 100px;
         margin-top: 22px; } }
 
+p.if-test {
+  color: red; }
+
+.fortest-1 {
+  width: 1.5em; }
+
+.fortest-2 {
+  width: 3em; }
+
+.fortest-3 {
+  width: 4.5em; }
+
+.fortest-4 {
+  width: 6em; }
+
+.fortest-5 {
+  width: 7.5em; }
+
+.cat-icon {
+  background-image: url("/images/cat.png"); }
+
+.dog-icon {
+  background-image: url("/images/dog.png"); }
+
+.fish-icon {
+  background-image: url("/images/fish.png"); }
+
+.bird-icon {
+  background-image: url("/images/bird.png"); }
+
+.item-8 {
+  width: 24em; }
+
+.item-6 {
+  width: 18em; }
+
+.item-4 {
+  width: 12em; }
+
+.item-2 {
+  width: 6em; }
+
 h1, h2, h3, h4, h5, h6, p, a, ul, span {
   font-family: 'Titillium Web', sans-serif;
   margin-bottom: 0; }
@@ -536,9 +578,6 @@ a {
 
 .light-base-header {
   color: #e5e5e5; }
-
-p.if-test {
-  color: red; }
 
 /* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript+scss+ruby */
 /**

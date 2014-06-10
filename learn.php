@@ -26,39 +26,130 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
     <li><a href="http://lea.verou.me/" title="Lea Verou">Lea Verou</a></li>
   </ul>
   -->
-  <h3>06.09.2014</h3>
+  <h3>06.09.2014 - SASS Control Directives</h3>
   <ul>
     <li>As Adam Stacoviak mentions in his article <a href="http://thesassway.com/intermediate/if-for-each-while" title="Sass control directives: @if, @for, @each and @while" target="_blank">Sass control directives: @if, @for, @each and @while</a> “Sass control directives are the cornerstone of creating libraries for reuse and distribution, and need to be among the very first items on your list of things to learn when taking your Sass skills to the next level.” I felt it essential to take his advice and get my hands dirty. I also referenced the <a href="http://sass-lang.com/documentation/file.SASS_REFERENCE.html#control_directives__expressions" title="Sass Changelog">sass-lang documentation</a>.
       <ul>
         <li>
           <code class="language-scss">@if</code> - The @if directive takes a SassScript expression and uses the styles nested beneath it if the expression returns anything other than false or null.
-        <pre><code class="language-scss">
-          $type: boomplay;
-          p.if-test {
-            @if $type == bbq {
-              color: blue;
-            } @else if $type == guitar {
-              color: purple;
-            } @else if $type == computer {
-              color: yellow;
-            } @else if $type == boomplay {
-              color: red;
+          <pre class="language-scss">
+            <code class="language-scss">
+            $type: boomplay;
+            p.if-test {
+              @if $type == bbq {
+                color: blue;
+              } @else if $type == guitar {
+                color: purple;
+              } @else if $type == computer {
+                color: yellow;
+              } @else if $type == boomplay {
+                color: red;
+              }
             }
-          }
-        </code></pre>
+          </code>
+        </pre>
         <p>Will compile to:</p>
-        <pre><code class="language-css">
-          p.if-test {
-            color: red;
-          } // if you grep my CSS you'll see it for yourself! ;)
-        </code></pre>
+        <pre class="language-scss">
+          <code class="language-css">
+            p.if-test {
+              color: red;
+            } // if you grep my CSS you'll see it for yourself! ;)
+          </code>
+        </pre>
         </li>
         <li>
-          <code class="language-scss">@for</code> - The @for directive repeatedly outputs a set of styles. For each repetition, a counter variable is used to adjust the output. The directive has two forms: <code class="language-scss">@for $var from &lt;start&gt; through &lt;end&gt;</code> and <code class="language-scss">@for $var from &lt;start&gt; to &lt;end&gt;</code>
+          <code class="language-scss">@for</code> - The @for directive repeatedly outputs a set of styles. For each repetition, a counter variable is used to adjust the output. The directive has two forms: <code>@for $var from &lt;start&gt; through &lt;end&gt;</code> and <code>@for $var from &lt;start&gt; to &lt;end&gt;</code>
+          <pre class="language-scss">
+            <code class="language-scss">
+              @for $i from 1 through 5 {
+                .item-#{$i} { width: 1.5em * $i }
+              }
+            </code>
+          </pre>
+          Will compile to:
+          <pre class="language-scss">
+            <code class="language-scss">
+              .fortest-1 {
+                width: 1.5em; }
+
+              .fortest-2 {
+                width: 3em; }
+
+              .fortest-3 {
+                width: 4.5em; }
+
+              .fortest-4 {
+                width: 6em; }
+
+              .fortest-5 {
+                width: 7.5em; }
+            </code>
+          </pre>
         </li>
       </ul>
     </li>
+    <li>
+      <code class="language-scss">@each</code> - The @each directive usually has the form <code>@each $var &lt;list or map&gt;. $var</code> can be any variable name, like <code>$length</code> or <code>$name</code>, and <code>&lt;list or map&gt;</code> is a SassScript expression that returns a list or a map. The <code>@each</code> rule sets <code>$var</code> to each item in the list or map, then outputs the styles it contains using that value of <code>$var</code>.
+      <pre class="language-scss">
+        <code class="language-scss">
+          @each $animal in cat, dog, fish, bird {
+            .#{$animal}-icon {
+              background-image: url('/images/#{$animal}.png');
+            }
+          }
+        </code>
+      </pre>
+      Which compiles to:
+      <pre class="language-scss">
+        <code class="language-scss">
+          .cat-icon {
+            background-image: url("/images/cat.png"); }
+
+          .dog-icon {
+            background-image: url("/images/dog.png"); }
+
+          .fish-icon {
+            background-image: url("/images/fish.png"); }
+
+          .bird-icon {
+            background-image: url("/images/bird.png"); }
+        </code>
+      </pre>
+    </li>
+    <li>
+      <code>@while</code> - The @while directive takes a SassScript expression and repeatedly outputs the nested styles until the statement evaluates to false. This can be used to achieve more complex looping than the @for statement is capable of.
+      <pre class="language-scss">
+        <code class="language-scss">
+          $i: 8;
+          @while $i > 0 {
+            .item-#{$i} { width: 3em * $i }
+            $i: $i -2;
+          }
+        </code>
+      </pre>
+      Will compile to:
+      <pre class="language-css">
+        <code class="language-css">
+          .item-8 {
+            width: 24em; }
+
+          .item-6 {
+            width: 18em; }
+
+          .item-4 {
+            width: 12em; }
+
+          .item-2 {
+            width: 6em; }
+        </code>
+      </pre>
+    </li>
     <li>I had an issue updating SASS today on my rails stack and came across <a href="http://askubuntu.com/questions/92468/how-do-i-update-to-the-latest-version-of-sass" title="How do I update to the latest version of SASS?" target="_blank">this helpful article on askubuntu.com</a>.</li>
+    <li>
+      Discovered <a href="http://breakpoint-sass.com/" title="Breakpoint SASS" target="_blank">breakpoint-sass.com</a> - Really Simple, Organized, Media Queries with Sass. Thanks Tim!<br/>
+      <blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/ryanboompah">@ryanboompah</a> Breakpoint by <a href="https://twitter.com/codingdesigner">@codingdesigner</a> and <a href="https://twitter.com/Snugug">@Snugug</a> is my go-to for media queries,&#10;(if only for the amazing site) <a href="http://t.co/ve4ww9aNIf">http://t.co/ve4ww9aNIf</a></p>&mdash; Tim Hettler (@timhettler) <a href="https://twitter.com/timhettler/statuses/476163278855348224">June 10, 2014</a></blockquote>
+      <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </li>
   </ul>
   <h3>06.08.2014</h3>
   <ul>
@@ -91,7 +182,7 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
       </ol>
     </li>
     <li>
-      You can use <a href="http://thesassway.com/intermediate/interactive-sass-having-fun-on-the-terminal" title="Interactive Sass: having fun on the terminal" target="_blank">interactive Sass</a> to reduce a series of complex color functions to a color value. This can be useful for swapping colors while designing in a browser. Ex: <code class="language-scss">saturate(#113, 10%)</code>, <code class="language-scss">adjust-hue(green, 10deg)</code>, and <code class="language-scss">adjust-color(blue, $lightness: -20%, $hue: 20deg)</code>.
+      You can use <a href="http://thesassway.com/intermediate/interactive-sass-having-fun-on-the-terminal" title="Interactive Sass: having fun on the terminal" target="_blank">interactive Sass</a> to reduce a series of complex color functions to a color value. This can be useful for swapping colors while designing in a browser. Ex: <code>saturate(#113, 10%)</code>, <code>adjust-hue(green, 10deg)</code>, and <code>adjust-color(blue, $lightness: -20%, $hue: 20deg)</code>.
     </li>
   </ul>
   <h3>06.07.2014 - SASS Placeholders + Extend vs. Include</h3>
@@ -111,7 +202,7 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
     </li>
     <li>
       <a href="http://thesassway.com/intermediate/mixins-for-semi-transparent-colors" title="Mixins for semi-transparent colors">Mixins for semi-transparent colors</a><br />
-      <pre>
+      <pre class="language-scss">
         <code class="language-scss">
           // Mixin
           @mixin alpha-attribute($attribute, $color, $background) {

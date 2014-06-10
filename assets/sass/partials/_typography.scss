@@ -67,17 +67,3 @@ a { @include transition (all 0.35s ease-in-out); }
 .light-base-header {
   color: lighten($base-text, 80%);
 }
-
-// Playground
-$type: boomplay;
-p.if-test {
-  @if $type == bbq {
-    color: blue;
-  } @else if $type == guitar {
-    color: purple;
-  } @else if $type == computer {
-    color: yellow;
-  } @else if $type == boomplay {
-    color: red;
-  }
-}
