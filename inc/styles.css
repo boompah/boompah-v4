@@ -452,8 +452,9 @@ nav.primary {
         width: 100px;
         margin-top: 22px; } }
 
-h1, h2, h3, h4, h5, h6, span {
-  font-family: 'Titillium Web', sans-serif; }
+h1, h2, h3, h4, h5, h6, p, a, ul, span {
+  font-family: 'Titillium Web', sans-serif;
+  margin-bottom: 0; }
 
 h1 {
   font-size: 3em;
@@ -520,10 +521,10 @@ h5 {
       font-size: 1em; } }
 
 p, ul, ol {
-  font-family: 'Lora', serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 30px; }
+  font-size: 22px; }
+  @media only screen and (max-width: 767px) {
+    p, ul, ol {
+      font-size: 1.15em; } }
 
 a {
   -webkit-transition: all 0.35s ease-in-out;
@@ -535,6 +536,9 @@ a {
 
 .light-base-header {
   color: #e5e5e5; }
+
+p.if-test {
+  color: red; }
 
 /* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript+scss+ruby */
 /**
@@ -1300,8 +1304,7 @@ body.services .showcase, .branding .showcase {
 /* SASS Notes
 	
 	Compile SASS
-	sass --watch assets/sass/main.scss:inc/styles.css
-  sass assets/sass/main.scss:inc/styles.css --sourcemap
+  sass --watch assets/sass/main.scss:inc/styles.css --sourcemap
 	
 	Bourbon
 	$ bourbon help

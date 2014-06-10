@@ -5,8 +5,9 @@
 
 // ---------------------------------------------------------------------
 
-h1, h2, h3, h4, h5, h6, span {
+h1, h2, h3, h4, h5, h6, p, a, ul, span {
   font-family: 'Titillium Web', sans-serif;
+  margin-bottom: 0;
 }
 
 h1 {
@@ -53,10 +54,8 @@ h5 {
 }
 
 p, ul, ol {
-  font-family: 'Lora', serif;
-  font-weight: $bold-normal;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 22px;
+  @include respond-to(handhelds-and-medium-screens) { font-size: 1.15em; }
 }
 
 a { @include transition (all 0.35s ease-in-out); }
@@ -67,4 +66,18 @@ a { @include transition (all 0.35s ease-in-out); }
 
 .light-base-header {
   color: lighten($base-text, 80%);
+}
+
+// Playground
+$type: boomplay;
+p.if-test {
+  @if $type == bbq {
+    color: blue;
+  } @else if $type == guitar {
+    color: purple;
+  } @else if $type == computer {
+    color: yellow;
+  } @else if $type == boomplay {
+    color: red;
+  }
 }
