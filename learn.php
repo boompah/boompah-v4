@@ -24,8 +24,55 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
   <h3>Solid Resources</h3>
   <ul>
     <li><a href="http://lea.verou.me/" title="Lea Verou">Lea Verou</a></li>
+    <li><a href="http://css-tricks.com" title="CSS Tricks" target="_blank">CSS Tricks<a></li>
   </ul>
   -->
+  <h3>06.11.2014 - CSS nth-child and SASS Mixins</h3>
+  <ul>
+    <li>
+      <a href="http://css-tricks.com/how-nth-child-works/" title="How nth-child Works" target="_blank">How nth-child Works - CSS Tricks</a>
+    </li>
+  </ul>
+  <h3>06.10.2014 - CSS Specificity, :not() CSS pseudo-class</h3>
+  <ul>
+    <li>
+      <p><a href="http://css-tricks.com/specifics-on-css-specificity/" title="Specifics on CSS Specificity" target="_blank">Specifics on CSS Specificity - CSS Tricks</a> - This is the first time I've come across <code class="language-css">:not()</code> example: <code class="language-css">#footer *:not(nav) li</code></p>
+
+      <p>Decided to dive a little deeper - <a href="https://developer.mozilla.org/en/docs/Web/CSS/:not" title="HTML :not() - MDN" target="_blank">HTML :not() - MDN</a> and hack around with their example.</p>
+      <pre class="language-css">
+        <code class="language-css">
+          p:not(.ice-ice-baby) { color: red; }
+          body :not(p) { color: green; }
+        </code>
+      </pre>
+      <strong>Markup:</strong>
+      <pre class="language-markup">
+        <code class="language-markup">
+          &lt;p&gt;Check out this Markup&lt;/p&gt;
+          &lt;p&gt; class="ice-ice-baby">One mo time!&lt;/p&gt;
+          &lt;span&gt;Oh yeeeeeah!&lt;/span&gt;
+        </code>
+      </pre>
+      <p><strong>Will compile to:</strong></p>
+      <p style="color: red;">Check out this Markup</p>
+      <p>One mo time<p>
+      <span style="color: green;">Oh yeeeeeah!</span></p>
+    </li>
+    <li>
+      <a href="http://css-tricks.com/how-nth-child-works/" title="Efficiently Rendering CSS" target="_blank">Efficiently Rendering CSS - CSS Tricks</a>
+      <ul>
+        <li><strong>Right to Left</strong> - One of the important things to understand about how browsers read your CSS selectors, is that they read them from right to left.</li>
+        <li>ID's are the most efficient, Universal are the least</li>
+        <li><strong>Don't tag-qualify</strong>Never do this: ul#main-navigation { } - ID's are unique, so they don't need a tag name to go along with it. Doing so makes the selector less efficient.</li>
+        <li>Descendant selectors are the worst</li>
+        <li><strong>Consider why you are writing the selector</strong> - things like <code class="language-css">font-family</code> will cascade down various elements from an ul to an a.</li>
+        <li>
+          <strong>CSS3 and Efficiency</strong> - sad news from David Hyatt:
+          <blockquote>The sad truth about CSS3 selectors is that they really shouldn’t be used at all if you care about page performance.</blockquote>
+        </li>
+      </ul>
+    </li>
+  </ul>
   <h3>06.09.2014 - SASS Control Directives</h3>
   <ul>
     <li>As Adam Stacoviak mentions in his article <a href="http://thesassway.com/intermediate/if-for-each-while" title="Sass control directives: @if, @for, @each and @while" target="_blank">Sass control directives: @if, @for, @each and @while</a> “Sass control directives are the cornerstone of creating libraries for reuse and distribution, and need to be among the very first items on your list of things to learn when taking your Sass skills to the next level.” I felt it essential to take his advice and get my hands dirty. I also referenced the <a href="http://sass-lang.com/documentation/file.SASS_REFERENCE.html#control_directives__expressions" title="Sass Changelog">sass-lang documentation</a>.
