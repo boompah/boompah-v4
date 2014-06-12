@@ -27,10 +27,147 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
     <li><a href="http://css-tricks.com" title="CSS Tricks" target="_blank">CSS Tricks<a></li>
   </ul>
   -->
-  <h3>06.11.2014 - CSS nth-child and SASS Mixins</h3>
+  <h3>06.12.2014 - SASS Mixins</h3>
+  <h3>06.11.2014 - CSS nth-child</h3>
   <ul>
     <li>
-      <a href="http://css-tricks.com/how-nth-child-works/" title="How nth-child Works" target="_blank">How nth-child Works - CSS Tricks</a>
+      <p><a href="http://css-tricks.com/how-nth-child-works/" title="How nth-child Works" target="_blank">How nth-child Works - CSS Tricks</a> - This pseudo-class selector matches elements on the basis of their positions within a parent element’s list of child elements. A very handy <a href="http://css-tricks.com/examples/nth-child-tester/" title=":nth Tester by CSS Tricks." target="_blank">:nth Tester by CSS Tricks.</a></p>
+    </li>
+    <li><a href="http://www.sitepoint.com/web-foundations/understanding-nth-child-pseudo-class-expressions/" title="Understanding :nth-child Pseudo-class Expressions - Site Point" target="_blank">Understanding :nth-child Pseudo-class Expressions - Site Point</a>
+      <p><strong>:nth-child(N)</strong></p>
+      <pre class="language-css">
+        <code class="language-css">
+          // numbers
+          ul li:nth-child(1) {  
+            color: #ccc;
+          }
+
+          // expressions - select every third element
+          ul li:nth-child(3n+3) {  
+            color: #ccc;
+          }
+
+          // This example selector will match the first three rows of any table
+          tr:nth-child(-n+3) {
+            border: 1px solid red;
+          }
+
+          // All odd values 
+          // ul li:nth-child(odd) {
+            border: 1px solid red;
+          }
+        </code>
+      </pre>
+      <p><strong>:nth-last-child(N)</strong></p>
+      <pre class="language-css">
+        <code class="language-css">
+          // This example selector will match the last four list items in any list, be it ordered or unordered:
+          li:nth-last-child(-n+4) {
+            declarations
+          }
+        </code>
+      </pre>
+      <p><strong>:nth-of-type(N)</strong></p>
+      <pre class="language-css">
+        <code class="language-css">
+          // The following example selector matches the second, fifth, eighth, and so on, paragraphs in a div element, ignoring any children that aren’t paragraphs:
+          div>p:nth-of-type(3n-1) {
+            declarations
+          }
+
+          // The following example selectors will allow the application of different CSS styles to the odd- and even-numbered image elements that are children of the element whose id attribute value matches “gallery”:
+          #gallery>img:nth-of-type(odd) {
+            declarations
+          }
+          #gallery>img:nth-of-type(even) {
+            declarations
+          }
+        </code>
+      </pre>
+      <p><strong>:nth-last-of-type(N)</strong></p>
+      <pre class="language-css">
+        <code class="language-css">
+          // The following example selector will match the last three image elements that are children of the element whose id attribute value matches "gallery":
+          #gallery>img:nth-last-of-type(-n+3) {
+            declarations
+          }
+
+          // The following example selector matches the penultimate term in a definition list:
+          dt:nth-last-of-type(2) {
+            declarations
+          }
+        </code>
+      </pre>
+      <p>Here's a handy table from <a href="http://www.sitepoint.com/web-foundations/understanding-nth-child-pseudo-class-expressions/" title="Understanding :nth-child Pseudo-class Expressions" target="_blank">sitepoint</a>:</p>
+      <table border="1">
+        <thead align="left">
+        <tr>
+        <th>n</th>
+        <th>2n+1</th>
+        <th>4n+1</th>
+        <th>4n+4</th>
+        <th>4n</th>
+        <th>5n-2</th>
+        <th>-n+3</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <th>0</th>
+        <th>1</th>
+        <th>1</th>
+        <th>4</th>
+        <th>-</th>
+        <th>-</th>
+        <th>3</th>
+        </tr>
+        <tr>
+        <th>1</th>
+        <th>3</th>
+        <th>5</th>
+        <th>8</th>
+        <th>4</th>
+        <th>3</th>
+        <th>2</th>
+        </tr>
+        <tr>
+        <th>2</th>
+        <th>5</th>
+        <th>9</th>
+        <th>12</th>
+        <th>8</th>
+        <th>8</th>
+        <th>1</th>
+        </tr>
+        <tr>
+        <th>3</th>
+        <th>7</th>
+        <th>13</th>
+        <th>16</th>
+        <th>12</th>
+        <th>13</th>
+        <th>-</th>
+        </tr>
+        <tr>
+        <th>4</th>
+        <th>9</th>
+        <th>17</th>
+        <th>20</th>
+        <th>16</th>
+        <th>18</th>
+        <th>-</th>
+        </tr>
+        <tr>
+        <th>5</th>
+        <th>11</th>
+        <th>21</th>
+        <th>24</th>
+        <th>20</th>
+        <th>23</th>
+        <th>-</th>
+        </tr>
+        </tbody>
+      </table>
     </li>
   </ul>
   <h3>06.10.2014 - CSS Specificity, :not() CSS pseudo-class</h3>
@@ -278,6 +415,11 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
     <li>Using semantic variable names - <a href="http://thesassway.com/beginner/variable-naming" title="Choosing great variable names" target="_blank">source</a></li>
     <li><a href="http://thesassway.com/beginner/how-to-structure-a-sass-project" title="How to structure a SASS project" target="_blank">How to structure a SASS project</a> - implemented SASS structure into boompah.com</li>
     <li><a href="http://thesassway.com/beginner/the-inception-rule" title="Nested selectors: the inception rule" target="_blank">Nested selectors: the inception rule</a></li>
+  </ul>
+  <h3>Todo Items</h3>
+  <ul>
+    <li>Create a new header</li>
+    <li>Create a sidebar menu</li>
   </ul>
 </div>
 <?php include 'inc/footer.php' ?>
