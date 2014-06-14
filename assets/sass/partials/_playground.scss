@@ -38,3 +38,24 @@ $i: 8;
   .item-#{$i} { width: 3em * $i }
   $i: $i - 2;
 }
+
+// @mixin wrapped-stylish-mixin($args...) {
+//   font-weight: bold;
+//   @include stylish-mixin($args...);
+// }
+
+// .stylish {
+//   // The $width argument will get passed on to "stylish-mixin" as a keyword
+//   @include wrapped-stylish-mixin(#00ff00, $width: 100px);
+// }
+
+// @mixin apply-to-about-only {
+//   .about_en {
+//     @content;
+//   }
+// }
+// @include apply-to-about-only {
+//   #logo {
+//     border: 1px solid red;
+//   }
+// }

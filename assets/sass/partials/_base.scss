@@ -55,6 +55,14 @@ ul {
   
 } // container
 
+.half {
+  @include span-columns(6);
+  text-align: left;
+  @include respond-to(handhelds-and-medium-screens) { 
+    width: 100%;
+  }
+}
+
 #masthead-wrapper {
   padding: 40px 0 60px 0;
   text-align: center;
@@ -142,15 +150,6 @@ a.button:active { background-color: darken($link-blue, 10%); }
     width: 100%;
     clear: both;
   }
-  
-  .half {
-    @include span-columns(6);
-    text-align: left;
-    @include respond-to(handhelds-and-medium-screens) { 
-      width: 100%;
-      text-align: center;
-    }
-  } // half
   
   .cta{
     text-transform: uppercase;

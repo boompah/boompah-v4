@@ -51,6 +51,18 @@ ul li {
       .container h2 {
         font-size: 1.75em; } }
 
+.half {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  text-align: left; }
+  .half:last-child {
+    margin-right: 0; }
+  @media only screen and (max-width: 767px) {
+    .half {
+      width: 100%; } }
+
 #masthead-wrapper {
   padding: 40px 0 60px 0;
   text-align: center; }
@@ -127,18 +139,6 @@ a.button:active {
     display: inline-block;
     width: 100%;
     clear: both; }
-  .showcase .half {
-    display: block;
-    float: left;
-    margin-right: 2.35765%;
-    width: 48.82117%;
-    text-align: left; }
-    .showcase .half:last-child {
-      margin-right: 0; }
-    @media only screen and (max-width: 767px) {
-      .showcase .half {
-        width: 100%;
-        text-align: center; } }
   .showcase .cta {
     text-transform: uppercase; }
   .showcase a.button {
@@ -494,6 +494,18 @@ p.if-test {
 .item-2 {
   width: 6em; }
 
+table {
+  border-collapse: collapse;
+  width: 100%; }
+
+th, td {
+  padding: 0.25rem;
+  text-align: left;
+  border: 1px solid #ccc; }
+
+tbody tr:nth-child(odd) {
+  background: #eee; }
+
 h1, h2, h3, h4, h5, h6, p, a, ul, span {
   font-family: 'Titillium Web', sans-serif;
   margin-bottom: 0; }
@@ -578,6 +590,24 @@ a {
 
 .light-base-header {
   color: #e5e5e5; }
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em; }
+
+blockquote p {
+  display: inline; }
 
 /* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript+scss+ruby */
 /**
