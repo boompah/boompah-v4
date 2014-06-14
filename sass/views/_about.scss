@@ -1,0 +1,154 @@
+body.about {
+	#masthead-wrapper, .dark-bg {
+		background-color: $black;
+	}
+	#masthead-wrapper{
+		h1, h3 {
+			color: $white;
+		}
+	}
+	.container.showcase {
+		padding: 40px 20px;
+		img {
+			margin-top: 20px;
+			float: left;
+			width: 40%;
+			@include respond-to(handhelds-and-medium-screens) { width: 40%; float: none;}
+
+			@include respond-to(medium-screens) { width: 50%; }
+			@include respond-to(handhelds) { width: 80%; }
+		}
+		.cv-cta {
+			i {
+				margin-right: 10px;
+			}
+		}
+		.main-name {
+			font-size: 6em;
+			@include respond-to(large-screens) { font-size: 4.5em; }
+			@include respond-to(medium-screens) { font-size: 3em; }
+			@include respond-to(handhelds) { font-size: 2em; }
+
+			@include respond-to(handhelds-and-medium-screens) { text-align: center; }
+
+			font-weight: 300;
+			margin-bottom: 0;
+			br {
+				@include respond-to(handhelds-and-medium-screens) { display: none; }
+			}
+		}
+		.cv-cta,
+		.main-name {
+			text-align: right;
+		}
+	}
+	/* Testimonials */
+	.testimonials {
+		h2, p, h4 {
+			@include respond-to(handhelds-and-medium-screens) { text-align: left; }
+		}
+	}
+}
+
+
+// Timeline
+
+.timeline-bar {
+	background-color: lighten($black, 95%);
+	clear: both;
+	text-align: left;
+
+	@include transition (all 0.35s ease-in-out);
+	
+	@include border-left-radius(8px);
+	@include border-right-radius(8px);
+
+	h3,span,p {
+		font-weight: 500;
+	}
+
+	h3 {
+		padding: 12px 0;
+		@include respond-to(large-screens) { height: 46px; }
+		@include respond-to(handhelds-and-medium-screens) { padding: 0 8px; }
+	}
+
+	.date { 
+		width: 5em;
+		margin-right: .5em;
+		text-align: center;
+		display: block;
+		float: left;
+		background-color: $black;
+		color: $white;
+		font-weight: 200;
+		font-size: 37px;	
+
+		@include border-left-radius(8px);
+
+		@include respond-to(large-screens) { font-size: 30px; }
+		@include respond-to(handhelds-and-medium-screens) {
+			width: 100%;
+			@include border-right-radius(8px);
+			font-size: 22px;
+		}
+
+	}
+
+	i { 
+		margin: 0px 20px 0 0;
+		float: right;
+		@include respond-to(handhelds-and-medium-screens) { display: none; }
+	}
+}
+
+.timeline {
+	h3 {
+		@include respond-to(handhelds-and-medium-screens) { margin-top: 0; }
+	}
+}
+
+a.timeline-bar {
+	text-decoration: none;
+}
+
+//Custom Colours
+.timeline-bar.baby-blue__bg { background-color: $baby-blue; color: $white; }
+.timeline-bar.baby-blue__bg:hover { background-color: darken($baby-blue, 10%); }
+.timeline-bar.baby-blue__bg:active { background-color: lighten($baby-blue, 5%); }
+
+.timeline-bar.red__bg { background-color: $red; color: $white; }
+
+.timeline-bar.android__bg { background-color: $android-green; color: $white; }
+.timeline-bar.xbox__bg { background-color: $xbox-green; color: $white; }
+
+.timeline-bar.deviantart-green__bg { background-color: $deviantart-green; color: $white; }
+.timeline-bar.deviantart-green__bg:hover { background-color: darken($deviantart-green, 10%); }
+.timeline-bar.deviantart-green__bg:active { background-color: lighten($deviantart-green, 5%); }
+
+.tungle-green__bg { background-color: $tungle-green; color: $white; }
+
+//Food Porn
+
+.food-porn {
+	background-color: lighten($black, 95%);
+	border-top: 1px solid lighten($black, 85%);
+	padding: 100px 0 200px 0;
+	@include respond-to(handhelds-and-medium-screens) { padding: 80px 0 40px 0; }
+
+	.panel-block {
+		background: none;
+		border: none;
+		@include respond-to(handhelds-and-medium-screens) {
+			height: 333px;
+			margin-bottom: 20px;
+		}
+	}
+	img {
+		border: 2px solid $white;
+		width: 100%;
+		@include respond-to(handhelds-and-medium-screens) {
+			width: 333px;
+		}
+	}
+}

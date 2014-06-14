@@ -1,0 +1,61 @@
+// @if example
+$type: boomplay;
+p.if-test {
+  @if $type == bbq {
+    color: blue;
+  } @else if $type == guitar {
+    color: purple;
+  } @else if $type == computer {
+    color: yellow;
+  } @else if $type == boomplay {
+    color: red;
+  }
+}
+
+// @for example
+@for $i from 1 through 5 {
+  .fortest-#{$i} { width: 1.5em * $i }
+}
+
+// @each example
+@each $animal in cat, dog, fish, bird {
+  .#{$animal}-icon {
+    background-image: url('/images/#{$animal}.png');
+  }
+}
+
+// Another example of @each with mapping
+
+// @each $header, $size in (h1: 2em, h2: 1.5em, h3: 1.2em) {
+//   #{$header} {
+//     font-size: $size;
+//   }
+// }
+
+// @while example
+$i: 8;
+@while $i > 0 {
+  .item-#{$i} { width: 3em * $i }
+  $i: $i - 2;
+}
+
+// @mixin wrapped-stylish-mixin($args...) {
+//   font-weight: bold;
+//   @include stylish-mixin($args...);
+// }
+
+// .stylish {
+//   // The $width argument will get passed on to "stylish-mixin" as a keyword
+//   @include wrapped-stylish-mixin(#00ff00, $width: 100px);
+// }
+
+// @mixin apply-to-about-only {
+//   .about_en {
+//     @content;
+//   }
+// }
+// @include apply-to-about-only {
+//   #logo {
+//     border: 1px solid red;
+//   }
+// }

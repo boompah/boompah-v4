@@ -1,0 +1,151 @@
+body.home,
+body.single.single-post,
+.winnipeg-web-design,
+.work,
+.cv {
+	
+	#masthead-wrapper {
+		background-color: $teal;
+		height: 620px;
+		background-image: url(/img/home/01-feature-graphic.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	
+	.light-bg {
+		background-color: $light-blue;
+		border-top: 1px solid $light-blue-border;
+		border-bottom: 1px solid $light-blue-border;
+	}
+	
+	#masthead-wrapper {
+		h1, h3 {
+			color: $white;
+		}
+		h1 {	
+			margin-top: 40px;
+			font-size: 2.5em;
+			font-weight: 600;
+			line-height: 1.25em;
+			@include respond-to(large-screens) { font-size: 2.35em; }
+			@include respond-to(handhelds-and-medium-screens) { font-size: 20px; }
+			font-family: 'Varela Round', sans-serif;
+		}
+
+		h3 {
+			font-size: 1.25em;
+			font-weight: 500;
+			@include respond-to(large-screens) { font-size: 1.35em; }
+			@include respond-to(handhelds-and-medium-screens) { font-size: 1.15em; }
+		}
+		.btn-cta {
+			margin-top: 20px;
+		}
+	}  
+
+	.main-headline {
+		@include span-columns(6);
+		text-align: left;
+	}
+	
+	.usability-research {
+		h2, h3, h4, p {
+			@include respond-to(handhelds-and-medium-screens) { text-align: left; }
+		}
+		p { margin-bottom: 3em; }
+		h3 {
+			margin-top: 1.5em;
+			@include respond-to(handhelds-and-medium-screens) { font-size: 1.5em; }
+		}
+		h4 {  }
+		p.last { margin-bottom: 0; }
+		
+	}
+	
+	.services-points {
+		h4 {
+			text-transform: uppercase;
+			font-weight: normal;
+		}
+		
+		h4, ul {
+			text-align: left;
+			color: $white;
+			@include respond-to(handhelds-and-medium-screens) {
+				text-align: center;
+			}
+		}
+		
+		ul {
+			@include respond-to(handhelds-and-medium-screens) {
+				list-style: none;
+				padding-left: 0;
+			}
+			li {				
+				a, a:link, a:visited {
+					color: $hot-blue;
+					@include transition (all 0.35s ease-in-out);
+				}
+				a:hover {
+					text-decoration: none;
+					color: darken($hot-blue, 20%);
+				}
+				a:active {
+					color: lighten($hot-blue, 10%);
+				}
+			} // li
+		} // ul
+	} // services-points
+
+	/* Featured Work */
+
+	.featured-work {
+		.panel-block {
+			border: 1px solid lighten($black, 85%);
+			background-color: $white;
+		}
+		.panel-block.two-m-two {
+			background-color: $black;
+			border: 1px solid $black;
+		}
+	}
+
+	.clients {
+		ul {
+			li{
+				margin-bottom: 20px;
+				a{
+					background-color: $white;
+					&:hover { background-color: lighten($black, 30%); }
+					color: $base-gray;
+					display: block;
+					text-decoration: none;
+					@include transition (all 0.35s ease-in-out);	
+					i {
+						float: right;
+						font-size: 1.25em;
+						margin-top: 2px;
+					}
+				}
+			}
+		}
+	}
+} // body.home
+
+#logo-circle {
+	margin: auto;
+	min-width: 300px;
+	max-width: 400px;
+}
+
+#logo-circle object {
+	width: 100%;
+	min-height: 440px;
+}
+
+.clients {
+	ul {
+		padding-left: 0;
+		list-style: none;
+	} 
+} // showcase.clients

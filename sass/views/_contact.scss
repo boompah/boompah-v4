@@ -1,0 +1,39 @@
+body.contact {
+	#masthead-wrapper, .dark-bg {
+		background-color: darken($ruby-red, 3%);
+	}
+	#masthead-wrapper {
+		h1, h3 { color: $white; }
+	}
+	.showcase {
+		i { color: $ruby-red; font-size: 1.25em; }
+	}
+	.guidelines {
+		i { margin-right: 10px; }
+		h3 {
+			margin-top: 0;
+			font-size: 1.75em;
+			@include respond-to(handhelds-and-medium-screens) { font-size: 1.5em; }
+		}
+		h2, h3, p {
+    	@include respond-to(handhelds-and-medium-screens) { text-align: left; }
+    }
+	}
+	.contact-details {
+		h2 {
+			margin-top: 0;
+			text-transform: none;
+			font-size: 5em;
+			line-height: 1em;
+			font-weight: 200;
+			@include respond-to(large-screens) { font-size: 3.5em; }
+			@include respond-to(handhelds-and-medium-screens) { font-size: 3em; }
+		}
+		i {
+			font-size: 4.5em;
+			@include respond-to(large-screens) { font-size: 3.5em; }
+			@include respond-to(handhelds-and-medium-screens) { font-size: 3em; }
+		}
+		p { font-size: 1.5em; }
+	}
+}

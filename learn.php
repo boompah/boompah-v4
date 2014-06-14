@@ -42,9 +42,13 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
 </div>
 <div class="container">
   <div class="row">
+    <h3>06.14.2014</h3>
+    <ul>
+      <li>http://wiseheartdesign.com/articles/2010/11/12/the-designers-guide-to-the-osx-command-prompt/</li>
+    </ul>
     <h3>06.13.2014 - SASS Functions</h3>
     <ul>
-      <li>An important question to always ask: Which control directive makes most sense given the current circumstances: <code class="language-scss">@extend</code>, <code class="language-scss">@mixin</code>, <code class="language-scss">@each</code>, <code class="language-scss">@for</code>, <code class="language-scss">@include</code>?</li>
+      <li><strong>SIDENOTE:</strong> An important question to always ask: Which control directive makes most sense given the current circumstances: <code class="language-scss">@extend</code>, <code class="language-scss">@mixin</code>, <code class="language-scss">@each</code>, <code class="language-scss">@for</code>, <code class="language-scss">@include</code>?</li>
       <li><a href="http://css-tricks.com/complete-guide-table-element/" title="A Complete Guide to the Table Element - CSS Tricks" target="_blank">A Complete Guide to the Table Element - CSS Tricks</a> - tons of great tidbits about styling tables.</li>
       <li><a href="http://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/" title="Simple and Nice Blockquote Styling" target="_blank">Simple and Nice Blockquote Styling</a> - I decided to add blockquotes to this page and was looking for a quick fix. Presto! Thanks Chris.</li>
       <li><a href="http://sass-lang.com/documentation/file.SASS_REFERENCE.html#function_directives" title="Sass Documention - Function Directives">Sass Documention - Function Directives</a></li>
