@@ -36,12 +36,77 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
   <ul>
     <li><a href="http://lea.verou.me/" title="Lea Verou">Lea Verou</a></li>
     <li><a href="http://css-tricks.com" title="CSS Tricks" target="_blank">CSS Tricks<a></li>
-    <li><a href="http://sass-lang.com/documentation/" title="Sass Lang Documentation" target="_blank">Sass Lang Documentation</a>
+    <li><a href="http://sass-lang.com/documentation/" title="Sass Lang Documentation" target="_blank">Sass Lang Documentation</a></li>
+    <li><a href="https://github.com/dypsilon/frontend-dev-bookmarks" title="Github - Frontend Development Bookmarks">Github - Frontend Development Bookmarks</a></li>
   </ul>
   -->
 </div>
 <div class="container">
   <div class="row">
+    <h3>06.16.2014 - Exploring Bourbon and Compass</h3>
+    <h3>06.15.2014 - Exploring Bourbon and Compass</h3>
+    <h3>06.14.2014 - Sass - Exploring Bourbon and Compass</h3>
+    <ul>
+      <li><a href="http://bourbon.io/docs/" title="Bourbon Documentation" target="_blank">Bourbon Documentation</a> - The powers of Bourbon!
+        <ul>
+          <li>After a few hours of research on <a href="http://stackoverflow.com/questions/7666572/compass-vs-bourbon-frameworks" title="Compass vs Bourbon Frameworks" target="_blank">Compass vs Bourbon</a>, I've decided to stick with Bourbon for SASS mixins. It's a touch more simple than Compass and all that I need really. I also went through the install process and found it quite restrictive in comparison to Bourbon. Making them playing nicely together would've required some workaround.
+          </li>
+        </ul>
+      </li>
+      <li><a href="http://thesassway.com/intermediate/leveraging-sass-mixins-for-cleaner-code" title="Leveraging Sass mixins for cleaner code" target="_blank">Leveraging Sass mixins for cleaner code</a> - Remember to set defaults in mixins when nessessary:
+        <pre class="language-scss">
+          <code class="language-scss">
+            $default-border-radius: 5px !default;
+            @mixin border-radius($radius: $default-border-radius) {
+              ...
+            }
+          </code>
+        </pre>
+        <p>Using <code class="language-scss">@if</code> conditionals with arguments in mixins</p>
+        <pre class="language-scss">
+          <code class="language-scss">
+            @mixin border-radius($radius: 5px, $moz: true, $webkit: true, $ms: true) {
+              @if $moz    { -moz-border-radius:    $radius; }
+              @if $webkit { -webkit-border-radius: $radius; }
+              @if $ms     { -ms-border-radius:     $radius; }
+              border-radius: $radius;
+            }
+          </code>
+        </pre>
+        <p>Since all of the arguments have default values, you could turn off support for just Internet Explorer by calling the mixin like this:</p>
+        <pre class="language-scss">
+          <code class="language-scss">
+            @include border-radius($ms: false);
+          </code>
+        </pre>
+        <p>*With keyword arguments, you don't have to call out to the mixin with the arguments in the same order they were declared.</p>
+      </li>
+      <li><a href="http://thesassway.com/intermediate/referencing-parent-selectors-using-ampersand" title="" target="_blank"></a> Taking more advantage of the ampersand.
+        <pre class="language-scss">
+          <code class="language-scss">
+            /* scss */
+            @mixin quicksandlight() {
+              visibility: hidden;
+              .wf-active &, .msie.wf-loading &, .msie.wf-inactive &  {
+                visibility:visible; 
+                font-family: 'QuicksandLight', Arial, sans-serif;
+              }
+            }
+            #sample span { @include quicksandlight; }
+             
+            /* output */
+            #sample span { visibility: hidden; }
+             
+            .wf-active #sample span, 
+            .msie.wf-loading #sample span, 
+            .msie.wf-inactive #sample span {
+              visibility: visible;
+              font-family: 'QuicksandLight', Arial, sans-serif;
+            }
+          </code>
+        </pre>
+      </li>
+    </ul>
     <h3>06.13.2014 - SASS Functions</h3>
     <ul>
       <li>An important question to always ask: Which control directive makes most sense given the current circumstances: <code class="language-scss">@extend</code>, <code class="language-scss">@mixin</code>, <code class="language-scss">@each</code>, <code class="language-scss">@for</code>, <code class="language-scss">@include</code>?</li>
