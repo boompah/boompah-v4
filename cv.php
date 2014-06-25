@@ -62,7 +62,7 @@
     </ul>
 
     <h4>UX Designer and Front-end Developer</h4>
-    <p>Edison Nation // edisonnation.com<br />
+    <p>Edison Nation // edisonnation.com // App weight: 19450 lines<br />
       July 2012 - Present<br />
       Charlotte, NC.
     </p>
