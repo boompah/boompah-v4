@@ -22,12 +22,12 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
     </div>
     <div class="half">
       <h3>Topics I Want to Explore</h3>
-      <p><strong>Current Focus:</strong> SASS &amp; CSS</p>
+      <p class="bold">Current Focus: SASS &amp; CSS</p>
       <ul>
-        <li><strong>Growth:</strong> Business &amp; Product Development</li>
-        <li><strong>Development:</strong> SASS, HTML, Javascript, Angular</li>
-        <li><strong>Design:</strong> UX Design, Mobile App Design</li>
-        <li><strong>Social:</strong> Facebook, Twitter, Google+, Youtube</li>
+        <li><span class="bold">Growth:</span> Business &amp; Product Development</li>
+        <li><span class="bold">Development:</span> SASS, HTML, Javascript, Angular</li>
+        <li><span class="bold">Design:</span> UX Design, Mobile App Design</li>
+        <li><span class="bold">Social:</span> Facebook, Twitter, Google+, Youtube</li>
       </ul>
     </div>
   </div>
@@ -66,30 +66,18 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
     <h3>06.15.2014 - Modular CSS</h3>
     <ul>
       <li>
-        <a href="http://thesassway.com/advanced/modular-css-typography" title="Modular CSS typography" target="_blank">Modular CSS typography</a>
-        <p><strong>Awesome Base font on body element</strong></p>
-        <pre class="language-scss">
-          <code class="language-scss">
-            body {
-              color: $text-color;
-              font-size: $base-font-size;
-              font-family: $base-font-family;
-              font-weight: $base-font-weight;
-              line-height: 1.6;
-            }
-          </code>
-        </pre>
+        <p><a class="bold" href="http://thesassway.com/advanced/modular-css-typography" title="Modular CSS typography" target="_blank">Modular CSS typography</a> - Great tips on organizing a Sass project from scratch. John discusses a solid strategy to setting up all of your typographic elements from Compass' reset. I'm planning to implement this into boompah.com when it makes sense, it'll be a decent workaround from where I'm currently at with Bourbon and font styles I've established.</p>
       </li>
     </ul>
     <h3>06.14.2014 - Sass - Exploring Bourbon and Compass</h3>
     <ul>
-      <li><a href="http://bourbon.io/docs/" title="Bourbon Documentation" target="_blank">Bourbon Documentation</a> - The powers of Bourbon!
+      <li><a class="bold" href="http://bourbon.io/docs/" title="Bourbon Documentation" target="_blank">Bourbon Documentation</a> - The powers of Bourbon!
         <ul>
           <li>After a few hours of research on <a href="http://stackoverflow.com/questions/7666572/compass-vs-bourbon-frameworks" title="Compass vs Bourbon Frameworks" target="_blank">Compass vs Bourbon</a>, I've decided to stick with Bourbon for SASS mixins. It's a touch more simple than Compass and all that I need really. I also went through the install process and found it quite restrictive in comparison to Bourbon. Making them playing nicely together would've required some workaround.
           </li>
         </ul>
       </li>
-      <li><a href="http://thesassway.com/intermediate/leveraging-sass-mixins-for-cleaner-code" title="Leveraging Sass mixins for cleaner code" target="_blank">Leveraging Sass mixins for cleaner code</a> - Remember to set defaults in mixins when nessessary:
+      <li><a class="bold" href="http://thesassway.com/intermediate/leveraging-sass-mixins-for-cleaner-code" title="Leveraging Sass mixins for cleaner code" target="_blank">Leveraging Sass mixins for cleaner code</a> - Remember to set defaults in mixins when nessessary:
         <pre class="language-scss">
           <code class="language-scss">
             $default-border-radius: 5px !default;
@@ -188,7 +176,7 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
       <li><a href="http://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/" title="Simple and Nice Blockquote Styling" target="_blank">Simple and Nice Blockquote Styling</a> - I decided to add blockquotes to this page and was looking for a quick fix. Presto! Thanks Chris.</li>
       <li><a href="http://sass-lang.com/documentation/file.SASS_REFERENCE.html#function_directives" title="Sass Documention - Function Directives">Sass Documention - Function Directives</a></li>
       <ul>
-        <li><strong>Function Example</strong>
+        <li><span class="bold">Function Example</span>
           <pre class="language-scss">
             <code class="language-scss">
               $grid-width: 40px;
@@ -209,7 +197,7 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
           </pre>
         </li>
       </ul>
-      <li><strong>Interpoloatoin</strong>
+      <li><span class="bold">Interpolation</span>
         <pre class="language-scss">
           <code class="language-scss">
             $name: foo;
@@ -226,7 +214,7 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
           </code>
         </pre>
       </li>
-      <li><strong>Inline Functions</strong>
+      <li><span class="bold">Inline Functions</span>
         <pre class="language-scss">
           <code class="language-scss">
             p {
@@ -246,7 +234,7 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
           </code>
         </pre>
       </li>
-      <li><strong>Use <code class="language-scss">#{}</code> to put SassScript into property values.</strong>
+      <li><span class="bold">Use <code class="language-scss">#{}</code> to put SassScript into property values.</span>
         <pre class="language-scss">
           <code class="language-scss">
             p {
@@ -311,7 +299,7 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
         </pre>
       </li>
       <li>
-        <strong>Arguments</strong>
+        <span class="bold">Arguments</span>
         <p>Mixins can take arguments SassScript values as arguments, which are given when the mixin is included and made available within the mixin as variables</p>
         <p>When defining and mixin, the arguments are written as variable names separated by commas, all in parentheses after the name. Then when including the mixin, values can be passed in the same manner.</p>
         <pre class="language-scss">
@@ -346,7 +334,7 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
         </pre>
       </li>
       <li>
-        <strong>Variable Arguments</strong>
+        <span class="bold">Variable Arguments</span>
         <pre class="language-scss">
           <code class="language-scss">
             @mixin box-shadow($shadows...) {
@@ -425,7 +413,7 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
         </pre>
       </li>
       <li>
-        <strong>Passing Content Blocks to a <code class="language-scss">@mixin</code></strong>
+        <span class="bold">Passing Content Blocks to a <code class="language-scss">@mixin</code></span>
         <pre class="language-scss">
           <code class="language-scss">
             @mixin apply-to-about-only {
@@ -447,7 +435,7 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
           </code>
         </pre>
       </li>
-      <li><strong>Variable Scope and Content Blocks</strong>
+      <li><span class="bold">Variable Scope and Content Blocks</span>
         <pre class="language-scss">
           <code class="language-scss">
             $color: black;
@@ -479,7 +467,7 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
         <p><a href="http://css-tricks.com/how-nth-child-works/" title="How nth-child Works" target="_blank">How nth-child Works - CSS Tricks</a> - This pseudo-class selector matches elements on the basis of their positions within a parent element’s list of child elements. A very handy <a href="http://css-tricks.com/examples/nth-child-tester/" title=":nth Tester by CSS Tricks." target="_blank">:nth Tester by CSS Tricks.</a></p>
       </li>
       <li><a href="http://www.sitepoint.com/web-foundations/understanding-nth-child-pseudo-class-expressions/" title="Understanding :nth-child Pseudo-class Expressions - Site Point" target="_blank">Understanding :nth-child Pseudo-class Expressions - Site Point</a>
-        <p><strong>:nth-child(N)</strong></p>
+        <p><span class="bold">:nth-child(N)</span></p>
         <pre class="language-css">
           <code class="language-css">
             // numbers
@@ -503,7 +491,7 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
             }
           </code>
         </pre>
-        <p><strong>:nth-last-child(N)</strong></p>
+        <p><span class="bold">:nth-last-child(N)</span></p>
         <pre class="language-css">
           <code class="language-css">
             // This example selector will match the last four list items in any list, be it ordered or unordered:
@@ -512,7 +500,7 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
             }
           </code>
         </pre>
-        <p><strong>:nth-of-type(N)</strong></p>
+        <p><span class="bold">:nth-of-type(N)</span></p>
         <pre class="language-css">
           <code class="language-css">
             // The following example selector matches the second, fifth, eighth, and so on, paragraphs in a div element, ignoring any children that aren’t paragraphs:
@@ -529,7 +517,7 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
             }
           </code>
         </pre>
-        <p><strong>:nth-last-of-type(N)</strong></p>
+        <p class="bold">:nth-last-of-type(N)</p>
         <pre class="language-css">
           <code class="language-css">
             // The following example selector will match the last three image elements that are children of the element whose id attribute value matches "gallery":
@@ -627,7 +615,7 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
             body :not(p) { color: green; }
           </code>
         </pre>
-        <strong>Markup:</strong>
+        <span class="bold">Markup:</span>
         <pre class="language-markup">
           <code class="language-markup">
             &lt;p&gt;Check out this Markup&lt;/p&gt;
@@ -635,7 +623,7 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
             &lt;span&gt;Oh yeeeeeah!&lt;/span&gt;
           </code>
         </pre>
-        <p><strong>Will compile to:</strong></p>
+        <p class="bold">Will compile to:</p>
         <p style="color: red;">Check out this Markup</p>
         <p>One mo time<p>
         <span style="color: green;">Oh yeeeeeah!</span></p>
@@ -643,13 +631,13 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
       <li>
         <a href="http://css-tricks.com/how-nth-child-works/" title="Efficiently Rendering CSS" target="_blank">Efficiently Rendering CSS - CSS Tricks</a>
         <ul>
-          <li><strong>Right to Left</strong> - One of the important things to understand about how browsers read your CSS selectors, is that they read them from right to left.</li>
+          <li><span class="bold">Right to Left</span> - One of the important things to understand about how browsers read your CSS selectors, is that they read them from right to left.</li>
           <li>ID's are the most efficient, Universal are the least</li>
-          <li><strong>Don't tag-qualify</strong>Never do this: ul#main-navigation { } - ID's are unique, so they don't need a tag name to go along with it. Doing so makes the selector less efficient.</li>
+          <li><span class="bold">Don't tag-qualify</span>Never do this: ul#main-navigation { } - ID's are unique, so they don't need a tag name to go along with it. Doing so makes the selector less efficient.</li>
           <li>Descendant selectors are the worst</li>
-          <li><strong>Consider why you are writing the selector</strong> - things like <code class="language-css">font-family</code> will cascade down various elements from an ul to an a.</li>
+          <li><span class="bold">Consider why you are writing the selector</span> - things like <code class="language-css">font-family</code> will cascade down various elements from an ul to an a.</li>
           <li>
-            <strong>CSS3 and Efficiency</strong> - sad news from David Hyatt:
+            <span class="bold">CSS3 and Efficiency</span> - sad news from David Hyatt:
             <blockquote>The sad truth about CSS3 selectors is that they really shouldn’t be used at all if you care about page performance.</blockquote>
           </li>
         </ul>
@@ -822,7 +810,7 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
           <li>Define a placeholder selector like this:<br />
             <pre><code class="language-scss">%selector-name { // styles }</code></pre>
           </li>
-          <li><strong>Limitations:</strong> <code class="language-scss">@extend</code> applied to placeholder selectors does not work between rules in different <code class="language-scss">@media</code> blocks</li>
+          <li><span class="bold">Limitations:</span> <code class="language-scss">@extend</code> applied to placeholder selectors does not work between rules in different <code class="language-scss">@media</code> blocks</li>
           <li>The key difference between <code class="language-scss">@extend</code> and <code class="language-scss">@include</code> is how it generates CSS. <code class="language-scss">@extend</code> may be applied to several selectors within a single set of attributes. <code class="language-scss">@include</code> will render separately under each specified selector.</li>
         </ul>
       </li>
@@ -850,7 +838,7 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
         </pre>
       </li>
       <li>
-        <strong>HTML5:</strong> <code class="language-markup">&lt;figure&gt;</code> - I noticed that <a href="http://thesassway.com/beginner/how-to-structure-a-sass-project" target="_blank">John Long's SASS structure</a> included a file for figures under the partials directory. After a quick google, I realized the figure element was introduced in HTML5. The figure element is typically used for <em>“an image, an illustration, a diagram, a code snippet, or a schema that is referenced in the main text, but that can be moved to another page or to an appendix without affecting the main flow.”</em><br />
+        <span class="bold">HTML5:</span> <code class="language-markup">&lt;figure&gt;</code> - I noticed that <a href="http://thesassway.com/beginner/how-to-structure-a-sass-project" target="_blank">John Long's SASS structure</a> included a file for figures under the partials directory. After a quick google, I realized the figure element was introduced in HTML5. The figure element is typically used for <em>“an image, an illustration, a diagram, a code snippet, or a schema that is referenced in the main text, but that can be moved to another page or to an appendix without affecting the main flow.”</em><br />
         <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure" target="_blank">Source: &lt;figure&gt; HTML | MDN</a>
       </li>
     </ul>
