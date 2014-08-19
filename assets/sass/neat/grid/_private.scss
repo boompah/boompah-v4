@@ -24,7 +24,7 @@ $layout-direction: nil !default;
   @if $columns != $grid-columns {
     $parent-columns: $columns;
   } @else {
-    $parent-columns: $grid-columns !global;
+    $parent-columns: $grid-columns;
   }
 
   @return $parent-columns;
@@ -40,11 +40,4 @@ $layout-direction: nil !default;
   }
 
   @return $display-table;
-}
-
-@function get-padding-for-table-layout($columns, $total-columns) {
-  $total-padding: flex-gutter($total-columns) * ($columns - 1);
-  $padding: $total-padding / $columns;
-
-  @return $padding;
 }
