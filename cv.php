@@ -8,7 +8,7 @@
   <div class="full-content">
     <div class="profile-info">
       <h2>Ryan Bollenbach</h2>
-      <h4>Interface Designer &amp; Coder</h4>
+      <h4>UI Designer and Sass Magician</h4>
       <p>204 807 0619 // <a href="mailto:ryan@boompah.com">ryan@boompah.com</a></p>
       <p><a href="http://boompah.com">boompah.com</a></p>
     </div>

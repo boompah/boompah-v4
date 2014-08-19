@@ -146,7 +146,7 @@
         </h3>
       </div>
       <div class="timeline-bar">
-        <span class="date">Oct. 2012</span>
+        <span class="date">Oct 2012</span>
         <h3>
           <span class="event">Bought my first car, 2012 Honda Civic</span>
           <i class="icon-truck"></i>
@@ -171,6 +171,13 @@
         <h3>
           <span class="event">Switched back to an iPhone 5s</span>
           <i class="icon-apple"></i>
+        </h3>
+      </div>
+      <div class="timeline-bar baby-blue__bg">
+        <span class="date">Jul 2014</span>
+        <h3>
+          <span class="event">Kicked off Mograph TV</span>
+          <i class="icon-building"></i>
         </h3>
       </div>
     </div>

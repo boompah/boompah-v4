@@ -43,14 +43,12 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
 </div>
 <div class="container">
   <div class="row">
-    <h3>06.26.2014 - One Month w00!</h3>
-    <h3>06.25.2014</h3>
-    <h3>06.24.2014</h3>
-    <h3>06.23.2014</h3>
-    <h3>06.22.2014</h3>
-    <h3>06.21.2014</h3>
-    <h3>06.20.2014</h3>
-    <h3>06.19.2014</h3>
+    <h3>08.04.2014</h3>
+    <ul>
+      <li>Semantic - We name items based on what they do, not what they look like. I'm guility of using colors in button names but, this could easily be extended.</li>
+      <li><a href="http://playbook.thoughtbot.com/" title="PLAYBOOK - Written by Thoughtbot" target="_blank">PLAYBOOK - Written by Thoughtbot</li>
+    </ul>
+    <h3>06.26.2014 - CASL</h3>
     <ul>
       <li>
         <p><a href="http://www.lashback.com/what-you-need-to-know-about-casl/">What You Need to Know About CASL</a> - A lot of people have been discussing their concerns with CASL. From what I've read, it mainly applies to people who have illegitimately recieved emails or are trying to install something onto your computer.</p>
@@ -60,9 +58,6 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
         <p>Another great resource: <a href="http://business.financialpost.com/2014/05/28/will-you-be-in-compliance-with-canadas-new-anti-spam-legislation-come-july-1/" title="Will you be in compliance with Canada’s new anti-spam legislation come July 1?" target="_blank">Will you be in compliance with Canada’s new anti-spam legislation come July 1?</a>
       </li>
     </ul>
-    <h3>06.18.2014</h3>
-    <h3>06.17.2014</h3>
-    <h3>06.16.2014</h3>
     <h3>06.15.2014 - Modular CSS</h3>
     <ul>
       <li>
