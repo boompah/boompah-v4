@@ -7,7 +7,7 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
 <div class="container">
   <h1><span class="light-base-header">学习新的东西每天</span><br />
   Learn Something New Everyday</h1>
-  <p> On June 6<sup>th</sup>, 2014 I decided to take on the challenge to learn something new everyday for at least one year. Regardless of how big or small, I'm using this page to track articles I read and things I learn. In parallel to learning, I plan to implement new ideas into my current projects! Fun stuff.</p>
+  <p>I like to take notes on articles I read and decided to create a page for them!</p>
 </div>
 <div class="row">
   <div class="container">
@@ -21,7 +21,7 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
      </ul>
     </div>
     <div class="half">
-      <h3>Topics I Want to Explore</h3>
+      <h3>Topics I Explore</h3>
       <p class="bold">Current Focus: SASS &amp; CSS</p>
       <ul>
         <li><span class="bold">Growth:</span> Business &amp; Product Development</li>
@@ -43,10 +43,22 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
 </div>
 <div class="container">
   <div class="row">
+    <h3>08.29.2014</h3>
+    <ul>
+      <li>
+        <a href="http://www.theguardian.com/info/developer-blog/2014/may/13/improving-sass-code-quality-on-theguardiancom" title="Improving Sass code quality on theguardian.com">Improving Sass code quality on theguardian.com</a>
+        <ul>
+          <li>Some great points covered about code quality.</li>
+          <li><a href="https://github.com/causes/scss-lint" Title="scss-lint">scss-lint - Configurable tool for writing clean and consistent SCSS</a></li>
+          <li>Lint your Sass codebase with your own coding conventions</li>
+          <li>Automation with <a href="https://github.com/ahmednuaman/grunt-scss-lint" title="grunt-scss-lint">grunt-scss-lint</a></li>
+        </ul>
+      </li>
+    </ul>
     <h3>08.04.2014</h3>
     <ul>
       <li>Semantic - We name items based on what they do, not what they look like. I'm guility of using colors in button names but, this could easily be extended.</li>
-      <li><a href="http://playbook.thoughtbot.com/" title="PLAYBOOK - Written by Thoughtbot" target="_blank">PLAYBOOK - Written by Thoughtbot</li>
+      <li><a href="http://playbook.thoughtbot.com/" title="PLAYBOOK - Written by Thoughtbot" target="_blank">PLAYBOOK - Written by Thoughtbot</a></li>
     </ul>
     <h3>06.26.2014 - CASL</h3>
     <ul>
