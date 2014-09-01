@@ -43,7 +43,7 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
 </div>
 <div class="container">
   <div class="row">
-    <h3>08.29.2014</h3>
+    <h3>08.29.2014 - SASS Lint</h3>
     <ul>
       <li>
         <a href="http://www.theguardian.com/info/developer-blog/2014/may/13/improving-sass-code-quality-on-theguardiancom" title="Improving Sass code quality on theguardian.com">Improving Sass code quality on theguardian.com</a>
@@ -855,13 +855,6 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
       <li>Using semantic variable names - <a href="http://thesassway.com/beginner/variable-naming" title="Choosing great variable names" target="_blank">source</a></li>
       <li><a href="http://thesassway.com/beginner/how-to-structure-a-sass-project" title="How to structure a SASS project" target="_blank">How to structure a SASS project</a> - implemented SASS structure into boompah.com</li>
       <li><a href="http://thesassway.com/beginner/the-inception-rule" title="Nested selectors: the inception rule" target="_blank">Nested selectors: the inception rule</a></li>
-
-    </ul>
-    <h3>Todo Items</h3>
-    <ul>
-      <li>Create a new header</li>
-      <li>Create a sidebar menu</li>
-      <li>Create a SASS cleanup plan for Edison Nation</li>
     </ul>
   </div>
 </div>
