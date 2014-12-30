@@ -22,11 +22,12 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
     </div>
     <div class="half">
       <h3>Topics I Explore</h3>
-      <p class="bold">Current Focus: SASS &amp; CSS</p>
+      <p class="bold">Current Focus: Sass and Crypto</p>
       <ul>
         <li><span class="bold">Growth:</span> Business &amp; Product Development</li>
         <li><span class="bold">Development:</span> SASS, HTML, Javascript, Angular</li>
         <li><span class="bold">Design:</span> UX Design, Mobile App Design</li>
+        <li><span class="bold">Crypto:</span> BTC, Startups, Culture, Consulting</li>
         <li><span class="bold">Social:</span> Facebook, Twitter, Google+, Youtube</li>
       </ul>
     </div>

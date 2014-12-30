@@ -15,7 +15,7 @@
 </div><?php // masthead-wrapper home ?>
 <div class="container showcase">
   <div class="row">
-    <img src="/img/about/ryan-sydney-circle.jpg" title="Photo of Ryan" alt="Photo of Ryan" />
+    <img src="/img/about/ryan-sydney-circle.jpg" title="Photo of Ryan" alt="Photo of Ryan" class="about-profile-photo" />
     <h2 class="main-name">Ryan<br />
     Bollenbach</h2>
     <p class="cv-cta"><a href="/cv"><i class="fa fa-file"></i>Check out my CV</a></p>
@@ -173,11 +173,11 @@
           <i class="icon-apple"></i>
         </h3>
       </div>
-      <div class="timeline-bar baby-blue__bg">
-        <span class="date">Jul 2014</span>
+      <div class="timeline-bar">
+        <span class="date">Oct 2014</span>
         <h3>
-          <span class="event">Kicked off Mograph TV</span>
-          <i class="icon-building"></i>
+          <span class="event">Upgraded to an iPhone 6+</span>
+          <i class="icon-apple"></i>
         </h3>
       </div>
     </div>
