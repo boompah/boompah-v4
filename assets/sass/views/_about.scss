@@ -112,7 +112,7 @@ a.timeline-bar {
 	text-decoration: none;
 }
 
-//Custom Colours
+// Custom Colours
 .timeline-bar.baby-blue__bg { background-color: $baby-blue; color: $white; }
 .timeline-bar.baby-blue__bg:hover { background-color: darken($baby-blue, 10%); }
 .timeline-bar.baby-blue__bg:active { background-color: lighten($baby-blue, 5%); }
@@ -128,27 +128,18 @@ a.timeline-bar {
 
 .tungle-green__bg { background-color: $tungle-green; color: $white; }
 
-//Food Porn
+// ----------
+// Adding CSS to round profile photo
+// ----------
 
-.food-porn {
-	background-color: lighten($black, 95%);
-	border-top: 1px solid lighten($black, 85%);
-	padding: 100px 0 200px 0;
-	@include respond-to(handhelds-and-medium-screens) { padding: 80px 0 40px 0; }
+.about-profile-photo {
+	width: 420px;
+	height: 420px;
+	border-radius: 50%;
+	@include respond-to(large-screens) {
 
-	.panel-block {
-		background: none;
-		border: none;
-		@include respond-to(handhelds-and-medium-screens) {
-			height: 333px;
-			margin-bottom: 20px;
-		}
 	}
-	img {
-		border: 2px solid $white;
-		width: 100%;
-		@include respond-to(handhelds-and-medium-screens) {
-			width: 333px;
-		}
+	@include respond-to(handhelds-and-medium-screens) {
+
 	}
 }
