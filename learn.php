@@ -1,34 +1,34 @@
 <?php
 $page = learn;
-$title = 'Learn Something New Everyday';
+$title = 'The Knowledge Cavern';
 $description = 'Boompah is a User Interface &amp; Development Boutique founded by Ryan Bollenbach and based in Winnipeg, Canada.';
 ?>
 <?php include 'inc/header.php' ?>
 <div class="container">
   <h1><span class="light-base-header">学习新的东西每天</span><br />
-  Learn Something New Everyday</h1>
-  <p>I like to take notes on articles I read and decided to create a page for them!</p>
+  The Knowledge Cavern</h1>
+  <p>I like to take notes on articles and books I read and decided to create a page for them!<br />
+    Previously known as <em>Learn Something New Everyday</em></p>
 </div>
 <div class="row">
   <div class="container">
     <div class="half">
       <h3>Motivational Quotes</h3>
-      <ul>
+      <ol>
+        <li><em>"Successful people do the things unsuccessful people don't want to do" - Anonymous</em></li>
+        <li><em>“I fear not the man who has practiced 10,000 kicks once, but I fear the man who has practiced one kick 10,000 times.” -Bruce Lee</em></li>
         <li><em>“Work like there is someone working twenty-four hours a day to take it all away from you.” -Mark Cuban</em></li>
         <li><em>“Strive not to be a success, but rather to be of value.” –Albert Einstein</em></li>
-        <li><em>“I fear not the man who has practiced 10,000 kicks once, but I fear the man who has practiced one kick 10,000 times.” -Bruce Lee</em>
-        </li>
-     </ul>
+     </ol>
     </div>
     <div class="half">
       <h3>Topics I Explore</h3>
-      <p class="bold">Current Focus: Sass and Crypto</p>
+      <p><strong>Current Focus:</strong> Pragmatic Programming</p>
       <ul>
         <li><span class="bold">Growth:</span> Business &amp; Product Development</li>
-        <li><span class="bold">Development:</span> SASS, HTML, Javascript, Angular</li>
+        <li><span class="bold">Development:</span> SASS, HTML, Javascript</li>
         <li><span class="bold">Design:</span> UX Design, Mobile App Design</li>
-        <li><span class="bold">Crypto:</span> BTC, Startups, Culture, Consulting</li>
-        <li><span class="bold">Social:</span> Facebook, Twitter, Google+, Youtube</li>
+        <li><span class="bold">Social:</span> Instagram, Facebook, Twitter, Youtube</li>
       </ul>
     </div>
   </div>

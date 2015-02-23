@@ -8,26 +8,23 @@
   <div class="full-content">
     <div class="profile-info">
       <h2>Ryan Bollenbach</h2>
-      <h4>UI Designer and Sass Magician</h4>
+      <h4>UI Designer and Front-end Developer</h4>
       <p>204 807 0619 // <a href="mailto:ryan@boompah.com">ryan@boompah.com</a></p>
       <p><a href="http://boompah.com">boompah.com</a></p>
     </div>
-
-    <h3>Personal</h3>
-
-    <p>I enjoy working independently and I love collaborating with a team. I devour criticism and expect radical honesty when asking for feedback.</p>
-    <p>I have a strong ability to juggle multiple projects and tasks concurrently and handle project/situational changes.</p>
-    <p>I stay abreast of innovations in UX best practices, tools and topics of interest to the UX community and help to infuse them back into projects.</p>
-    <p>Pragmatic, open-minded approach to problem-solving.</p>
-
-    <h3>Career Objectives</h3>
-
+    <h3>Objectives</h3>
     <ul>
       <li>Help brands tell their story through responsive web design, web applications and social media strategy.</li>
       <li>Grow with a solid team and deliver awesome products.</li>
       <li>Play a primary role in the UX of iOS or Android applications.</li>
       <li>Continue to improve remote workflow and collaboration.</li>
     </ul>
+
+    <h3>Personal Profile</h3>
+    <p>I enjoy working independently and I love collaborating with a team. I devour criticism and expect radical honesty when asking for feedback.</p>
+    <p>I have a strong ability to juggle multiple projects and tasks concurrently and handle project/situational changes.</p>
+    <p>I stay abreast of innovations in UX best practices, tools and topics of interest to the UX community and help to infuse them back into projects.</p>
+    <p>Pragmatic, open-minded approach to problem-solving.</p>
 
     <h3>Skills</h3>
     <ul>

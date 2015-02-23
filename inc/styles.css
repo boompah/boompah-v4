@@ -885,8 +885,7 @@ body.about {
     padding: 40px 20px; }
     body.about .container.showcase img {
       margin-top: 20px;
-      float: left;
-      width: 40%; }
+      float: left; }
       @media only screen and (max-width: 767px) {
         body.about .container.showcase img {
           width: 40%;
@@ -1017,26 +1016,8 @@ a.timeline-bar {
   background-color: #9ac146;
   color: #FFF; }
 
-.food-porn {
-  background-color: #f2f2f2;
-  border-top: 1px solid #d9d9d9;
-  padding: 100px 0 200px 0; }
-  @media only screen and (max-width: 767px) {
-    .food-porn {
-      padding: 80px 0 40px 0; } }
-  .food-porn .panel-block {
-    background: none;
-    border: none; }
-    @media only screen and (max-width: 767px) {
-      .food-porn .panel-block {
-        height: 333px;
-        margin-bottom: 20px; } }
-  .food-porn img {
-    border: 2px solid #FFF;
-    width: 100%; }
-    @media only screen and (max-width: 767px) {
-      .food-porn img {
-        width: 333px; } }
+.about-profile-photo {
+  border-radius: 50%; }
 
 body.bitcoin .main-content {
   text-align: center; }

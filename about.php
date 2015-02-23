@@ -15,7 +15,7 @@
 </div><?php // masthead-wrapper home ?>
 <div class="container showcase">
   <div class="row">
-    <img src="/img/about/ryan-sydney-circle.jpg" title="Photo of Ryan" alt="Photo of Ryan" class="about-profile-photo" />
+    <img src="/img/about/about-profile-photo.jpg" title="About - Profile Photo" alt="Photo of Ryan Bollenbach" class="about-profile-photo" />
     <h2 class="main-name">Ryan<br />
     Bollenbach</h2>
     <p class="cv-cta"><a href="/cv"><i class="fa fa-file"></i>Check out my CV</a></p>
@@ -23,9 +23,8 @@
   <div class="row timeline">
     <div class="half">
       <h3>My Timeline</h3>
-          <p>I'm grateful to have experienced a lot of awesome things in my life, below are some events I'd like to share with you.</p>
-        </div>
-    </div><?php // row ?>
+      <p>I'm grateful to have experienced a lot of awesome things in my life, below are some events I'd like to share with you.</p>
+    </div><?php // half ?>
     <div class="row">
       <div class="timeline-bar red__bg">
         <span class="date">Nov 1987</span>
