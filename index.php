@@ -9,7 +9,7 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
     <div class="main-headline">
       <h1>Responsive Websites<br /> &amp; Mobile App Design for Awesome Brands</h1>
       <h3>We strive for a beautiful UX on every project.</h3>
-      <a href="/contact" class="btn btn-soft-purple btn-cta">Request a Quote<i class="fa fa-arrow-circle-o-right"></i></a>
+      <!--<a href="/contact" class="btn btn-soft-purple btn-cta">Request a Quote<i class="fa fa-arrow-circle-o-right"></i></a>-->
     </div>
   </div>
 </div><?php // masthead-wrapper home ?>
