@@ -9,11 +9,11 @@ body {
   padding: 0;
   color: #191919; }
   body ::selection {
-    background: #CC0000;
+    background: #DA1C5C;
     /* Safari */
     color: #FFF; }
   body ::-moz-selection {
-    background: #CC0000;
+    background: #DA1C5C;
     /* Firefox */
     color: #FFF; }
 
@@ -407,9 +407,19 @@ footer a:hover {
   text-decoration: none;
   color: #cc1514; }
 
-@media only screen and (max-width: 767px) {
-  header#top .primary.container {
-    padding: 0; } }
+header#top .primary.container {
+  padding: 20px 0; }
+  @media only screen and (max-width: 767px) {
+    header#top .primary.container {
+      padding: 10px 0; } }
+header#top .logo {
+  margin: 15px 0 0 20px;
+  width: 168px;
+  height: 40px; }
+  @media only screen and (max-width: 767px) {
+    header#top .logo {
+      width: 130px;
+      height: auto; } }
 
 nav.primary {
   max-width: 68em;

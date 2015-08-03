@@ -1,15 +1,17 @@
 <?php
 $page = home;
-$title = 'Responsive Web Design and User Experience';
+$title = 'UI/UX Designer';
 $description = 'Boompah is a User Interface &amp; Development Boutique founded by Ryan Bollenbach and based in Winnipeg, Canada.';
 ?>
 <?php include 'inc/header.php' ?>
 <div id="masthead-wrapper">
   <div class="container">
     <div class="main-headline">
-      <h1>Responsive Websites<br /> &amp; Mobile App Design for Awesome Brands</h1>
-      <h3>We strive for a beautiful UX on every project.</h3>
-      <!--<a href="/contact" class="btn btn-soft-purple btn-cta">Request a Quote<i class="fa fa-arrow-circle-o-right"></i></a>-->
+      <h1>
+        Welcome to the UI/UX portfolio of<br />
+        Ryan Bollenbach.
+      </h1>
+      <a href="/contact" class="btn btn-soft-purple btn-cta">Request a Quote<i class="fa fa-arrow-circle-o-right"></i></a>
     </div>
   </div>
 </div><?php // masthead-wrapper home ?>
@@ -23,7 +25,7 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
             <img src="/img/featured-work/diamond.png" alt="Diamond" title="Diamond" />
           </div>
         </a>
-        <p><a href="http://ice.com" target="_blank" title="Online Jewelry Shop">Diamond.com (sister site of ice.com)</a></p>
+        <p><a href="http://ice.com" target="_blank" title="Online Jewelry Shop"></a></p>
       </div>
       <div class="panel">
         <a href="http://2m2.ca" target="_blank" title="2M2, Montreal Art Collective">
@@ -31,7 +33,7 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
             <img src="/img/featured-work/2m2.png" alt="2m2" title="2m2" />
           </div>
         </a>
-        <p><a href="http://2m2.ca" target="_blank" title="2M2, Montreal Art Collective">2M2, Montreal Art Collective</a></p>
+        <p><a href="http://2m2.ca" target="_blank" title="2M2, Montreal Art Collective"></a></p>
       </div>
       <div class="panel last">
         <a href="http://hollywoodpq.com" target="_blank" title="Hollywood PQ">
@@ -39,7 +41,7 @@ $description = 'Boompah is a User Interface &amp; Development Boutique founded b
             <img src="/img/featured-work/hollywoodpq.png" alt="Hollywood PQ" title="Hollywood PQ" />
           </div>
         </a>
-        <p><a href="http://2m2.ca" target="_blank" title="2M2, Montreal Art Collective">Quebec based Hollywood gossip blog</a></p>
+        <p><a href="http://2m2.ca" target="_blank" title="2M2, Montreal Art Collective"></a></p>
       </div>
     </div><?php // row ?>
   </div><?php // container ?>

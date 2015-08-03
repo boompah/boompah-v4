@@ -9,11 +9,11 @@ body{
   padding: 0;
   color: $base-text;
   ::selection {
-    background: #CC0000; /* Safari */
+    background: $primary-brand; /* Safari */
     color: $white;
     }
   ::-moz-selection {
-    background: #CC0000; /* Firefox */
+    background: $primary-brand; /* Firefox */
     color: $white;
   }
 }
@@ -40,9 +40,9 @@ ul {
 
 .container {
   padding: 0 1.2em;
-  
+
   @include outer-container;
-  
+
   h2 {
     text-align: center;
     font-size: 2em;
@@ -52,13 +52,13 @@ ul {
     line-height: 1em;
     padding: .5em 0;
   }
-  
+
 } // container
 
 .half {
   @include span-columns(6);
   text-align: left;
-  @include respond-to(handhelds-and-medium-screens) { 
+  @include respond-to(handhelds-and-medium-screens) {
     width: 100%;
   }
 }
@@ -66,7 +66,7 @@ ul {
 #masthead-wrapper {
   padding: 40px 0 60px 0;
   text-align: center;
-  
+
   h1 {
     margin: 0;
     display: block;
@@ -80,7 +80,7 @@ ul {
     font-weight: 700;
     letter-spacing: 2px;
   }
-  
+
   h3 {
     font-weight: 200;
     font-size: 1.75em;
@@ -91,7 +91,7 @@ ul {
       text-align: left;
     }
   }
-  
+
 } // masthead-wrapper
 
 // ---------------------------------------------------------------------
@@ -133,28 +133,28 @@ a.button:active { background-color: darken($link-blue, 10%); }
 .showcase {
   text-align: center;
   padding-bottom: 40px;
-  
+
   .clients {
     @include span-columns(3);
     text-align: left;
   }
-  
+
   .link-split {
     color: #999999;
     margin: 0 15px;
   }
-  
+
   .row {
     margin-bottom: 30px;
     display: inline-block;
     width: 100%;
     clear: both;
   }
-  
+
   .cta{
     text-transform: uppercase;
   }
-  
+
   a.button{
     margin: .5em 0;
     display: inline-block;
@@ -163,10 +163,10 @@ a.button:active { background-color: darken($link-blue, 10%); }
     @include border-left-radius(25px);
     @include border-right-radius(25px);
   }
-  
+
   .panel {
     @include span-columns(4);
-    @include respond-to(handhelds-and-medium-screens) { 
+    @include respond-to(handhelds-and-medium-screens) {
       width: 100%;
       }
     }
@@ -187,7 +187,7 @@ a.button:active { background-color: darken($link-blue, 10%); }
     margin: 10px 0 0 0;
   }
   .left, .right { @include span-columns(6); }
-  .left { 
+  .left {
     h2 { text-align: right; padding-right: 20px; }
     .arrow-up {
       float: right;
@@ -200,13 +200,13 @@ a.button:active { background-color: darken($link-blue, 10%); }
   .right {
       h2 { text-align: left; }
       .arrow-up { float: left; margin-left: 15%; }
-    } 
+    }
   .selected { font-weight: 500; }
 
   a { text-decoration: none; }
 
   .arrow-up {
-    width: 0; 
+    width: 0;
     height: 0;
     clear: both;
     border-left: 20px solid transparent;
@@ -237,7 +237,7 @@ a.button:active { background-color: darken($link-blue, 10%); }
   text-align: center;
 }
 
-@include respond-to(handhelds-and-medium-screens) { 
+@include respond-to(handhelds-and-medium-screens) {
   .hidden-mobile { display: none; }
 }
 
