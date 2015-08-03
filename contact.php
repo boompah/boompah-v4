@@ -39,7 +39,6 @@
       </div>
     </div>
     <div class="row contact-details">
-      <h2>Say Hello</h2>
       <div class="panel">
         <i class="icon-phone"></i>
         <p>204 807 0619</p>
@@ -50,7 +49,7 @@
       </div>
       <div class="panel">
         <a href="mailto:hello@boompah.com" title="Email us"><i class="icon-envelope"></i></a>
-        <p><a href="mailto:hello@boompah.com" title="Email us">hello@boompah.com</a></p>
+        <p><a href="mailto:ryan@boompah.com" title="Email us">ryan@boompah.com</a></p>
       </div>
     </div>
   </div>

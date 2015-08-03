@@ -3,27 +3,26 @@ body.about {
 		background-color: $black;
 	}
 	#masthead-wrapper{
-		h1, h3 {
+		h1 {
+			color: $primary-brand;
+		}
+		h3 {
 			color: $white;
 		}
 	}
 	.container.showcase {
 		padding: 40px 20px;
+		.profile-photo {
+			text-align: center;
+		}
 		img {
-			margin-top: 20px;
-			float: left;
+			margin: 20px 0;
 			@include respond-to(handhelds-and-medium-screens) { width: 40%; float: none;}
-
 			@include respond-to(medium-screens) { width: 50%; }
 			@include respond-to(handhelds) { width: 80%; }
 		}
-		.cv-cta {
-			i {
-				margin-right: 10px;
-			}
-		}
 		.main-name {
-			font-size: 6em;
+			font-size: 3em;
 			@include respond-to(large-screens) { font-size: 4.5em; }
 			@include respond-to(medium-screens) { font-size: 3em; }
 			@include respond-to(handhelds) { font-size: 2em; }
@@ -36,9 +35,8 @@ body.about {
 				@include respond-to(handhelds-and-medium-screens) { display: none; }
 			}
 		}
-		.cv-cta,
 		.main-name {
-			text-align: right;
+			padding: 0;
 		}
 	}
 	/* Testimonials */
@@ -56,9 +54,10 @@ body.about {
 	background-color: lighten($black, 95%);
 	clear: both;
 	text-align: left;
+	color: $primary-brand;
 
 	@include transition (all 0.35s ease-in-out);
-	
+
 	@include border-left-radius(8px);
 	@include border-right-radius(8px);
 
@@ -72,7 +71,7 @@ body.about {
 		@include respond-to(handhelds-and-medium-screens) { padding: 0 8px; }
 	}
 
-	.date { 
+	.date {
 		width: 5em;
 		margin-right: .5em;
 		text-align: center;
@@ -81,7 +80,7 @@ body.about {
 		background-color: $black;
 		color: $white;
 		font-weight: 200;
-		font-size: 37px;	
+		font-size: 38px;
 
 		@include border-left-radius(8px);
 
@@ -94,7 +93,7 @@ body.about {
 
 	}
 
-	i { 
+	i {
 		margin: 0px 20px 0 0;
 		float: right;
 		@include respond-to(handhelds-and-medium-screens) { display: none; }
@@ -112,20 +111,8 @@ a.timeline-bar {
 }
 
 // Custom Colours
-.timeline-bar.baby-blue__bg { background-color: $baby-blue; color: $white; }
-.timeline-bar.baby-blue__bg:hover { background-color: darken($baby-blue, 10%); }
-.timeline-bar.baby-blue__bg:active { background-color: lighten($baby-blue, 5%); }
-
-.timeline-bar.red__bg { background-color: $red; color: $white; }
-
-.timeline-bar.android__bg { background-color: $android-green; color: $white; }
-.timeline-bar.xbox__bg { background-color: $xbox-green; color: $white; }
-
-.timeline-bar.deviantart-green__bg { background-color: $deviantart-green; color: $white; }
-.timeline-bar.deviantart-green__bg:hover { background-color: darken($deviantart-green, 10%); }
-.timeline-bar.deviantart-green__bg:active { background-color: lighten($deviantart-green, 5%); }
-
-.tungle-green__bg { background-color: $tungle-green; color: $white; }
+.timeline-bar.highlight-toggle { background-color: $primary-brand; color: $white; }
+.timeline-bar.highlight-toggle-dark { background-color: $black; color: $primary-brand; }
 
 // ----------
 // Adding CSS to round profile photo

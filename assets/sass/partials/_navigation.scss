@@ -12,13 +12,17 @@ nav.primary {
     }
     @include respond-to (handhelds-and-medium-screens) {
       top: 8px;
-      left: 16px;
+      left: 0;
     }
   }
   .slimmenu {
     float: right;
     @include respond-to (handhelds-and-medium-screens) {
       float: none;
+    }
+    @include respond-to (large-screens) {
+      width: 100%;
+      text-align: right;
     }
   }
   .bitcoin {

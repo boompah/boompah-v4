@@ -9,13 +9,13 @@ body {
   padding: 0;
   color: #191919; }
   body ::selection {
-    background: #DA1C5C;
+    background: #000;
     /* Safari */
-    color: #FFF; }
+    color: #DA1C5C; }
   body ::-moz-selection {
-    background: #DA1C5C;
+    background: #000;
     /* Firefox */
-    color: #FFF; }
+    color: #DA1C5C; }
 
 ul.menu {
   font-size: 18px; }
@@ -42,7 +42,7 @@ ul li {
     text-align: center;
     font-size: 2em;
     line-height: 1em;
-    padding: .5em 0; }
+    padding: 1.5em 0 1em 0; }
     @media only screen and (min-width: 768px) and (max-width: 959px) {
       .container h2 {
         font-size: 2.25em; } }
@@ -92,7 +92,7 @@ ul li {
 
 a, a:link, a:visited {
   text-decoration: none;
-  color: #3b5998;
+  color: #DA1C5C;
   outline: none; }
 
 a:hover {
@@ -294,14 +294,12 @@ a.button:active {
   .btn:hover {
     text-decoration: none; }
 
-a.btn-soft-purple,
-a.btn-soft-purple:link,
-a.btn-soft-purple:visited {
-  background-color: #7A86F4;
-  color: #FFF; }
-
 a.btn.btn-cta {
-  padding: 5px 20px; }
+  padding: 5px 20px;
+  background-color: #DA1C5C;
+  color: #FFF; }
+  a.btn.btn-cta:hover {
+    background-color: #e7427a; }
   a.btn.btn-cta i {
     margin-left: 15px; }
 
@@ -396,9 +394,12 @@ footer .socialize {
     footer .socialize {
       border-left: none; } }
 footer .bottom {
-  background-color: #cc1514;
+  background-color: #DA1C5C;
   text-align: center;
   padding: 30px 0 20px 0; }
+  footer .bottom .square-boompah-logo {
+    width: 60px;
+    height: 50px; }
 footer .home-icon {
   display: none; }
 footer a, footer a:link, footer a:visited {
@@ -407,19 +408,21 @@ footer a:hover {
   text-decoration: none;
   color: #cc1514; }
 
-header#top .primary.container {
-  padding: 20px 0; }
-  @media only screen and (max-width: 767px) {
-    header#top .primary.container {
-      padding: 10px 0; } }
-header#top .logo {
-  margin: 15px 0 0 20px;
-  width: 168px;
-  height: 40px; }
-  @media only screen and (max-width: 767px) {
-    header#top .logo {
-      width: 130px;
-      height: auto; } }
+header#top {
+  background-color: #000; }
+  header#top .primary.container {
+    padding: 20px 0; }
+    @media only screen and (max-width: 767px) {
+      header#top .primary.container {
+        padding: 10px 0; } }
+  header#top .logo {
+    margin: 15px 0 0 20px;
+    width: 168px;
+    height: 40px; }
+    @media only screen and (max-width: 767px) {
+      header#top .logo {
+        width: 130px;
+        height: auto; } }
 
 nav.primary {
   max-width: 68em;
@@ -445,12 +448,16 @@ nav.primary {
     @media only screen and (max-width: 767px) {
       nav.primary a.boompah {
         top: 8px;
-        left: 16px; } }
+        left: 0; } }
   nav.primary .slimmenu {
     float: right; }
     @media only screen and (max-width: 767px) {
       nav.primary .slimmenu {
         float: none; } }
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+      nav.primary .slimmenu {
+        width: 100%;
+        text-align: right; } }
   nav.primary .bitcoin {
     margin: 25px 0 0 20px;
     float: right; }
@@ -519,8 +526,8 @@ tbody tr:nth-child(odd) {
 .bold {
   font-weight: 700; }
 
-h1, h2, h3, h4, h5, h6, p, a, ul, ol, span {
-  font-family: 'Titillium Web', sans-serif;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Varela Round', sans-serif;
   margin-bottom: 0; }
 
 h1 {
@@ -587,11 +594,15 @@ h5 {
     h5 {
       font-size: 1em; } }
 
-p, ul, ol {
-  font-size: 22px; }
+p, ul, ol, span {
+  font-size: 22px;
+  font-family: 'Titillium Web', sans-serif; }
   @media only screen and (max-width: 767px) {
-    p, ul, ol {
+    p, ul, ol, span {
       font-size: 1.15em; } }
+
+a {
+  font-family: 'Titillium Web', sans-serif; }
 
 a {
   -webkit-transition: all 0.35s ease-in-out;
@@ -889,13 +900,16 @@ body.about {
   /* Testimonials */ }
   body.about #masthead-wrapper, body.about .dark-bg {
     background-color: #000; }
-  body.about #masthead-wrapper h1, body.about #masthead-wrapper h3 {
+  body.about #masthead-wrapper h1 {
+    color: #DA1C5C; }
+  body.about #masthead-wrapper h3 {
     color: #FFF; }
   body.about .container.showcase {
     padding: 40px 20px; }
+    body.about .container.showcase .profile-photo {
+      text-align: center; }
     body.about .container.showcase img {
-      margin-top: 20px;
-      float: left; }
+      margin: 20px 0; }
       @media only screen and (max-width: 767px) {
         body.about .container.showcase img {
           width: 40%;
@@ -906,10 +920,8 @@ body.about {
       @media only screen and (max-width: 479px) {
         body.about .container.showcase img {
           width: 80%; } }
-    body.about .container.showcase .cv-cta i {
-      margin-right: 10px; }
     body.about .container.showcase .main-name {
-      font-size: 6em;
+      font-size: 3em;
       font-weight: 300;
       margin-bottom: 0; }
       @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -927,9 +939,8 @@ body.about {
       @media only screen and (max-width: 767px) {
         body.about .container.showcase .main-name br {
           display: none; } }
-    body.about .container.showcase .cv-cta,
     body.about .container.showcase .main-name {
-      text-align: right; }
+      padding: 0; }
   @media only screen and (max-width: 767px) {
     body.about .testimonials h2, body.about .testimonials p, body.about .testimonials h4 {
       text-align: left; } }
@@ -938,6 +949,7 @@ body.about {
   background-color: #f2f2f2;
   clear: both;
   text-align: left;
+  color: #DA1C5C;
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
@@ -964,7 +976,7 @@ body.about {
     background-color: #000;
     color: #FFF;
     font-weight: 200;
-    font-size: 37px;
+    font-size: 38px;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px; }
     @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -990,41 +1002,13 @@ body.about {
 a.timeline-bar {
   text-decoration: none; }
 
-.timeline-bar.baby-blue__bg {
-  background-color: #07a4e5;
+.timeline-bar.highlight-toggle {
+  background-color: #DA1C5C;
   color: #FFF; }
 
-.timeline-bar.baby-blue__bg:hover {
-  background-color: #0581b4; }
-
-.timeline-bar.baby-blue__bg:active {
-  background-color: #0eb3f8; }
-
-.timeline-bar.red__bg {
-  background-color: #cc1514;
-  color: #FFF; }
-
-.timeline-bar.android__bg {
-  background-color: #a0ca28;
-  color: #FFF; }
-
-.timeline-bar.xbox__bg {
-  background-color: #107C10;
-  color: #FFF; }
-
-.timeline-bar.deviantart-green__bg {
-  background-color: #526155;
-  color: #FFF; }
-
-.timeline-bar.deviantart-green__bg:hover {
-  background-color: #3b453d; }
-
-.timeline-bar.deviantart-green__bg:active {
-  background-color: #5e6f61; }
-
-.tungle-green__bg {
-  background-color: #9ac146;
-  color: #FFF; }
+.timeline-bar.highlight-toggle-dark {
+  background-color: #000;
+  color: #DA1C5C; }
 
 .about-profile-photo {
   border-radius: 50%; }
@@ -1035,11 +1019,13 @@ body.bitcoin img.bitcoin-circle {
   margin-top: 40px; }
 
 body.contact #masthead-wrapper, body.contact .dark-bg {
-  background-color: #981a24; }
-body.contact #masthead-wrapper h1, body.contact #masthead-wrapper h3 {
+  background-color: #000; }
+body.contact #masthead-wrapper h1 {
+  color: #DA1C5C; }
+body.contact #masthead-wrapper h3 {
   color: #FFF; }
 body.contact .showcase i {
-  color: #a51c27;
+  color: #DA1C5C;
   font-size: 1.25em; }
 body.contact .guidelines i {
   margin-right: 10px; }
@@ -1089,7 +1075,7 @@ body.single.single-post,
   .winnipeg-web-design #masthead-wrapper,
   .work #masthead-wrapper,
   .cv #masthead-wrapper {
-    background-color: #36C99F;
+    background-color: #000;
     height: 620px;
     background-image: url(/img/home/01-feature-graphic.jpg);
     background-position: center;
@@ -1122,20 +1108,14 @@ body.single.single-post,
     font-weight: 600;
     line-height: 1.25em;
     font-family: 'Varela Round', sans-serif; }
-    @media only screen and (min-width: 768px) and (max-width: 959px) {
-      body.home #masthead-wrapper h1,
-      body.single.single-post #masthead-wrapper h1,
-      .winnipeg-web-design #masthead-wrapper h1,
-      .work #masthead-wrapper h1,
-      .cv #masthead-wrapper h1 {
-        font-size: 2.35em; } }
     @media only screen and (max-width: 767px) {
       body.home #masthead-wrapper h1,
       body.single.single-post #masthead-wrapper h1,
       .winnipeg-web-design #masthead-wrapper h1,
       .work #masthead-wrapper h1,
       .cv #masthead-wrapper h1 {
-        font-size: 20px; } }
+        font-size: 1.8em;
+        text-align: center; } }
   body.home #masthead-wrapper h3,
   body.single.single-post #masthead-wrapper h3,
   .winnipeg-web-design #masthead-wrapper h3,
@@ -1162,17 +1142,18 @@ body.single.single-post,
   .winnipeg-web-design #masthead-wrapper .btn-cta,
   .work #masthead-wrapper .btn-cta,
   .cv #masthead-wrapper .btn-cta {
-    margin-top: 20px; }
+    margin-top: 100px; }
   body.home .main-headline,
   body.single.single-post .main-headline,
   .winnipeg-web-design .main-headline,
   .work .main-headline,
   .cv .main-headline {
+    margin-top: 100px;
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 48.82117%;
-    text-align: left; }
+    width: 100%;
+    text-align: center; }
     body.home .main-headline:last-child,
     body.single.single-post .main-headline:last-child,
     .winnipeg-web-design .main-headline:last-child,
@@ -1316,7 +1297,7 @@ body.single.single-post,
     .work .clients ul li a,
     .cv .clients ul li a {
       background-color: #FFF;
-      color: #727272;
+      color: #DA1C5C;
       display: block;
       text-decoration: none;
       -webkit-transition: all 0.35s ease-in-out;
@@ -1327,7 +1308,7 @@ body.single.single-post,
       .winnipeg-web-design .clients ul li a:hover,
       .work .clients ul li a:hover,
       .cv .clients ul li a:hover {
-        background-color: #4d4d4d; }
+        background-color: #000; }
       body.home .clients ul li a i,
       body.single.single-post .clients ul li a i,
       .winnipeg-web-design .clients ul li a i,
@@ -1336,6 +1317,20 @@ body.single.single-post,
         float: right;
         font-size: 1.25em;
         margin-top: 2px; }
+        @media only screen and (min-width: 768px) and (max-width: 959px) {
+          body.home .clients ul li a i,
+          body.single.single-post .clients ul li a i,
+          .winnipeg-web-design .clients ul li a i,
+          .work .clients ul li a i,
+          .cv .clients ul li a i {
+            display: none; } }
+        @media only screen and (max-width: 767px) {
+          body.home .clients ul li a i,
+          body.single.single-post .clients ul li a i,
+          .winnipeg-web-design .clients ul li a i,
+          .work .clients ul li a i,
+          .cv .clients ul li a i {
+            display: none; } }
 
 #logo-circle {
   margin: auto;

@@ -1,12 +1,15 @@
 body.contact {
 	#masthead-wrapper, .dark-bg {
-		background-color: darken($ruby-red, 3%);
+		background-color: $black;
 	}
 	#masthead-wrapper {
-		h1, h3 { color: $white; }
+		h1 {
+			color: $primary-brand;
+		}
+		h3 { color: $white; }
 	}
 	.showcase {
-		i { color: $ruby-red; font-size: 1.25em; }
+		i { color: $primary-brand; font-size: 1.25em; }
 	}
 	.guidelines {
 		i { margin-right: 10px; }

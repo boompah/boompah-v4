@@ -1,4 +1,5 @@
 header#top {
+  background-color: $black;
   .primary.container {
     padding: 20px 0;
     @include respond-to(handhelds-and-medium-screens) { padding: 10px 0; }

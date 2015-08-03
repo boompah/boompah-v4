@@ -8,8 +8,8 @@
 .italic { font-style: italic; }
 .bold   { font-weight: 700; }
 
-h1, h2, h3, h4, h5, h6, p, a, ul, ol, span {
-  font-family: 'Titillium Web', sans-serif;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Varela Round', sans-serif;
   margin-bottom: 0;
 }
 
@@ -21,7 +21,7 @@ h1 {
   @include respond-to(medium-screens) { font-size: 1.75em; }
   @include respond-to(handhelds) { font-size: 1.5em; }
   }
-  
+
 h2 {
   font-size: 2.25em;
   line-height: 1.5em;
@@ -29,7 +29,7 @@ h2 {
   @include respond-to(medium-screens) { font-size: 1.5em; }
   @include respond-to(handhelds) { font-size: 1.25em; }
 }
-  
+
 h3 {
   font-size: 2em;
   font-weight: 600;
@@ -39,7 +39,7 @@ h3 {
   @include respond-to(handhelds) { font-size: 1.25em; }
 }
 
-h4 { 
+h4 {
   font-size: 1.5em;
   font-weight: 600;
   line-height: 1em;
@@ -48,7 +48,7 @@ h4 {
   margin: 40px 0 10px 0;
 }
 
-h5 { 
+h5 {
   font-size: 1.5em;
   font-weight: 400;
   line-height: 1em;
@@ -56,9 +56,14 @@ h5 {
   @include respond-to(handhelds-and-medium-screens) { font-size: 1em; }
 }
 
-p, ul, ol {
+p, ul, ol, span {
   font-size: 22px;
+  font-family: 'Titillium Web', sans-serif;
   @include respond-to(handhelds-and-medium-screens) { font-size: 1.15em; }
+}
+
+a {
+  font-family: 'Titillium Web', sans-serif;
 }
 
 a { @include transition (all 0.35s ease-in-out); }

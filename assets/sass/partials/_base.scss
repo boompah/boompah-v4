@@ -9,12 +9,12 @@ body{
   padding: 0;
   color: $base-text;
   ::selection {
-    background: $primary-brand; /* Safari */
-    color: $white;
+    background: $selection-highlight; /* Safari */
+    color: $selection-highlight-text;
     }
   ::-moz-selection {
-    background: $primary-brand; /* Firefox */
-    color: $white;
+    background: $selection-highlight; /* Firefox */
+    color: $selection-highlight-text;
   }
 }
 
@@ -50,7 +50,7 @@ ul {
     @include respond-to(handhelds-and-medium-screens) { font-size: 1.75em; }
 
     line-height: 1em;
-    padding: .5em 0;
+    padding: 1.5em 0 1em 0;;
   }
 
 } // container
@@ -102,7 +102,7 @@ ul {
 
 a, a:link, a:visited {
   text-decoration: none;
-  color: $link-blue;
+  color: $primary-brand;
   outline: none;
 }
 

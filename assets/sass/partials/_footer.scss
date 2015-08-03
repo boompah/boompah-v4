@@ -22,7 +22,7 @@ footer {
     text-align: center;
     height: 320px;
     padding-top: 40px;
-    @include respond-to(handhelds-and-medium-screens) { 
+    @include respond-to(handhelds-and-medium-screens) {
       text-align: left;
       height: auto;
       padding-top: 10px;
@@ -33,7 +33,7 @@ footer {
     @include span-columns(4);
     h5, p {
       margin: 0 20px 0 0;
-      @include respond-to(handhelds-and-medium-screens) { 
+      @include respond-to(handhelds-and-medium-screens) {
         margin-right: 0;
         text-align: left;
       }
@@ -42,7 +42,7 @@ footer {
       color: $alabas-gray;
       text-decoration: underline;
     }
-    @include respond-to(handhelds-and-medium-screens) { 
+    @include respond-to(handhelds-and-medium-screens) {
       display: block;
       float: none;
       width: 100%;
@@ -50,34 +50,38 @@ footer {
   }
   .made-in-manitoba {
     border-right: 1px solid $dark-gray-border;
-    @include respond-to(handhelds-and-medium-screens) { 
+    @include respond-to(handhelds-and-medium-screens) {
       border-right: none;
     }
   }
   .we-are-passionate {
     border-right: 1px solid $dark-gray-border;
-    @include respond-to(handhelds-and-medium-screens) { 
+    @include respond-to(handhelds-and-medium-screens) {
       border-right: none;
     }
   }
   .want-more,
   .socialize {
     @include span-columns(2);
-    @include respond-to(handhelds-and-medium-screens) { 
+    @include respond-to(handhelds-and-medium-screens) {
       margin-top: 40px;
       width: 40%;
     }
   }
   .socialize {
     border-left: 1px solid $dark-gray-border;
-    @include respond-to(handhelds-and-medium-screens) { 
+    @include respond-to(handhelds-and-medium-screens) {
       border-left: none;
     }
   }
   .bottom {
-    background-color: $red;
+    background-color: $primary-brand;
     text-align: center;
     padding: 30px 0 20px 0;
+    .square-boompah-logo {
+      width: 60px;
+      height: 50px;
+    }
   }
   .home-icon {
     display: none;
