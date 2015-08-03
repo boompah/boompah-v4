@@ -3,7 +3,7 @@ body.single.single-post,
 .winnipeg-web-design,
 .work,
 .cv {
-	
+
 	#masthead-wrapper {
 		background-color: $teal;
 		height: 620px;
@@ -11,18 +11,18 @@ body.single.single-post,
 		background-position: center;
 		background-repeat: no-repeat;
 	}
-	
+
 	.light-bg {
 		background-color: $light-blue;
 		border-top: 1px solid $light-blue-border;
 		border-bottom: 1px solid $light-blue-border;
 	}
-	
+
 	#masthead-wrapper {
 		h1, h3 {
 			color: $white;
 		}
-		h1 {	
+		h1 {
 			margin-top: 40px;
 			font-size: 2.5em;
 			font-weight: 600;
@@ -41,13 +41,13 @@ body.single.single-post,
 		.btn-cta {
 			margin-top: 20px;
 		}
-	}  
+	}
 
 	.main-headline {
 		@include span-columns(6);
 		text-align: left;
 	}
-	
+
 	.usability-research {
 		h2, h3, h4, p {
 			@include respond-to(handhelds-and-medium-screens) { text-align: left; }
@@ -59,15 +59,15 @@ body.single.single-post,
 		}
 		h4 {  }
 		p.last { margin-bottom: 0; }
-		
+
 	}
-	
+
 	.services-points {
 		h4 {
 			text-transform: uppercase;
 			font-weight: normal;
 		}
-		
+
 		h4, ul {
 			text-align: left;
 			color: $white;
@@ -75,13 +75,13 @@ body.single.single-post,
 				text-align: center;
 			}
 		}
-		
+
 		ul {
 			@include respond-to(handhelds-and-medium-screens) {
 				list-style: none;
 				padding-left: 0;
 			}
-			li {				
+			li {
 				a, a:link, a:visited {
 					color: $hot-blue;
 					@include transition (all 0.35s ease-in-out);
@@ -120,7 +120,7 @@ body.single.single-post,
 					color: $base-gray;
 					display: block;
 					text-decoration: none;
-					@include transition (all 0.35s ease-in-out);	
+					@include transition (all 0.35s ease-in-out);
 					i {
 						float: right;
 						font-size: 1.25em;
@@ -147,5 +147,5 @@ body.single.single-post,
 	ul {
 		padding-left: 0;
 		list-style: none;
-	} 
+	}
 } // showcase.clients

@@ -3,16 +3,33 @@
   $title = 'Curriculum Vitae';
   $description = 'The Professional History of Ryan Bollenbach';
 ?>
-<?php include 'inc/header.php' ?>
+<?php include 'inc/header-bootstrap.php' ?>
 <div class="container">
-  <div class="full-content">
-    <div class="profile-info">
-      <h2>Ryan Bollenbach</h2>
-      <h4>UI Designer and Front-end Developer</h4>
-      <p>204 807 0619 // <a href="mailto:ryan@boompah.com">ryan@boompah.com</a></p>
-      <p><a href="http://boompah.com">boompah.com</a></p>
+  <div class="row">
+    <div class="jumbotron col-sm-12 col-md-12 col-lg-12">
+      <h1>Ryan Bollenbach</h1>
+      <p>Ui/UX Designer &amp; Front-end Developer</p>
+      <p><a href="mailto:ryan@boompah.com" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-envelope"></i> ryan@boompah.com</a></p>
+      <p><a href="http://twitter.com/gotboompah" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-twitter"></i> @gotboompah</a></p>
+      <p><a href="http://instagram.com/boompah" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-instagram"></i> @boompah</a></p>
+      <p><strong>Call me:</strong> (204) 807-0619</p>
+      <p><strong>Website:</strong> <a href="http://boompah.com">boompah.com</a></p>
     </div>
-    <h3>Objectives</h3>
+  </div>
+  <div class="row">
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <img src="..." alt="...">
+        <div class="caption">
+          <h3>Thumbnail label</h3>
+          <p>...</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <h1>Objectives</h1>
     <ul>
       <li>Help brands tell their story through responsive web design, web applications and social media strategy.</li>
       <li>Grow with a solid team and deliver awesome products.</li>
@@ -20,13 +37,13 @@
       <li>Continue to improve remote workflow and collaboration.</li>
     </ul>
 
-    <h3>Personal Profile</h3>
+    <h1>Personal Profile</h1>
     <p>I enjoy working independently and I love collaborating with a team. I devour criticism and expect radical honesty when asking for feedback.</p>
     <p>I have a strong ability to juggle multiple projects and tasks concurrently and handle project/situational changes.</p>
     <p>I stay abreast of innovations in UX best practices, tools and topics of interest to the UX community and help to infuse them back into projects.</p>
     <p>Pragmatic, open-minded approach to problem-solving.</p>
 
-    <h3>Skills</h3>
+    <h1>Skills</h1>
     <ul>
       <li>6 years Wireframes and prototypes - HTML, Illustrator, and wireframing tools</li>
       <li>6 years UI Design &amp; Custom Graphic Design</li>
@@ -42,12 +59,11 @@
       <li>Participate in user research to gain deep empathy and understanding of users.</li>
     </ul>
 
-    <h3>Experience</h3>
-
+    <h1>Experience</h1>
     <h4>Founder &amp; UX Designer</h4>
     <p>Boompah // boompah.com<br />
-      August 2007 – Present<br />
-      Montreal QC. - Winnipeg, MB.
+    August 2007 – Present<br />
+    Montreal QC. - Winnipeg, MB.
     </p>
 
     <p>Boompah is a UI Design &amp; Development Boutique run by Ryan Bollenbach. We collaborate with brands to design interfaces for web applications, boutique websites and e-commerce stores. We thrive on the science of social media and evidence driven design.</p>
@@ -60,8 +76,8 @@
 
     <h4>UX Designer and Front-end Developer</h4>
     <p>Edison Nation // edisonnation.com // App weight: 19450 lines<br />
-      July 2012 - Present<br />
-      Charlotte, NC.
+    July 2012 - Present<br />
+    Charlotte, NC.
     </p>
 
     <p>Edison Nation helps inventors bring their product ideas to market. Edison Nation runs various innovation searches for brands including: PetSmart, Bed Bath &amp; Beyond, Colgate, Pyrex, Clorox, Fisher-Price, Wolfgang Puck, Rubbermaid, Sunbeam, Fender, etc.</p>
@@ -77,8 +93,8 @@
 
     <h4>UX Designer</h4>
     <p>Dynamo // godynamo.com<br />
-      June 2011 – March 2013<br />
-      Montreal, QC.
+    June 2011 – March 2013<br />
+    Montreal, QC.
     </p>
 
     <p>Dynamo is a team of designers, developers &amp; UX specialists. Their client list includes: The Aldo Group, FieldTurf, Cineflix International, Tuango, Yellow Bird Project, ShoeDazzle, Lenbrook International, and Reitmans Canada.</p>
@@ -91,8 +107,8 @@
 
     <h4>UX Designer</h4>
     <p>FBS // flexmls.com<br />
-      April 2011 – December 2013<br />
-      Fargo, ND
+    April 2011 – December 2013<br />
+    Fargo, ND
     </p>
 
     <p>With over 30 years of experience, FBS serves over 120 MLS organizations in the U.S. and internationally with its Flexmls system and its Spark Platform.</p>
@@ -107,8 +123,8 @@
 
     <h4>UX Designer</h4>
     <p>Oboxmedia // oboxmedia.com<br />
-      January 2010 – April 2011<br />
-      Montreal, QC.
+    January 2010 – April 2011<br />
+    Montreal, QC.
     </p>
 
     <p>Oboxmedia helps develop, target and serve a unique, coveted audience: online, entertainment-conscious Canadians aged between 18 &amp; 44 years old.</p>
@@ -124,9 +140,9 @@
 
     <h4>Interface Designer</h4>
     <p>Tungle.me (no longer in opperation)<br />
-      Acquired by Blackberry 04-2011<br />
-      May 2009 – January 2010<br />
-      Montreal, QC.
+    Acquired by Blackberry 04-2011<br />
+    May 2009 – January 2010<br />
+    Montreal, QC.
     </p>
 
     <p>Tungle.me makes scheduling meetings easy—across organizations, calendar systems and time zones—by eliminating the multiple emails, phone calls and double bookings that typically come with finding a time to meet.</p>
@@ -141,8 +157,8 @@
 
     <h4>Web Designer</h4>
     <p>stradigi formerly known as Pente Group // stradigi.ca<br />
-      June 2008 – April 2009<br />
-      Montreal, QC.
+    June 2008 – April 2009<br />
+    Montreal, QC.
     </p>
 
     <p>stradigi is a digital agency that provides cutting edge premium digital services for music artists, brands and large scale corporations. stradigi has developed creative solutions for top music artists such as Tiësto, Red Foo and the LaFreak Crew, Goonrock, Will.I.AM and more.</p>
@@ -156,13 +172,13 @@
     <h3>Education</h3>
 
     <h4>Digital Multimedia Technology<br />
-      (aka. Digital Media Design)
+    (aka. Digital Media Design)
     </h4>
 
     <p>Red River College, Winnipeg MB.<br />
-      September 2006 – May 2008<br />
-      Bachelor’s degree<br />
-      Hours list Award for receiving a GPA above 4.0
+    September 2006 – May 2008<br />
+    Bachelor’s degree<br />
+    Hours list Award for receiving a GPA above 4.0
     </p>
 
     <p>This program provides up-to-date training in web and mobile design and development, digital video, 3D animation, motion graphics, and graphic design.</p>
@@ -180,4 +196,3 @@
     </ul>
   </div>
 </div>
-<?php include 'inc/footer.php' ?>
