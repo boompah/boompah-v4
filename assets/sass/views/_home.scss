@@ -114,23 +114,21 @@ body.single.single-post,
 		ul {
 			li{
 				margin-bottom: 20px;
-				a{
-					background-color: $white;
-					&:hover { background-color: $black; }
-					color: $primary-brand;
-					display: block;
-					text-decoration: none;
-					@include transition (all 0.35s ease-in-out);
-					i {
-						float: right;
-						font-size: 1.25em;
-						margin-top: 2px;
-						@include respond-to(large-screens) {
-							display: none;
-						}
-						@include respond-to(handhelds-and-medium-screens) {
-							display: none;
-						}
+				padding: 10px;
+				background-color: $white;
+				color: $primary-brand;
+				display: block;
+				text-decoration: none;
+				@include transition (all 0.35s ease-in-out);
+				i {
+					float: right;
+					font-size: 1.25em;
+					margin-top: 2px;
+					@include respond-to(large-screens) {
+						display: none;
+					}
+					@include respond-to(handhelds-and-medium-screens) {
+						display: none;
 					}
 				}
 			}

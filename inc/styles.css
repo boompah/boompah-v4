@@ -1290,47 +1290,37 @@ body.single.single-post,
   .winnipeg-web-design .clients ul li,
   .work .clients ul li,
   .cv .clients ul li {
-    margin-bottom: 20px; }
-    body.home .clients ul li a,
-    body.single.single-post .clients ul li a,
-    .winnipeg-web-design .clients ul li a,
-    .work .clients ul li a,
-    .cv .clients ul li a {
-      background-color: #FFF;
-      color: #DA1C5C;
-      display: block;
-      text-decoration: none;
-      -webkit-transition: all 0.35s ease-in-out;
-      -moz-transition: all 0.35s ease-in-out;
-      transition: all 0.35s ease-in-out; }
-      body.home .clients ul li a:hover,
-      body.single.single-post .clients ul li a:hover,
-      .winnipeg-web-design .clients ul li a:hover,
-      .work .clients ul li a:hover,
-      .cv .clients ul li a:hover {
-        background-color: #000; }
-      body.home .clients ul li a i,
-      body.single.single-post .clients ul li a i,
-      .winnipeg-web-design .clients ul li a i,
-      .work .clients ul li a i,
-      .cv .clients ul li a i {
-        float: right;
-        font-size: 1.25em;
-        margin-top: 2px; }
-        @media only screen and (min-width: 768px) and (max-width: 959px) {
-          body.home .clients ul li a i,
-          body.single.single-post .clients ul li a i,
-          .winnipeg-web-design .clients ul li a i,
-          .work .clients ul li a i,
-          .cv .clients ul li a i {
-            display: none; } }
-        @media only screen and (max-width: 767px) {
-          body.home .clients ul li a i,
-          body.single.single-post .clients ul li a i,
-          .winnipeg-web-design .clients ul li a i,
-          .work .clients ul li a i,
-          .cv .clients ul li a i {
-            display: none; } }
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #FFF;
+    color: #DA1C5C;
+    display: block;
+    text-decoration: none;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out; }
+    body.home .clients ul li i,
+    body.single.single-post .clients ul li i,
+    .winnipeg-web-design .clients ul li i,
+    .work .clients ul li i,
+    .cv .clients ul li i {
+      float: right;
+      font-size: 1.25em;
+      margin-top: 2px; }
+      @media only screen and (min-width: 768px) and (max-width: 959px) {
+        body.home .clients ul li i,
+        body.single.single-post .clients ul li i,
+        .winnipeg-web-design .clients ul li i,
+        .work .clients ul li i,
+        .cv .clients ul li i {
+          display: none; } }
+      @media only screen and (max-width: 767px) {
+        body.home .clients ul li i,
+        body.single.single-post .clients ul li i,
+        .winnipeg-web-design .clients ul li i,
+        .work .clients ul li i,
+        .cv .clients ul li i {
+          display: none; } }
 
 #logo-circle {
   margin: auto;
