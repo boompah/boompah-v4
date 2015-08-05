@@ -4,7 +4,7 @@ $title = 'UI/UX Designer';
 $description = 'Boompah is the UI/UX portfolio and consultancy of Ryan Bollenbach.';
 ?>
 <?php include 'inc/header.php' ?>
-<div id="masthead-wrapper">
+<div class="masthead-wrapper">
   <div class="container">
     <div class="main-headline">
       <h1>
@@ -19,8 +19,7 @@ $description = 'Boompah is the UI/UX portfolio and consultancy of Ryan Bollenbac
     <h2>Portfolio</h2>
     <div class="row">
       <div class="full-span-portfolio-item">
-        <img>
-        <a></a>
+        <p>Coming Soon!</p>
       </div>
     </div>
   </div>

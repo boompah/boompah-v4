@@ -31,15 +31,10 @@
     //]]>
   </script>
   <script>
-    $('ul.slimmenu').slimmenu(
-    {
-        resizeWidth: '800',
-        collapserTitle: '',
-        easingEffect:'easeInOutQuint',
-        animSpeed:'medium',
-        indentChildren: true,
-        childrenIndenter: '&raquo;'
-    });
+  $('#toggle').click(function() {
+   $(this).toggleClass('active');
+   $('#overlay').toggleClass('open');
+  });
   </script>
   </body>
 </html>

@@ -4,7 +4,7 @@ body.single.single-post,
 .work,
 .cv {
 
-	#masthead-wrapper {
+	.masthead-wrapper {
 		background-color: $black;
 		height: 620px;
 		background-image: url(/img/home/01-feature-graphic.jpg);
@@ -18,7 +18,7 @@ body.single.single-post,
 		border-bottom: 1px solid $light-blue-border;
 	}
 
-	#masthead-wrapper {
+	.masthead-wrapper {
 		h1, h3 {
 			color: $white;
 		}
@@ -116,7 +116,6 @@ body.single.single-post,
 				margin-bottom: 20px;
 				padding: 10px;
 				background-color: $white;
-				color: $primary-brand;
 				display: block;
 				text-decoration: none;
 				@include transition (all 0.35s ease-in-out);

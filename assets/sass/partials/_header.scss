@@ -1,13 +1,13 @@
-header#top {
-  background-color: $black;
-  .primary.container {
-    padding: 20px 0;
-    @include respond-to(handhelds-and-medium-screens) { padding: 10px 0; }
-  }
-  .logo {
-    margin: 15px 0 0 20px;
-    width: 168px;
-    height: 40px;
+header.primary-nav {
+  .boompah-logo {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    float: left;
+    img {
+      width: 168px;
+      height: 40px;
+    }
     @include respond-to(handhelds-and-medium-screens) {
       width: 130px;
       height: auto;

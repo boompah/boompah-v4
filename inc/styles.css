@@ -31,6 +31,8 @@ ul li {
 
 .container {
   padding: 0 1.2em;
+  position: relative;
+  z-index: 1;
   max-width: 68em;
   margin-left: auto;
   margin-right: auto; }
@@ -408,64 +410,133 @@ footer a:hover {
   text-decoration: none;
   color: #cc1514; }
 
-header#top {
-  background-color: #000; }
-  header#top .primary.container {
-    padding: 20px 0; }
-    @media only screen and (max-width: 767px) {
-      header#top .primary.container {
-        padding: 10px 0; } }
-  header#top .logo {
-    margin: 15px 0 0 20px;
+header.primary-nav .boompah-logo {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  float: left; }
+  header.primary-nav .boompah-logo img {
     width: 168px;
     height: 40px; }
-    @media only screen and (max-width: 767px) {
-      header#top .logo {
-        width: 130px;
-        height: auto; } }
+  @media only screen and (max-width: 767px) {
+    header.primary-nav .boompah-logo {
+      width: 130px;
+      height: auto; } }
 
-nav.primary {
-  max-width: 68em;
-  margin-left: auto;
-  margin-right: auto; }
-  nav.primary:after {
-    content: "";
-    display: table;
-    clear: both; }
-  nav.primary a {
-    -webkit-transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    transition: all 0.35s ease-in-out; }
-  nav.primary a.boompah {
+h1 {
+  position: relative;
+  text-align: center;
+  font-family: 'Vollkorn', serif; }
+
+.button_container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  height: 27px;
+  width: 35px;
+  cursor: pointer;
+  z-index: 3;
+  transition: opacity .25s ease; }
+  .button_container:hover {
+    opacity: .7; }
+  .button_container.active .top {
+    transform: translateY(11px) translateX(0) rotate(45deg);
+    background: #FFF; }
+  .button_container.active .middle {
+    opacity: 0;
+    background: #FFF; }
+  .button_container.active .bottom {
+    transform: translateY(-11px) translateX(0) rotate(-45deg);
+    background: #FFF; }
+  .button_container span {
+    background: #DA1C5C;
+    border: none;
+    height: 5px;
+    width: 100%;
     position: absolute;
-    float: left;
-    display: inline-block;
-    height: auto;
-    top: 22px; }
-    @media only screen and (min-width: 768px) and (max-width: 800px) {
-      nav.primary a.boompah {
-        top: 8px; } }
-    @media only screen and (max-width: 767px) {
-      nav.primary a.boompah {
-        top: 8px;
-        left: 0; } }
-  nav.primary .slimmenu {
-    float: right; }
-    @media only screen and (max-width: 767px) {
-      nav.primary .slimmenu {
-        float: none; } }
-    @media only screen and (min-width: 768px) and (max-width: 959px) {
-      nav.primary .slimmenu {
-        width: 100%;
-        text-align: right; } }
-  nav.primary .bitcoin {
-    margin: 25px 0 0 20px;
-    float: right; }
-    @media only screen and (max-width: 767px) {
-      nav.primary .bitcoin {
-        width: 100px;
-        margin-top: 22px; } }
+    top: 0;
+    left: 0;
+    transition: all .35s ease;
+    cursor: pointer; }
+    .button_container span:nth-of-type(2) {
+      top: 11px; }
+    .button_container span:nth-of-type(3) {
+      top: 22px; }
 
+.overlay {
+  position: fixed;
+  z-index: 2;
+  background: #DA1C5C;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .35s, visibility .35s, height .35s;
+  overflow: hidden; }
+  .overlay.open {
+    opacity: .9;
+    visibility: visible;
+    height: 100%; }
+    .overlay.open li {
+      animation: fadeInRight .5s ease forwards;
+      animation-delay: .35s; }
+      .overlay.open li:nth-of-type(2) {
+        animation-delay: .4s; }
+      .overlay.open li:nth-of-type(3) {
+        animation-delay: .45s; }
+      .overlay.open li:nth-of-type(4) {
+        animation-delay: .50s; }
+  .overlay nav {
+    position: relative;
+    height: 70%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 50px;
+    font-family: 'Vollkorn', serif;
+    font-weight: 400;
+    text-align: center; }
+  .overlay ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+    height: 100%; }
+    .overlay ul li {
+      display: block;
+      height: 25%;
+      height: calc(100% / 4);
+      min-height: 50px;
+      position: relative;
+      opacity: 0; }
+      .overlay ul li a {
+        display: block;
+        position: relative;
+        color: #FFF;
+        text-decoration: none;
+        overflow: hidden; }
+        .overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
+          width: 100%; }
+        .overlay ul li a:after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          width: 0%;
+          transform: translateX(-50%);
+          height: 3px;
+          background: #FFF;
+          transition: .35s; }
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    left: 20%; }
+  100% {
+    opacity: 1;
+    left: 0; } }
 p.if-test {
   color: red; }
 
@@ -1070,11 +1141,11 @@ body.single.single-post,
 .work,
 .cv {
   /* Featured Work */ }
-  body.home #masthead-wrapper,
-  body.single.single-post #masthead-wrapper,
-  .winnipeg-web-design #masthead-wrapper,
-  .work #masthead-wrapper,
-  .cv #masthead-wrapper {
+  body.home .masthead-wrapper,
+  body.single.single-post .masthead-wrapper,
+  .winnipeg-web-design .masthead-wrapper,
+  .work .masthead-wrapper,
+  .cv .masthead-wrapper {
     background-color: #000;
     height: 620px;
     background-image: url(/img/home/01-feature-graphic.jpg);
@@ -1088,60 +1159,60 @@ body.single.single-post,
     background-color: #e4e7ee;
     border-top: 1px solid #aab2bf;
     border-bottom: 1px solid #aab2bf; }
-  body.home #masthead-wrapper h1, body.home #masthead-wrapper h3,
-  body.single.single-post #masthead-wrapper h1,
-  body.single.single-post #masthead-wrapper h3,
-  .winnipeg-web-design #masthead-wrapper h1,
-  .winnipeg-web-design #masthead-wrapper h3,
-  .work #masthead-wrapper h1,
-  .work #masthead-wrapper h3,
-  .cv #masthead-wrapper h1,
-  .cv #masthead-wrapper h3 {
+  body.home .masthead-wrapper h1, body.home .masthead-wrapper h3,
+  body.single.single-post .masthead-wrapper h1,
+  body.single.single-post .masthead-wrapper h3,
+  .winnipeg-web-design .masthead-wrapper h1,
+  .winnipeg-web-design .masthead-wrapper h3,
+  .work .masthead-wrapper h1,
+  .work .masthead-wrapper h3,
+  .cv .masthead-wrapper h1,
+  .cv .masthead-wrapper h3 {
     color: #FFF; }
-  body.home #masthead-wrapper h1,
-  body.single.single-post #masthead-wrapper h1,
-  .winnipeg-web-design #masthead-wrapper h1,
-  .work #masthead-wrapper h1,
-  .cv #masthead-wrapper h1 {
+  body.home .masthead-wrapper h1,
+  body.single.single-post .masthead-wrapper h1,
+  .winnipeg-web-design .masthead-wrapper h1,
+  .work .masthead-wrapper h1,
+  .cv .masthead-wrapper h1 {
     margin-top: 40px;
     font-size: 2.5em;
     font-weight: 600;
     line-height: 1.25em;
     font-family: 'Varela Round', sans-serif; }
     @media only screen and (max-width: 767px) {
-      body.home #masthead-wrapper h1,
-      body.single.single-post #masthead-wrapper h1,
-      .winnipeg-web-design #masthead-wrapper h1,
-      .work #masthead-wrapper h1,
-      .cv #masthead-wrapper h1 {
+      body.home .masthead-wrapper h1,
+      body.single.single-post .masthead-wrapper h1,
+      .winnipeg-web-design .masthead-wrapper h1,
+      .work .masthead-wrapper h1,
+      .cv .masthead-wrapper h1 {
         font-size: 1.8em;
         text-align: center; } }
-  body.home #masthead-wrapper h3,
-  body.single.single-post #masthead-wrapper h3,
-  .winnipeg-web-design #masthead-wrapper h3,
-  .work #masthead-wrapper h3,
-  .cv #masthead-wrapper h3 {
+  body.home .masthead-wrapper h3,
+  body.single.single-post .masthead-wrapper h3,
+  .winnipeg-web-design .masthead-wrapper h3,
+  .work .masthead-wrapper h3,
+  .cv .masthead-wrapper h3 {
     font-size: 1.25em;
     font-weight: 500; }
     @media only screen and (min-width: 768px) and (max-width: 959px) {
-      body.home #masthead-wrapper h3,
-      body.single.single-post #masthead-wrapper h3,
-      .winnipeg-web-design #masthead-wrapper h3,
-      .work #masthead-wrapper h3,
-      .cv #masthead-wrapper h3 {
+      body.home .masthead-wrapper h3,
+      body.single.single-post .masthead-wrapper h3,
+      .winnipeg-web-design .masthead-wrapper h3,
+      .work .masthead-wrapper h3,
+      .cv .masthead-wrapper h3 {
         font-size: 1.35em; } }
     @media only screen and (max-width: 767px) {
-      body.home #masthead-wrapper h3,
-      body.single.single-post #masthead-wrapper h3,
-      .winnipeg-web-design #masthead-wrapper h3,
-      .work #masthead-wrapper h3,
-      .cv #masthead-wrapper h3 {
+      body.home .masthead-wrapper h3,
+      body.single.single-post .masthead-wrapper h3,
+      .winnipeg-web-design .masthead-wrapper h3,
+      .work .masthead-wrapper h3,
+      .cv .masthead-wrapper h3 {
         font-size: 1.15em; } }
-  body.home #masthead-wrapper .btn-cta,
-  body.single.single-post #masthead-wrapper .btn-cta,
-  .winnipeg-web-design #masthead-wrapper .btn-cta,
-  .work #masthead-wrapper .btn-cta,
-  .cv #masthead-wrapper .btn-cta {
+  body.home .masthead-wrapper .btn-cta,
+  body.single.single-post .masthead-wrapper .btn-cta,
+  .winnipeg-web-design .masthead-wrapper .btn-cta,
+  .work .masthead-wrapper .btn-cta,
+  .cv .masthead-wrapper .btn-cta {
     margin-top: 100px; }
   body.home .main-headline,
   body.single.single-post .main-headline,
@@ -1293,7 +1364,6 @@ body.single.single-post,
     margin-bottom: 20px;
     padding: 10px;
     background-color: #FFF;
-    color: #DA1C5C;
     display: block;
     text-decoration: none;
     -webkit-transition: all 0.35s ease-in-out;
