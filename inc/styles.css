@@ -640,7 +640,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 3em;
-  font-weight: 600;
+  font-weight: normal;
   line-height: 1.25em; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
     h1 {
@@ -667,7 +667,7 @@ h2 {
 
 h3 {
   font-size: 2em;
-  font-weight: 600;
+  font-weight: normal;
   line-height: 1em; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
     h3 {
@@ -681,7 +681,7 @@ h3 {
 
 h4 {
   font-size: 1.5em;
-  font-weight: 600;
+  font-weight: normal;
   line-height: 1em;
   margin: 40px 0 10px 0; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -1213,7 +1213,7 @@ body.single.single-post,
   .cv .masthead-wrapper h1 {
     margin-top: 40px;
     font-size: 2.5em;
-    font-weight: 600;
+    font-weight: normal;
     line-height: 1.25em;
     font-family: 'Varela Round', sans-serif; }
     @media only screen and (max-width: 767px) {

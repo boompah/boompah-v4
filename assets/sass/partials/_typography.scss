@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 3em;
-  font-weight: 600;
+  font-weight: normal;
   line-height: 1.25em;
   @include respond-to(large-screens) { font-size: 2em; }
   @include respond-to(medium-screens) { font-size: 1.75em; }
@@ -32,7 +32,7 @@ h2 {
 
 h3 {
   font-size: 2em;
-  font-weight: 600;
+  font-weight: normal;
   line-height: 1em;
   @include respond-to(large-screens) { font-size: 1.5em; }
   @include respond-to(medium-screens) { font-size: 1.25em; }
@@ -41,7 +41,7 @@ h3 {
 
 h4 {
   font-size: 1.5em;
-  font-weight: 600;
+  font-weight: normal;
   line-height: 1em;
   @include respond-to(large-screens) { font-size: 1.25em; }
   @include respond-to(handhelds-and-medium-screens) { font-size: 1.15em; }
