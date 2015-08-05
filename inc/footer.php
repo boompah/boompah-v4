@@ -15,11 +15,10 @@
   ga('create', 'UA-15341567-1', 'auto');
   ga('send', 'pageview');
   </script>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="/js/scroll-to.js" type="text/javascript"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-  <script src="/js/jquery.slimmenu.js" type="text/javascript"></script>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js'></script>
   <script src="/js/prism.js" type="text/javascript"></script>
+  <script src="/js/shared.js" type="text/javascript"></script>
   <!-- Preloader -->
   <script type="text/javascript">
     //<![CDATA[
@@ -29,12 +28,6 @@
             $('body').delay(350).css({'overflow':'visible'});
         })
     //]]>
-  </script>
-  <script>
-  $('#toggle').click(function() {
-   $(this).toggleClass('active');
-   $('#overlay').toggleClass('open');
-  });
   </script>
   </body>
 </html>
