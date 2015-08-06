@@ -4,6 +4,101 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+.work-project .work-project-content {
+  margin-top: 120px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  float: left; }
+  .work-project .work-project-content:last-child {
+    margin-right: 0; }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    .work-project .work-project-content {
+      width: 80%;
+      margin-top: 20px; } }
+  @media only screen and (max-width: 767px) {
+    .work-project .work-project-content {
+      margin-top: 20px;
+      width: 100%; } }
+.work-project a.view-project {
+  color: #FFF; }
+  .work-project a.view-project .cta-circle {
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    padding-top: 7px; }
+  .work-project a.view-project span {
+    position: relative;
+    top: 5px;
+    left: 2px; }
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+      .work-project a.view-project span {
+        float: left; } }
+    @media only screen and (max-width: 767px) {
+      .work-project a.view-project span {
+        float: left; } }
+  .work-project a.view-project:hover {
+    text-decoration: none;
+    color: #DA1C5C; }
+    .work-project a.view-project:hover .cta-circle {
+      border: 1px solid #DA1C5C;
+      color: #DA1C5C; }
+.work-project .work-project-image {
+  margin-top: 120px;
+  float: right;
+  width: 400px;
+  height: 450px; }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    .work-project .work-project-image {
+      margin-top: 40px;
+      float: none; } }
+  @media only screen and (max-width: 767px) {
+    .work-project .work-project-image {
+      margin-top: 40px;
+      float: none;
+      width: 80%;
+      height: auto;
+      max-width: 400px;
+      max-height: 500px; } }
+.work-project.twiddy {
+  border-top: 1px solid #DA1C5C;
+  min-height: 600px;
+  background: url("/img/home/portfolio/01-twiddy-bg.jpg") no-repeat top center #DA1C5C;
+  color: #FFF; }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    .work-project.twiddy {
+      text-align: center; } }
+  @media only screen and (max-width: 767px) {
+    .work-project.twiddy {
+      text-align: center; } }
+  .work-project.twiddy h2, .work-project.twiddy p {
+    font-family: 'Lato', sans-serif;
+    text-align: left; }
+  .work-project.twiddy h2 {
+    font-size: 3em;
+    padding: 10px 0;
+    font-weight: 100; }
+  .work-project.twiddy p, .work-project.twiddy a {
+    font-size: 1.35em;
+    font-weight: 200;
+    line-height: 1.75em; }
+
 body {
   margin: 0;
   padding: 0;
@@ -424,7 +519,7 @@ header.primary-nav .boompah-logo {
       height: auto; } }
 
 .button_container {
-  position: fixed;
+  position: absolute;
   top: 20px;
   right: 20px;
   height: 27px;
@@ -653,6 +748,7 @@ h1 {
       font-size: 1.5em; } }
 
 h2 {
+  margin: 0;
   font-size: 2.25em;
   line-height: 1.5em; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -843,166 +939,6 @@ pre[class*="language-"] {
 
 .token.entity {
   cursor: help; }
-
-.menu-collapser {
-  position: relative;
-  color: #FFF;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
-  width: 100%;
-  height: 48px;
-  line-height: 48px;
-  font-size: 16px;
-  padding: 0 8px;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box; }
-
-.collapse-button {
-  position: absolute;
-  right: 8px;
-  top: 50%;
-  width: 40px;
-  background-color: #0E0E0E;
-  background-image: linear, to bottom, #151515, #040404;
-  background-repeat: repeat-x;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  border-radius: 4px 4px 4px 4px;
-  border-style: solid;
-  border-width: 1px;
-  color: #FFFFFF;
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.075);
-  padding: 7px 10px;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  cursor: pointer;
-  font-size: 14px;
-  text-align: center;
-  transform: translate(0, -50%);
-  -o-transform: translate(0, -50%);
-  -ms-transform: translate(0, -50%);
-  -moz-transform: translate(0, -50%);
-  -webkit-transform: translate(0, -50%);
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box; }
-
-.collapse-button:hover, .collapse-button:focus {
-  background-image: none;
-  background-color: #040404;
-  color: #FFF; }
-
-.collapse-button .icon-bar {
-  background-color: #F5F5F5;
-  border-radius: 1px 1px 1px 1px;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
-  display: block;
-  height: 2px;
-  width: 18px;
-  margin: 2px 0; }
-
-ul.slimmenu {
-  list-style-type: none;
-  margin: 0;
-  padding: 0; }
-
-ul.slimmenu li {
-  position: relative;
-  display: inline-block; }
-
-ul.slimmenu > li {
-  margin-right: -5px; }
-
-ul.slimmenu > li:first-child {
-  border-left: 0; }
-
-ul.slimmenu > li:last-child {
-  margin-right: 0; }
-
-ul.slimmenu li a {
-  display: block;
-  padding: 10px 25px;
-  font-size: 18px;
-  color: #727272;
-  font-weight: 400;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
-  transition: background-color 0.5s ease-out;
-  -o-transition: background-color 0.5s ease-out;
-  -moz-transition: background-color 0.5s ease-out;
-  -webkit-transition: background-color 0.5s ease-out; }
-
-ul.slimmenu li a:hover {
-  text-decoration: none;
-  color: #989898;
-  -webkit-transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  transition: all 0.35s ease-in-out; }
-
-ul.slimmenu li .sub-collapser {
-  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.075);
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 48px;
-  height: 100%;
-  text-align: center;
-  z-index: 999;
-  cursor: pointer; }
-
-ul.slimmenu li .sub-collapser:before {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-  margin-right: -0.25em; }
-
-ul.slimmenu li .sub-collapser > i {
-  color: #333;
-  font-size: 18px;
-  display: inline-block;
-  vertical-align: middle; }
-
-ul.slimmenu li ul {
-  margin: 0;
-  list-style-type: none; }
-
-ul.slimmenu li ul li {
-  background-color: #BBB; }
-
-ul.slimmenu li > ul {
-  display: none;
-  position: absolute;
-  left: 0;
-  top: 100%;
-  z-index: 999;
-  width: 100%; }
-
-ul.slimmenu li > ul > li ul {
-  display: none;
-  position: absolute;
-  left: 100%;
-  top: 0;
-  z-index: 999;
-  width: 100%; }
-
-ul.slimmenu.collapsed li {
-  display: block;
-  width: 100%;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box; }
-
-ul.slimmenu.collapsed li a {
-  display: block;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.075);
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box; }
-
-ul.slimmenu.collapsed li .sub-collapser {
-  height: 40px; }
-
-ul.slimmenu.collapsed li > ul {
-  display: none;
-  position: static; }
 
 body.about {
   /* Testimonials */ }
@@ -1211,7 +1147,7 @@ body.single.single-post,
   .winnipeg-web-design .masthead-wrapper h1,
   .work .masthead-wrapper h1,
   .cv .masthead-wrapper h1 {
-    margin-top: 40px;
+    margin-top: 100px;
     font-size: 2.5em;
     font-weight: normal;
     line-height: 1.25em;
@@ -1222,6 +1158,7 @@ body.single.single-post,
       .winnipeg-web-design .masthead-wrapper h1,
       .work .masthead-wrapper h1,
       .cv .masthead-wrapper h1 {
+        margin-top: 40px;
         font-size: 1.8em;
         text-align: center; } }
   body.home .masthead-wrapper h3,
@@ -1379,20 +1316,6 @@ body.single.single-post,
   .work .services-points ul li a:active,
   .cv .services-points ul li a:active {
     color: #71b5e3; }
-  body.home .featured-work .panel-block,
-  body.single.single-post .featured-work .panel-block,
-  .winnipeg-web-design .featured-work .panel-block,
-  .work .featured-work .panel-block,
-  .cv .featured-work .panel-block {
-    border: 1px solid #d9d9d9;
-    background-color: #FFF; }
-  body.home .featured-work .panel-block.two-m-two,
-  body.single.single-post .featured-work .panel-block.two-m-two,
-  .winnipeg-web-design .featured-work .panel-block.two-m-two,
-  .work .featured-work .panel-block.two-m-two,
-  .cv .featured-work .panel-block.two-m-two {
-    background-color: #000;
-    border: 1px solid #000; }
   body.home .clients ul li,
   body.single.single-post .clients ul li,
   .winnipeg-web-design .clients ul li,
@@ -1459,7 +1382,10 @@ body.services .showcase, .branding .showcase {
 /* SASS Notes
 
 	Compile SASS
-  sass --watch assets/sass/main.scss:inc/styles.css --sourcemap
+  sass --watch assets/sass/main.scss:inc/styles.css
+
+	// Disabled source map
+	//  --sourcemap
 
 	Bourbon
 	$ bourbon help

@@ -1,0 +1,99 @@
+.work-project {
+  .work-project-content {
+    margin-top: 120px;
+    @include span-columns(6);
+    @include respond-to(large-screens) {
+      width: 80%;
+      margin-top: 20px;
+    }
+    @include respond-to(handhelds-and-medium-screens) {
+      margin-top: 20px;
+      width: 100%;
+    }
+    float: left;
+  }
+  a.view-project {
+    color: $white;
+    .cta-circle {
+      @include transition (all 0.35s ease-in-out);
+      @include border-top-radius(50%);
+      @include border-right-radius(50%);
+      @include border-bottom-radius(50%);
+      @include border-left-radius(50%);
+      width: 50px;
+      height: 50px;
+      border: 1px solid $white;
+      color: $white;
+      float: left;
+      margin-right: 10px;
+      text-align: center;
+      padding-top: 7px;
+    }
+    span {
+      position: relative;
+      top: 5px;
+      left: 2px;
+      @include respond-to(large-screens) {
+        float: left;
+      }
+      @include respond-to(handhelds-and-medium-screens) {
+        float: left;
+      }
+    }
+    &:hover {
+      text-decoration: none;
+      color: $primary-brand;
+      .cta-circle {
+        border: 1px solid $primary-brand;
+        color: $primary-brand;
+      }
+    }
+  }
+  .work-project-image {
+    margin-top: 120px;
+    float: right;
+    width: 400px;
+    height: 450px;
+    @include respond-to(large-screens) {
+      margin-top: 40px;
+      float: none;
+    }
+    @include respond-to(handhelds-and-medium-screens) {
+      margin-top: 40px;
+      float: none;
+      width: 80%;
+      height: auto;
+      max-width: 400px;
+      max-height: 500px;
+    }
+  }
+
+  // Specifics for Twiddy
+
+  &.twiddy {
+    border-top: 1px solid $primary-brand;
+    min-height: 600px;
+    background: url('/img/home/portfolio/01-twiddy-bg.jpg') no-repeat top center $primary-brand;
+    color: $white;
+    @include respond-to(large-screens) {
+      text-align: center;
+    }
+    @include respond-to(handhelds-and-medium-screens) {
+      text-align: center;
+    }
+    h2, p {
+      font-family: 'Lato', sans-serif;
+      text-align: left;
+    }
+    h2 {
+      font-size: 3em;
+      padding: 10px 0;
+      font-weight: 100;
+    }
+    p,a {
+      font-size: 1.35em;
+      font-weight: 200;
+      line-height: 1.75em;
+    }
+  }
+}

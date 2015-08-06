@@ -14,19 +14,24 @@ $description = 'Boompah is the UI/UX portfolio and consultancy of Ryan Bollenbac
     </div>
   </div>
 </div><?php // masthead-wrapper home ?>
-<div class="showcase featured-work">
+<div class="work-project twiddy">
   <div class="container">
-    <h2>Portfolio</h2>
     <div class="row">
-      <div class="full-span-portfolio-item">
-        <p>Coming Soon!</p>
+      <div class="work-project-content">
+        <h2 class="work-project-title">Twiddy Proposal</h2>
+        <p>The purpose of this project was to come up with ideas to improve the Twiddy &amp; Company homepage UX and make it easier for guests find and book homes.</p>
+        <a href="/twiddy" target="blank" class="view-project">
+          <div class="cta-circle"><i class="fa fa-external-link"></i></div>
+          <span>View Project</span>
+        </a>
       </div>
+      <a href="/twiddy" target="blank"><img src="img/home/portfolio/02-twiddy-content-image.png" class="work-project-image" alt="Twiddy Project" /></a>
     </div>
   </div>
 </div>
 <div class="showcase gray-bg hidden-mobile">
   <div class="container">
-    <h2>Previous Clients</h2>
+    <h2>We've Worked With</h2>
     <div class="row">
       <div class="clients">
         <ul>

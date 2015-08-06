@@ -8,6 +8,8 @@
 @import "modules/font.scss";
 @import "modules/mixins.scss";
 @import "modules/utility.scss";
+@import "modules/portfolio_items.scss";
+@import "modules/banners.scss";
 
 // Partials
 @import "partials/reset.scss";
@@ -24,7 +26,6 @@
 
 // Vendor
 @import "vendor/prism.scss";
-@import "vendor/slimmenu.scss";
 
 // Views
 @import "views/about.scss";
@@ -38,7 +39,10 @@
 /* SASS Notes
 
 	Compile SASS
-  sass --watch assets/sass/main.scss:inc/styles.css --sourcemap
+  sass --watch assets/sass/main.scss:inc/styles.css
+
+	// Disabled source map
+	//  --sourcemap
 
 	Bourbon
 	$ bourbon help
