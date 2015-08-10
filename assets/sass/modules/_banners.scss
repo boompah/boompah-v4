@@ -1,1 +1,15 @@
+.we-have-worked-with {
+  background-color: lighten($black, 95%);
+  @include respond-to(handhelds-and-medium-screens) {
+    display: none;
+  }
+  h2 {
+    padding: 40px 0 20px 0;
+  }
+}
 
+.contact-project-details {
+  h2 {
+    padding: 40px 0;
+  }
+}

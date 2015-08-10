@@ -119,9 +119,6 @@ body.single.single-post,
 					@include respond-to(large-screens) {
 						display: none;
 					}
-					@include respond-to(handhelds-and-medium-screens) {
-						display: none;
-					}
 				}
 			}
 		}

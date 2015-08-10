@@ -4,13 +4,39 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+.work-project.work-project-right .work-project-image {
+  float: right; }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    .work-project.work-project-right .work-project-image {
+      float: none; } }
+  @media only screen and (max-width: 767px) {
+    .work-project.work-project-right .work-project-image {
+      float: none; } }
+.work-project.work-project-right .cta-circle {
+  margin-right: 10px; }
+.work-project.work-project-left .work-project-content {
+  float: right; }
+.work-project.work-project-left .work-project-image {
+  float: left; }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    .work-project.work-project-left .work-project-image {
+      float: none; } }
+  @media only screen and (max-width: 767px) {
+    .work-project.work-project-left .work-project-image {
+      float: none; } }
+.work-project.work-project-left h2, .work-project.work-project-left p, .work-project.work-project-left a {
+  text-align: right; }
+.work-project.work-project-left a.view-project {
+  float: right; }
+.work-project.work-project-left .cta-circle {
+  margin-left: 10px; }
 .work-project .work-project-content {
   margin-top: 120px;
+  color: #FFF;
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 48.82117%;
-  float: left; }
+  width: 48.82117%; }
   .work-project .work-project-content:last-child {
     margin-right: 0; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -40,7 +66,6 @@
     border: 1px solid #FFF;
     color: #FFF;
     float: left;
-    margin-right: 10px;
     text-align: center;
     padding-top: 7px; }
   .work-project a.view-project span {
@@ -61,43 +86,50 @@
       color: #DA1C5C; }
 .work-project .work-project-image {
   margin-top: 120px;
-  float: right;
   width: 400px;
   height: 320px; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
     .work-project .work-project-image {
-      margin-top: 40px;
-      float: none; } }
+      margin-top: 40px; } }
   @media only screen and (max-width: 767px) {
     .work-project .work-project-image {
       margin-top: 40px;
-      float: none;
       width: 80%;
       height: auto;
       max-width: 400px;
       max-height: 500px; } }
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .work-project {
+    text-align: center; } }
+@media only screen and (max-width: 767px) {
+  .work-project {
+    text-align: center; } }
+.work-project h2, .work-project p {
+  font-family: 'Lato', sans-serif;
+  text-align: left; }
+.work-project h2 {
+  font-size: 3em;
+  padding: 10px 0;
+  font-weight: 100; }
+.work-project p, .work-project a {
+  font-size: 1.35em;
+  font-weight: 200;
+  line-height: 1.75em; }
 .work-project.twiddy {
   border-top: 1px solid #DA1C5C;
   min-height: 600px;
-  background: url("/img/home/portfolio/01-twiddy-bg.jpg") no-repeat top center #000;
-  color: #FFF; }
-  @media only screen and (min-width: 768px) and (max-width: 959px) {
-    .work-project.twiddy {
-      text-align: center; } }
+  background: url("/img/home/portfolio/01-twiddy-bg.jpg") no-repeat top center #000; }
+
+.we-have-worked-with {
+  background-color: #f2f2f2; }
   @media only screen and (max-width: 767px) {
-    .work-project.twiddy {
-      text-align: center; } }
-  .work-project.twiddy h2, .work-project.twiddy p {
-    font-family: 'Lato', sans-serif;
-    text-align: left; }
-  .work-project.twiddy h2 {
-    font-size: 3em;
-    padding: 10px 0;
-    font-weight: 100; }
-  .work-project.twiddy p, .work-project.twiddy a {
-    font-size: 1.35em;
-    font-weight: 200;
-    line-height: 1.75em; }
+    .we-have-worked-with {
+      display: none; } }
+  .we-have-worked-with h2 {
+    padding: 40px 0 20px 0; }
+
+.contact-project-details h2 {
+  padding: 40px 0; }
 
 body {
   margin: 0;
@@ -135,17 +167,6 @@ ul li {
     content: "";
     display: table;
     clear: both; }
-  .container h2 {
-    text-align: center;
-    font-size: 2em;
-    line-height: 1em;
-    padding: 1.5em 0 1em 0; }
-    @media only screen and (min-width: 768px) and (max-width: 959px) {
-      .container h2 {
-        font-size: 2.25em; } }
-    @media only screen and (max-width: 767px) {
-      .container h2 {
-        font-size: 1.75em; } }
 
 .half {
   float: left;
@@ -1350,13 +1371,6 @@ body.single.single-post,
       font-size: 1.25em;
       margin-top: 2px; }
       @media only screen and (min-width: 768px) and (max-width: 959px) {
-        body.home .clients ul li i,
-        body.single.single-post .clients ul li i,
-        .winnipeg-web-design .clients ul li i,
-        .work .clients ul li i,
-        .cv .clients ul li i {
-          display: none; } }
-      @media only screen and (max-width: 767px) {
         body.home .clients ul li i,
         body.single.single-post .clients ul li i,
         .winnipeg-web-design .clients ul li i,

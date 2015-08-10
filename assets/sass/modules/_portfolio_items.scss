@@ -1,12 +1,40 @@
 // Modular and reusable portfolio items
 
 .work-project {
-  // Graphic on right, text to left with img background
+  // Graphic on right text on left
   &.work-project-right {
-    
+    .work-project-image {
+      float: right;
+      @include respond-to(large-screens) { float: none; }
+      @include respond-to(handhelds-and-medium-screens) { float: none; }
+    }
+    .cta-circle {
+      margin-right: 10px;
+    }
+  }
+  // Graphic on left text on right
+  &.work-project-left {
+    .work-project-content {
+      float: right;
+    }
+    .work-project-image {
+      float: left;
+      @include respond-to(large-screens) { float: none; }
+      @include respond-to(handhelds-and-medium-screens) { float: none; }
+    }
+    h2, p, a {
+      text-align: right;
+    }
+    a.view-project {
+      float: right;
+    }
+    .cta-circle {
+      margin-left: 10px;
+    }
   }
   .work-project-content {
     margin-top: 120px;
+    color: $white;
     @include span-columns(6);
     @include respond-to(large-screens) {
       width: 80%;
@@ -16,8 +44,8 @@
       margin-top: 20px;
       width: 100%;
     }
-    float: left;
   }
+
   a.view-project {
     color: $white;
     .cta-circle {
@@ -31,7 +59,6 @@
       border: 1px solid $white;
       color: $white;
       float: left;
-      margin-right: 10px;
       text-align: center;
       padding-top: 7px;
     }
@@ -55,23 +82,44 @@
       }
     }
   }
+
   .work-project-image {
     margin-top: 120px;
-    float: right;
     width: 400px;
     height: 320px;
     @include respond-to(large-screens) {
       margin-top: 40px;
-      float: none;
     }
     @include respond-to(handhelds-and-medium-screens) {
       margin-top: 40px;
-      float: none;
       width: 80%;
       height: auto;
       max-width: 400px;
       max-height: 500px;
     }
+  }
+
+  @include respond-to(large-screens) {
+    text-align: center;
+  }
+  @include respond-to(handhelds-and-medium-screens) {
+    text-align: center;
+  }
+
+  h2, p {
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+  }
+
+  h2 {
+    font-size: 3em;
+    padding: 10px 0;
+    font-weight: 100;
+  }
+  p,a {
+    font-size: 1.35em;
+    font-weight: 200;
+    line-height: 1.75em;
   }
 
   // Specifics for Twiddy
@@ -80,26 +128,5 @@
     border-top: 1px solid $primary-brand;
     min-height: 600px;
     background: url('/img/home/portfolio/01-twiddy-bg.jpg') no-repeat top center $black;
-    color: $white;
-    @include respond-to(large-screens) {
-      text-align: center;
-    }
-    @include respond-to(handhelds-and-medium-screens) {
-      text-align: center;
-    }
-    h2, p {
-      font-family: 'Lato', sans-serif;
-      text-align: left;
-    }
-    h2 {
-      font-size: 3em;
-      padding: 10px 0;
-      font-weight: 100;
-    }
-    p,a {
-      font-size: 1.35em;
-      font-weight: 200;
-      line-height: 1.75em;
-    }
   }
 }

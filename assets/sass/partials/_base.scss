@@ -43,17 +43,7 @@ ul {
   position: relative;
   z-index: 1;
   @include outer-container;
-
-  h2 {
-    text-align: center;
-    font-size: 2em;
-    @include respond-to(large-screens) { font-size: 2.25em; }
-    @include respond-to(handhelds-and-medium-screens) { font-size: 1.75em; }
-
-    line-height: 1em;
-    padding: 1.5em 0 1em 0;;
-  }
-
+  
 } // container
 
 .half {
