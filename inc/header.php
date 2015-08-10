@@ -12,10 +12,11 @@
   <meta name="description" content="">
   <meta name="author" content="Ryan Bollenbach">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="alexaVerifyID" content="51_NFfaSgfGZxM8xbXC9CO7fln8"/>
+  <meta name="msvalidate.01" content="9FD7168431934C41F3D39EE0B11418E6" />
 
   <?php // CSS ?>
   <link rel='stylesheet prefetch' href='http://daneden.github.io/animate.css/animate.min.css'>
-  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
   <link rel="stylesheet" href="../inc/styles.css">

@@ -79,7 +79,7 @@
 .work-project.twiddy {
   border-top: 1px solid #DA1C5C;
   min-height: 600px;
-  background: url("/img/home/portfolio/01-twiddy-bg.jpg") no-repeat top center #DA1C5C;
+  background: url("/img/home/portfolio/01-twiddy-bg.jpg") no-repeat top center #000;
   color: #FFF; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
     .work-project.twiddy {
@@ -655,6 +655,14 @@ header.primary-nav .boompah-logo {
   -webkit-transition: .35s;
   transition: .35s; }
 
+.overlay .social a {
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 1.25em; }
+  .overlay .social a:hover {
+    text-decoration: none; }
+
 @-webkit-keyframes fadeInRight {
   0% {
     opacity: 0;
@@ -943,9 +951,11 @@ pre[class*="language-"] {
 body.about {
   /* Testimonials */ }
   body.about #masthead-wrapper, body.about .dark-bg {
-    background-color: #000; }
+    background-color: #000;
+    min-height: 600px; }
   body.about #masthead-wrapper h1 {
-    color: #DA1C5C; }
+    color: #DA1C5C;
+    margin-top: 120px; }
   body.about #masthead-wrapper h3 {
     color: #FFF; }
   body.about .container.showcase {
@@ -1063,8 +1073,10 @@ body.bitcoin img.bitcoin-circle {
   margin-top: 40px; }
 
 body.contact #masthead-wrapper, body.contact .dark-bg {
-  background-color: #000; }
+  background-color: #000;
+  min-height: 600px; }
 body.contact #masthead-wrapper h1 {
+  margin-top: 120px;
   color: #DA1C5C; }
 body.contact #masthead-wrapper h3 {
   color: #FFF; }

@@ -10,11 +10,11 @@ $description = 'Boompah is the UI/UX portfolio and consultancy of Ryan Bollenbac
       <h1>
         Boompah is the UI/UX portfolio and consultancy of Ryan Bollenbach.
       </h1>
-      <a href="/contact" class="btn btn-cta">Contact me, I'm cool<i class="fa fa-arrow-circle-o-right"></i></a>
+      <a href="/contact" class="btn btn-cta">Connect with me<i class="fa fa-arrow-circle-o-right"></i></a>
     </div>
   </div>
 </div><?php // masthead-wrapper home ?>
-<div class="work-project twiddy">
+<div class="work-project work-project work-project-right twiddy">
   <div class="container">
     <div class="row">
       <div class="work-project-content">
@@ -35,34 +35,34 @@ $description = 'Boompah is the UI/UX portfolio and consultancy of Ryan Bollenbac
     <div class="row">
       <div class="clients">
         <ul>
-          <li>Edison Nation<i class="icon-bolt"></i></li>
-          <li>Oboxmedia<i class="icon-rocket"></i></li>
-          <li>Doyoulookgood<i class="icon-group"></i></li>
-          <li>Hollywood PQ<i class="icon-comments"></i></li>
+          <li>Edison Nation<i class="fa fa-bolt"></i></li>
+          <li>Oboxmedia<i class="fa fa-rocket"></i></li>
+          <li>Doyoulookgood<i class="fa fa-users"></i></li>
+          <li>Hollywood PQ<i class="fa fa-comments-o"></i></li>
         </ul>
       </div><?php // one-fourth ?>
       <div class="clients">
         <ul>
-          <li>ALDO<i class="icon-shopping-cart"></i></li>
-          <li>Mom Industries<i class="icon-picture"></i></li>
-          <li>Field Turf<i class="icon-sun"></i></li>
-          <li>FlexMLS<i class="icon-home"></i></li>
+          <li>ALDO<i class="fa fa-shopping-cart"></i></li>
+          <li>Mom Industries<i class="fa fa-picture-o"></i></li>
+          <li>Field Turf<i class="fa fa-futbol-o"></i></li>
+          <li>FlexMLS<i class="fa fa-home"></i></li>
         </ul>
       </div><?php // one-fourth ?>
       <div class="clients">
         <ul>
-          <li>Dynamo<i class="icon-picture"></i></li>
-          <li>Reitmans<i class="icon-female"></i></li>
-          <li>Tungle.me<i class="icon-calendar"></i></li>
-          <li>Cineflix<i class="icon-film"></i></li>
+          <li>Dynamo<i class="fa fa-object-group"></i></li>
+          <li>Reitmans<i class="fa fa-female"></i></li>
+          <li>Tungle.me<i class="fa fa-calendar-check-o"></i></li>
+          <li>Cineflix<i class="fa fa-film"></i></li>
         </ul>
       </div><?php // one-fourth ?>
       <div class="clients">
         <ul>
-          <li>Yellow Bird Project<i class="icon-music"></i></li>
-          <li>Liberte Nutrition<i class="icon-heart"></i></li>
-          <li>Diamond.com<i class="icon-female"></i></li>
-          <li>Kate Fellerath<i class="icon-camera-retro"></i></li>
+          <li>Yellow Bird Project<i class="fa fa-music"></i></li>
+          <li>Liberte Nutrition<i class="fa fa-heartbeat"></i></li>
+          <li>Diamond.com<i class="fa fa-diamond"></i></li>
+          <li>Kate Fellerath<i class="fa fa-camera-retro"></i></li>
         </ul>
       </div><?php // one-fourth ?>
     </div><?php // row ?>

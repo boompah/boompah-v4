@@ -1,10 +1,12 @@
 body.about {
 	#masthead-wrapper, .dark-bg {
 		background-color: $black;
+		min-height: 600px;
 	}
 	#masthead-wrapper{
 		h1 {
 			color: $primary-brand;
+			margin-top: 120px;
 		}
 		h3 {
 			color: $white;

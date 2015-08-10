@@ -13,8 +13,14 @@
       <ul>
         <li ><a href="/">Home</a></li>
         <li><a href="/about">About</a></li>
-        <li><a href="/work">Work</a></li>
+        <!-- <li><a href="/work">Work</a></li> -->
         <li><a href="/contact">Contact</a></li>
+        <li class="social">
+          <a href="http://twitter.com/gotboompah" target="_blank"><i class="fa fa-twitter"></i></a>
+          <a href="http://instagram.com/boompah" target="_blank"><i class="fa fa-instagram"></i></a>
+          <a href="https://ca.linkedin.com/in/ryanbollenbach" target="_blank"><i class="fa fa-linkedin"></i></a>
+          <a href="https://angel.co/boompah" target="_blank"><i class="fa fa-angellist"></i></a>
+        </li>
       </ul>
     </nav>
   </div>

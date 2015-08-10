@@ -1,9 +1,11 @@
 body.contact {
 	#masthead-wrapper, .dark-bg {
 		background-color: $black;
+		min-height: 600px;
 	}
 	#masthead-wrapper {
 		h1 {
+			margin-top: 120px;
 			color: $primary-brand;
 		}
 		h3 { color: $white; }

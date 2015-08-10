@@ -1,4 +1,10 @@
+// Modular and reusable portfolio items
+
 .work-project {
+  // Graphic on right, text to left with img background
+  &.work-project-right {
+    
+  }
   .work-project-content {
     margin-top: 120px;
     @include span-columns(6);
@@ -73,7 +79,7 @@
   &.twiddy {
     border-top: 1px solid $primary-brand;
     min-height: 600px;
-    background: url('/img/home/portfolio/01-twiddy-bg.jpg') no-repeat top center $primary-brand;
+    background: url('/img/home/portfolio/01-twiddy-bg.jpg') no-repeat top center $black;
     color: $white;
     @include respond-to(large-screens) {
       text-align: center;

@@ -136,6 +136,19 @@
   -webkit-transition: .35s;
           transition: .35s;
 }
+.overlay {
+  .social {
+    a {
+      display: inline-block;
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 1.25em;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
 
 @-webkit-keyframes fadeInRight {
   0% {
