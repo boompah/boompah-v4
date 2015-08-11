@@ -122,11 +122,25 @@
     line-height: 1.75em;
   }
 
-  // Specifics for Twiddy
+  // Specifics for Additional Tiles
 
   &.twiddy {
     border-top: 1px solid $primary-brand;
     min-height: 600px;
-    background: url('/img/home/portfolio/01-twiddy-bg.jpg') no-repeat top center $black;
+    background: url('/img/home/portfolio/01-twiddy-bg.jpg') no-repeat center center fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+  }
+
+  &.instagram-artwork {
+    border-top: 1px solid $secondary-brand;
+    min-height: 600px;
+    background: url('/img/home/portfolio/01-twiddy-bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
   }
 }

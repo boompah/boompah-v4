@@ -29,14 +29,13 @@ $description = 'Boompah is the UI/UX portfolio and consultancy of Ryan Bollenbac
     </div>
   </div>
 </div>
-
-<!-- <div class="work-project work-project-left twiddy">
+<div class="work-project work-project-left instagram-artwork">
   <div class="container">
     <div class="row">
-      <a href="/twiddy" target="blank"><img src="img/home/portfolio/02-twiddy-content-image.png" class="work-project-image" alt="Twiddy Project" /></a>
+      <a href="http://instagram.com/boompah" target="blank"><img src="img/home/portfolio/02-twiddy-content-image.png" class="work-project-image" alt="Instagram Artwork" /></a>
       <div class="work-project-content">
-        <h2 class="work-project-title">Twiddy Redesign</h2>
-        <p>The purpose of this project was to come up with ideas to improve the Twiddy &amp; Company homepage UX and make it easier for guests find and book homes.</p>
+        <h2 class="work-project-title">Instagram Artwork</h2>
+        <p>I enjoy learning about typography and graphic design through instagrams. I've been designing several quotes from brilliant minds including Warren Buffet, Eleanor Roosevelt, Mark Cuban, Gary Vaynerchuk and more...</p>
         <a href="/twiddy" target="blank" class="view-project">
           <span>View Project</span>
           <div class="cta-circle"><i class="fa fa-external-link"></i></div>
@@ -44,8 +43,7 @@ $description = 'Boompah is the UI/UX portfolio and consultancy of Ryan Bollenbac
       </div>
     </div>
   </div>
-</div> -->
-
+</div>
 <div class="showcase we-have-worked-with">
   <div class="container">
     <h2>We've Worked With</h2>

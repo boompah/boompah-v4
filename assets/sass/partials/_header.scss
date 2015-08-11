@@ -1,16 +1,18 @@
 header.primary-nav {
   .boompah-logo {
     position: relative;
-    top: 20px;
-    left: 20px;
+    top: 90px;
+    left: 70px;
     float: left;
-    img {
-      width: 168px;
-      height: 40px;
-    }
     @include respond-to(handhelds-and-medium-screens) {
       width: 130px;
       height: auto;
+      top: 20px;
+      left: 20px;
+    }
+    img {
+      width: 168px;
+      height: 40px;
     }
   }
 }

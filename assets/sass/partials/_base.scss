@@ -20,6 +20,25 @@ body{
 
 // ---------------------------------------------------------------------
 
+  // Page Border
+
+// ---------------------------------------------------------------------
+
+.page-border {
+  padding: 10px;
+  background-color: $primary-brand;
+  background-image: -webkit-linear-gradient(-450deg, $primary-brand, $secondary-brand);
+  background-image: linear-gradient(180deg, $primary-brand, $secondary-brand);
+  @include respond-to(large-screens) {
+    padding: 6px;
+  }
+  @include respond-to(handhelds-and-medium-screens) {
+    padding: 4px;
+  }
+}
+
+// ---------------------------------------------------------------------
+
   // Lists
 
 // ---------------------------------------------------------------------
@@ -43,7 +62,7 @@ ul {
   position: relative;
   z-index: 1;
   @include outer-container;
-  
+
 } // container
 
 .half {

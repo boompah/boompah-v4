@@ -1,13 +1,17 @@
 .button_container {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 100px;
+  right: 80px;
   height: 27px;
   width: 35px;
   cursor: pointer;
   z-index: 3;
   -webkit-transition: opacity .25s ease;
           transition: opacity .25s ease;
+  @include respond-to(handhelds-and-medium-screens) {
+    top: 20px;
+    right: 20px;
+  }
 }
 .button_container:hover {
   opacity: .7;

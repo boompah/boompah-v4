@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -32,7 +31,7 @@
   margin-left: 10px; }
 .work-project .work-project-content {
   margin-top: 120px;
-  color: #FFF;
+  color: white;
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -48,7 +47,7 @@
       margin-top: 20px;
       width: 100%; } }
 .work-project a.view-project {
-  color: #FFF; }
+  color: white; }
   .work-project a.view-project .cta-circle {
     -webkit-transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -63,8 +62,8 @@
     border-bottom-left-radius: 50%;
     width: 50px;
     height: 50px;
-    border: 1px solid #FFF;
-    color: #FFF;
+    border: 1px solid white;
+    color: white;
     float: left;
     text-align: center;
     padding-top: 7px; }
@@ -80,10 +79,10 @@
         float: left; } }
   .work-project a.view-project:hover {
     text-decoration: none;
-    color: #DA1C5C; }
+    color: #da1c5c; }
     .work-project a.view-project:hover .cta-circle {
-      border: 1px solid #DA1C5C;
-      color: #DA1C5C; }
+      border: 1px solid #da1c5c;
+      color: #da1c5c; }
 .work-project .work-project-image {
   margin-top: 120px;
   width: 400px;
@@ -116,9 +115,21 @@
   font-weight: 200;
   line-height: 1.75em; }
 .work-project.twiddy {
-  border-top: 1px solid #DA1C5C;
+  border-top: 1px solid #da1c5c;
   min-height: 600px;
-  background: url("/img/home/portfolio/01-twiddy-bg.jpg") no-repeat top center #000; }
+  background: url("/img/home/portfolio/01-twiddy-bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+.work-project.instagram-artwork {
+  border-top: 1px solid #edc921;
+  min-height: 600px;
+  background: url("/img/home/portfolio/01-twiddy-bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 .we-have-worked-with {
   background-color: #f2f2f2; }
@@ -136,13 +147,25 @@ body {
   padding: 0;
   color: #191919; }
   body ::selection {
-    background: #000;
+    background: black;
     /* Safari */
-    color: #DA1C5C; }
+    color: #da1c5c; }
   body ::-moz-selection {
-    background: #000;
+    background: black;
     /* Firefox */
-    color: #DA1C5C; }
+    color: #da1c5c; }
+
+.page-border {
+  padding: 10px;
+  background-color: #da1c5c;
+  background-image: -webkit-linear-gradient(-450deg, #da1c5c, #edc921);
+  background-image: linear, 180deg, #da1c5c, #edc921; }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    .page-border {
+      padding: 6px; } }
+  @media only screen and (max-width: 767px) {
+    .page-border {
+      padding: 4px; } }
 
 ul.menu {
   font-size: 18px; }
@@ -210,7 +233,7 @@ ul li {
 
 a, a:link, a:visited {
   text-decoration: none;
-  color: #DA1C5C;
+  color: #da1c5c;
   outline: none; }
 
 a:hover {
@@ -223,7 +246,7 @@ a.button, a.button:visited {
   font-size: 1em;
   padding: 1em 3em;
   background-color: #3b5998;
-  color: #FFF;
+  color: white;
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out; }
@@ -281,9 +304,9 @@ a.button:active {
         width: 100%; } }
 
 .page-toggle {
-  background-color: #000; }
+  background-color: black; }
   .page-toggle h2 {
-    color: #FFF;
+    color: white;
     font-weight: 200;
     margin: 10px 0 0 0; }
   .page-toggle .left, .page-toggle .right {
@@ -317,10 +340,10 @@ a.button:active {
     clear: both;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-bottom: 20px solid #FFF; }
+    border-bottom: 20px solid white; }
 
 .dark-bg h2 {
-  color: #FFF; }
+  color: white; }
 
 .gray-bg {
   background-color: #f2f2f2; }
@@ -414,8 +437,8 @@ a.button:active {
 
 a.btn.btn-cta {
   padding: 5px 20px;
-  background-color: #DA1C5C;
-  color: #FFF; }
+  background-color: #da1c5c;
+  color: white; }
   a.btn.btn-cta:hover {
     background-color: #e7427a; }
   a.btn.btn-cta i {
@@ -431,11 +454,11 @@ footer h5 {
   margin-top: 0;
   font-size: 1.25em; }
 footer h5, footer p {
-  color: #7F7C7C;
+  color: #7f7c7c;
   font-weight: 200; }
 footer .top-wrap {
   padding: 60px 0;
-  background: url(/img/footer/black_lozenge/black_lozenge.png) #2B2B2B; }
+  background: url(/img/footer/black_lozenge/black_lozenge.png) #2b2b2b; }
 footer .made-in-manitoba,
 footer .we-are-passionate,
 footer .want-more,
@@ -474,7 +497,7 @@ footer .we-are-passionate {
   footer .we-are-passionate a,
   footer .we-are-passionate a:link,
   footer .we-are-passionate a:visited {
-    color: #7F7C7C;
+    color: #7f7c7c;
     text-decoration: underline; }
   @media only screen and (max-width: 767px) {
     footer .made-in-manitoba,
@@ -512,7 +535,7 @@ footer .socialize {
     footer .socialize {
       border-left: none; } }
 footer .bottom {
-  background-color: #DA1C5C;
+  background-color: #da1c5c;
   text-align: center;
   padding: 30px 0 20px 0; }
   footer .bottom .square-boompah-logo {
@@ -521,34 +544,40 @@ footer .bottom {
 footer .home-icon {
   display: none; }
 footer a, footer a:link, footer a:visited {
-  color: #FFF; }
+  color: white; }
 footer a:hover {
   text-decoration: none;
   color: #cc1514; }
 
 header.primary-nav .boompah-logo {
   position: relative;
-  top: 20px;
-  left: 20px;
+  top: 90px;
+  left: 70px;
   float: left; }
-  header.primary-nav .boompah-logo img {
-    width: 168px;
-    height: 40px; }
   @media only screen and (max-width: 767px) {
     header.primary-nav .boompah-logo {
       width: 130px;
-      height: auto; } }
+      height: auto;
+      top: 20px;
+      left: 20px; } }
+  header.primary-nav .boompah-logo img {
+    width: 168px;
+    height: 40px; }
 
 .button_container {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 100px;
+  right: 80px;
   height: 27px;
   width: 35px;
   cursor: pointer;
   z-index: 3;
   -webkit-transition: opacity .25s ease;
   transition: opacity .25s ease; }
+  @media only screen and (max-width: 767px) {
+    .button_container {
+      top: 20px;
+      right: 20px; } }
 
 .button_container:hover {
   opacity: .7; }
@@ -570,7 +599,7 @@ header.primary-nav .boompah-logo {
   background: #FFF; }
 
 .button_container span {
-  background: #DA1C5C;
+  background: #da1c5c;
   border: none;
   height: 5px;
   width: 100%;
@@ -590,7 +619,7 @@ header.primary-nav .boompah-logo {
 .overlay {
   position: fixed;
   z-index: 2;
-  background: #DA1C5C;
+  background: #da1c5c;
   top: 0;
   left: 0;
   width: 100%;
@@ -688,6 +717,7 @@ header.primary-nav .boompah-logo {
   0% {
     opacity: 0;
     left: 20%; }
+
   100% {
     opacity: 1;
     left: 0; } }
@@ -695,6 +725,7 @@ header.primary-nav .boompah-logo {
   0% {
     opacity: 0;
     left: 20%; }
+
   100% {
     opacity: 1;
     left: 0; } }
@@ -853,7 +884,7 @@ blockquote {
   border-left: 10px solid #ccc;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
-  quotes: "“" "”" "‘" "’"; }
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
 
 blockquote:before {
   color: #ccc;
@@ -972,13 +1003,13 @@ pre[class*="language-"] {
 body.about {
   /* Testimonials */ }
   body.about #masthead-wrapper, body.about .dark-bg {
-    background-color: #000;
+    background-color: black;
     min-height: 600px; }
   body.about #masthead-wrapper h1 {
-    color: #DA1C5C;
+    color: #da1c5c;
     margin-top: 120px; }
   body.about #masthead-wrapper h3 {
-    color: #FFF; }
+    color: white; }
   body.about .container.showcase {
     padding: 40px 20px; }
     body.about .container.showcase .profile-photo {
@@ -1024,7 +1055,7 @@ body.about {
   background-color: #f2f2f2;
   clear: both;
   text-align: left;
-  color: #DA1C5C;
+  color: #da1c5c;
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
@@ -1048,8 +1079,8 @@ body.about {
     text-align: center;
     display: block;
     float: left;
-    background-color: #000;
-    color: #FFF;
+    background-color: black;
+    color: white;
     font-weight: 200;
     font-size: 38px;
     border-top-left-radius: 8px;
@@ -1078,12 +1109,12 @@ a.timeline-bar {
   text-decoration: none; }
 
 .timeline-bar.highlight-toggle {
-  background-color: #DA1C5C;
-  color: #FFF; }
+  background-color: #da1c5c;
+  color: white; }
 
 .timeline-bar.highlight-toggle-dark {
-  background-color: #000;
-  color: #DA1C5C; }
+  background-color: black;
+  color: #da1c5c; }
 
 .about-profile-photo {
   border-radius: 50%; }
@@ -1094,15 +1125,15 @@ body.bitcoin img.bitcoin-circle {
   margin-top: 40px; }
 
 body.contact #masthead-wrapper, body.contact .dark-bg {
-  background-color: #000;
+  background-color: black;
   min-height: 600px; }
 body.contact #masthead-wrapper h1 {
   margin-top: 120px;
-  color: #DA1C5C; }
+  color: #da1c5c; }
 body.contact #masthead-wrapper h3 {
-  color: #FFF; }
+  color: white; }
 body.contact .showcase i {
-  color: #DA1C5C;
+  color: #da1c5c;
   font-size: 1.25em; }
 body.contact .guidelines i {
   margin-right: 10px; }
@@ -1152,11 +1183,13 @@ body.single.single-post,
   .winnipeg-web-design .masthead-wrapper,
   .work .masthead-wrapper,
   .cv .masthead-wrapper {
-    background-color: #000;
+    background-color: black;
     height: 620px;
-    background-image: url(/img/home/01-feature-graphic.jpg);
-    background-position: center;
-    background-repeat: no-repeat; }
+    background: url("/img/home/01-feature-graphic.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
   body.home .light-bg,
   body.single.single-post .light-bg,
   .winnipeg-web-design .light-bg,
@@ -1174,7 +1207,7 @@ body.single.single-post,
   .work .masthead-wrapper h3,
   .cv .masthead-wrapper h1,
   .cv .masthead-wrapper h3 {
-    color: #FFF; }
+    color: white; }
   body.home .masthead-wrapper h1,
   body.single.single-post .masthead-wrapper h1,
   .winnipeg-web-design .masthead-wrapper h1,
@@ -1299,7 +1332,7 @@ body.single.single-post,
   .cv .services-points h4,
   .cv .services-points ul {
     text-align: left;
-    color: #FFF; }
+    color: white; }
     @media only screen and (max-width: 767px) {
       body.home .services-points h4, body.home .services-points ul,
       body.single.single-post .services-points h4,
@@ -1356,7 +1389,7 @@ body.single.single-post,
   .cv .clients ul li {
     margin-bottom: 20px;
     padding: 10px;
-    background-color: #FFF;
+    background-color: white;
     display: block;
     text-decoration: none;
     -webkit-transition: all 0.35s ease-in-out;
@@ -1392,11 +1425,11 @@ body.single.single-post,
   list-style: none; }
 
 body.services #masthead-wrapper, body.services .dark-bg, .branding #masthead-wrapper, .branding .dark-bg {
-  background-color: #36C99F; }
+  background-color: #36c99f; }
 body.services #masthead-wrapper h1, body.services #masthead-wrapper h3, .branding #masthead-wrapper h1, .branding #masthead-wrapper h3 {
-  color: #FFF; }
+  color: white; }
 body.services .page-toggle a, .branding .page-toggle a {
-  color: #36C99F; }
+  color: #36c99f; }
 body.services .showcase, .branding .showcase {
   padding-top: 60px; }
   body.services .showcase h3, .branding .showcase h3 {

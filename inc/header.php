@@ -31,6 +31,7 @@
   <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body class="<?php echo $page; ?>">
+<div class="page-border">
   <!-- Preloader -->
   <div id="preloader">
       <div id="status">&nbsp;</div>
