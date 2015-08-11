@@ -36,4 +36,4 @@
       <div id="status">&nbsp;</div>
   </div>
   <?php include 'chrome-frame.php'; ?>
-  <?php include 'navigation.php' ?>
+  <?php include 'navigation.php'; ?>
