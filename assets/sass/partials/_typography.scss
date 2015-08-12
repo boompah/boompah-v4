@@ -60,7 +60,6 @@ h5 {
 p, ul, ol, span {
   font-size: 22px;
   font-family: 'Titillium Web', sans-serif;
-  @include respond-to(handhelds-and-medium-screens) { font-size: 1.15em; }
 }
 
 a {

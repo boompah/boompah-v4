@@ -20,7 +20,7 @@ body{
 
 // ---------------------------------------------------------------------
 
-  // Page Border
+  // Page Border and Content Wrap
 
 // ---------------------------------------------------------------------
 
@@ -35,6 +35,10 @@ body{
   @include respond-to(handhelds-and-medium-screens) {
     padding: 4px;
   }
+}
+
+.content-wrap {
+  background-color: $white;
 }
 
 // ---------------------------------------------------------------------

@@ -29,6 +29,7 @@ $description = 'Boompah is the UI/UX portfolio and consultancy of Ryan Bollenbac
     </div>
   </div>
 </div>
+<!--
 <div class="work-project work-project-left instagram-artwork">
   <div class="container">
     <div class="row">
@@ -44,6 +45,7 @@ $description = 'Boompah is the UI/UX portfolio and consultancy of Ryan Bollenbac
     </div>
   </div>
 </div>
+-->
 <div class="showcase we-have-worked-with">
   <div class="container">
     <h2>We've Worked With</h2>
