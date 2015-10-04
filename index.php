@@ -10,7 +10,8 @@ $description = 'Boompah is the UI/UX portfolio and consultancy of Ryan Bollenbac
       <h1>
         Boompah is the UI/UX portfolio and consultancy of Ryan Bollenbach.
       </h1>
-      <a href="/contact" class="btn btn-cta">Connect with me<i class="fa fa-arrow-circle-o-right"></i></a>
+      <a href="http://bit.ly/boom-behance" class="btn-cta" target="_blank">View Work<i class="fa fa-behance-square"></i></a>
+      <a href="/contact" class="btn-default">Hire Me <i class="fa fa-arrow-circle-o-right"></i></a>
     </div>
   </div>
 </div><?php // masthead-wrapper home ?>

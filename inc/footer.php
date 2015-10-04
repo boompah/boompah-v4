@@ -1,6 +1,6 @@
   <footer>
     <div class="bottom">
-      <a href="/" title="Boompah"><img src="/img/footer/01-square-boompah-logo.png" class="square-boompah-logo" /></a>
+      <a href="/" title="Boompah"><img src="/img/footer/01-square-boompah-logo.png" class="square-boompah-logo" alt="boompah footer logo" /></a>
     </div>
   </footer>
 </div><!-- .page-border -->

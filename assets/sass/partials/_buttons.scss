@@ -1,18 +1,15 @@
-.btn {
-  padding: 5px 10px;
+a.btn-default {
+  padding: 5px 20px;
   display: inline-block;
   text-decoration: none;
+  border: 1px solid $white;
+  color: $white;
+  font-size: 1.25em;
   &:hover {
+    background-color: $secondary-brand;
+    border: 1px solid $secondary-brand;
+    color: $white;
     text-decoration: none;
-  }
-}
-
-a.btn.btn-cta {
-  padding: 5px 20px;
-  background-color: $primary-btn;
-  color: $primary-btn-text;
-  &:hover {
-    background-color: lighten($primary-btn, 10%);
   }
   i {
     margin-left: 15px;
@@ -20,5 +17,7 @@ a.btn.btn-cta {
 }
 
 a.btn-cta {
-  font-size: 1.25em;
+  @extend .btn-default;
+  border: 1px solid $secondary-brand;
+  color: $secondary-brand;
 }

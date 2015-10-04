@@ -29,7 +29,7 @@
       float: right;
     }
     .cta-circle {
-      margin-left: 10px;
+      margin-right: 10px;
     }
   }
   .work-project-content {
@@ -75,10 +75,10 @@
     }
     &:hover {
       text-decoration: none;
-      color: $primary-brand;
+      color: $secondary-brand;
       .cta-circle {
-        border: 1px solid $primary-brand;
-        color: $primary-brand;
+        border: 1px solid $secondary-brand;
+        color: $secondary-brand;
       }
     }
   }
@@ -107,7 +107,7 @@
   }
 
   h2, p {
-    font-family: 'Lato', sans-serif;
+    font-family: "San Francisco", sans-serif;
     text-align: left;
   }
 
@@ -118,7 +118,7 @@
   }
   p,a {
     font-size: 1.35em;
-    font-weight: 300;
+    font-weight: 200;
     line-height: 1.75em;
   }
 

@@ -19,152 +19,9 @@
     <div class="row profile-photo">
       <img src="/img/about/about-profile-photo.jpg" title="About - Profile Photo" alt="Photo of Ryan Bollenbach" class="about-profile-photo" />
       <h2 class="main-name">Ryan Bollenbach</h2>
-    </div>
-    <div class="row timeline">
-      <h3>My Timeline</h3>
-      <p>I'm grateful to have experienced a lot of awesome things in my life.</p>
-      <div class="row">
-        <div class="timeline-bar">
-          <span class="date">Nov 1987</span>
-          <h3>
-            <span class="event">Born in Winnipeg, MB.</span>
-            <i class="icon-bolt"></i>
-          </h3>
-        </div>
-        <div class="timeline-bar highlight-toggle">
-          <span class="date">Sep 1991</span>
-          <h3>
-            <span class="event">First day of Kindergarten</span>
-            <i class="icon-building"></i>
-          </h3>
-        </div>
-        <div class="timeline-bar">
-          <span class="date">May 2004</span>
-          <h3>
-            <span class="event">Graduated High School at Glenlawn Collegiate</span>
-            <i class="icon-building"></i>
-          </h3>
-        </div>
-        <div class="timeline-bar highlight-toggle">
-          <span class="date">Aug 2006</span>
-          <h3>
-            <span class="event">Studied Digital Media Technology at Red River College</span>
-            <i class="icon-building"></i>
-          </h3>
-        </div>
-        <div class="timeline-bar">
-          <span class="date">Jun 2008</span>
-          <h3>
-            <span class="event">Moved to Montreal, QC.</span>
-            <i class="icon-globe"></i>
-          </h3>
-        </div>
-        <div class="timeline-bar highlight-toggle">
-          <span class="date">Nov 2009</span>
-          <h3>
-            <span class="event">Kicked off Mograph TV</span>
-            <i class="icon-building"></i>
-          </h3>
-        </div>
-        <div class="timeline-bar">
-          <span class="date">May 2009</span>
-          <h3>
-            <span class="event">Started working at Tungle</span>
-            <i class="icon-calendar"></i>
-          </h3>
-        </div>
-        <div class="timeline-bar highlight-toggle">
-          <span class="date">Aug 2009</span>
-          <h3>
-            <span class="event">Bought my first iPhone (3Gs)</span>
-            <i class="icon-apple"></i>
-          </h3>
-        </div>
-        <div class="timeline-bar">
-          <span class="date">Aug 2010</span>
-          <h3>
-            <span class="event">Kicked off Boompah.com</span>
-            <i class="icon-building"></i>
-          </h3>
-        </div>
-        <div class="timeline-bar highlight-toggle">
-          <span class="date">Jan 2010</span>
-          <h3>
-            <span class="event">Started working at Oboxmedia</span>
-            <i class="icon-rocket"></i>
-          </h3>
-        </div>
-        <div class="timeline-bar">
-          <span class="date">Jun 2011</span>
-          <h3>
-            <span class="event">Created my Github Account</span>
-            <i class="icon-github"></i>
-          </h3>
-        </div>
-        <div class="timeline-bar highlight-toggle">
-          <span class="date">Oct 2011</span>
-          <h3>
-            <span class="event">Best man at my best friend's wedding in Hawaii</span>
-            <i class="icon-heart"></i>
-          </h3>
-        </div>
-        <div class="timeline-bar">
-          <span class="date">Dec 2011</span>
-          <h3>
-            <span class="event">Moved back to Winnipeg, MB.</span>
-            <i class="icon-globe"></i>
-          </h3>
-        </div>
-        <div class="timeline-bar highlight-toggle">
-          <span class="date">Jan 2011</span>
-          <h3>
-            <span class="event">Best man at my brother's wedding in Australia</span>
-            <i class="icon-heart"></i>
-          </h3>
-        </div>
-        <div class="timeline-bar">
-          <span class="date">Aug 2012</span>
-          <h3>
-            <span class="event">Bought my first set of golf clubs</span>
-            <i class="icon-thumbs-up"></i>
-          </h3>
-        </div>
-        <div class="timeline-bar highlight-toggle">
-          <span class="date">Oct 2012</span>
-          <h3>
-            <span class="event">Bought my first car, 2012 Honda Civic</span>
-            <i class="icon-truck"></i>
-          </h3>
-        </div>
-        <div class="timeline-bar">
-          <span class="date">May 2013</span>
-          <h3>
-            <span class="event">Started playing with Android, Samsung S4</span>
-            <i class="icon-android"></i>
-          </h3>
-        </div>
-        <div class="timeline-bar highlight-toggle">
-          <span class="date">Aug 2013</span>
-          <h3>
-            <span class="event">Pre-ordered Xbox One</span>
-            <i class="icon-gamepad"></i>
-          </h3>
-        </div>
-        <div class="timeline-bar">
-          <span class="date">Nov 2013</span>
-          <h3>
-            <span class="event">Switched back to an iPhone 5s</span>
-            <i class="icon-apple"></i>
-          </h3>
-        </div>
-        <div class="timeline-bar highlight-toggle">
-          <span class="date">Oct 2014</span>
-          <h3>
-            <span class="event">Upgraded to an iPhone 6+</span>
-            <i class="icon-apple"></i>
-          </h3>
-        </div>
-      </div>
+      <p>I’m a passionate UI/UX designer with over 6 years of experience and a belief that design is about creating things that matter. My career has been a pursuit of constant improvement, humility, empathy, and embracing design challenges. I've worked with amazing clients all over the Canada and the U.S.</p>
+      <p>As well as an active hands-on designer, I’m a passionate ui developer – both small and at scale - with my own design driven approach. I believe in creating awesome user experiences, healthy relationships, disruptive and challenging methodologies, and an environment that is sensitive and respectful of creative energy, inspiration and health.</p>
+      <p>I excel in delivering wireframes, prototypes, finalized visual design, HTML, CSS and JS.</p>
     </div>
   </div>
   <div class="showcase testimonials">
@@ -201,7 +58,7 @@
           <p class="role">Erin worked with Ryan directly at Tungle.me.</p>
           <h4>Erin Lariviere, PR at Blackberry</h4>
         </div>
-      </div><?php // row ?>
+      </div>
       <div class="row">
         <div class="half">
           <p>"Not longer after working with Ryan, it became clear to me that he has a lot of passion for design and is committed to constantly developing his skills, both technical and creative. He also happens to be a pleasure to work with!"</p>
@@ -219,7 +76,18 @@
           </p>
           <h4>Dan Nelson, FBS</h4>
         </div>
-      </div><?php // row ?>
+      </div>
+      <div class="row">
+        <div>
+          <p>"In addition to being a fantastic person and a great team member, Ryan is a top-notch designer. Ryan is passionate about what he does and he's always willing to learn new skills in the heat of the battle. Ryan worked with us remotely for over two years and the distance was never an issue."</p>
+          <p class="role">
+            Matt managed Ryan indirectly at Edison Nation<br />
+          </p>
+          <h4>Matt Spangard<br /><br />
+            CTO &amp; Co-founder at <a href="http://edisonnation.com" target="_blank">Edison Nation</a>
+          </h4>
+        </div>
+      </div>
     </div><?php // container ?>
   </div><?php // showcase ?>
 </div><!--content-wrap-->

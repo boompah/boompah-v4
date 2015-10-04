@@ -84,14 +84,12 @@ ul {
   h1 {
     margin: 0;
     display: block;
-    font-size: 4em;
     @include respond-to(large-screens) { font-size: 7em; }
     @include respond-to(handhelds-and-medium-screens) {
       font-size: 3em;
       text-align: left;
     }
-
-    font-weight: 700;
+    font-weight: 200;
     letter-spacing: 2px;
   }
 

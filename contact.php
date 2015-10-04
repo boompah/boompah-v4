@@ -24,8 +24,7 @@
         </div>
         <div class="half">
           <h3><i class="fa fa-money"></i> Budget</h3>
-          <p>What is your budget? Once we have an idea of what you’re working with, we can provide insight on what you can do with it.
-           Our typical projects start from $7,500 and our hourly rate is $75.</p>
+          <p>What is your budget? Once we have an idea of what you’re working with, we can provide insight on what you can do with it.</p>
         </div>
       </div>
       <div class="row guidelines">
