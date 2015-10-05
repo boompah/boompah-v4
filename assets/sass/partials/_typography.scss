@@ -9,14 +9,14 @@
 .bold   { font-weight: 700; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "San Francisco", sans-serif;
-  font-weight: 200;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
   margin-bottom: 0;
 }
 
 h1 {
   font-size: 3.25em;
-  font-weight: 100;
+  font-weight: 200;
   line-height: 1.25em;
   @include respond-to(large-screens) { font-size: 2em; }
   @include respond-to(medium-screens) { font-size: 1.75em; }
@@ -60,13 +60,13 @@ h5 {
 
 p, ul, ol, span {
   font-size: 22px;
-  font-family: "San Francisco", sans-serif;
-  font-weight: 200;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
 }
 
 a {
-  font-family: "San Francisco", sans-serif;
-  font-weight: 200;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
 }
 
 a { @include transition (all 0.35s ease-in-out); }

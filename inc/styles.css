@@ -4,31 +4,6 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/** Ultra Light */
-@font-face {
-  font-family: "San Francisco";
-  font-weight: 100;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff2"); }
-/** Thin */
-@font-face {
-  font-family: "San Francisco";
-  font-weight: 200;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff2"); }
-/** Medium */
-@font-face {
-  font-family: "San Francisco";
-  font-weight: normal;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff2"); }
-/** Semi Bold */
-@font-face {
-  font-family: "San Francisco";
-  font-weight: 500;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff2"); }
-/** Bold */
-@font-face {
-  font-family: "San Francisco";
-  font-weight: bold;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff2"); }
 .work-project.work-project-right .work-project-image {
   float: right; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -130,7 +105,7 @@
   .work-project {
     text-align: center; } }
 .work-project h2, .work-project p {
-  font-family: "San Francisco", sans-serif;
+  font-family: "Lato", sans-serif;
   text-align: left; }
 .work-project h2 {
   font-size: 3em;
@@ -816,13 +791,13 @@ tbody tr:nth-child(odd) {
   font-weight: 700; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "San Francisco", sans-serif;
-  font-weight: 200;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
   margin-bottom: 0; }
 
 h1 {
   font-size: 3.25em;
-  font-weight: 100;
+  font-weight: 200;
   line-height: 1.25em; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
     h1 {
@@ -887,12 +862,12 @@ h5 {
 
 p, ul, ol, span {
   font-size: 22px;
-  font-family: "San Francisco", sans-serif;
-  font-weight: 200; }
+  font-family: "Lato", sans-serif;
+  font-weight: 300; }
 
 a {
-  font-family: "San Francisco", sans-serif;
-  font-weight: 200; }
+  font-family: "Lato", sans-serif;
+  font-weight: 300; }
 
 a {
   -webkit-transition: all 0.35s ease-in-out;
@@ -1247,7 +1222,7 @@ body.single.single-post,
   .cv .masthead-wrapper h1 {
     margin-top: 100px;
     line-height: 1.25em;
-    font-family: "San Francisco", sans-serif; }
+    font-family: "Lato", sans-serif; }
     @media only screen and (max-width: 767px) {
       body.home .masthead-wrapper h1,
       body.single.single-post .masthead-wrapper h1,
