@@ -41,3 +41,8 @@ Icon?
 ehthumbs.db
 Thumbs.db
 .DS_Store
+
+# FTP Settings #
+################
+.ftp-settings.json
+deployment-config.json
