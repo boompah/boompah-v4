@@ -1,4 +1,4 @@
-<h1>Boompah v4 and Beyond!</h1>
+<h1>Boompah</h1>
 
 <h3>Background</h3>
 
